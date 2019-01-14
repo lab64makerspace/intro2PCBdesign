@@ -77,4 +77,4 @@ Week | Content | Lab / Activity
 The "Stuff x" will soon be fleshed out. We have a list of stuff to put in each "Stuff x"
 section. Truth be told, it is a lot of stuff! IF there is something IN PARTICULAR that you
 are interested in or curious about, please let us know and, if it is in scope, we'll try
-to accommodate; you're probably not the only person interested, so please pitch in.
+to accommodate; you're probably not the only person interested, so please pitch in. 
