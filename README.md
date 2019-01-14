@@ -12,7 +12,7 @@ the mechanical aspects of PCB design. In many cases, holes don't line up, heatsi
 with enclosures, wires and cables have inadequate service loop and ineffective strain relief.
 One of the goals for this material is to give you, the PCB designer, the tools and insight
 that will enable you to avoid many of these problems and stop "spinning boards" just to get
-the basics correct.
+the basics correct. 
 
 ## Workshop focus
 This is an **introductory** workshop. **No previous experience is required.** Since we will
