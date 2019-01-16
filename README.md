@@ -2,6 +2,25 @@
 This is a workshop series being offered Winter Quarter AY 2018-2019
 We are interested in your feedback! Please send comments, question and suggestions to: lab64ca@ee.stanford.edu
 
+Please use the [issues tab](../../issues) to post questions and answer other students' questions.
+
+## Timeline
+Below is our first try at some structure. It is preliminary and subject to revision based
+on, you guessed it, YOUR FEEDBACK!
+
+Week | Content | Lab / Activity
+---- | ------- | -------------
+0  | "Why make PCBs" | 0 - Preload
+1  | "PCB Structure" | 1 - Modern Proto Board
+2  | "Stuff 2" | 2 - Design LED Board
+3  | "Stuff 3" | 3 - Design Audio Board
+4  | "Stuff 4" | 4 - Assemble LED Board / Design Radio Board
+5  | "Stuff 5" | 5 - Assemble Audio Board / Design Power Board
+6  | "Stuff 6" | 6 - Assemble Radio Board / Start Integration
+7  | "Stuff 7" | 7 - Assemble Power Board / Code & Debug
+8  | "Stuff 8" | 8 - Wrap things up!
+9  | "Stuff 9" | 9 - DEMO DAY PARTY!!
+
 ## Why this workshop?
 Here at Stanford there are many folks that make printed circuit boards (PCBs) for a variety
 of reasons. Many have expressed interest in learning more about how to design PCBs. Hopefully
@@ -57,22 +76,15 @@ details. A lot of what will happen will depend on YOU, the participant. We are t
 to make this as useful to you as possible! So **please** let us know when you have questions,
 concerns, or comments so we can respond.
 
-### Is there some sort of structure?
-Below is our first try at some structure. It is preliminary and subject to revision based
-on, you guessed it, YOUR FEEDBACK!
+## FAQ
 
-Week | Content | Lab / Activity
----- | ------- | -------------
-0  | "Why make PCBs" | 0 - Preload
-1  | "PCB Structure" | 1 - Modern Proto Board
-2  | "Stuff 2" | 2 - Design LED Board
-3  | "Stuff 3" | 3 - Design Audio Board
-4  | "Stuff 4" | 4 - Assemble LED Board / Design Radio Board
-5  | "Stuff 5" | 5 - Assemble Audio Board / Design Power Board
-6  | "Stuff 6" | 6 - Assemble Radio Board / Start Integration
-7  | "Stuff 7" | 7 - Assemble Power Board / Code & Debug
-8  | "Stuff 8" | 8 - Wrap things up!
-9  | "Stuff 9" | 9 - DEMO DAY PARTY!!
+### Why are we using KiCad? 
+KiCad is open-source, easy to use, and powerful. Almost everything we can do using commercial software like Altium can be done using KiCad. Once you become proficient using one layout tool, you'll find that other tools are very similar to use.
+
+### Can I make my own board for a research project?
+Yes, you may work on other boards in parallel to this workshop, but we want you to also work on making the designs we're providing. We'll do our best to answer any questions you might have on making pcb's for your own research project, but we cannot guarantee extensive help.
+
+
 
 The "Stuff x" will soon be fleshed out. We have a list of stuff to put in each "Stuff x"
 section. Truth be told, it is a lot of stuff! IF there is something IN PARTICULAR that you
