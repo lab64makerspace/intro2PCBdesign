@@ -13,7 +13,12 @@
            "We annotated all components again to make things sequential."
 </details>
 
- Annular Ring
+<details>
+<summary>Annular Ring</summary>
+
+    The area bounded by two circles.
+</details>
+
  Antenna
  Auto-Routing
  Back-Annotation
