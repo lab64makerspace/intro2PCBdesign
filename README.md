@@ -10,9 +10,9 @@ on, you guessed it, YOUR FEEDBACK!
 
 Week | Content | Lab / Activity
 ---- | ------- | -------------
-0  | "Why make PCBs" | 0 - Preload
-1  | "PCB Structure" | 1 - Modern Proto Board
-2  | "Stuff 2" | 2 - Design LED Board
+0  | "Why make PCBs / Our Goals" | 0 - Preload
+1  | "PCB Structure / Workflow" | 1 - Modern Proto Board
+2  | "Stuff / Schematic Capture" | 2 - Design LED Board
 3  | "Stuff 3" | 3 - Design Audio Board
 4  | "Stuff 4" | 4 - Assemble LED Board / Design Radio Board
 5  | "Stuff 5" | 5 - Assemble Audio Board / Design Power Board
