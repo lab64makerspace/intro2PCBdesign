@@ -56,6 +56,8 @@ Now we do the "board layout". Good job!!
 
 Time to make sure it fits in the box.
 
+Let's check out boxes at (Hammond Manufacturing)[https://www.hammfg.com/electronics/small-case/plastic/1591]
+
 Uh, oh! That USB connector needs to move. How do we do that?
 
 OK, Looking good! Let's generate the artwork and send it out for DFM.
