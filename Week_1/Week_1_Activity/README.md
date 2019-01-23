@@ -27,14 +27,14 @@ Let's look at a couple of existing "1/2 sized" protoboards...
 What do you notice?
 
 *********************
-Lead discussion....
-0.100" hole centers
-0.300" center spacing
-"Rails"
-Soldermask
-Pad shape
-Hole size
-etc., etc.,
+Discussion....
+* 0.100" hole centers
+* 0.300" center spacing
+* "Rails"
+* Soldermask
+* Pad shape
+* Hole size
+* Other things...
 ********************
 
 OK, so now what is our approach?
@@ -56,7 +56,9 @@ Now we do the "board layout". Good job!!
 
 Time to make sure it fits in the box.
 
-Let's check out boxes at (Hammond Manufacturing) [https://www.hammfg.com/electronics/small-case/plastic/1591]
+Let's check out boxes at Hammond Manufacturing. [https://www.hammfg.com/electronics/small-case].
+
+Ooooo... Look at the selection!  Hmmm... We want something that isn't too big... Mounting flanges would be great!... Flame retardant, check! This one looks about right! Let's check out 1591MFLGY by downloading the model from the site [https://www.hammfg.com/electronics/small-case/plastic/1591]
 
 Uh, oh! That USB connector needs to move. How do we do that?
 
