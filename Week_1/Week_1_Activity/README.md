@@ -23,7 +23,7 @@ Although these are super cool, for some projects they can be very difficult to u
 **SO**, you are going to fix these deficiencies by creating your OWN "1/2" sized protoboard!!
 
 Let's look at a couple of existing "1/2 sized" protoboards...
-<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/Week_1/Images/Half-sized Protos Orig.jpg">
+<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Half-sized Protos Orig.jpg">
 
 What do you notice?
 
