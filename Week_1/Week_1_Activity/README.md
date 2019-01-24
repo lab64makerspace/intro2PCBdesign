@@ -38,6 +38,53 @@ Discussion....
 * Other things...
 ********************
 
+## Instructions 
+#### 1) Open a CAD program <br/>
+Make a sketch of a board outline (for example a 3.25in x 2 3/8in rectangle). Fillet the edges of the sketches. Export the sketch as a DXF. 
+
+#### 2) Open the Activity 1 Schematic <br/>
+Open Activity_1.sch (found [here](../../Week_1/Week_1_Activity/Project_1)) in KiCad
+
+#### 3) Add the following connections <br/>
+D+ -- no connect <br/>
+D- -- no connect <br/>
+ID -- no connect <br/>
+GND -- connect to GNDREF <br/>
+Shield -- connect to GNDREF <br/>
+VBUS -- connect to pins 1 and 2 of the connector <br/>
+Connect pins 3 and 4 of the connector to GNDREF <br/>
+
+To add a “no connect”, select the cross symbol (“Place no connection flag”) in the toolbar on the right. <br/>
+To add a wire, press W. <br/>
+To move a wire, hover over the wire and press G. <br/>
+
+<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_1.png">
+
+#### 4) Annotate the schematic. 
+Go to Tools -- Annotate Schematic Symbols. This will give all lines and components names. <br/>
+Add a “+5” label to the wire connected to VBUS. Hover over the wire, and press L to add this label. You can later edit the label by hovering over the label and pressing E. Any wires with the same labels are considered by the program to be electrically connected. Note that labels are case sensitive. 
+
+#### 5) Link the footprints to the symbols 
+Symbols are the components on schematics, while footprints are where components get placed onto the board. At this time, the footprint and schematic are still not linked. <br/>
+Hover over the USB connector and press E to get access to symbol properties. Select the button on the far right of the footprint field. Select “USB_Mini-B_Lumberg_2486_01_Horizontal” as shown below. 
+
+<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_6.png">
+
+Repeat this process for the pin header connector. For this component, select “PinHeader_1x04_P2.54mm_Vertical”. Note that in the footprint of this connector, pin 1 is square. This is useful to avoid getting confused when orienting the connector.  
+
+<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_2.png">
+
+#### 6) Add the board outline 
+Open the project .kicad_pcb file. One way this can be done is by clicking on the button shown below. 
+
+<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_3.png">
+
+Go to File -- Import -- Import graphics 
+
+Select the following parameters. <br/>
+<img width="500" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_7.png">
+
+
 OK, so now what is our approach?
 
 Let's think about this!!
