@@ -40,7 +40,7 @@ Discussion....
 
 ## Instructions 
 #### 1) Open a CAD program <br/>
-Make a sketch of a board outline (for example a 3.25in x 2 3/8in rectangle). Fillet the edges of the sketches. Export the sketch as a DXF. 
+Make a sketch of a board outline (for example a 3.25in x 2 3/8in rectangle). Fillet the edges of the sketch. Export the sketch as a DXF. 
 
 #### 2) Open the Activity 1 Schematic <br/>
 Open Activity_1.sch (found [here](../../Week_1/Week_1_Activity/Project_1)) in KiCad
