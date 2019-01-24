@@ -81,7 +81,7 @@ Open the project .kicad_pcb file. One way this can be done is by clicking on the
 
 Go to File -- Import -- Import graphics 
 
-Select the following parameters. <br/>
+Select your DXF and the following parameters. <br/>
 <img width="500" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_7.png">
 
 
