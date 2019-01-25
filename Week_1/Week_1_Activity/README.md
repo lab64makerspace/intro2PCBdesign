@@ -64,17 +64,26 @@ To move a wire, hover over the wire and press G. <br/>
 Go to Tools -- Annotate Schematic Symbols. This will give all lines and components names. <br/>
 Add a “+5” label to the wire connected to VBUS. Hover over the wire, and press L to add this label. You can later edit the label by hovering over the label and pressing E. Any wires with the same labels are considered by the program to be electrically connected. Note that labels are case sensitive. 
 
-#### 5) Link the footprints to the symbols 
-Symbols are the components on schematics, while footprints are where components get placed onto the board. At this time, the footprint and schematic are still not linked. <br/>
-Hover over the USB connector and press E to get access to symbol properties. Select the button on the far right of the footprint field. Select “USB_Mini-B_Lumberg_2486_01_Horizontal” as shown below. 
+#### 5) Download the USB connector footprint 
+Download the following [file](../../Week_1/Week_1_Activity/USB%202.0%20MINI%20B%20SMD%20R:A/USB_Mini_B_Female_UX60-MB-5S8.kicad_mod) to get the correct USB connector footprint. 
 
-<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_6.png">
+Open the footprint editor in the Pcbnew software. <br/>
+<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_12.png">
+
+Go to File -- Import Footprint from KiCad File... <br/>
+Select the file you downloaded (USB_Mini_B_Female_UX60-MB-5S8.kicad_mod). It should now appear in your footprint library. <br/>
+
+#### 6) Link the footprints to the symbols 
+Symbols are the components on schematics, while footprints are where components get placed onto the board. At this time, the footprint and schematic are still not linked. <br/>
+Hover over the USB connector and press E to get access to symbol properties. Select the button on the far right of the footprint field. Select “USB_Mini_B_Female_UX60-MB-5S8” as shown below. 
+
+<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_13.png">
 
 Repeat this process for the pin header connector. For this component, select “PinHeader_1x04_P2.54mm_Vertical”. Note that in the footprint of this connector, pin 1 is square. This is useful to avoid getting confused when orienting the connector.  
 
 <img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_2.png">
 
-#### 6) Add the board outline 
+#### 7) Add the board outline 
 Open the project .kicad_pcb file. One way this can be done is by clicking on the button shown below. 
 
 <img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_3.png">
@@ -83,6 +92,18 @@ Go to File -- Import -- Import graphics
 
 Select your DXF and the following parameters. <br/>
 <img width="500" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_7.png">
+
+#### 8) Add vias to the board 
+
+Add a via by selecting the add via button. <br/>
+<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_8.png">
+
+Create an array from this via by right clicking on the via and select "Create Array". Note that the standard distance between vias is 2.54mm. 
+<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_9.png">
+
+Here is what a sample board might look like. <br/>
+<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_11.png">
+
 
 
 OK, so now what is our approach?
