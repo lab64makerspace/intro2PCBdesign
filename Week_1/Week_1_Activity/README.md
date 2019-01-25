@@ -38,6 +38,53 @@ Discussion....
 * Other things...
 ********************
 
+## Instructions 
+#### 1) Open a CAD program <br/>
+Make a sketch of a board outline (for example a 3.25in x 2 3/8in rectangle). Fillet the edges of the sketch. Export the sketch as a DXF. 
+
+#### 2) Open the Activity 1 Schematic <br/>
+Open Activity_1.sch (found [here](../../Week_1/Week_1_Activity/Project_1)) in KiCad
+
+#### 3) Add the following connections <br/>
+D+ -- no connect <br/>
+D- -- no connect <br/>
+ID -- no connect <br/>
+GND -- connect to GNDREF <br/>
+Shield -- connect to GNDREF <br/>
+VBUS -- connect to pins 1 and 2 of the connector <br/>
+Connect pins 3 and 4 of the connector to GNDREF <br/>
+
+To add a “no connect”, select the cross symbol (“Place no connection flag”) in the toolbar on the right. <br/>
+To add a wire, press W. <br/>
+To move a wire, hover over the wire and press G. <br/>
+
+<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_1.png">
+
+#### 4) Annotate the schematic. 
+Go to Tools -- Annotate Schematic Symbols. This will give all lines and components names. <br/>
+Add a “+5” label to the wire connected to VBUS. Hover over the wire, and press L to add this label. You can later edit the label by hovering over the label and pressing E. Any wires with the same labels are considered by the program to be electrically connected. Note that labels are case sensitive. 
+
+#### 5) Link the footprints to the symbols 
+Symbols are the components on schematics, while footprints are where components get placed onto the board. At this time, the footprint and schematic are still not linked. <br/>
+Hover over the USB connector and press E to get access to symbol properties. Select the button on the far right of the footprint field. Select “USB_Mini-B_Lumberg_2486_01_Horizontal” as shown below. 
+
+<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_6.png">
+
+Repeat this process for the pin header connector. For this component, select “PinHeader_1x04_P2.54mm_Vertical”. Note that in the footprint of this connector, pin 1 is square. This is useful to avoid getting confused when orienting the connector.  
+
+<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_2.png">
+
+#### 6) Add the board outline 
+Open the project .kicad_pcb file. One way this can be done is by clicking on the button shown below. 
+
+<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_3.png">
+
+Go to File -- Import -- Import graphics 
+
+Select your DXF and the following parameters. <br/>
+<img width="500" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_7.png">
+
+
 OK, so now what is our approach?
 
 Let's think about this!!
@@ -75,4 +122,37 @@ OK, let's place the order.
 
 Wow! That was super cool! I can't wait to see it and solder things up.
 
+## Discussion Questions 
+**Why are we building boards in this workshop?**<br/>
+We want to make more than one board, in a reliable manner. 
+
+**Can boards have sharp edges?**<br/> 
+Boards can have outside corners that are sharp, but inside edges cannot be perfectly sharp because of tool geometry. Therefore, remember to include a radius in the internal corners of your design. 
+
+**Can you make just one PCB?**<br/> 
+No, manufacturers make panels of multiple PCBs. 
+
+**How many layers can a PCB have?**<br/>
+You can have as many layers as you want to pay for, but the number of layers must be an even number (with the exception of one layer boards). 
+
+**What is a core?**<br/>
+The core is one of the fundamental building blocks of circuit boards. It’s composed of two copper layers with an insulating layer (prepreg) sandwiched in between.
+
+**What is prepreg?**<br/> 
+Prepreg is an insulating material placed between two copper layers in a core. 
+
+**What is the role of foil? Why does it look like?**<br/>
+The foil is the outer layer of the PCB. It has one shiny side, and one dull side. 
+
+**Why are blind/buried vias more expensive?**<br/> 
+Bind via is a hole that connects the outer layer to one of the inner layers, but does not go through the entire board. A buried via is a hole that connects inner layers but does not connect to an outer layer. Buried/blind vias are more expensive because they require more steps to make. Only use blind/buried vias after having confirmed with a manufacturer that the via is necessary for your application. 
+
+**Can planes come out to the edges of the board?**<br/>
+No, planes should be pulled back in from the edge of the board about ten thousandths of an inch to prevent the router from potentially shorting layers together. 
+
+**If a drill size is specified in CAD files, will the holes in the board be that size?**<br/> 
+The manufacturing company will drill the hole to the specified size, but the hole will get smaller during the plating process. Therefore, you should tell the manufacturing company what plating you want and what finished hole size you want. 
+
+**Why is the annular ring ideas so important?**<br/> 
+The annular ring represents a tolerance stack up. Because holes may not be drilled exactly where we intended them to, the hole and its corresponding pad may be too far from each other and cause a faulty circuit.  
 
