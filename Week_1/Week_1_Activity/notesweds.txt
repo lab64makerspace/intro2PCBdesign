@@ -1,0 +1,14 @@
+PCB day one
+- silk screen, solder mask, copper, mechanical outline, art
+- 6 gbrs files,  drill files 
+- blind via: hole through paprt of the board
+- buried via: connection between interior layers
+- a plane layer can't go out to the end of the board
+- drill sizes are different?
+- annular ring can cause issues
+
+E- gets properties of connector
+click on footprint
+connector_usb, doubleclick name
+
+import graphics, edgecuts layer
