@@ -29,6 +29,7 @@
  BGA (Ball Grid Array)
  CAD
  Captive Hardware
+ Castellation
  Clock Distribution
  Clock Skew
  COB (Chip-on-Board)
