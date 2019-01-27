@@ -86,7 +86,13 @@ Repeat this process for the pin header connector. For this component, select “
 Repeat this process for the mounting holes. For these components, select "MountingHole_2.5mm". 
 <img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_17.png">
 
-#### 7) Add the board outline 
+#### 7) Modify the USB connector footprint
+Open the footprint editor. <br/> 
+Select the “USB_Mini_B_Female_UX60-MB-5S8” and right click on it. Select "Edit Footprint." Hover over the holes labeled "SH" and press E. Change the "SH" label to "6." <br/>
+
+<img width="500" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_22.png">
+
+#### 8) Add the board outline 
 Open the project .kicad_pcb file. One way this can be done is by clicking on the button shown below. 
 
 <img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_3.png">
@@ -96,7 +102,7 @@ Go to File -- Import -- Import graphics
 Select your DXF and the following parameters. <br/>
 <img width="500" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_7.png">
 
-#### 8) Add vias to the board 
+#### 9) Add vias to the board 
 
 Add a via by selecting the add via button. <br/>
 <img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_8.png">
@@ -110,7 +116,7 @@ Create an array from this via by right clicking on the via and select "Create Ar
 Here is what a sample board might look like now. <br/>
 <img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_11.png">
 
-#### 9) Add routes 
+#### 10) Add routes 
 Add route tracks by clicking the following button. <br/>
 <img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_14%20.png">
 
@@ -122,14 +128,21 @@ Add routes to the USB connector as follows. Note that you must place the routes 
 Add routes to the power rail lines (if you want to add power rail lines). <br/>
 <img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_21.png">
 
-#### 10) Generate Gerber Files 
+
+#### 11) Generate Gerber Files 
 Select File -- Plot <br/> 
+Select an appropriate Output directory Folder. <br/>
+Select "Run DRC." Make sure your board passes this test by having 0 problems. <br/>
+Select "Plot" to generate the gerber files. <br/> 
+Select "Generate Drill Files" to generate the drill files. <br/> 
+Locate these newly generated files on your computer, and open them with Gerbview to check that everything looks good. 
+Zip your files and send them to Steve. 
+You're done with activity 1!
 
 
 
 
-
-
+-------------------------------------
 OK, so now what is our approach?
 
 Let's think about this!!
