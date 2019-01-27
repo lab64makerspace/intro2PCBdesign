@@ -22,8 +22,8 @@ Although these are super cool, for some projects they can be very difficult to u
 
 **SO**, you are going to fix these deficiencies by creating your OWN "1/2" sized protoboard!!
 
-Let's look at a couple of existing "1/2 sized" protoboards...
-<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Half-sized Protos Orig.jpg">
+Let's look at a couple of existing "1/2 sized" protoboards... <br/>
+<img width="500" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Half-sized Protos Orig.jpg">
 
 What do you notice?
 
@@ -40,7 +40,7 @@ Discussion....
 
 ## Instructions 
 #### 1) Open a CAD program <br/>
-Make a sketch of a board outline (for example a 3.25in x 2 3/8in rectangle). Fillet the edges of the sketch. Export the sketch as a DXF. 
+Make a sketch of a board outline (for example a 3.25in x 2 3/8in rectangle). Fillet the edges of the sketch. Export the sketch as a DXF. You may use our sample DXF file found [here](../../Week_1/Week_1_Activity/Project_1) if you wish. 
 
 #### 2) Open the Activity 1 Schematic <br/>
 Open Activity_1.sch (found [here](../../Week_1/Week_1_Activity/Project_1)) in KiCad
@@ -73,9 +73,11 @@ Open the footprint editor in the Pcbnew software. <br/>
 Go to File -- Import Footprint from KiCad File... <br/>
 Select the file you downloaded (USB_Mini_B_Female_UX60-MB-5S8.kicad_mod). It should now appear in your footprint library. <br/>
 
+If this doesn't work for you, you can also import the footprint by selecting "Preferences - Manage Footprint Libraries" and select the "plus" button to add the connector. 
+
 #### 6) Link the footprints to the symbols 
 Symbols are the components on schematics, while footprints are where components get placed onto the board. At this time, the footprint and schematic are still not linked. <br/>
-Hover over the USB connector and press E to get access to symbol properties. Select the button on the far right of the footprint field. Select “USB_Mini_B_Female_UX60-MB-5S8” as shown below. 
+Hover over the USB connector and press E to get access to symbol properties. Select the button (shaped liked library books) on the far right of the footprint field to open up the footprint library. Select “USB_Mini_B_Female_UX60-MB-5S8” as shown below. 
 
 <img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_13.png">
 
