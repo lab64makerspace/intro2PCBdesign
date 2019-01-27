@@ -58,7 +58,7 @@ To add a “no connect”, select the cross symbol (“Place no connection flag�
 To add a wire, press W. <br/>
 To move a wire, hover over the wire and press G. <br/>
 
-<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_1.png">
+<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_18.png">
 
 #### 4) Annotate the schematic. 
 Go to Tools -- Annotate Schematic Symbols. This will give all lines and components names. <br/>
@@ -83,6 +83,9 @@ Repeat this process for the pin header connector. For this component, select “
 
 <img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_2.png">
 
+Repeat this process for the mounting holes. For these components, select "MountingHole_2.5mm". 
+<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_17.png">
+
 #### 7) Add the board outline 
 Open the project .kicad_pcb file. One way this can be done is by clicking on the button shown below. 
 
@@ -98,11 +101,32 @@ Select your DXF and the following parameters. <br/>
 Add a via by selecting the add via button. <br/>
 <img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_8.png">
 
-Create an array from this via by right clicking on the via and select "Create Array". Note that the standard distance between vias is 2.54mm. 
+Change the via properties (hover over the via and press E) to the following diameter and drill sizes: 
+<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_20.png">
+
+Create an array from this via by right clicking on the via and select "Create Array". Note that the standard distance between vias is 2.54mm. <br/>  
 <img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_9.png">
 
-Here is what a sample board might look like. <br/>
-<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_11.png">
+Here is what a sample board might look like now. <br/>
+<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_11.png">
+
+#### 9) Add routes 
+Add route tracks by clicking the following button. <br/>
+<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_14%20.png">
+
+Hover over the route and press E to change the route properties. Set the track width to 0.635mm and select whether you want the track to be on the top (red) or bottom (green) of the board. 
+
+Add routes to the USB connector as follows. Note that you must place the routes on top of the board in order to make an electrical connection with the USB connector. If you place the routes properly, the white x's will disappear. <br/>
+<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_19.png">
+
+Add routes to the power rail lines (if you want to add power rail lines). <br/>
+<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_1/Images/Activity1_21.png">
+
+#### 10) Generate Gerber Files 
+Select File -- Plot <br/> 
+
+
+
 
 
 
