@@ -12,7 +12,7 @@ Week | Content | Lab / Activity
 ---- | ------- | -------------
 0  | ["Why make PCBs / Our Goals"](/Week_0/Week_0_Content) | 0 - Preload
 1  | "PCB Structure / Workflow" | 1 - Modern Proto Board
-2  | "Stuff / Schematic Capture" | 2 - Design LED Board
+2  | "Schematic Capture / Symbols & Footprints" | 2 - Design LED Board / Set up for Audio Board Design
 3  | "Stuff 3" | 3 - Design Audio Board
 4  | "Stuff 4" | 4 - Assemble LED Board / Design Radio Board
 5  | "Stuff 5" | 5 - Assemble Audio Board / Design Power Board
