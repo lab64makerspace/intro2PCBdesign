@@ -30,4 +30,6 @@ I WILL TRY TO PROVIDE PROPER ATTRIBUTION WHENEVER POSSIBLE, BUT I PROBABLY WON'T
 IF YOU SEE SOMETHING THAT IS YOUR ORIGINAL IDEA PLEASE LET ME KNOW SO I CAN GIVE YOU CREDIT!**</br>
 
 OK, then, there are a couple of ways to approach this, but one of the first things we'll need is a sort of map of where everything fits. This type of diagram is called a "**block diagram**" and it will allow us to see how the various functions interact. In addition, this representation allows us to focus on the **interfaces** between blocks (and blocks and the external world). This will prove to be a powerful way to understand what each block does and what it needs to function. The first "bare bones" version of the block diagram may be seen here -
+![Starting Block Diagram](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/UberRadio/Uber_Radio.pdf)
 
+We could use basically any graphics program to create a block digram, but since we are learning KiCAD, I have chosen to us that and create the block diagram as a heirarchical first schematic page. This will allow us to use **global labels** to connect the blocks and make it easier to keep things straight. This is not so difficult for something as simple as the UberRadio, but for more complicated systems this can be a real help!
