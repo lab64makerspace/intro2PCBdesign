@@ -52,4 +52,6 @@ a shorter video  - [ESP32 Internet Radio by Vergil Cola](https://www.youtube.com
 
 a video by a Swiss guy - [#195 DIY Internet Radio using an ESP32 (Arduino IDE)](https://www.youtube.com/watch?v=hz65vfvbXMs&t=7s)
 
+here is a link to the [Edzelf/ESP32-Radio](https://github.com/Edzelf/ESP32-Radio)
+
 I'll put up more info soon (like today, I hope!).
