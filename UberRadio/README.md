@@ -22,7 +22,7 @@ In another twist of fate, Prof. Simon Wong decided that for one of the Electrica
 I interpret all this goodness happening as a call to ACTION! For this workshop we’re going to MAKE the **UR** (uber-radio).
 
 ### Where should we start?
-Before we move forward with this I would like to make a disclaimer-
+Before we move forward with this, I need to make a disclaimer-
 
 **DISCLAIMER - I HAVE VERY FEW *ORIGINAL* IDEAS.
 IF YOU SEE SOMTHING HERE THAT LOOKS ORIGINAL, IT PROBABLY ISN'T!
