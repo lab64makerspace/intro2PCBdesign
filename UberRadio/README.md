@@ -44,7 +44,7 @@ Also don't forget, if you can code, you can contribute! Visit https://github.com
 
 As nice as the SAM32 is, it isn't designed to drive speakers (*why would it be?*). This means we need somthing that will provide enough power to drive some speakers and make some noise! So, you ask, what *exactly* does come out of the SAM32? And how do we turn that into sound?
 
-Well, the answer is "I'm not just sure yet. But I'll know in a couple of hours." I suspect that we will find some sort of PCM or I2S output available if code things correctly.</br>
+Well, the answer is "I'm not just sure yet. But I'll know in a couple of hours." I suspect that we will find some sort of PCM or I2S output available if we code things correctly.</br>
 
 If you want to follow along, you should check out these videos:</br>
 
@@ -54,4 +54,8 @@ a video by a Swiss guy - [#195 DIY Internet Radio using an ESP32 (Arduino IDE)](
 
 here is a link to the [Edzelf/ESP32-Radio](https://github.com/Edzelf/ESP32-Radio)
 
-I'll put up more info soon (like today, I hope!).
+OK, so the Swiss guy, Andreas Spiess, made his with a VS1053 chip. If we look into this a bit, we find that there is a later chip with very similar but additional capabilities, the [VS1063](www.vlsi.fi/en/products/vs1063.html) also from VLSI. This seems promising! So maybe we can just connect the SAM32 to a VS1063 to produce audio output!?!?
+
+But wait! We still need something to drive the speaker(s)! This is where Professor Wong's Class D amplifer comes in. We can probably just connect the audio output from the VS1063 to the input of the amplifier section. Hmmm... This looks promising!
+
+Oh boy, there are quite a few Class D amplifiers rangeing in power, performance (THD), and cost. I have put some datasheets [HERE]().
