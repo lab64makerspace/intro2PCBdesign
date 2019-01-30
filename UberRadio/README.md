@@ -35,7 +35,7 @@ We could use basically any graphics program to create a block digram, but since 
 
 ### The SAM32 Block
 
-Looking at the blocks, we see that there is a block marked "**MCU / WiFi / BLE**" with another label "**SAM32 Board**". Good news for us, Mr. Max Holliday has designed, built and been hard at work coding and debugging this block! You can find a TON of information about this board on his Github here [**SAM32**](https://github.com/maholli/SAM32). Here is what it looks like - [SAM32](https://github.com/maholli/SAM32/blob/master/references/boardv2.PNG)</br>
+Looking at the blocks, we see that there is a block marked "**MCU / WiFi / BLE**" with another label "**SAM32 Board**". Good news for us, Mr. Max Holliday has designed, built and been hard at work coding and debugging this block! You can find a TON of information about this board on his Github here [**SAM32**](https://github.com/maholli/SAM32). Here is what it looks like - ![SAM32](https://github.com/maholli/SAM32/blob/master/references/boardv2.PNG)</br>
 I **strongly** encourage you to spend some *quality time* with this block because it is a marvel of modern engineering! You may never need another board again!!</br>
 PLEASE THANK MAX FOR ALL HIS TIME AND EFFORT BUILDING THIS!!</br>
 Also don't forget, if you can code, you can contribute! Visit https://github.com/maholli/SAM32/projects/1 for a current list of software tasks that you can help with!
