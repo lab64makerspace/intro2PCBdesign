@@ -46,8 +46,10 @@ As nice as the SAM32 is, it isn't designed to drive speakers (*why would it be?*
 
 Well, the answer is "I'm not just sure yet. But I'll know in a couple of hours." I suspect that we will find some sort of PCM or I2S output available if code things correctly.</br>
 
-If you want to follow along, you should check out these videos:
-a shorter video  - [ESP32 Internet Radio by Vergil Cola](https://www.youtube.com/watch?v=Bk9KnJSv3vg)
+If you want to follow along, you should check out these videos:</br>
+
+a shorter video  - [ESP32 Internet Radio by Vergil Cola](https://www.youtube.com/watch?v=Bk9KnJSv3vg)</br>
+
 a video by a Swiss guy - [#195 DIY Internet Radio using an ESP32 (Arduino IDE)](https://www.youtube.com/watch?v=hz65vfvbXMs&t=7s)
 
 I'll put up more info soon (like today, I hope!).
