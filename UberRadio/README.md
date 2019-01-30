@@ -61,8 +61,19 @@ Looking at the prices on the VLSI Web Store, it seems that the VS1053 is about h
 But wait! We still need something to drive the speaker(s)! This is where Professor Wong's Class D amplifer comes in. We can probably just connect the audio output from the VS10x3 codec to the input of the amplifier section. Hmmm... 
 
 This looks promising! Here are a couple of parts from Texas Instruments that might work well:</br>
+
 the [TPA3250 70W Stereo / 130W Peak Ultra-HD, Analog-In, Pad-Down Calss-D Amplifier](http://www.ti.com/product/TPA3250), and</br>
+
 the [TAS5705 20W Stereo Digital Audio Power Amplifier with EQ and DRC](http://www.ti.com/product/TAS5705).
+
+If you want to check out a high quality audio amplifier built using the TPA3250, check out these .PDFs:</br>
+[3e Audio Amp Construction - IEEE Spectrum.pdf](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_2/Week_2_Content/3e%20Audio%20Amp%20Construction%20-%20IEEE%20Spectrum.pdf), and</br>
+
+[Build Your Own Professional-Grade Audio Amp on the Sort of Cheap - IEEE Spectrum.pdf](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_2/Week_2_Content/Build%20Your%20Own%20Professional-Grade%20Audio%20Amp%20on%20the%20Sort%20of%20Cheap%20-%20IEEE%20Spectrum.pdf).
+
+There is also the 3e product website that shows a close-up of the finished amplifier board. You can find it here -</br>
+[TPA3250-2CH-50W](https://www.3e-audio.com/amplifier/tpa3250-2ch-50w/).
+
 
 So it looks like we should be able to fill in the connections between the SAM32 block and the Audio Board block to see if this is worth trying.
 
