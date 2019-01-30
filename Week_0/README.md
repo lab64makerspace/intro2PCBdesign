@@ -25,7 +25,7 @@ So our goal, as designers, is to provide **ALL** the information required to mak
 4.  Bottom Copper ---------------------------------------> (Gerber file)
 5.  Bottom Soldermask -----------------------------------> (Gerber file)
 6.  Bottom Silkscreen -----------------------------------> (Gerber file)
-7.  NC Drill file for Plated Through Holes (PTH) --------> (Excellon file)
+7.  NC Drill file for Plated Through Holes (PTH) ---------> (Excellon file)
 8.  NC Drill file for Non-Plated Through Holes (NPTH) ---> (Excellon file)
 9.  FAB Drawing (usually .pdf file) that specifies stackup, dimensions, tolerances, etc.
 
