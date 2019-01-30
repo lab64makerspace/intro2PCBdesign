@@ -15,7 +15,8 @@ in ["Intro to PCB Design 1.pdf"](https://github.com/lab64makerspace/intro2PCBdes
 The discusion is continued in the [Week_0/Content README.md](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_0/Week_0_Content/README.md).
 
 I will add more detail on *what* we are trying to achieve as time allows, but suffice it to say that:
-**the end goal of all the design works is a set of fabrication instructions in the form of computer files that will enable the repeatable and efficient construction of the printed circuit board that the designer (that's *you*!) intended**.
+
+**the end goal of all the design work is a set of fabrication instructions in the form of computer files that will enable the repeatable and efficient construction of the printed circuit board that the designer (that's *you*!) intended**.
 
 So our goal, as designers, is to provide **ALL** the information required to make the gizmo we envisioned. This will require that we specify each layer of the printed circuit board. By convention, we always view a PCB from the "top", so FOR A "TWO" LAYER BOARD WE NEED:
 1. Top Silkscreen (Gerber file)
