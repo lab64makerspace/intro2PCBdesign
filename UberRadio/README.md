@@ -40,4 +40,14 @@ I **strongly** encourage you to spend some *quality time* with this block becaus
 PLEASE THANK MAX FOR ALL HIS TIME AND EFFORT BUILDING THIS!!</br>
 Also don't forget, if you can code, you can contribute! Visit https://github.com/maholli/SAM32/projects/1 for a current list of software tasks that you can help with!
 
-### The Audio Board
+### The Audio Board Block
+
+As nice as the SAM32 is, it isn't designed to drive speakers (*why would it be?*). This means we need somthing that will provide enough power to drive some speakers and make some noise! So, you ask, what *exactly* does come out of the SAM32? And how do we turn that into sound?
+
+Well, the answer is "I'm not just sure yet. But I'll know in a couple of hours." I suspect that we will find some sort of PCM or I2S output available if code things correctly.</br>
+
+If you want to follow along, you should check out these videos:
+a shorter video  - [ESP32 Internet Radio by Vergil Cola](https://www.youtube.com/watch?v=Bk9KnJSv3vg)
+a video by a Swiss guy - [#195 DIY Internet Radio using an ESP32 (Arduino IDE)](https://www.youtube.com/watch?v=hz65vfvbXMs&t=7s)
+
+I'll put up more info soon (like today, I hope!).
