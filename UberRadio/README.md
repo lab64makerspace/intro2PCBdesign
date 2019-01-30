@@ -12,6 +12,7 @@ So the crux is this -
 **I have wanted a box like the Model One that can play music throughout my home or office. I want to be able to play songs off my computer, off my cell phone, off the Internet, and, yes, even off the air!**
 
 More recently, Matthew Trost shared a project he has been working on. He calls it “LED Towers”. Several other students are building them along with Matthew. The project looks like this (two shown) –
+
 ![LED Towers](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/UberRadio/UberRadio%20Images/LED%20Towers.png)
 
 These have speakers in the base and multi-color LEDs arranged such that they illuminate the different pieces of acrylic in response to the sound. Matthew has made good progress in packaging the project (version 2.0 not shown) but it doesn’t include an amplifier to drive the speaker so the sound could be louder.
