@@ -56,6 +56,14 @@ here is a link to the [Edzelf/ESP32-Radio](https://github.com/Edzelf/ESP32-Radio
 
 OK, so the Swiss guy, Andreas Spiess, made his with a VS1053 chip. If we look into this a bit, we find that there is a later chip with very similar but additional capabilities, the [VS1063](www.vlsi.fi/en/products/vs1063.html) also from VLSI. This seems promising! So maybe we can just connect the SAM32 to a VS1063 to produce audio output!?!?
 
-But wait! We still need something to drive the speaker(s)! This is where Professor Wong's Class D amplifer comes in. We can probably just connect the audio output from the VS1063 to the input of the amplifier section. Hmmm... This looks promising!
+Looking at the prices on the VLSI Web Store, it seems that the VS1053 is about half the price of the VS1063. Is it worth the price difference? More to think about...
 
-Oh boy, there are quite a few Class D amplifiers rangeing in power, performance (THD), and cost. I have put some datasheets [HERE]().
+But wait! We still need something to drive the speaker(s)! This is where Professor Wong's Class D amplifer comes in. We can probably just connect the audio output from the VS10x3 codec to the input of the amplifier section. Hmmm... 
+
+This looks promising! Here are a couple of parts from Texas Instruments that might work well:</br>
+the [TPA3250 70W Stereo / 130W Peak Ultra-HD, Analog-In, Pad-Down Calss-D Amplifier](http://www.ti.com/product/TPA3250), and</br>
+the [TAS5705 20W Stereo Digital Audio Power Amplifier with EQ and DRC](http://www.ti.com/product/TAS5705).
+
+So it looks like we should be able to fill in the connections between the SAM32 block and the Audio Board block to see if this is worth trying.
+
+I'll connect the blocks in the schematic and upload that so you can work on it too!
