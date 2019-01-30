@@ -9,3 +9,5 @@ The main goals for this week are:
 
 These questions are (hopefully) answered in this week's *Content* section.
 
+Some slides illustrating some prototyping techniques and hopefully motivating the first point may be found
+in the .pdf "Intro_to_PCB_Design_1".
