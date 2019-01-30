@@ -11,3 +11,5 @@ These questions are (hopefully) answered in this week's *Content* section.
 
 Some slides illustrating some prototyping techniques and hopefully motivating the first point may be found
 in ["Intro to PCB Design 1.pdf"](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_0/Week_0_Content/Intro%20to%20PCB%20Design%201.pdf).
+
+The discusion is continued in the [Week_0/Content README.md](
