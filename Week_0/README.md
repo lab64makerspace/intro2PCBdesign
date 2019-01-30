@@ -84,7 +84,8 @@ into and out of the devices. This, in turn, drove chip packaging to higher and h
 densities, culminating in contemporary BGA (ball grid array) and CSP (chip scale packaging)
 devices where I/O density is such that it is virtually impossible to hand prototype circuitry.
 
-BUT WAIT, THERE'S MORE
+**BUT WAIT, THERE'S MORE**
+
 And then there are some other reasons one might want to build a PCB-
 
 You want to make something electronic that has a cool shape!
