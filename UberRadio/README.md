@@ -26,8 +26,7 @@ Before we move forward with this, I need to make a disclaimer-
 
 **DISCLAIMER -**</br>
 *I HAVE VERY FEW **ORIGINAL** IDEAS. IF YOU SEE SOMTHING HERE THAT LOOKS ORIGINAL, IT PROBABLY ISN'T!</br>
-I WILL TRY TO PROVIDE PROPER ATTRIBUTION WHENEVER POSSIBLE, BUT I PROBABLY WON'T GET EVRYTHING CORRECT.</br>
-IF YOU SEE SOMETHING THAT IS YOUR ORIGINAL IDEA, PLEASE LET ME KNOW SO I CAN GIVE YOU CREDIT!</br>
+I WILL TRY TO PROVIDE PROPER ATTRIBUTION WHENEVER POSSIBLE, BUT I PROBABLY WON'T GET EVRYTHING CORRECT. IF YOU SEE SOMETHING THAT IS YOUR ORIGINAL IDEA, PLEASE LET ME KNOW SO I CAN GIVE YOU CREDIT!*</br>
 
 OK, then, there are a couple of ways to approach this, but one of the first things we'll need is a sort of map of where everything fits. This type of diagram is called a "**block diagram**" and it will allow us to see how the various functions interact. In addition, this representation allows us to focus on the **interfaces** between blocks (and blocks and the external world). This will prove to be a powerful way to understand what each block does and what it needs to function. The first "bare bones" version of the block diagram may be seen here -
 ![Starting Block Diagram](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/UberRadio/Uber_Radio.pdf)
