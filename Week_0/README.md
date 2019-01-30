@@ -23,12 +23,12 @@ So our goal, as designers, is to provide **ALL** the information required to mak
 2.  Top Soldermask --------------------------------------> (Gerber file)
 3.  Top Copper ------------------------------------------> (Gerber file)
 4.  Bottom Copper ---------------------------------------> (Gerber file)
-5.  Bottom Soldermask ----------------------------------> (Gerber file)
+5.  Bottom Soldermask ---------------------------------> (Gerber file)
 6.  Bottom Silkscreen -----------------------------------> (Gerber file)
 7.  NC Drill file for Plated Through Holes (PTH) ---------> (Excellon file)
 8.  NC Drill file for Non-Plated Through Holes (NPTH) ---> (Excellon file)
 9.  FAB Drawing (usually .pdf file) that specifies stackup, dimensions, tolerances, etc.
 
-So that's it! That what all this is about, producing the correct information and packaging it up in these few files so that the PCB fabrication house (fab house) can do their job and send you what you thik you want.
+So that's it! That's what all this is about, producing the correct information and packaging it up in these few files so that the PCB fabrication house (fab house) folks can do their job and send you what you think you want.
 
 **Couldn't be simpler... Right?**
