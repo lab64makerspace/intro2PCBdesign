@@ -33,3 +33,11 @@ OK, then, there are a couple of ways to approach this, but one of the first thin
 ![Starting Block Diagram](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/UberRadio/Uber_Radio.pdf)
 
 We could use basically any graphics program to create a block digram, but since we are learning KiCAD, I have chosen to us that and create the block diagram as a heirarchical first schematic page. This will allow us to use **global labels** to connect the blocks and make it easier to keep things straight. This is not so difficult for something as simple as the UberRadio, but for more complicated systems this can be a real help!
+
+### The SAM32 Block
+
+Looking at the blocks, we see that there is a block marked "**MCU / WiFi / BLE**" with another label "**SAM32 Board**". Good news for us, Mr. Max Holliday has designed, built and been hard at work coding and debugging this block! You can find a TON of information about this board on his Github here [**SAM32**](https://github.com/maholli/SAM32). I STRONGLY encourage you to spend some *quality time* with this block because it is a marvel of modern engineering! You may never need another board again!!</br>
+PLEASE THANK MAX FOR ALL HIS TIME AND EFFORT BUILDINGT THIS!!</br>
+Also don't forget, if you can code, you can contribute! Visit https://github.com/maholli/SAM32/projects/1 for a current list of software tasks that you can help with!
+
+### The Audio Board
