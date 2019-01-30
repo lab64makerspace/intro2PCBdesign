@@ -67,6 +67,7 @@ the [TPA3250 70W Stereo / 130W Peak Ultra-HD, Analog-In, Pad-Down Calss-D Amplif
 the [TAS5705 20W Stereo Digital Audio Power Amplifier with EQ and DRC](http://www.ti.com/product/TAS5705).
 
 If you want to check out a high quality audio amplifier built using the TPA3250, check out these .PDFs:</br>
+
 [3e Audio Amp Construction - IEEE Spectrum.pdf](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_2/Week_2_Content/3e%20Audio%20Amp%20Construction%20-%20IEEE%20Spectrum.pdf), and</br>
 
 [Build Your Own Professional-Grade Audio Amp on the Sort of Cheap - IEEE Spectrum.pdf](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_2/Week_2_Content/Build%20Your%20Own%20Professional-Grade%20Audio%20Amp%20on%20the%20Sort%20of%20Cheap%20-%20IEEE%20Spectrum.pdf).
