@@ -11,7 +11,7 @@ Occasionally, I still use my computer to listen to music while I work. At home, 
 So the crux is this -
 **I have wanted a box like the Model One that can play music throughout my home or office. I want to be able to play songs off my computer, off my cell phone, off the Internet, and, yes, even off the air!**
 
-More recently, Matthew Trost shared a project he has been working on. He calls it “LED Towers”. Several other students are building them along with Matthew. The project looks like this (two shown) –
+More recently, Matthew Trost shared a project he has been working on. He calls it “LED Towers”. Several other students are building them along with Matthew. The project looks like this (two shown) –</br>
 
 ![LED Towers](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/UberRadio/UberRadio%20Images/LED%20Towers.png)
 
