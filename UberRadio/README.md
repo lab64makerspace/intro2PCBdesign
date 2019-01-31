@@ -44,7 +44,7 @@ Also don't forget, if you can code, you can contribute! Visit https://github.com
 
 As nice as the SAM32 is, it isn't designed to drive speakers (*why would it be?*). This means we need somthing that will provide enough power to drive some speakers and make some noise! So, you ask, what *exactly* does come out of the SAM32? And how do we turn that into sound?
 
-Well, the answer is "I'm not just sure yet. But I'll know in a couple of hours." I suspect that we will find some sort of PCM or I2S output available if code things correctly.</br>
+Well, the answer is "I'm not just sure yet. But I'll know in a couple of hours." I suspect that we will find some sort of PCM or I2S output available if we code things correctly.</br>
 
 If you want to follow along, you should check out these videos:</br>
 
@@ -54,4 +54,28 @@ a video by a Swiss guy - [#195 DIY Internet Radio using an ESP32 (Arduino IDE)](
 
 here is a link to the [Edzelf/ESP32-Radio](https://github.com/Edzelf/ESP32-Radio)
 
-I'll put up more info soon (like today, I hope!).
+OK, so the Swiss guy, Andreas Spiess, made his with a VS1053 chip. If we look into this a bit, we find that there is a later chip with very similar but additional capabilities, the [VS1063](www.vlsi.fi/en/products/vs1063.html) also from VLSI. This seems promising! So maybe we can just connect the SAM32 to a VS1063 to produce audio output!?!?
+
+Looking at the prices on the VLSI Web Store, it seems that the VS1053 is about half the price of the VS1063. Is it worth the price difference? More to think about...
+
+But wait! We still need something to drive the speaker(s)! This is where Professor Wong's Class D amplifer comes in. We can probably just connect the audio output from the VS10x3 codec to the input of the amplifier section. Hmmm... 
+
+This looks promising! Here are a couple of parts from Texas Instruments that might work well:</br>
+
+the [TPA3250 70W Stereo / 130W Peak Ultra-HD, Analog-In, Pad-Down Calss-D Amplifier](http://www.ti.com/product/TPA3250), and</br>
+
+the [TAS5705 20W Stereo Digital Audio Power Amplifier with EQ and DRC](http://www.ti.com/product/TAS5705).
+
+If you want to check out a high quality audio amplifier built using the TPA3250, check out these .PDFs:</br>
+
+[3e Audio Amp Construction - IEEE Spectrum.pdf](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_2/Week_2_Content/3e%20Audio%20Amp%20Construction%20-%20IEEE%20Spectrum.pdf), and</br>
+
+[Build Your Own Professional-Grade Audio Amp on the Sort of Cheap - IEEE Spectrum.pdf](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_2/Week_2_Content/Build%20Your%20Own%20Professional-Grade%20Audio%20Amp%20on%20the%20Sort%20of%20Cheap%20-%20IEEE%20Spectrum.pdf).
+
+There is also the 3e product website that shows a close-up of the finished amplifier board. You can find it here -</br>
+[TPA3250-2CH-50W](https://www.3e-audio.com/amplifier/tpa3250-2ch-50w/).
+
+
+So it looks like we should be able to fill in the connections between the SAM32 block and the Audio Board block to see if this is worth trying.
+
+I'll connect the blocks in the schematic and upload that so you can work on it too!
