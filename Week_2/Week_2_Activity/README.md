@@ -5,5 +5,21 @@ This week we are getting ready to layout the Audio Board block. In our weekly ac
 3. How to search for part footprints and install those in the libraries.
 4. How to convert a design in Eagle into a KiCAD project by going through the process with the Adafruit VS1053 CODEC Breakout PCB.
 
+
+### Finding Footprints
+Max shared his methodology for finding part footprints. To find part footprints that aren't already in your KiCAD fotprint library he uses the resources below in the order listed:
+
+1.  https://componentsearchengine.com/EXB-18V103JX/Panasonic
+2.  https://www.ultralibrarian.com/
+3.  https://www.snapeda.com/
+4.  https://kcdb.ciphersink.net/
+5.  For TI parts: https://webench.ti.com/cad/
+6.  Digikey KiCad library: https://www.digikey.com/en/resources/design-tools/kicad
+7.  Built-in KiCad libraries are great (and so is the footprint generator)
+8.  Importing reference designs and reusing their footprints
+9.  If all else fails… google: part number + “footprint” | “PCB” | “component” | “symbol”
+10. If you really can't find the correct footprint, try to find a similar component and modify that footprint as required.
+11. If you are REALLY stuck you can generate one from scratch (YIKES!)
+
 We will put more detailed information on each of these steps here as time permits.
 
