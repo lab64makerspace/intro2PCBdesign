@@ -10,7 +10,7 @@ This week we are getting ready to layout the Audio Board block. In our weekly ac
 Max shared his methodology for finding part footprints. To find part footprints that aren't already in your KiCAD fotprint library he uses the resources below in the order listed:
 
 1.  https://componentsearchengine.com/EXB-18V103JX/Panasonic
-2.  https://www.ultralibrarian.com/
+2.  https://www.ultralibrarian.com/ {this is a Windows thing, so us Mac folks are outta luck}
 3.  https://www.snapeda.com/
 4.  https://kcdb.ciphersink.net/
 5.  For TI parts: https://webench.ti.com/cad/
