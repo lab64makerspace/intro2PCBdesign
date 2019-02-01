@@ -19,7 +19,9 @@ Max shared his methodology for finding part footprints. To find part footprints 
 8.  Importing reference designs and reusing their footprints
 9.  If all else fails… google: part number + “footprint” | “PCB” | “component” | “symbol”
 10. If you really can't find the correct footprint, try to find a similar component and modify that footprint as required.
-11. If you are REALLY stuck you can generate one from scratch (YIKES!)
+11. If you are REALLY stuck you can generate one from scratch (YIKES!).
+
+Yes, we can show you how to do this, but it is time consuming, requires great attention to detail and demands double checking, etc.</br>
 
 We will put more detailed information on each of these steps here as time permits.
 
