@@ -51,6 +51,8 @@ Some useful commands
 - Hover over a footprint and press R to rotate
 - Press X to draw a trace 
 
+Note: aim to get your footprint layout done for this week. We'll critique each other's layout on Wednesday and do the tracing afterwards. 
+
 
 ## Notes from the previous week (we've done these steps for you!) 
 This week we are getting ready to layout the Audio Board block. In our weekly activity session Max showed us how to do several things:
