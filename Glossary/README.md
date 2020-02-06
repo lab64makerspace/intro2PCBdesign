@@ -21,87 +21,104 @@
 
  <details>
     <summary>Antenna</summary
-     Stuff
+     
+    Stuff
  </details>
      
  <details>
     <summary>Auto-Routing</summary>
+ 
      Stuff
  </details>
  
  <details>
     <summary>Back-Annotation</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>Ball Bonding</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>Bed of Nails Testing</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>Bill of Materials</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>Board Outline</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>Bottom</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>BGA (Ball Grid Array)</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>CAD</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>Captive Hardware</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>Castellation</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>Clock Distribution</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>Clock Skew</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>COB (Chip-on-Board)</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
     <summary>Conformal Coating</summary>
- Stuff
+ 
+    Stuff
  </details>
  
 <details>
     <summary>Controlled Impedance</summary>
- Stuff
+ 
+    Stuff
  </details>
  
  <details>
