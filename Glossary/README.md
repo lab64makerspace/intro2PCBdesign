@@ -337,7 +337,7 @@
  </details>
  
  <details>
-    <summary>Oz of Cu</summary>
+    <summary>Ounces of Cu (Oz of Cu)</summary>
  Stuff
  </details>
  
