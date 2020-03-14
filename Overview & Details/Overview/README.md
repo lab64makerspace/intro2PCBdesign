@@ -22,16 +22,18 @@ So when you stop to think about it, these folks spend a LOT of time making sure 
 
 And we actually rejoice in the mundane, predictable nature of our lives!
 
-Just think of the trouble a power outage causes. It can be a serious problem when the power goes out for even a few hours. The prolonged lack of reliable power can cause "civilization" to rip apart at the seams. Our food distribution networks and health care systems depend crucially on the reliable supply of power. Folks get weird when their communications are unavailable. BUT, thanks to all the engineers (including maintenance engineering folks), we maintain the veneer of civilization.
+Just think of the trouble a power outage causes. It can be a serious problem when the power goes out for even a few hours. The prolonged lack of reliable power can cause "civilization" to rip apart at the seams. Our food distribution networks and health care systems depend crucially on the reliable supply of electricity. Folks get weird when their communication systems are unavailable. BUT, thanks to all the engineers (including maintenance engineering folks), we are able to maintain the veneer of civilization.
 
-So the ENGINEER's job is to make our world more predictable, and to achieve this engineers use MODELS to make predictions. The better the model, the better the prediction! So engineers use models that provide quantitative results (predictions) whenever possible. This is so they can confirm that their model is applicable to the situation of interest and so they can have confidence that the model is correct.
+So the ENGINEER's job is to make our world more predictable, and to achieve this engineers use MODELS to make _predictions_. The better the model, the better the prediction! So engineers use models that provide quantitative results (predictions) whenever possible. This is so they can confirm that their model is applicable to the situation of interest and so they can have confidence that the model is correct.
 
 This means that IF we are doing ENGINEERING, we should be able to PREDICT THE RESULTS OF OUR WORK.
 
 Yup, that's right! All the way down to the "Will the holes line up?" type of predictability. Down to the "Will the signals and timing be right?" sort of predictability.
 
-### The BOARD SPIN DISEASE (BSD)
-So, now it is probably clear why I think many (not all) EE's have BSD. Often I hear things like, "We'll just catch it in the next board spin." or "We're EEs; our job is to spin boards!" and so forth. I have to be frank about this : our design tools are so good now that we can PREDICT almost all the relevant properties of electrical boards.
+### BOARD SPIN DISEASE (BSD)
+So, now it is probably clear why I think many (not all) EE's have BSD. Often I hear things like, "We'll just catch it in the next board spin." or "We're EEs; our job is to spin boards!" and so forth.
+
+I have to be frank about this : our design tools are so good now that we can PREDICT almost all the relevant properties of electrical PC boards.
 
 This means that if we need to "spin a board" without some change in functionality, we didn't use the tools properly and / or we just weren't THINKING!
 
