@@ -4,8 +4,8 @@ This overview is meant to provide a sense of the content and philosophy of this 
 # Board design is engineering!
 I would like to get this out of the way since it really bugs me! There are two topics that I would like to address:
 <li>
-* what do ENGINEERS do, And
-* the common "board spin" disease
+ what do ENGINEERS do, And
+ the common "board spin" disease
 </li>
 
 ### What do ENGINEERS DO?
@@ -15,9 +15,9 @@ These images are certainly entertaining, but after thinking about this question,
 ### ENGINEERS make the world more PREDICTABLE!
 I know, this seems a bit boring and abstract, but I think it's true. Engineers make our everyday lives better by making things predictable.
 <li>
-* When we cross a bridge, it doesn't fall down! Thank you civil engineers!!
-* When we get on an airplane, it usually gets to the destination! Thank you aeronautical engineers!!
-* When we flip a light switch, the lights usually turn on (or off)! Thank you electrical engineers!!
+ When we cross a bridge, it doesn't fall down! Thank you civil engineers!!
+ When we get on an airplane, it usually gets to the destination! Thank you aeronautical engineers!!
+ When we flip a light switch, the lights usually turn on (or off)! Thank you electrical engineers!!
 </li>
 So when you stop to think about it, these folks spend a LOT of time making sure that our daily experiences are predictable.
 
