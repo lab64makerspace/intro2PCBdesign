@@ -17,6 +17,7 @@ I know, this seems a bit boring and abstract, but I think it's true. Engineers m
 * When we cross a bridge, it doesn't fall down! Thank you civil engineers!!
 * When we get on an airplane, it usually gets to the destination! Thank you aeronautical engineers!!
 * When we flip a light switch, the lights usually turn on (or off)! Thank you electrical engineers!!
+* We Instagram our friends that _sic_ photo! Thank you telecommunications engineers and EEs!!
 
 So when you stop to think about it, these folks spend a LOT of time making sure that our daily experiences are predictable.
 
