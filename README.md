@@ -1,5 +1,5 @@
 # Introduction to PCB Design
-This workshop series was offered Winter Quarter AY 2018-2019.
+This workshop series was first offered Winter Quarter AY 2018-2019.
 
 We're thinking about updating some material and offering it in Spring Quarter AY2019-2020.
 
