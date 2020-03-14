@@ -1,7 +1,7 @@
 # Overview
 This overview is meant to provide a sense of the content and philosophy of this workshop / course material. If this interests you, please check out the detail page where things like tools, schedule, and activities are discussed.
 
-# Board design is engineering!
+## Board design is engineering!
 I would like to get this out of the way since it really bugs me! There are two topics that I would like to address:
 
 * what do ENGINEERS _do_, and
