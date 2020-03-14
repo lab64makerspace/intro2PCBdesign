@@ -7,7 +7,7 @@ I would like to get this out of the way since it really bugs me! There are two t
 * what do ENGINEERS _do_, and
 * the common "board spin" disease
 
-### What do ENGINEERS DO?
+### What do ENGINEERS _DO_?
 Many folks have a mental image of an engineer... even engineers have some image of themselves and it usually involves somebody that is thinking hard solving some technological problem that requires a bunch of fancy equipment, maybe some sparks, and certainly a stroke of genius.
 
 These images are certainly entertaining, but after thinking about this question, I would like to propose what I believe is a somewhat deeper answer that may be at odds with the idea of the lone genius inventor. My answer is -
