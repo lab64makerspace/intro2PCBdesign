@@ -4,7 +4,7 @@ This overview is meant to provide a sense of the content and philosophy of this 
 # Board design is engineering!
 I would like to get this out of the way since it really bugs me! There are two topics that I would like to address:
 
-* what do ENGINEERS do, and
+* what do ENGINEERS _do_, and
 * the common "board spin" disease
 
 ### What do ENGINEERS DO?
