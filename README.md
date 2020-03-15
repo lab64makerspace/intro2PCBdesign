@@ -15,6 +15,7 @@ We are interested in your feedback! Please send comments, question and suggestio
 Please use the [issues tab](../../issues) to post questions and answer other students' questions.
 
 Thx,
+
  Steve
  
  (steven DOT clark AT stanford DOT edu)
