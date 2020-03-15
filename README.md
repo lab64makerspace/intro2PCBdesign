@@ -6,6 +6,7 @@ There are many excellent online tutorials about how to use the various PCB desig
 * placing some context around PCB design (how & why we make PCBs, various fabrication technologies, etc.)
 * building experience with PCB design workflow (by designing & sending boards out for fabrication every week)
 * using ancillary tools to ensure form, fit, and function requirements are met
+* mastering SMT assembly techniques for prototype / low-volume "in-house" production
 * providing entry points to the more "advanced" topics associated with PCB design
 
 If this seems interesting to you, please check out the overview & details page.
