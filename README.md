@@ -16,4 +16,5 @@ Please use the [issues tab](../../issues) to post questions and answer other stu
 
 Thx,
  Steve
+ 
  (steven DOT clark AT stanford DOT edu)
