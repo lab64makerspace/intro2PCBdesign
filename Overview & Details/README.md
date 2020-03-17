@@ -40,6 +40,7 @@ the basics correct.
 
 <details>
   <summary>Workshop focus</summary>
+  
 This is an **introductory** workshop. **No previous experience is required.** Since we will
 emphasize basic connectivity, form, fit, and function it will be helpful (but **NOT REQUIRED**)
 if you have some limited experience with a mechanical design program. Suitable programs
@@ -47,6 +48,7 @@ include SolidWorks, Fusion360, FreeCAD, or any similar program. SolidWorks and F
 are available free of cost for students. Additionally, they are available on lab64 servers
 and you can use them without needing to run a VM, etc. If you need help with this, please
 contact the lab64 staff by sending an email to lab64ca@ee.stanford.edu
+
 Many folks that "know what they are doing" want to jump straight to more advanced topics
 such as microstrip design, integrated component design, etc. They want to do this before
 mastering rudimentary things (e.g., board stack-up and materials). We will cover these and
@@ -59,7 +61,8 @@ discussions.
 
 <details>
   <summary>What to expect</summary>
-  ### What is the required time commitment?
+  
+### What is the required time commitment?
 We have often been asked about the expected time commitment; how many hours per week will
 be needed. As always, the answer is it *depends*. For an experienced PCB designer, the labs
 may only require a few (3-4) hours per week. But the target audience is **NOT** experienced
@@ -72,7 +75,7 @@ you will need to send boards out for fabrication, otherwise how will you know ho
 doing? So we will et the expectation that you will send out "on average" **ONE BOARD PER
 WEEK**.
 
-### How will this work?**
+### How will this work?
 You will get either complete schematics or almost complete schematics. YOU WILL NOT BE DOING
 CIRCUIT DESIGN OR SIMULATION FOR THIS WORKSHOP. You will then do all the PCB mechanical
 design, layout, file generation, etc. required to send that week's board out for fabrication.
@@ -87,7 +90,7 @@ concerns, or comments so we can respond.
 
 <details>
   <summary>Why are we using KiCad?</summary>
-  KiCad is open-source, easy to use, and powerful. Almost everything we can do using commercial software like Altium can be done using KiCad. Once you become proficient using one layout tool, you'll find that other tools are very similar to use.
+KiCad is open-source, easy to use, and powerful. Almost everything we can do using commercial software like Altium can be done using KiCad. Once you become proficient using one layout tool, you'll find that other tools are very similar to use.
 </details>  
 
 <details>
