@@ -22,6 +22,8 @@ Week | Content | Lab / Activity
 8  | "Stuff 8" | 8 - Wrap things up!
 9  | "Stuff 9" | 9 - DEMO DAY PARTY!!
 
+## FAQ
+
 <details>
   <summary>## Why this workshop?</summary>
 Here at Stanford there are many folks that make printed circuit boards (PCBs) for a variety
@@ -37,7 +39,7 @@ the basics correct.
 </details>
 
 <details>
-  <summary>## Workshop focus</summary>
+  <summary>**Workshop focus**</summary>
 This is an **introductory** workshop. **No previous experience is required.** Since we will
 emphasize basic connectivity, form, fit, and function it will be helpful (but **NOT REQUIRED**)
 if you have some limited experience with a mechanical design program. Suitable programs
@@ -56,7 +58,7 @@ discussions.
 </details>
 
 <details>
-  <summary>## What to expect</summary>
+  <summary>**What to expect**</summary>
 ### What is the required time commitment?
 We have often been asked about the expected time commitment; how many hours per week will
 be needed. As always, the answer is it *depends*. For an experienced PCB designer, the labs
@@ -68,29 +70,31 @@ The whole point of this workshop is to master the process of designing PCBs, so 
 you will need to send boards out for fabrication, otherwise how will you know how you are
 doing? So we will et the expectation that you will send out "on average" **ONE BOARD PER
 WEEK**.
-### How will this work?
+**How will this work?**
 You will get either complete schematics or almost complete schematics. YOU WILL NOT BE DOING
 CIRCUIT DESIGN OR SIMULATION FOR THIS WORKSHOP. You will then do all the PCB mechanical
 design, layout, file generation, etc. required to send that week's board out for fabrication.
 You will also be expected to learn to assemble and debug the boards you have designed.
-### Why is this so free-form?
+**Why is this so free-form?**
 Because this is the first time we have offered this workshop we are not sure of all the
 details. A lot of what will happen will depend on YOU, the participant. We are trying
 to make this as useful to you as possible! So **please** let us know when you have questions,
 concerns, or comments so we can respond.
 </details>
 
-## FAQ
+<details>
+  <summary>**Why are we using KiCad?**</summary>
+  KiCad is open-source, easy to use, and powerful. Almost everything we can do using commercial software like Altium can be done using KiCad. Once you become proficient using one layout tool, you'll find that other tools are very similar to use.
+</details>  
 
-### Why are we using KiCad?
-KiCad is open-source, easy to use, and powerful. Almost everything we can do using commercial software like Altium can be done using KiCad. Once you become proficient using one layout tool, you'll find that other tools are very similar to use.
-
-### Can I make my own board for a research project?
+<details>
+  <summary>**Can I make my own board for a research project?**</summary>
 Yes, you may work on other boards in parallel to this workshop, but we want you to also work on making the designs we're providing. We'll do our best to answer any questions you might have on making pcb's for your own research project, but we cannot guarantee extensive help.
-
+Since the board you're making is for *your* research, you will have to purchase it (and the required components) yourself or using your research funds.
+</details>
 
 
 The "Stuff x" will soon be fleshed out. We have a list of stuff to put in each "Stuff x"
-section. Truth be told, it is a lot of stuff! IF there is something IN PARTICULAR that you
+section. Truth be told, it is a lot of stuff! IF there is something *IN PARTICULAR* that you
 are interested in or curious about, please let us know and, if it is in scope, we'll try
 to accommodate; you're probably not the only person interested, so please pitch in.
