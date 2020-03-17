@@ -1,4 +1,4 @@
-# Introduction to PCB Design
+# Overview of "Intro to PCB Design"
 This workshop series was offered Winter Quarter AY 2018-2019. We're thinking about offering it in Spring Quarter AY2019-2020.
 
 We are interested in your feedback! Please send comments, question and suggestions to: lab64ca@ee.stanford.edu
