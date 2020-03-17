@@ -25,7 +25,7 @@ Week | Content | Lab / Activity
 ## FAQ
 
 <details>
-  <summary>## Why this workshop?</summary>
+  <summary>Why this workshop?</summary>
 Here at Stanford there are many folks that make printed circuit boards (PCBs) for a variety
 of reasons. Many have expressed interest in learning more about how to design PCBs. Hopefully
 this material will provide a route to a more solid background in PCB design for those just
@@ -39,7 +39,7 @@ the basics correct.
 </details>
 
 <details>
-  <summary>**Workshop focus**</summary>
+  <summary>Workshop focus</summary>
 This is an **introductory** workshop. **No previous experience is required.** Since we will
 emphasize basic connectivity, form, fit, and function it will be helpful (but **NOT REQUIRED**)
 if you have some limited experience with a mechanical design program. Suitable programs
@@ -58,7 +58,7 @@ discussions.
 </details>
 
 <details>
-  <summary>**What to expect**</summary>
+  <summary>What to expect</summary>
 ### What is the required time commitment?
 We have often been asked about the expected time commitment; how many hours per week will
 be needed. As always, the answer is it *depends*. For an experienced PCB designer, the labs
@@ -83,12 +83,12 @@ concerns, or comments so we can respond.
 </details>
 
 <details>
-  <summary>**Why are we using KiCad?**</summary>
+  <summary>Why are we using KiCad?</summary>
   KiCad is open-source, easy to use, and powerful. Almost everything we can do using commercial software like Altium can be done using KiCad. Once you become proficient using one layout tool, you'll find that other tools are very similar to use.
 </details>  
 
 <details>
-  <summary>**Can I make my own board for a research project?**</summary>
+  <summary>Can I make my own board for personal use or for a research project?</summary>
 Yes, you may work on other boards in parallel to this workshop, but we want you to also work on making the designs we're providing. We'll do our best to answer any questions you might have on making pcb's for your own research project, but we cannot guarantee extensive help.
 Since the board you're making is for *your* research, you will have to purchase it (and the required components) yourself or using your research funds.
 </details>
