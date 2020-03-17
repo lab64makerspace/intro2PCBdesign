@@ -50,7 +50,7 @@
  </details>
  
  <details>
-    <summary>Bill of Materials</summary>
+    <summary>Bill of Materials (BOM)</summary>
  
     Stuff
  </details>
