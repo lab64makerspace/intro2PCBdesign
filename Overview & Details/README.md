@@ -59,23 +59,26 @@ discussions.
 
 <details>
   <summary>What to expect</summary>
-### What is the required time commitment?
+  ### What is the required time commitment?
 We have often been asked about the expected time commitment; how many hours per week will
 be needed. As always, the answer is it *depends*. For an experienced PCB designer, the labs
 may only require a few (3-4) hours per week. But the target audience is **NOT** experienced
 designers, so we estimate that the amount of time required will be between 5 - 10 hours per
 week. And it may be uneven depending on your background.
+  
 ### Sending PCBs out for fabrication
 The whole point of this workshop is to master the process of designing PCBs, so naturally
 you will need to send boards out for fabrication, otherwise how will you know how you are
 doing? So we will et the expectation that you will send out "on average" **ONE BOARD PER
 WEEK**.
-**How will this work?**
+
+### How will this work?**
 You will get either complete schematics or almost complete schematics. YOU WILL NOT BE DOING
 CIRCUIT DESIGN OR SIMULATION FOR THIS WORKSHOP. You will then do all the PCB mechanical
 design, layout, file generation, etc. required to send that week's board out for fabrication.
 You will also be expected to learn to assemble and debug the boards you have designed.
-**Why is this so free-form?**
+
+### Why is this so free-form?
 Because this is the first time we have offered this workshop we are not sure of all the
 details. A lot of what will happen will depend on YOU, the participant. We are trying
 to make this as useful to you as possible! So **please** let us know when you have questions,
