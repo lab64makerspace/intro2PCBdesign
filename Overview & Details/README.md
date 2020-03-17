@@ -22,7 +22,8 @@ Week | Content | Lab / Activity
 8  | "Stuff 8" | 8 - Wrap things up!
 9  | "Stuff 9" | 9 - DEMO DAY PARTY!!
 
-## Why this workshop?
+<details>
+  <summary>## Why this workshop?</summary>
 Here at Stanford there are many folks that make printed circuit boards (PCBs) for a variety
 of reasons. Many have expressed interest in learning more about how to design PCBs. Hopefully
 this material will provide a route to a more solid background in PCB design for those just
@@ -33,8 +34,10 @@ with enclosures, wires and cables have inadequate service loop and ineffective s
 One of the goals for this material is to give you, the PCB designer, the tools and insight
 that will enable you to avoid many of these problems and stop "spinning boards" just to get
 the basics correct.
+</details>
 
-## Workshop focus
+<details>
+  <summary>## Workshop focus</summary>
 This is an **introductory** workshop. **No previous experience is required.** Since we will
 emphasize basic connectivity, form, fit, and function it will be helpful (but **NOT REQUIRED**)
 if you have some limited experience with a mechanical design program. Suitable programs
@@ -50,32 +53,32 @@ understand things!). THIS MATERIAL WILL GIVE YOU THE FOUNDATION FOR ADVANCED TOP
 To be clear, we all know that, in reality, we are working with electro-magnetic fields and
 their propagation, but we are going to to use the "lumped element" approximation for these
 discussions.
+</details>
 
-## What to expect
+<details>
+  <summary>## What to expect</summary>
 ### What is the required time commitment?
 We have often been asked about the expected time commitment; how many hours per week will
 be needed. As always, the answer is it *depends*. For an experienced PCB designer, the labs
 may only require a few (3-4) hours per week. But the target audience is **NOT** experienced
 designers, so we estimate that the amount of time required will be between 5 - 10 hours per
 week. And it may be uneven depending on your background.
-
 ### Sending PCBs out for fabrication
 The whole point of this workshop is to master the process of designing PCBs, so naturally
 you will need to send boards out for fabrication, otherwise how will you know how you are
 doing? So we will et the expectation that you will send out "on average" **ONE BOARD PER
 WEEK**.
-
 ### How will this work?
 You will get either complete schematics or almost complete schematics. YOU WILL NOT BE DOING
 CIRCUIT DESIGN OR SIMULATION FOR THIS WORKSHOP. You will then do all the PCB mechanical
 design, layout, file generation, etc. required to send that week's board out for fabrication.
 You will also be expected to learn to assemble and debug the boards you have designed.
-
 ### Why is this so free-form?
 Because this is the first time we have offered this workshop we are not sure of all the
 details. A lot of what will happen will depend on YOU, the participant. We are trying
 to make this as useful to you as possible! So **please** let us know when you have questions,
 concerns, or comments so we can respond.
+</details>
 
 ## FAQ
 
