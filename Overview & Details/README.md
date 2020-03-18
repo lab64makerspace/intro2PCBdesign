@@ -1,7 +1,7 @@
 # Overview of "Intro to PCB Design"
-This workshop series was offered Winter Quarter AY 2018-2019. We're thinking about offering it in Spring Quarter AY2019-2020.
+Below is a proposed timeline with a list of topics to be discussed. Please let us know if we have missed something that you think should be covered. *We will NOT go into any depth concerning stripline structures, etc. because of time constraints.* Truth be told, it is a lot of stuff! IF there is something *IN PARTICULAR* that you are interested in or curious about, please let us know and, if it is in scope, we'll try to accommodate; you're probably not the only person interested, so please pitch in.
 
-We are interested in your feedback! Please send comments, question and suggestions to: lab64ca@ee.stanford.edu
+We are interested in your feedback! Please send comments, questions and suggestions to: lab64ca@ee.stanford.edu
 
 Please use the [issues tab](../../issues) to post questions and answer other students' questions.
 
@@ -12,15 +12,15 @@ on, you guessed it, YOUR FEEDBACK!
 Week | Content | Lab / Activity
 ---- | ------- | -------------
 0  | ["Why make PCBs / Our Goals"](Week_0/Week_0_Content) | [0 - Preload: Install and Configure KiCAD](Week_0/Week_0_Activity)
-1  | ["PCB Structure & Design Workflow"](Week_1/Week_1_Content) | [1 - Modern Proto Board](Week_1/Week_1_Activity)
-2  | "Schematic Capture / Symbols & Footprints" | 2 - Design LED Board / Set up for Audio Board Design
-3  | "Stuff 3" | 3 - Design Audio Board
-4  | "Stuff 4" | 4 - Assemble LED Board / Design Radio Board
-5  | "Stuff 5" | 5 - Assemble Audio Board / Design Power Board
-6  | "Stuff 6" | 6 - Assemble Radio Board / Start Integration
-7  | "Stuff 7" | 7 - Assemble Power Board / Code & Debug
-8  | "Stuff 8" | 8 - Wrap things up!
-9  | "Stuff 9" | 9 - DEMO DAY PARTY!!
+1  | ["PCB Structure & Design Workflow"](Week_1/Week_1_Content) | [1 - Our First Board](Week_1/Week_1_Activity)
+2  | ["Schematic Capture"](Week_2/Week_2_Content) | 2 - Design LED Board / Set up for Audio Board Design
+3  | ["Board Layout I - Basics"](Week_3/Week_3_Content) | 3 - Design Audio Board
+4  | ["More Layout"](Week_4/Week_4_Content) | 4 - Assemble LED Board / Design Radio Board
+5  | ["Antennas - Intended and NOT"](Week_5/Week_5_Content) | 5 - Assemble Audio Board / Design Power Board
+6  | ["High Speed Signals / EMC"](Week_6/Week_6_Content) | 6 - Assemble Radio Board / Start Integration
+7  | ["Thermal Management"](Week_7/Week_7_Content) | 7 - Assemble Power Board / Code & Debug
+8  | ["Using PCBs as Components"](Week_8/Week_8_Content) | 8 - Wrap things up!
+9  | ["PCBs as Sensors & Actuators"](Week_9/Week_9_Content) | 9 - DEMO DAY PARTY!!
 
 ## FAQ
 
@@ -99,8 +99,3 @@ Yes, you may work on other boards in parallel to this workshop, but we want you 
 Since the board you're making is for *your* research, you will have to purchase it (and the required components) yourself or using your research funds.
 </details>
 
-
-The "Stuff x" will soon be fleshed out. We have a list of stuff to put in each "Stuff x"
-section. Truth be told, it is a lot of stuff! IF there is something *IN PARTICULAR* that you
-are interested in or curious about, please let us know and, if it is in scope, we'll try
-to accommodate; you're probably not the only person interested, so please pitch in.
