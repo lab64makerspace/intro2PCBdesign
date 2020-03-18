@@ -20,7 +20,7 @@ Week | Content | Lab / Activity
 2  | ["Schematic Capture"](Week_2/Week_2_Content) | 2 - Design LED Board / Set up for Audio Board Design
 3  | ["Basics of Board Layout"](Week_3/Week_3_Content) | 3 - Design Audio Board
 4  | ["More on Board Layout"](Week_4/Week_4_Content) | 4 - Assemble LED Board / Design Radio Board
-5  | ["Antennas - Intended and NOT"](Week_5/Week_5_Content) | 5 - Assemble Audio Board / Design Power Board
+5  | ["Antennas - Intended and *NOT*"](Week_5/Week_5_Content) | 5 - Assemble Audio Board / Design Power Board
 6  | ["High Speed Signals / EMC"](Week_6/Week_6_Content) | 6 - Assemble Radio Board / Start Integration
 7  | ["Thermal Management"](Week_7/Week_7_Content) | 7 - Assemble Power Board / Code & Debug
 8  | ["Using PCB Structures as Components"](Week_8/Week_8_Content) | 8 - Wrap things up!
