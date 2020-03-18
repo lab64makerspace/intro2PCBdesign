@@ -3,9 +3,9 @@ Below is a proposed timeline with a list of topics to be discussed. Please let u
 
 *We will NOT go into any depth concerning stripline structures, etc. because of time constraints.*
 
-Truth be told, it is a lot of stuff! IF there is something *IN PARTICULAR* that you are interested in or curious about, please let us know and, if it is in scope, we'll try to accommodate; you're probably not the only person interested, so please pitch in.
+Truth be told, it is a lot of stuff! *IF* there is something *IN PARTICULAR* that you are interested in or curious about, please let us know and, if it is in scope, we'll try to accommodate; you're probably not the only person interested, so please pitch in.
 
-We are interested in your feedback! Please send comments, questions and suggestions to: lab64ca@ee.stanford.edu
+We want your feedback! Please send comments, questions and suggestions to: lab64ca@ee.stanford.edu
 
 Please use the [issues tab](../../issues) to post questions and answer other students' questions.
 
