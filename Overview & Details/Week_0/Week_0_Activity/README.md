@@ -2,7 +2,7 @@
 
 Open a browser window and navigate to kicad-pcb.org It should look like this –
 
-![KiCad_0](images/KiCad_0.png?raw=true)
+![KiCad_0](../images/KiCad_0.png?raw=true)
 Click on the Download button in the center. This will take you to the download page. It will look like this –
 
 <img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_0/images/KiCad_1.png">
