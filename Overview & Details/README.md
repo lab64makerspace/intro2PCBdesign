@@ -26,14 +26,14 @@ Week | Content | Lab / Activity
 8  | [Using PCB Structures as Components](Week_8/Week_8_Content) | 8 - Wrap things up!
 9  | [PCBs as Sensors & Actuators](Week_9/Week_9_Content) | 9 - DEMO DAY PARTY!!
 
-As you can see, we will try to design and send out a board for fabrication each week. This is an ambitious schedule; it means that :
-* We design a board
-* We have a design review (this is where we learn a LOT!)
-* We tidy things up and send the boards out for fabrication
-* We wait a week (or so) for the boards to arrive
-* We assemble the board (where we learn EVEN MORE!)
+As you can see, we will try to design and send out a board for fabrication each week. This is an ambitious schedule; it means that each week we will :
+* design a board
+* have a design review (this is where we learn a LOT!)
+* tidy things up and send the boards out for fabrication
+* wait a week (or so) for the boards (sent out last week) to arrive
+* assemble the board (where we learn EVEN MORE!)
   * If the board is simple this goes quickly, if it is more complex we go through "board bring-up".
-* We see if it meets the functional requirements
+* see if it meets the functional requirements
 
 We'll do our best to arrange the schedule so we can get the most experience fro our time together.
 
