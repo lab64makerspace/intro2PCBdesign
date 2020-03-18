@@ -15,8 +15,8 @@ on, you guessed it, YOUR FEEDBACK!
 
 Week | Content | Lab / Activity
 ---- | ------- | -------------
-0  | ["Why make PCBs / Our Goals"](Week_0/Week_0_Content) | [0 - Preload: Install and Configure KiCAD](Week_0/Week_0_Activity)
-1  | ["PCB Structure & Design Workflow"](Week_1/Week_1_Content) | [1 - Our First Board](Week_1/Week_1_Activity)
+0  | ["Why make PCBs / Our Goals"](Week_0/Week_0_Content) | [Preload: Install and Configure KiCAD](Week_0/Week_0_Activity)
+1  | ["PCB Structure & Design Workflow"](Week_1/Week_1_Content) | [Our First Board Goes Out to Fab](Week_1/Week_1_Activity)
 2  | ["Schematic Capture"](Week_2/Week_2_Content) | 2 - Design LED Board / Set up for Audio Board Design
 3  | ["Basics of Board Layout"](Week_3/Week_3_Content) | 3 - Design Audio Board
 4  | ["More on Board Layout"](Week_4/Week_4_Content) | 4 - Assemble LED Board / Design Radio Board
