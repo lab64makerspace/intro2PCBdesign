@@ -10,7 +10,7 @@ PCB Fabrication
 https://www.youtube.com/watch?v=_GVk_hEMjzs&t=26s
 
 ### The DfX Idea
-As you now know, there are a lot of steps in the PCB fabrication process. It should be obvious that things can go wrong at any of these steps. When this happens, the materials and effort are wasted and the resulting "product" is scrap. For a PCB manufacturer to remain profitable, they need to maximize their yield (minimize the scrap). To do this, they advocated for design for manufacturability (DFM) rules to be observed. The idea of "design for X" is an extension of this concept where the designer takes into consideration many of the aspects of the lifecycle of a printed circuit board assembly.
+As you now know, there are a lot of steps in the PCB fabrication process. It should be obvious that things can go wrong at any of these steps. When this happens, the materials and effort are wasted and the resulting "product" is scrap. For a PCB manufacturer to remain profitable, they need to maximize their yield (minimize the scrap). To do this, they require design for manufacturability (DFM) rules to be observed. The idea of "design for X" is an extension of this concept where the designer takes into consideration many of the aspects of the lifecycle of a printed circuit board assembly.
 
 #### Design for manufacturability
 As you saw in the video, there are step where copper is removed from specific areas of the PCB by wet etching. These etching steps are not conceptually complicated, however, exquisite process control is required to consistently produce good product. Among the controlled parameters are temperature, pH, other ionic concentrations, etc.
