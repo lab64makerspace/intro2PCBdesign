@@ -6,6 +6,7 @@ Here is a diagram showing the various layers of a four (4) layer board -
 <img src="images/4-layer.png" width="500"/>
 
 PCB Fabrication
+
 https://www.youtube.com/watch?v=_GVk_hEMjzs&t=26s
 
 ### The DfX Idea
