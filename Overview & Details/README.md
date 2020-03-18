@@ -15,16 +15,27 @@ on, you guessed it, YOUR FEEDBACK!
 
 Week | Content | Lab / Activity
 ---- | ------- | -------------
-0  | ["Why make PCBs / Our Goals"](Week_0/Week_0_Content) | [Preload: Install and Configure KiCAD](Week_0/Week_0_Activity)
-1  | ["PCB Structure & Design Workflow"](Week_1/Week_1_Content) | [Our First Board Goes Out to Fab](Week_1/Week_1_Activity)
-2  | ["Schematic Capture"](Week_2/Week_2_Content) | 2 - Design LED Board / Set up for Audio Board Design
-3  | ["Basics of Board Layout"](Week_3/Week_3_Content) | 3 - Design Audio Board
-4  | ["More on Board Layout"](Week_4/Week_4_Content) | 4 - Assemble LED Board / Design Radio Board
-5  | ["Antennas - Intended and *NOT*"](Week_5/Week_5_Content) | 5 - Assemble Audio Board / Design Power Board
-6  | ["High Speed Signals / EMC"](Week_6/Week_6_Content) | 6 - Assemble Radio Board / Start Integration
-7  | ["Thermal Management"](Week_7/Week_7_Content) | 7 - Assemble Power Board / Code & Debug
-8  | ["Using PCB Structures as Components"](Week_8/Week_8_Content) | 8 - Wrap things up!
-9  | ["PCBs as Sensors & Actuators"](Week_9/Week_9_Content) | 9 - DEMO DAY PARTY!!
+0  | [Why make PCBs / Our Goals](Week_0/Week_0_Content) | [Preload: Install and Configure KiCAD](Week_0/Week_0_Activity)
+1  | [PCB Structure & Design Workflow](Week_1/Week_1_Content) | [Our First Board Goes Out to Fab](Week_1/Week_1_Activity)
+2  | [Schematic Capture](Week_2/Week_2_Content) | 2 - Design LED Board / Set up for Audio Board Design
+3  | [Basics of Board Layout](Week_3/Week_3_Content) | 3 - Design Audio Board
+4  | [More on Board Layout](Week_4/Week_4_Content) | 4 - Assemble LED Board / Design Radio Board
+5  | [Antennas - Intended and *NOT*](Week_5/Week_5_Content) | 5 - Assemble Audio Board / Design Power Board
+6  | [High Speed Signals / EMC](Week_6/Week_6_Content) | 6 - Assemble Radio Board / Start Integration
+7  | [Thermal Management](Week_7/Week_7_Content) | 7 - Assemble Power Board / Code & Debug
+8  | [Using PCB Structures as Components](Week_8/Week_8_Content) | 8 - Wrap things up!
+9  | [PCBs as Sensors & Actuators](Week_9/Week_9_Content) | 9 - DEMO DAY PARTY!!
+
+As you can see, we will try to design and send out a board for fabrication each week. This is an ambitious schedule; it means that :
+* We design a board
+* We have a design review (this is where we learn a LOT!)
+* We tidy things up and send the boards out for fabrication
+* We wait a week (or so) for the boards to arrive
+* We assemble the board (where we learn EVEN MORE!)
+  * If the board is simple this goes quickly, if it is more complex we go through "board bring-up".
+* We see if it meets the functional requirements
+
+We'll do our best to arrange the schedule so we can get the most experience fro our time together.
 
 ## FAQs
 
