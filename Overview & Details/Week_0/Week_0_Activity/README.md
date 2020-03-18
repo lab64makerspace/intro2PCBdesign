@@ -2,19 +2,19 @@
 
 Open a browser window and navigate to kicad-pcb.org It should look like this –
 
-<center> <img src="../images/KiCad_0.png" width="500"/> </center>
+<img src="../images/KiCad_0.png" width="500"/>
 
 Click on the Download button in the center. This will take you to the download page. It will look like this –
 
-![KiCad_1](../images/KiCad_1.png?raw=true)
+<img src="../images/KiCad_1.png" width="700"/>
 
 Select your operating system by clicking in the appropriate area. If you are using Windows the page will look like this –
 
-! [KiCad_2](../images/KiCad_2.png?raw=true)
+<img src="../images/KiCad_2.png" width="700"/>
 
 If you are using macOS the page will look like this –
 
-<img width="700" src="../images/KiCad_3.png">
+<img width="700" src="../images/KiCad_3.png"/>
 
 In any case, click on the link for the **Nightly Development Builds** and follow the installation instructions.
 
