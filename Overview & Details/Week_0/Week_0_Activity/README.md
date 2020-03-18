@@ -2,7 +2,7 @@
 
 Open a browser window and navigate to kicad-pcb.org It should look like this –
 
-<img src="../images/KiCad_0.png" width="200"/>
+<img src="../images/KiCad_0.png" width="500"/>
 
 Click on the Download button in the center. This will take you to the download page. It will look like this –
 
