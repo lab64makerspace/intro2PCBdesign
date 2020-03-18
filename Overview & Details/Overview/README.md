@@ -2,7 +2,7 @@
 A solid understanding of the PCB fabrication process will GREATLY facilitate your ability to produce good PCB designs and to interact with the manufacturing facility if troubles arise. As you will se in the videos, PCBs are fabricated from planar sturctures that are laminated to produce the finished product.
 
 Here is a diagram showing the varous layers -
-<img width="200" src="https://github.com/lab64makerspace/intro2PCBdesign/tree/master/Overview%20%26%20Details/Overview/images/4-layer.png">
+! [] (/images/4-layer.png?raw=true)
 
 PCB Fabrication
 
