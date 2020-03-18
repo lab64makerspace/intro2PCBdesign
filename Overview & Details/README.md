@@ -23,7 +23,7 @@ Week | Content | Lab / Activity
 5  | ["Antennas - Intended and NOT"](Week_5/Week_5_Content) | 5 - Assemble Audio Board / Design Power Board
 6  | ["High Speed Signals / EMC"](Week_6/Week_6_Content) | 6 - Assemble Radio Board / Start Integration
 7  | ["Thermal Management"](Week_7/Week_7_Content) | 7 - Assemble Power Board / Code & Debug
-8  | ["Using PCBs as Components"](Week_8/Week_8_Content) | 8 - Wrap things up!
+8  | ["Using PCB Structures as Components"](Week_8/Week_8_Content) | 8 - Wrap things up!
 9  | ["PCBs as Sensors & Actuators"](Week_9/Week_9_Content) | 9 - DEMO DAY PARTY!!
 
 ## FAQ
