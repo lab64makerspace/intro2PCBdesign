@@ -26,7 +26,7 @@ Week | Content | Lab / Activity
 8  | ["Using PCB Structures as Components"](Week_8/Week_8_Content) | 8 - Wrap things up!
 9  | ["PCBs as Sensors & Actuators"](Week_9/Week_9_Content) | 9 - DEMO DAY PARTY!!
 
-## FAQ
+## FAQs
 
 <details>
   <summary>Why this workshop?</summary>
