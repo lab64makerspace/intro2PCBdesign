@@ -23,7 +23,7 @@ Rigid boards often appear green resulting from the use of a green soldermask to 
 
 Here is an image of a very common type of board, and one you will be designing, the four-layer rigid PCB -
 
-<img src="../Week_1/Images/4-layer.png" width="500"/>
+<img src="../../Week_1/Images/4-layer.png" width="500"/>
 
 It is called a "FOUR LAYER BOARD" because it has four layers of copper (all the other stuff doesn't get counted).
 
