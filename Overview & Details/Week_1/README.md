@@ -1,6 +1,10 @@
 # Week 1 - PCB Structure & Design Workflow
+
 Our main goals for this week are :
 
+For the Activity -
+
+For the Content -
 to learn about PCB structure so we can understand the why and how of board design
 
 ## PCB Structure
