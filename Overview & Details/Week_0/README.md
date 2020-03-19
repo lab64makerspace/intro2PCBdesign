@@ -1,6 +1,6 @@
 
 
-## Week 0
+## Week 0 Summary
 
 The main goals for this week are:
 
