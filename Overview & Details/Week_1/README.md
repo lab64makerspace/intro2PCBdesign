@@ -20,8 +20,9 @@ It is called a "FOUR LAYER BOARD" because it has four layers of copper (all the 
 <details>
   <summary>Just to be sure we're clear about this...</summary>
   FOR A "FOUR" LAYER BOARD WE NEED:
- 1.  Top Silkscreen ---------------------------------------> (Gerber file)
- 2.  Top Soldermask ---------------------------------------> (Gerber file)
+  
+ 1. Top Silkscreen ---------------------------------------> (Gerber file)
+ 1. Top Soldermask ---------------------------------------> (Gerber file)
  3.  Top Copper -------------------------------------------> (Gerber file)
  4.  Inner Layer #1 ---------------------------------------> (Gerber file)
  5.  Inner Layer #2 ---------------------------------------> (Gerber file)
@@ -31,6 +32,7 @@ It is called a "FOUR LAYER BOARD" because it has four layers of copper (all the 
  9.  NC Drill file for Plated Through Holes (PTH) ---------> (Excellon file)
 10.  NC Drill file for Non-Plated Through Holes (NPTH) ----> (Excellon file)
 11.  FAB Drawing (usually .pdf file) that specifies stackup, dimensions, tolerances, etc.
+
 </details>
 
 Rigid PCBs
