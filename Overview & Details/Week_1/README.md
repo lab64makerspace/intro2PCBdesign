@@ -19,6 +19,7 @@ It is called a "FOUR LAYER BOARD" because it has four layers of copper (all the 
 
 <details>
   <summary>Just to be sure we're clear about this...</summary>
+  
   FOR A "FOUR" LAYER BOARD WE NEED:
   
  1. Top Silkscreen ---------------------------------------> (Gerber file)
@@ -32,6 +33,8 @@ It is called a "FOUR LAYER BOARD" because it has four layers of copper (all the 
  9.  NC Drill file for Plated Through Holes (PTH) ---------> (Excellon file)
 10.  NC Drill file for Non-Plated Through Holes (NPTH) ----> (Excellon file)
 11.  FAB Drawing (usually .pdf file) that specifies stackup, dimensions, tolerances, etc.
+
+And *YOU* are going to make them all!!
 
 </details>
 
