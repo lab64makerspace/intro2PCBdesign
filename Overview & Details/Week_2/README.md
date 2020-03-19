@@ -1,1 +1,1 @@
-# Week 2 Summary
+# Week 2 Schematic Capture
