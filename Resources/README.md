@@ -1,5 +1,7 @@
 # Resources
 
+*In addition to the PDF format materials in this folder, you may find the following usefull*
+
 ### Books
 
 Schmitt, Ron, *Electromagnetics Explained - A Handbook for Wireless/RF, EMC, and High-Speed Electronics*, New York : Newnes, 2002.
