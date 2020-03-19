@@ -1,4 +1,4 @@
-# Week 1 Summary - PCB Structure and Design Workflow
+# Week 1 - PCB Structure and Design Workflow
 
 In this segment we will cover
 * the physical structure of printed circuit boards (PCBs) and how they are made, and
