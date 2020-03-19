@@ -1,1 +1,1 @@
-# Week 1 Summary
+# Week 7 - Thermal Management
