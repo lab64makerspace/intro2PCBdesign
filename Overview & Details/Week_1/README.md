@@ -1,5 +1,18 @@
 # Week 1 - PCB Structure & Design Workflow
 
+The main goals for this week are:
+
+### For the Activity -
+* to go through the steps to generate all the files needed to fabricate a board, and
+* to send your first PCB out for fabrication
+
+The Activity material may be found [HERE](../Week_1/Week_1_Activity).
+
+### For the Content -
+* to understand *why* we might want to make a printed circuit board (PCB)
+* to understand *why* we are doing all this work, that is *what* is the goal we are trying to achieve
+
+These questions are (hopefully) answered in this week's *Content* section.
 Our main goals for this week are :
 
 For the Activity -
