@@ -6,7 +6,8 @@ The main goals for this week are:
 
 ### For the Activity -
 * to install and configure KiCAD
-* to confirm this has been done correctly by opening a board design project in KiCAD
+* to confirm this has been done correctly by opening a board design project in KiCAD.
+
 The Activity material may be found [HERE](../Week_0/Week_0_Activity).
 
 ### For Content -
