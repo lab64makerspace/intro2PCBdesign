@@ -1,6 +1,6 @@
 
 
-## Week 0 Summary
+## Week 0 - Why make PCBs & Our Goals
 
 The main goals for this week are:
 
