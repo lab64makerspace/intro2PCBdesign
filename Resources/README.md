@@ -1,6 +1,6 @@
 # Resources
 
-*In addition to the PDF format materials in this folder, you may find the following usefull*
+*In addition to the PDF format materials in this folder, you may find the following useful -*
 
 ### Books
 
