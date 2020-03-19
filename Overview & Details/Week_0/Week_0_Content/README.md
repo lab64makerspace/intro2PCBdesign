@@ -85,8 +85,8 @@ thinking seasonal gizmos that have blinky lights or make sounds and are some int
 shape. These seem to make popular holiday and educational projects!
 
 <details>
-  <summary> Here's a place that make PCB art (or art PCB's?)</summary>
-  [Boldport](https://boldport.com)
+  <summary> Here's a place that makes PCB art (or art PCB's?)</summary>
+  Boldport (https://boldport.com)
 </details>
 
 This is one of their early boards courtesy of [EvilMadScientist](https://www.evilmadscientist.com/2013/pcbmode-make-your-pcb-a-work-of-art/)
@@ -96,6 +96,9 @@ This is one of their early boards courtesy of [EvilMadScientist](https://www.evi
 Here is another super cute board!
 
 <img src="../images/reindeer.gif" width="500"/>
+
+
+Doesn't that make you want to build something FUN!?!?
 
 
 * __You want to measure / compare component performance in situ__
