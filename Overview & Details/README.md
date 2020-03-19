@@ -1,4 +1,4 @@
-# Overview of "Intro to PCB Design"
+# Overview of "*Intro to PCB Design*"
 Below is a proposed timeline with a list of topics to be discussed. Please let us know if we have missed something that you think should be covered.
 
 *We will NOT go into any depth concerning stripline structures, etc. because of time constraints.*
