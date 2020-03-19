@@ -48,7 +48,9 @@ And *YOU'RE* going to make them all!! YAY!!
 
 </details>
 
+To really get a feel for this, it is helpful to see how rigid boards are fabricated.
 
+Here is a video on the fabrication of 
 
 Flexible PCBs
 
