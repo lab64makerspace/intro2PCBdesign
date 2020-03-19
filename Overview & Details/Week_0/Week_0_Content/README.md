@@ -84,18 +84,18 @@ So you are going to use the shape of the PCB itself as an integral design elemen
 thinking seasonal gizmos that have blinky lights or make sounds and are some interesting
 shape. These seem to make popular holiday and educational projects!
 
-<summary>
-  <details> Here's a place that make PCB art (or art PCB's?)</details>
+<details>
+  <summary> Here's a place that make PCB art (or art PCB's?)</summary>
   [Boldport](https://boldport.com)
-</summary>
+</details>
 
 This is one of their early boards courtesy of [EvilMadScientist](https://www.evilmadscientist.com/2013/pcbmode-make-your-pcb-a-work-of-art/)
 
-<img src="images/boldport375.jpg" width="500"/>
+<img src="../images/boldport375.jpg" width="500"/>
 
 Here is another super cute board!
 
-<img src="images/reindeer.gif" />
+<img src="../images/reindeer.gif" width="500"/>
 
 
 * __You want to measure / compare component performance in situ__
