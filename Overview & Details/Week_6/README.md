@@ -1,1 +1,1 @@
-# Week 1 Summary
+# Week 6 - High-Speed Signals / EMC
