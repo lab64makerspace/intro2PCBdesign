@@ -1,1 +1,1 @@
-# Week 1 Basics of Board Layout
+# Week 1 - Basics of Board Layout
