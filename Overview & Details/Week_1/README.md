@@ -1,4 +1,7 @@
 # Week 1 - PCB Structure & Design Workflow
+Our main goals for this week are :
+
+to learn about PCB structure so we can understand the why and how of board design
 
 ## PCB Structure
 Currently there are three major classes of PCB structure:
