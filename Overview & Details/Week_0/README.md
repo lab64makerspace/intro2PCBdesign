@@ -10,7 +10,7 @@ The main goals for this week are:
 
 The Activity material may be found [HERE](../Week_0/Week_0_Activity).
 
-### For Content -
+### For the Content -
 * to understand *why* we might want to make a printed circuit board (PCB)
 * to understand *why* we are doing all this work, that is *what* is the goal we are trying to achieve
 
