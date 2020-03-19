@@ -6,6 +6,9 @@ Currently there are three major classes of PCB structure:
 * Flex PCBs, and
 * Metal substrate PCBs
 
+Let's talk about each type in turn...
+
+
 * __Rigid PCBs__ - These are the traditional multilayer PCBs made by laminating alternating layers of copper and a substrate material.
 
 The substrate is most commonly an epoxy / glass fiber composite called FR4, however there are many different materials that may be used. You may have heard of some of these, such as FR408, Rogers Duroid, etc. Materials are selected based on the trade-off between cost and performance. "Performance" is judged by evaluating the different electrical properties, flame resistance, and so forth.
@@ -25,17 +28,17 @@ It is called a "FOUR LAYER BOARD" because it has four layers of copper (all the 
   
   FOR A "FOUR" LAYER BOARD WE NEED:
   
- 1. Top Silkscreen ---------------------------------------> (Gerber file)
- 1. Top Soldermask ---------------------------------------> (Gerber file)
- 3.  Top Copper -------------------------------------------> (Gerber file)
- 4.  Inner Layer #1 ---------------------------------------> (Gerber file)
- 5.  Inner Layer #2 ---------------------------------------> (Gerber file)
- 6.  Bottom Copper ----------------------------------------> (Gerber file)
- 7.  Bottom Soldermask ------------------------------------> (Gerber file)
- 8.  Bottom Silkscreen ------------------------------------> (Gerber file)
- 9.  NC Drill file for Plated Through Holes (PTH) ---------> (Excellon file)
-10.  NC Drill file for Non-Plated Through Holes (NPTH) ----> (Excellon file)
-11.  FAB Drawing (usually .pdf file) that specifies stackup, dimensions, tolerances, etc.
+1. Top Silkscreen ---------------------------------------> (Gerber file)
+1. Top Soldermask ---------------------------------------> (Gerber file)
+1. Top Copper -------------------------------------------> (Gerber file)
+1. Inner Layer #1 ---------------------------------------> (Gerber file)
+1. Inner Layer #2 ---------------------------------------> (Gerber file)
+1. Bottom Copper ----------------------------------------> (Gerber file)
+1. Bottom Soldermask ------------------------------------> (Gerber file)
+1. Bottom Silkscreen ------------------------------------> (Gerber file)
+1. NC Drill file for Plated Through Holes (PTH) ---------> (Excellon file)
+1. NC Drill file for Non-Plated Through Holes (NPTH) ----> (Excellon file)
+1.  FAB Drawing (usually .pdf file) that specifies stackup, dimensions, tolerances, etc.
 
 And *YOU* are going to make them all!!
 
