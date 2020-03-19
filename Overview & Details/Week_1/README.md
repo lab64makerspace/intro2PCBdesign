@@ -15,9 +15,22 @@ Here is an image of a very common type of board, and one you will be designing, 
 
 <img src="../Week_1/Images/4-layer.png" width="500"/>
 
+It is called a "FOUR LAYER BOARD" because it has four layers of copper (all the other stuff doesn't get counted).
+
 <details>
   <summary>Just to be sure we're clear about this...</summary>
-  
+  FOR A "FOUR" LAYER BOARD WE NEED:
+ 1.  Top Silkscreen ---------------------------------------> (Gerber file)
+ 2.  Top Soldermask ---------------------------------------> (Gerber file)
+ 3.  Top Copper -------------------------------------------> (Gerber file)
+ 4.  Inner Layer #1 ---------------------------------------> (Gerber file)
+ 5.  Inner Layer #2 ---------------------------------------> (Gerber file)
+ 6.  Bottom Copper ----------------------------------------> (Gerber file)
+ 7.  Bottom Soldermask ------------------------------------> (Gerber file)
+ 8.  Bottom Silkscreen ------------------------------------> (Gerber file)
+ 9.  NC Drill file for Plated Through Holes (PTH) ---------> (Excellon file)
+10.  NC Drill file for Non-Plated Through Holes (NPTH) ----> (Excellon file)
+11.  FAB Drawing (usually .pdf file) that specifies stackup, dimensions, tolerances, etc.
 </details>
 
 Rigid PCBs
