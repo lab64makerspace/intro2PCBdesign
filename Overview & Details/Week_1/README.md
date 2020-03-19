@@ -2,6 +2,9 @@
 
 ## PCB Structure
 Currently there are three major classes of PCB structure:
+* Rigid PCBs,
+* Flex PCBs, and
+* Metal substrate PCBs
 
 * __Rigid PCBs__ - These are the traditional multilayer PCBs made by laminating alternating layers of copper and a substrate material.
 
