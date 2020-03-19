@@ -9,16 +9,10 @@ The main goals for this week are:
 The Activity material may be found [HERE](../Week_1/Week_1_Activity).
 
 ### For the Content -
-* to understand *why* we might want to make a printed circuit board (PCB)
-* to understand *why* we are doing all this work, that is *what* is the goal we are trying to achieve
+* to learn about PCB structure so we can understand the why and how of board design
 
-These questions are (hopefully) answered in this week's *Content* section.
-Our main goals for this week are :
+These questions are (hopefully) answered in this week's [*Content*](../Week_1/Week_1_Content) section.
 
-For the Activity -
-
-For the Content -
-to learn about PCB structure so we can understand the why and how of board design
 
 ## PCB Structure
 Currently there are three major classes of PCB structure:
