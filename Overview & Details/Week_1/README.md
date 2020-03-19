@@ -1,1 +1,1 @@
-# Week 1 Summary
+# Week 1 - PCB Structure & Design Workflow
