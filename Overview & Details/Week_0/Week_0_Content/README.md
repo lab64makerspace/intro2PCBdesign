@@ -91,11 +91,11 @@ shape. These seem to make popular holiday and educational projects!
 
 This is one of their early boards courtesy of [EvilMadScientist](https://www.evilmadscientist.com/2013/pcbmode-make-your-pcb-a-work-of-art/)
 
-<img src="../images/boldport375.jpg" width="500"/>
+<img src="../images/boldport375.jpg" width="300"/>
 
 Here is another super cute board!
 
-<img src="../images/reindeer.gif" width="500"/>
+<img src="../images/reindeer.gif" width="300"/>
 
 
 Doesn't that make you want to build something FUN!?!?
