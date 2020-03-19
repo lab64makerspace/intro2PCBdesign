@@ -95,7 +95,7 @@ This is one of their early boards courtesy of [EvilMadScientist](https://www.evi
 
 Here is another super cute board!
 
-
+<img src="images/reindeer.gif" />
 
 
 * __You want to measure / compare component performance in situ__
