@@ -25,7 +25,7 @@ Here is an image of a very common type of board, and one you will be designing, 
 
 <img src="../../Week_1/Images/4-layer.png" width="500"/>
 
-It is called a "FOUR LAYER BOARD" because it has four layers of copper (all the other stuff doesn't get counted).
+It is called a "FOUR LAYER BOARD" because it has four __copper__ layers (all the other stuff doesn't get counted).
 
 <details>
   <summary>Just to be sure we're clear about this...</summary>
@@ -44,11 +44,11 @@ It is called a "FOUR LAYER BOARD" because it has four layers of copper (all the 
 1. NC Drill file for Non-Plated Through Holes (NPTH) ----> (Excellon file)
 1.  FAB Drawing (usually .pdf file) that specifies stackup, dimensions, tolerances, etc.
 
-And *YOU* are going to make them all!!
+And *YOU'RE* going to make them all!! YAY!!
 
 </details>
 
-Rigid PCBs
+
 
 Flexible PCBs
 
