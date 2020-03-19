@@ -79,19 +79,27 @@ devices where I/O density is such that it is virtually impossible to hand protot
 
 And then there are some other reasons one might want to build a PCB-
 
-You want to make something electronic that has a cool shape!
+* __You want to make something electronic that has a cool shape!__
 So you are going to use the shape of the PCB itself as an integral design element. We're
 thinking seasonal gizmos that have blinky lights or make sounds and are some interesting
 shape. These seem to make popular holiday and educational projects!
 
-You want to measure / compare component performance in situ
+<img src="images
+
+
+* __You want to measure / compare component performance in situ__
 By measuring the properties of populated PCB structures similar to those used in finished
 production designs we can obtain model parameters for components in situ.
 
-and BEST OF ALL, you can add PCBs to your rapid prototyping repetoire
+*and*
+
+* __BEST OF ALL, you can add PCBs to your rapid prototyping repetoire!__
 As with so many things, once you have gained facility with the PCB design and fabrication
-process, it may be the case that "fabbing a PCB" may be the most efficacious route to a
-working prototype. As we will see, it is often possible to quickly modify a PCB or use
-"cut and jumper" techniques to "debug" a circuit topology or set of component values.
+process, it may be the case that "fabbing a PCB" may be the speediest and most efficacious
+route to a working prototype. Sometimes, components are JUST TOO SMALL to be easily used
+without a PCB, so the best way forward is to make yourself a "breakout" board and use that
+as a module to wire into a prototype. And, as we will see, it is often possible to quickly
+modify a PCB or use "cut and jumper" techniques to "debug" a circuit topology or set of
+component values.
 
 
