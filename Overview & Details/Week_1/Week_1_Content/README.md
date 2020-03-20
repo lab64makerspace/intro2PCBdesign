@@ -50,14 +50,14 @@ And *YOU'RE* going to make them all!! YAY!!
 
 To really get a feel for this, it is helpful to see how rigid boards are fabricated.
 
-[Here is a video on the fabrication of rigid PCBs](https://www.youtube.com/watch?v=wmr-Sr-qd90&t=9s)
+* [Here is a video on the fabrication of rigid PCBs](https://www.youtube.com/watch?v=wmr-Sr-qd90&t=9s)
 
-[This is a video from one of the manufacturers you'll be using (PCBWay.com)](https://www.youtube.com/watch?v=o8NOK1JJbgw&t=104s)
+* [This is a video from one of the manufacturers you'll be using (PCBWay.com)](https://www.youtube.com/watch?v=o8NOK1JJbgw&t=104s)
 
-[A more complete look at 4-layer board fabrication](https://www.youtube.com/watch?v=sIV0icM_Ujo&t=394s)
+* [A more complete look at 4-layer board fabrication](https://www.youtube.com/watch?v=sIV0icM_Ujo&t=394s)
 
-Please let us know if you have any questions!
+__*Please let us know if you have any questions!*__
 
-Flexible PCBs
+* __Flexible PCBs__ *
 
 [How *flex* circuits are made](https://www.youtube.com/watch?v=C-2ysGoCRoo)
