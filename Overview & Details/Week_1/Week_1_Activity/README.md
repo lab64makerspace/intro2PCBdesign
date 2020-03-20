@@ -23,7 +23,7 @@ Although these are super cool, for some projects they can be very difficult to u
 **SO**, you are going to fix these deficiencies by creating your OWN "1/2" sized protoboard!!
 
 Let's look at a couple of existing "1/2 sized" protoboards... <br/>
-<img width="500" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Half-sized Protos Orig.jpg">
+<img width="500" src="../../Week_1/Images/Half-sized Protos Orig.jpg">
 
 What do you notice?
 
@@ -58,7 +58,7 @@ To add a “no connect”, select the cross symbol (“Place no connection flag�
 To add a wire, press W. <br/>
 To move a wire, hover over the wire and press G. <br/>
 
-<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_18.png">
+<img width="700" src="../../Week_1/Images/Activity1_18.png">
 
 #### 4) Annotate the schematic. 
 Go to Tools -- Annotate Schematic Symbols. This will give all lines and components names. <br/>
@@ -68,7 +68,7 @@ Add a “+5” label to the wire connected to VBUS. Hover over the wire, and pre
 Download the following [file](../../Week_1/Week_1_Activity/USB%202.0%20MINI%20B%20SMD%20R:A/USB_Mini_B_Female_UX60-MB-5S8.kicad_mod) to get the correct USB connector footprint. 
 
 Open the footprint editor in the Pcbnew software. <br/>
-<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_12.png">
+<img width="350" src="../../Week_1/Images/Activity1_12.png">
 
 Go to File -- Import Footprint from KiCad File... <br/>
 Select the file you downloaded (USB_Mini_B_Female_UX60-MB-5S8.kicad_mod). It should now appear in your footprint library. <br/>
@@ -79,56 +79,56 @@ If this doesn't work for you, you can also import the footprint by selecting "Pr
 Symbols are the components on schematics, while footprints are where components get placed onto the board. At this time, the footprint and schematic are still not linked. <br/>
 Hover over the USB connector and press E to get access to symbol properties. Select the button (shaped liked library books) on the far right of the footprint field to open up the footprint library. Select “USB_Mini_B_Female_UX60-MB-5S8” as shown below. 
 
-<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_13.png">
+<img width="700" src="../../Week_1/Images/Activity1_13.png">
 
 Repeat this process for the pin header connector. For this component, select “PinHeader_1x04_P2.54mm_Vertical”. Note that in the footprint of this connector, pin 1 is square. This is useful to avoid getting confused when orienting the connector.  
 
-<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_2.png">
+<img width="700" src="../../Week_1/Images/Activity1_2.png">
 
 Repeat this process for the mounting holes. For these components, select "MountingHole_2.5mm". 
-<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_17.png">
+<img width="700" src="../../Week_1/Images/Activity1_17.png">
 
 #### 7) Modify the USB connector footprint
 Open the footprint editor. <br/> 
 Select the “USB_Mini_B_Female_UX60-MB-5S8” and right click on it. Select "Edit Footprint." Hover over the holes labeled "SH" and press E. Change the "SH" label to "6." <br/>
 
-<img width="500" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_22.png">
+<img width="500" src="../../Week_1/Images/Activity1_22.png">
 
 #### 8) Add the board outline 
 Open the project .kicad_pcb file. One way this can be done is by clicking on the button shown below. 
 
-<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_3.png">
+<img width="350" src="../../Week_1/Images/Activity1_3.png">
 
 Go to File -- Import -- Import graphics 
 
 Select your DXF and the following parameters. <br/>
-<img width="500" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_7.png">
+<img width="500" src="../../Week_1/Images/Activity1_7.png">
 
 #### 9) Add vias to the board 
 
 Add a via by selecting the add via button. <br/>
-<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_8.png">
+<img width="350" src="../../Week_1/Images/Activity1_8.png">
 
 Change the via properties (hover over the via and press E) to the following diameter and drill sizes: 
-<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_20.png">
+<img width="350" src="../../Week_1/Images/Activity1_20.png">
 
 Create an array from this via by right clicking on the via and select "Create Array". Note that the standard distance between vias is 2.54mm. <br/>  
-<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_9.png">
+<img width="350" src="../../Week_1/Images/Activity1_9.png">
 
 Here is what a sample board might look like now. <br/>
-<img width="700" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_11.png">
+<img width="700" src="../../Week_1/Images/Activity1_11.png">
 
 #### 10) Add routes 
 Add route tracks by clicking the following button. <br/>
-<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_14%20.png">
+<img width="350" src="../../Week_1/Images/Activity1_14%20.png">
 
 Hover over the route and press E to change the route properties. Set the track width to 0.635mm and select whether you want the track to be on the top (red) or bottom (green) of the board. 
 
 Add routes to the USB connector as follows. Note that you must place the routes on top of the board in order to make an electrical connection with the USB connector. If you place the routes properly, the white x's will disappear. <br/>
-<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_19.png">
+<img width="350" src="../../Week_1/Images/Activity1_19.png">
 
 Add routes to the power rail lines (if you want to add power rail lines). <br/>
-<img width="350" src="https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Week_1/Images/Activity1_21.png">
+<img width="350" src="../../Week_1/Images/Activity1_21.png">
 
 
 #### 11) Generate Gerber Files 
