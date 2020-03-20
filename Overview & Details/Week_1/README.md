@@ -1,4 +1,4 @@
-# Week 1 - PCB Structure %20 & %20 Design Workflow
+# Week 1 - PCB Structure &nbsp & Design Workflow
 
 The main goals for this week are:
 
