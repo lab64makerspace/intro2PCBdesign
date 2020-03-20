@@ -58,6 +58,15 @@ To really get a feel for this, it is helpful to see how rigid boards are fabrica
 
 __*Please let us know if you have any questions!*__
 
-* __Flexible PCBs__ *
+* __Flexible PCBs__ - Also known as *flex* or FPC boards, these are useful whenever things have to be folded up or move during operation.
+
+The FPC substrate is almost always a type of polyimide material. The most common type goes by the tradename Kapton™ which is made by DuPont Chemical. Polyimide has remarkable material properties that make it nearly ideally suited as an FPC substrate. For example, polyimide does not melt, does not sustain a flame, is mechanically strong, has excellent dielectric properties, and so on.
+
+Typical FPC construction ranges from just one copper layer to as many as ten (10) layers. The finished thickness of flex boards ranges typically from ~ 0.08mm (0.003") to over 0.3 mm (0.012") with 0.1mm (~ 0.004") being a common thickness.
+
+Due to material considerations, flex board colors are not so exciting; usually they are yellow, black, or white.
+
+[Here is some interesting information on flex board stack-up](https://www.pcbway.com/pcb_prototype/Stack_up_for_FPC.html).
+
 
 [How *flex* circuits are made](https://www.youtube.com/watch?v=C-2ysGoCRoo)
