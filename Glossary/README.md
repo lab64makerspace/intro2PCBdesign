@@ -70,7 +70,7 @@
  <details>
     <summary>BGA (Ball Grid Array)</summary>
 
-    TODO
+ > A type of surface-mount packaging which uses a grid of solder balls to connect chip to board. The chip sits on top of an array of solder balls. A BGA allows for a high density of leads, better heat conduction between package and PCB, and lower inductance in the leads.
  </details>
 
  <details>
@@ -94,7 +94,7 @@
  <details>
     <summary>Clock Distribution</summary>
 
-    TODO
+> A digital hardware design style which *distributes* a single clock source to **multiple** components. Clock distribution is relevant when multiple components need to share timing (whether that timing is synchronous or not is another design decision). Clock distribution can create problems because various physical factors (varying trace lengths, trace coupling, noise, etc.) can alter the different clock lines in different ways.
  </details>
 
  <details>
@@ -218,7 +218,8 @@
 
  <details>
     <summary>Footprint</summary>
- Stuff
+ 
+> An arrangement of pads (for surface mount devices) or through-holes (for discrete pin connections) used to attach a component to a PCB.
  </details>
 
  <details>
@@ -228,7 +229,8 @@
 
  <details>
     <summary>FR-4</summary>
- Stuff
+ 
+> A glass-reinforced epoxy laminate used as the substrate for PCBs. FR-4 provides electrical insulation, structural integrity, and flame resistance. 
  </details>
 
  <details>
@@ -258,7 +260,8 @@
 
  <details>
     <summary>Ground Bounce</summary>
- Stuff
+ 
+> A phenomenon induced by transistor output switches (on to off or off to on) which causes other voltages to wiggle by altering their ground reference. 
  </details>
 
  <details>
