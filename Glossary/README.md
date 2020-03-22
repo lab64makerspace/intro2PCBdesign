@@ -70,7 +70,7 @@
  <details>
     <summary>BGA (Ball Grid Array)</summary>
 
-    TODO
+    TODO: https://www.pcbcart.com/article/content/introduction-of-bga-package-types.html
  </details>
 
  <details>
@@ -213,32 +213,38 @@
 
  <details>
     <summary>Flying Probe Testing</summary>
- Stuff
+ 
+ > Test to check that the electrical connections on a PCB are correct. During the test, two or more probes contact vias to test for opens, shorts, and component values. This test is commonly used instead of a "bed of nails" test when there is not sufficient access, the bed of nails takes too long or is too expensive to build. 
  </details>
 
  <details>
     <summary>Footprint</summary>
- Stuff
+ 
+ > A footprint is the size of the pad(s) and outline associated with a specific component on a pcb.  
  </details>
 
  <details>
     <summary>Forced Air</summary>
- Stuff
+ 
+ > The use of a fan or other device to force air to flow over a pcb in order to cool it. This is important when a pcb is used in a confined environment with an enclosure, where convection cooling and conduction are not sufficient to cool the board down. 
  </details>
 
  <details>
     <summary>FR-4</summary>
- Stuff
+ 
+ > Material commonly used in the core layer of a pcb made of glass-reinforced epoxy laminated sheets. This layer gives the pcb its rigidity and provides electrical isolation between the top and bottom copper layers of a double layer pcb. 'FR' stands for 'fire retardant.' 
  </details>
 
  <details>
     <summary>FR-408</summary>
- Stuff
+ 
+ > A high-performance alternative to FR-4 that is designed for high-frequency or high-reliability applications. It has a low dielectric constant and low dissipation factor. 
  </details>
 
  <details>
     <summary>GD&T (Geometrical Dimensioning and Tolerancing)</summary>
- Stuff
+ 
+ > A set of rules used to define tolerances in an engineering drawing. 
  </details>
 
  <details>
