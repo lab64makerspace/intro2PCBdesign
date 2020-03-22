@@ -213,34 +213,38 @@
 
  <details>
     <summary>Flying Probe Testing</summary>
- Stuff
+ 
+ > Test to check that the electrical connections on a PCB are correct. During the test, two or more probes contact vias to test for opens, shorts, and component values. This test is commonly used instead of a "bed of nails" test when there is not sufficient access, the bed of nails takes too long or is too expensive to build. 
  </details>
 
  <details>
     <summary>Footprint</summary>
  
-> An arrangement of pads (for surface mount devices) or through-holes (for discrete pin connections) used to attach a component to a PCB.
+> An arrangement of pads (for surface mount devices) or through-holes (for discrete pin connections) placed on the PCB which is used to attach a component to a PCB.
  </details>
 
  <details>
     <summary>Forced Air</summary>
- Stuff
+ 
+ > The use of a fan or other device to force air to flow over a pcb in order to cool it. This is important when a pcb is used in a confined environment with an enclosure, where convection cooling and conduction are not sufficient to cool the board down. 
  </details>
 
  <details>
     <summary>FR-4</summary>
  
-> A glass-reinforced epoxy laminate used as the substrate for PCBs. FR-4 provides electrical insulation, structural integrity, and flame resistance. 
+> Glass-reinforced epoxy laminate sheets used as the substrate for PCBs. It is the core layer of a PCB. FR-4 provides electrical insulation between adjacent layers, structural integrity, and flame resistance ("FR" means "fire retardant"). 
  </details>
 
  <details>
     <summary>FR-408</summary>
- Stuff
+ 
+ > A high-performance alternative to FR-4 that is designed for high-frequency or high-reliability applications. It has a low dielectric constant and low dissipation factor. 
  </details>
 
  <details>
     <summary>GD&T (Geometrical Dimensioning and Tolerancing)</summary>
- Stuff
+ 
+ > A set of rules used to define tolerances in an engineering drawing. 
  </details>
 
  <details>
