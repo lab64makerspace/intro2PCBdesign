@@ -350,7 +350,9 @@
  <details>
     <summary>Mouse Bites</summary>
 
-> Breakaway tabs used to separate boards from panels. Weak spots are introduced in the board by using a cluster of drills hits. These weak spots make it easy to break off the board from the panel. Visible "mouse bites" or nubs are left behind on the PCB after the PCB is broken off from the panel. 
+> Breakaway tabs used to separate boards from panels. Weak spots are introduced in the board by using a cluster of drills hits. These weak spots make it easy to break off the board from the panel. Visible "mouse bites" or nubs are left behind on the PCB after the PCB is broken off from the panel. Alternative to V-scoring.
+
+![](https://cdn.sparkfun.com/assets/7/f/3/8/c/50d4ac6fce395f2b59000000.jpg)
  </details>
 
  <details>
@@ -375,7 +377,7 @@
  </details>
 
  <details>
-    <summary>Panelisation</summary>
+    <summary>Panelization</summary>
  Stuff
  </details>
 
@@ -521,17 +523,25 @@
 
  <details>
     <summary>Tab Routing</summary>
- Stuff
+
+> An approach to panelization that uses tabs to separate the individual PCBs. Tab routing allows for non-rectangular board shapes, but also takes more time to set up and wastes more material. Alternative to V-scoring. PROOFREAD
+
+![](http://www.pcbfabrication.com/PCB-fabrication/PCB-fabrication-Images/Tab_routing2.jpg)
+
  </details>
 
  <details>
     <summary>TAG-Connect</summary>
- Stuff
+ 
+> A brand of connector that mates to PCBs for connecting debuggers, programmer, or test equipment. Alternative to JTAG; unlike JTAG, Tag-Connect doesn't require a separate mating component on the PCB and has a much smaller footprint. PROOFREAD
+
+![](https://www.tag-connect.com/wp-content/uploads/2019/06/tc2030-insertion-coin-1200-400-768x256.jpg)
+
  </details>
 
  <details>
     <summary>Termination</summary>
- Stuff
+TODO not sure how to look this up?
  </details>
  <details>
     <summary>Thermal / Thermal Relief</summary>
@@ -543,8 +553,13 @@
 
  <details>
     <summary>Thermal vias</summary>
- Stuff
+
+> Vias placed directly below or very close to PCB components that need heat dissipation.
+
+![](https://designspark.zendesk.com/hc/user_images/e-V5Y2zg87A-hh1wsCJRHA.jpeg)
+
  </details>
+
  <details>
     <summary>Thieving</summary>
 
@@ -555,88 +570,119 @@
 
  <details>
     <summary>THT (Through Hole Technology)</summary>
- Stuff
+
+> The mounting scheme for electronic components that uses leads inserted through holes in the PCB. As opposed to SMT (surface mount technology).
+
  </details>
 
  <details>
     <summary>Tooling</summary>
- Stuff
+ 
+> Tooling encompasses the one-time steps needed before board manufacturing for creating stencils and fixtures, programming drill movements, etc. PROOFREAD
+
  </details>
 
  <details>
-    <summary>Tooling Holes</summary>
- Stuff
- </details>
+    <summary>Tooling Holes, Tooling Strips/Tooling Frames</summary>
 
- <details>
-    <summary>Tooling Strips</summary>
- Stuff
+> Tooling holes are placed on a PCB to temporarily align and hold it down during manufacturing, assembly, or test. The tooling holes are often on a tooling strip/frame to make it easier for machines to hold the PCB.
+
+![](https://www.altium.com/resources/tmp-img-10.jpg)
+
  </details>
 
  <details>
     <summary>Top</summary>
- Stuff
+ TODO not sure how to look this up?
  </details>
  <details>
     <summary>Trace(s)</summary>
 
 > A continuous path of copper used to make electrical connections on a PCB. As shown in the image below, the trace is the area between the two dark lines coming out of the RES pin and 5V pins. Traces vary in width depending on what current they are carrying. In this case, the RES pin has a narrower trace than the 5V trace. (Image source: Sparkfun)
 
+![](https://cdn.sparkfun.com/r/700-700/assets/d/d/c/9/b/50d4a6bcce395fcf58000000.jpg)
+
  </details>
 
 
  <details>
     <summary>Track(s)</summary>
- Stuff
+ 
+TODO what's the difference between a trace and track?
+
  </details>
 
  <details>
     <summary>Transmission Line</summary>
- Stuff
+
+> A set of conductors that connects a signal between its source and destination. There are three common types of transmission lines: microstrips (left), striplines (middle), or coplanar waveguides (right). For each type, we can calculate the characteristic impedance and electrical length to analyze circuit performance (??). PROOFREAD AND TODO (not sure when you would use which?)
+
+<img src="https://www.protoexpress.com/blog/wp-content/uploads/2018/02/Microstrip-1024x598.jpg" width="250px">
+<img src="https://www.protoexpress.com/blog/wp-content/uploads/2018/02/Stripline-1-1024x599.jpg" width="250px">
+<img src="https://www.protoexpress.com/blog/wp-content/uploads/2018/02/Coplanar-1-1024x598.jpg" width="250px">
+
  </details>
 
  <details>
     <summary>Triboelectricity</summary>
- Stuff
+
+> The triboelectric effect is when materials become electrically charged through contact (ex. rubbing). PROOFREAD (not sure how this relates to PCBs?)
+
  </details>
 
  <details>
     <summary>TSOP</summary>
- Stuff
+
+ > TSOP (thin small outline package) is a type of surface mount IC package. They have leads on only two sides of the IC and have very tight lead spacing. PROOFREAD
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/05/TSOP_32_%28T1%29_Blank.svg)
+
  </details>
 
  <details>
     <summary>Ultrasonic Bonding</summary>
- Stuff
+ 
+> A process in which two workpieces are bonded by the pressure of high-frequency ultrasonic sound waves. Generally used for thermoplastics and thin metals. For electronics, ultrasonic welding can be used to make small electrical connections (ex. wire bonding). PROOFREAD
+
  </details>
  <details>
     <summary>Via(s)</summary>
 
 > A hole in a PCB that allows current to pass from one layer to another. Vias can either be tented, meaning that they are covered by the soldermask so nothing can be soldered to them, or untented, meaning that we can solder a component to it. 
 
+![](https://www.ourpcb.com/wp-content/uploads/2018/06/PCB-via-size2-1.png)
+
  </details>
 
 
  <details>
     <summary>Via Stitching</summary>
- Stuff
+
+> A PCB design technique to tie together large copper areas. Stitching vias can be used to join ground planes on different layers to lower return path impedance. Stitching vias are important in RF design; they can be placed around an RF trace to EM interference with other components on the board. PROOFREAD AND TODO (b/c i don't actually understand)
+
  </details>
 
  <details>
     <summary>V-Scoring</summary>
- Stuff
+
+> A method of cutting a V-shaped groove into PCBs to split them. This is useful when you want to leave a set of PCBs grouped for easier assembly but want to separate them afterwards. Alternative to mouse bites.
+
+![](https://file.pcbway.com/ordershow/18/04/13/6365922698909584691237.png)
+
  </details>
  <details>
     <summary>Wire Bonding</summary>
 
-> A method to make an electric connection between an integrated circuit and chips. Different types of wire bonding include ball bonding and wedge bonding. 
+> A method to make an electric connection between an integrated circuit and chips. Different types of wire bonding include ball bonding and wedge bonding. Here is a [video](https://www.youtube.com/watch?v=fazeH4PHvpk) that shows both methods of wire bonding.
+
+![](http://integratedhybridassembly.com/Images/wirebonding-withcopper01.png)
 
  </details>
 
  <details>
     <summary>Wedge Bonding</summary>
 
-> Unlike ball bonding, wedge bonding requires the wire to be in a specific direction during bonding, so it's a slower process than ball bonding due to the extra time needed for tool alignment. Wedge bonding can use a larger diameter wire than ball bonding. 
+> Unlike ball bonding, wedge bonding requires the wire to be in a specific direction during bonding, so it's a slower process than ball bonding due to the extra time needed for tool alignment. However, the lack of the ball means wedge bonds can be used in finer pitch applications (PROOFREAD). Wedge bonding can use a larger diameter wire than ball bonding. 
 
  </details>
 
