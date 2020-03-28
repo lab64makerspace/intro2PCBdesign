@@ -65,7 +65,7 @@ Go to Tools -- Annotate Schematic Symbols. This will give all lines and componen
 Add a “+5” label to the wire connected to VBUS. Hover over the wire, and press L to add this label. You can later edit the label by hovering over the label and pressing E. Any wires with the same labels are considered by the program to be electrically connected. Note that labels are case sensitive. 
 
 #### 5) Download the USB connector footprint 
-Download the following [file](../../Week_1/Week_1_Activity/USB%202.0%20MINI%20B%20SMD%20R:A/USB_Mini_B_Female_UX60-MB-5S8.kicad_mod) to get the correct USB connector footprint. 
+Download the following [file](../../Week_1/Week_1_Activity/USB2_MINI/USB_Mini_B_Female_UX60-MB-5S8.kicad_mod) to get the correct USB connector footprint. 
 
 Open the footprint editor in the Pcbnew software. <br/>
 <img width="350" src="../../Week_1/Images/Activity1_12.png">
