@@ -24,5 +24,7 @@ In any case, click on the link for the **latest stable release** for your operat
 
 If you are re-installing or "upgrading" a previous installation, please be sure to read the README file in the download to be sure you don't lose any footprints you have made (or any other work).
 
+NOTE FOR Mac USERS - Right click to open KiCad the first time. You may also get a security warning that can be resolved by following the instructions that pop up when you click the information icon.
+
 Verify that your installation was successful by trying to open one of our past PCB projects, [a snowflake PCB](https://github.com/maholli/snowflake/tree/master/snowflake_1). (Open the .pro file). 
 
