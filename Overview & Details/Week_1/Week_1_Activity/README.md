@@ -16,7 +16,7 @@ You can make a simple board that has a more complicated outline and have that fa
 
 ## Introduction - 
 
-In the course of building things one may not want to wait for a printed circuit board to be fabricated. Often results can be obtained more quickly by "prototyping" a circuit. This is particularly true if the circuit is simple and only one is required. There are many different small prototyping PCBs available commercially that are suitable for this sort of application. Among these is the so-called "1/2 sized" breadboard. These tend to be about 2 3/8" by 3 1/4" x 1/16" thick. They have an array of holes into which one can place components for soldering. The "back" side of the board is used for point to point wiring. If one so chooses, sockets and wire-wrapping techniques may be employed so that circuitry can be built up in sections and can be re-wired as the need arises.
+In the course of building things one may not want to wait for a printed circuit board to be fabricated. Often results can be obtained more quickly by "prototyping" a circuit. This is particularly true if the circuit is simple and only one is required. There are many different small prototyping PCBs available commercially that are suitable for this sort of application. Among these is the so-called "1/2 sized" breadboard. These tend to be about 60 mm (~ 2.375") by 80 mm (~ 3.25") by 1.6 mm (~ 1/16") thick. They have an array of holes into which one can place components for soldering. The "back" side of the board is used for point to point wiring. If one so chooses, sockets and wire-wrapping techniques may be employed so that circuitry can be built up in sections and can be re-wired as the need arises.
 
 Although these are super cool, for some projects they can be very difficult to use. For example, if you want to build a USB powered thing, it is difficult to place USB connectors on the board since no provision has been made for that. Also, this size protoboard usually has two centrally located mounting holes; great if you want to work on a tippy gizmo!
 
@@ -40,10 +40,11 @@ Discussion....
 
 ## Instructions 
 #### 1) Open a CAD program <br/>
-Make a sketch of a board outline (for example a 3.25in x 2 3/8in rectangle). Fillet the edges of the sketch. Export the sketch as a DXF. You may use our sample DXF file found [here](../../Week_1/Week_1_Activity/Project_1) if you wish. 
+Make a sketch of a board outline (for example a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You may use our sample DXF file found [here](../../Week_1/Week_1_Activity/Project_1) if you wish. 
 
 #### 2) Open the Activity 1 Schematic <br/>
-Open Activity_1.sch (found [here](../../Week_1/Week_1_Activity/Project_1)) in KiCad
+Open Activity_1.pro in KiCad (found [here](../../Week_1/Week_1_Activity/Project_1)).
+Then select Activity_1.sch from the project.
 
 #### 3) Add the following connections <br/>
 D+ -- no connect <br/>
