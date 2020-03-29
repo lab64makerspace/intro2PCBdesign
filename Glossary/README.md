@@ -16,8 +16,10 @@
 <details>
    <summary>Annular Ring</summary>
 
-> An oversized area of copper at the location of a via that ensures proper connectivity for a via, even if it is drilled slightly off center. 
-<img src=images/AnnularRing.png />
+> An oversized area of copper at the location of a via that ensures proper connectivity for a via, even if it is drilled slightly off center.
+
+<img src="images/AnnularRing.png" width="300" />
+
 The fabricator will specify a minimum annular ring requirement based on the design technology. Factors that affect the size of the annular ring include the board thickness, number of layers and drill size.
 </details>
 
