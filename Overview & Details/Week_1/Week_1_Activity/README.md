@@ -40,7 +40,9 @@ Discussion....
 
 ## Instructions 
 #### 1) Open a CAD program <br/>
-Make a sketch of a board outline (for example a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You may use our sample DXF file found [here](../../Week_1/Week_1_Activity/Project_1) if you wish. 
+Make a sketch of a board outline (for example a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You can find more detailed instructions on how to do this on [this page](../../Week_1/Week_1_Activity/Board_Outline_Instructions.md).
+
+You may use our sample DXF file found [here](../../Week_1/Week_1_Activity/Project_1) if you wish. 
 
 #### 2) Open the Activity 1 Schematic <br/>
 Open Activity_1.pro in KiCad (found [here](../../Week_1/Week_1_Activity/Project_1)).
