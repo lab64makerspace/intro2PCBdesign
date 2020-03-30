@@ -221,5 +221,6 @@ No, planes should be pulled back in from the edge of the board about ten thousan
 The manufacturing company will drill the hole to the specified size, but the hole will get smaller during the plating process. Therefore, you should tell the manufacturing company what plating you want and what finished hole size you want. 
 
 **Why is the annular ring ideas so important?**<br/> 
-The annular ring represents a tolerance stack up. Because holes may not be drilled exactly where we intended them to, the hole and its corresponding pad may be too far from each other and cause a faulty circuit.  
+The annular ring represents a tolerance stack up. Because holes may not be drilled exactly where we intended them to, the hole and its corresponding pad may be too far from each other and cause a faulty circuit.
+![The Danger of Drilling!](https://www.protoexpress.com/blog/wp-content/uploads/2018/04/annular-ring-cross-section.png)
 
