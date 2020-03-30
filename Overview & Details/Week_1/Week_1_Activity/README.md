@@ -222,6 +222,7 @@ The manufacturing company will drill the hole to the specified size, but the hol
 
 **Why is the annular ring ideas so important?**<br/> 
 The annular ring represents a tolerance stack up. Because holes may not be drilled exactly where we intended them to, the hole and its corresponding pad may be too far from each other and cause a faulty circuit.
-![The Danger of Drilling!](https://www.protoexpress.com/blog/wp-content/uploads/2018/04/annular-ring-cross-section.png)
+![The Danger of Drilling!](https://www.protoexpress.com/blog/wp-content/uploads/2018/04/annular-ring-cross-section.png)  
+
 <https://www.protoexpress.com/blog/dont-let-annular-rings-drive-you-crazy/>
 
