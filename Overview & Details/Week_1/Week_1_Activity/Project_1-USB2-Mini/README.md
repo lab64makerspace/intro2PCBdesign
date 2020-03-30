@@ -1,5 +1,5 @@
 # ACTIVITY #1 - Build a modern "1/2 sized" proto board
-### (USB 2.0 Ver.)
+### USB 2.0 Version
 
 You will learn to and demonstrate that you can:
 1. create a board outline
