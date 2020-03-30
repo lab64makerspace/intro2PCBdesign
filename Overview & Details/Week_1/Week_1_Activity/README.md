@@ -55,10 +55,13 @@ Shield -- connect to GNDREF <br/>
 VBUS -- connect to pins 1 and 2 of the connector <br/>
 Connect pins 3 and 4 of the connector to GNDREF <br/>
 
-To add a “no connect”, select the cross symbol (“Place no connection flag”) in the toolbar on the right. <br/>
+To add a “no connect”, select the cross symbol (“Place no connection flag”) in the toolbar on the right.
+
 (It is also nice to add a little "n/c" designation, too. It helps when you're zoomed out!)
-To add a wire, press W. <br/>
-To move a wire, hover over the wire and press G. <br/>
+
+To add a wire, press W.
+
+To move a wire, hover over the wire and press G.
 
 <img width="700" src="../../Week_1/Images/Activity1_18.png">
 
