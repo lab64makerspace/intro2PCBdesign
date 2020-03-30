@@ -17,7 +17,7 @@ Exit out of the sketch by clicking the green checkmark.
 
 Export your drawing as a dxf by either :
 
-1. right-clicking anywhere inside the sketch boundaries, or
+1. right-clicking anywhere inside the sketch boundaries and selecting "Export as DXF/DWG..., or
 
 1. right-clicking on your sketch in the side bar and select "Export as DXF/DWG..."
 
