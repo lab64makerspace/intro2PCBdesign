@@ -16,7 +16,11 @@
 <details>
    <summary>Annular Ring</summary>
 
-> An oversized area of copper at the location of a via that ensures proper connectivity for a via, even if it is drilled slightly off center. 
+> An oversized area of copper at the location of a via that ensures proper connectivity for a via, even if it is drilled slightly off center.
+
+<img src="images/AnnularRing.png" width="300" />
+
+> The fabricator will specify a minimum annular ring requirement based on the design technology. Factors that affect the size of the annular ring include the board thickness, number of layers and drill size.
 </details>
 
  <details>
@@ -41,6 +45,8 @@
     <summary>Ball Bonding</summary>
 
 > The most common type of wire bonding used to make an electrical connection between a chip and another component on a semiconductor device. A very thin wire (typically a dozen micrometers thick and made of gold or copper) is fed through a capillary tube and brought close to the surface of the chip that needs to be connected. A high-voltage electric charge is applied to the wire to melt its tip. When the wire melts, it forms a ball due to surface tension of the metal. The addition of heat, pressure, and ultrasonic energy cause the ball to weld to the chip. (Image source: Wikipedia)
+
+> ![](https://upload.wikimedia.org/wikipedia/commons/d/d5/Wirebond-ballbond.jpg)
  </details>
 
  <details>
@@ -70,7 +76,8 @@
  <details>
     <summary>BGA (Ball Grid Array)</summary>
 
- > A type of surface-mount packaging which uses a grid of solder balls to connect chip to board. The chip sits on top of an array of solder balls. A BGA allows for a high density of leads, better heat conduction between package and PCB, and lower inductance in the leads.
+ > A ball grid array is a surface-mount packaging used for integrated circuits (ICs). The packaging is composed of a grid like array of solder balls placed on the bottom of an IC to facilitate the connection between the IC and a PCB. Its advantages include having high density, meaning it can be used with ICs with hundreds of pins, having good heat conduction because the grid array allows better heat flow betwen the IC and the PCB, and having lower inductance because the connection between the IC and PCB is very short. (Image source: Electronics Cooling)
+> ![](https://electronics-cooling.com/wp-content/uploads/2002/02/2002_Feb_A3_Fig1.jpg) 
  </details>
 
  <details>
@@ -89,6 +96,7 @@
     <summary>Castellation</summary>
 
 > Castellation mounting holes are designed to make it easy to solder one board onto another board, as shown in the image below. (Image source: Sparkfun)
+> ![](https://cdn.sparkfun.com/assets/learn_tutorials/3/6/2/How_to_solder_castallated_via_tutorial-24.jpg)
  </details>
 
  <details>
@@ -196,7 +204,9 @@
  <details>
     <summary>Fiducial(s)</summary>
  
- > A mark on the top (and bottom if the pcb has 2 layers) copper layer that is used by the vision system of a pick and place machine to recognize where the pcb is. They are often placed as far appart as possible on opposite corners of the board to achieve better precision. 
+ > A mark on the top (and bottom if the pcb has 2 layers) copper layer that is used by the vision system of a pick and place machine to recognize where the pcb is. They are often placed as far appart as possible on opposite corners of the board to achieve better precision. (Image Souce: LadyAda)
+ >
+ > ![](https://www.ladyada.net/wiki/_media/mdcpickandplace/corners.jpg?cache=) 
  </details>
 
  <details>
@@ -208,13 +218,17 @@
  <details>
     <summary>Flex PCB</summary>
  
- > A PCB printed on flexible material. Using a flex PCB can reduce the weight and size of a project and can make it easier to a fit a board to an existing mechanical design rather than adapting the mechanical design to the PCB.  
+ > A PCB printed on flexible material. Using a flex PCB can reduce the weight and size of a project and can make it easier to a fit a board to an existing mechanical design rather than adapting the mechanical design to the PCB. (Image source: Millenium Circuits Limited)
+ >
+ > ![](https://www.mclpcb.com/wp-content/uploads/2015/02/1-intro.jpg)   
  </details>
 
  <details>
     <summary>Flying Probe Testing</summary>
  
- > Test to check that the electrical connections on a PCB are correct. During the test, two or more probes contact vias to test for opens, shorts, and component values. This test is commonly used instead of a "bed of nails" test when there is not sufficient access, the bed of nails takes too long or is too expensive to build. 
+ > Test to check that the electrical connections on a PCB are correct. During the test, two or more probes contact vias to test for opens, shorts, and component values. This test is commonly used instead of a "bed of nails" test when there is not sufficient access, the bed of nails takes too long or is too expensive to build. (Image Source: KAV Systems Engineering)
+ >
+ > ![](https://www.kavsys.it/wp-content/uploads/2016/10/flyprobe19.jpg) 
  </details>
 
  <details>
@@ -249,109 +263,143 @@
 
  <details>
     <summary>Gerber(s)</summary>
- Stuff
+
+ > A binary vector file format for PCB designs used in the manufacturing of PCBs. A gerber file is generated by PCB software such as Altium or KiCAD and is sent to the manufacturer when ordering PCBs. The gerber communicates information such as the number of copper layers, the solder masks, silkscreen, board outline, etc.. 
+
  </details>
 
  <details>
     <summary>Glossing</summary>
- Stuff
+
+> Glossing is used to improve the routing on a PCB by changing routes to shorten them, reduce the number of corners in a route, change perpendicular corners to diagonal corners, etc...
+
  </details>
 
  <details>
     <summary>Grid(s)</summary>
- Stuff
- </details>
+
+ > When laying out components in PCB software, all elements must be snapped to a grid. The user can modify the grid granularity if finer control is needed. 
+ >  </details>
 
  <details>
     <summary>Ground Bounce</summary>
- 
-> A phenomenon induced by transistor output switches (on to off or off to on) which causes other voltages to wiggle by altering their ground reference. 
- </details>
+
+ > A phenomenon that occurs when the ground of an IC is different from the board ground. This can happen when there is a surge of current going to ground and inductance in the path connecting the IC to the board ground causes voltage to build up.
+ >  </details>
 
  <details>
     <summary>Heat Spreaders</summary>
- Stuff
- </details>
+
+ > A component used to dissipate heat. Unlike heat sinks, heat spreaders have no fins or fans, but instead have a large surface area connection to a larger surface (e.g. the frame of a vehicle). This allows heat from the PCB to flow to the larger metal surface and dissipate away from the PCB. 
+ >
+ > In the image below, on the left is a heak sink with a fan, and on the right is a heat spreader. (Image source: ADL Embedded Solutions)
+ >
+ > ![](https://www.adl-usa.com/wp-content/uploads/files/316e340dc5f470ad6aada902f7b79a47.png) </details>
 
  <details>
     <summary>Heat Sink</summary>
- Stuff
+
+ > A component used to maximize heat dissipation by maximizing surface area (by using fins for example). Heat sinks are often used with cooling fans to use airflow to increase heat dissipation. (Image Source: Arrow Electronics)
+ >
  </details>
 
  <details>
     <summary>Impedance</summary>
- Stuff
- </details>
+
+ > "The effective resistance of an electric circuit or component to alternating current, arising from the combined effects of ohmic resistance and reactance" (Oxford American Dictionary)
+ >  </details>
 
  <details>
     <summary>Imperial</summary>
- Stuff
- </details>
+
+ > A unit of measurement
+ >  </details>
 
  <details>
     <summary>Inner Layer</summary>
- Stuff
+
+ > Inner layers are the internal layers of a multilayer PCB. (Image source: Altium)
+
+![](https://www.altium.com/documentation/sites/default/files/wiki_attachments/295668/Impossible%20Via%20Stack%20-%20Layer%20Stackup.PNG)
  </details>
 
  <details>
     <summary>IPC 356-D Netlist</summary>
- Stuff
- </details>
+
+ > A standard netlist format created by the IPC (Institute for Printed Circuits) that defines test points on a PCB that can be used by a PCB manufacturer to check the board with a test program. 
+ >  </details>
 
  <details>
     <summary>Jitter</summary>
- Stuff
- </details>
+
+ > A periodic signal's deviation in time from its nominal value, often due to electromagnetic interference or crosstalk. 
+ >  </details>
 
  <details>
     <summary>JTAG (Joint Test Action Group)</summary>
- Stuff
- </details>
+
+ > JTAG is a hardware interface used to verify the physical connections on a board after it has been manufactured. It was created in 1985 after the emergence of ball grid array technology that made it difficult to use probes to check a PCB. 
+ >  </details>
 
  <details>
     <summary>Keepout</summary>
- Stuff
- </details>
+
+ > An area on a PCB that should be kept free of components or traces. Scenarios in which a keepout area might be required include making room for a connector, the motion of a switch, or a mechanical enclosure near the PCB.
+ >  </details>
 
  <details>
     <summary>Layer(s)</summary>
- Stuff
+
+ > PCBs are composed of a stack of layers with different materials and purposes. Thes include the silkscreen, the soldermask, copper layers, substrate (typically FR4).  Although there are many different kinds of layers in a PCB, when referring to the number of layers in a PCB, only the copper layers are counted. (Image source: Sparkfun)
+
+ ![](https://cdn.sparkfun.com/r/700-700/assets/3/f/c/b/c/50d0c95bce395fd321000000.png)
  </details>
 
  <details>
     <summary>Metric</summary>
- Stuff
- </details>
+
+ > A unit of measurement. 
+ >  </details>
 
  <details>
     <summary>MBO (Mechanical Board Outline)</summary>
- Stuff
- </details>
+
+ > A contour line defining the physical shape of a PCB. 
+ >  </details>
 
  <details>
     <summary>Microphonic(s)</summary>
- Stuff
- </details>
+
+ > Microphonics is the sound that is generated from electronic devices as the result of mechanical vibrations. 
+ >  </details>
 
  <details>
     <summary>micro-vias</summary>
- Stuff
- </details>
+
+ > Microvias are vias with a diameter smaller than 150 micrometers and manufactured using lasers. They are used to reduce the size of a PCB. 
+ >  </details>
 
  <details>
     <summary>MicroStrip</summary>
- Stuff
+
+ > Microstrip routing is a method of routing a high speed transmission line on a PCB where the transmission line trace is placed on an external layer of the board such that it's separated from a ground plane by a dielectric material. (Image source: Optimum Design Associates)
+
+![](https://blog.optimumdesign.com/hs-fs/hubfs/Transmission%20Lines%20p3.png?width=640&name=Transmission%20Lines%20p3.png)
  </details>
 
  <details>
     <summary>Mounting Holes</summary>
- Stuff
- </details>
+
+ > Holes on a PCB used to secure the board to another component, such as an enclosure or flat surface. Mounting holes can be supported, meaning that they are plated and usually tied to the ground plane, or unsupported. 
+ >  </details>
+
 
  <details>
     <summary>Mouse Bites</summary>
 
-> Breakaway tabs used to separate boards from panels. Weak spots are introduced in the board by using a cluster of drills hits. These weak spots make it easy to break off the board from the panel. Visible "mouse bites" or nubs are left behind on the PCB after the PCB is broken off from the panel. 
+> Breakaway tabs used to separate boards from panels. Weak spots are introduced in the board by using a cluster of drills hits. These weak spots make it easy to break off the board from the panel. Visible "mouse bites" or nubs are left behind on the PCB after the PCB is broken off from the panel. Alternative to V-scoring.
+
+![](https://cdn.sparkfun.com/assets/7/f/3/8/c/50d4ac6fce395f2b59000000.jpg)
  </details>
 
  <details>
@@ -376,7 +424,7 @@
  </details>
 
  <details>
-    <summary>Panelisation</summary>
+    <summary>Panelization</summary>
  Stuff
  </details>
 
@@ -522,17 +570,25 @@
 
  <details>
     <summary>Tab Routing</summary>
- Stuff
+
+> An approach to panelization that uses tabs to separate the individual PCBs. Tab routing allows for non-rectangular board shapes, but also takes more time to set up and wastes more material. Alternative to V-scoring. PROOFREAD
+
+![](http://www.pcbfabrication.com/PCB-fabrication/PCB-fabrication-Images/Tab_routing2.jpg)
+
  </details>
 
  <details>
     <summary>TAG-Connect</summary>
- Stuff
+ 
+> A brand of connector that mates to PCBs for connecting debuggers, programmer, or test equipment. Alternative to JTAG; unlike JTAG, Tag-Connect doesn't require a separate mating component on the PCB and has a much smaller footprint. PROOFREAD
+
+![](https://www.tag-connect.com/wp-content/uploads/2019/06/tc2030-insertion-coin-1200-400-768x256.jpg)
+
  </details>
 
  <details>
     <summary>Termination</summary>
- Stuff
+TODO not sure how to look this up?
  </details>
  <details>
     <summary>Thermal / Thermal Relief</summary>
@@ -544,8 +600,13 @@
 
  <details>
     <summary>Thermal vias</summary>
- Stuff
+
+> Vias placed directly below or very close to PCB components that need heat dissipation.
+
+![](https://designspark.zendesk.com/hc/user_images/e-V5Y2zg87A-hh1wsCJRHA.jpeg)
+
  </details>
+
  <details>
     <summary>Thieving</summary>
 
@@ -556,88 +617,121 @@
 
  <details>
     <summary>THT (Through Hole Technology)</summary>
- Stuff
+
+> The mounting scheme for electronic components that uses leads inserted through holes in the PCB. As opposed to SMT (surface mount technology).
+
  </details>
 
  <details>
     <summary>Tooling</summary>
- Stuff
+ 
+> Tooling encompasses the one-time steps needed before board manufacturing for creating stencils and fixtures, programming drill movements, etc. PROOFREAD
+
  </details>
 
  <details>
-    <summary>Tooling Holes</summary>
- Stuff
- </details>
+    <summary>Tooling Holes, Tooling Strips/Tooling Frames</summary>
 
- <details>
-    <summary>Tooling Strips</summary>
- Stuff
+> Tooling holes are placed on a PCB to temporarily align and hold it down during manufacturing, assembly, or test. The tooling holes are often on a tooling strip/frame to make it easier for machines to hold the PCB.
+
+![](https://www.altium.com/resources/tmp-img-10.jpg)
+
  </details>
 
  <details>
     <summary>Top</summary>
- Stuff
+ TODO not sure how to look this up?
  </details>
  <details>
     <summary>Trace(s)</summary>
 
 > A continuous path of copper used to make electrical connections on a PCB. As shown in the image below, the trace is the area between the two dark lines coming out of the RES pin and 5V pins. Traces vary in width depending on what current they are carrying. In this case, the RES pin has a narrower trace than the 5V trace. (Image source: Sparkfun)
 
+![](https://cdn.sparkfun.com/r/700-700/assets/d/d/c/9/b/50d4a6bcce395fcf58000000.jpg)
+
  </details>
 
 
  <details>
     <summary>Track(s)</summary>
- Stuff
+ 
+TODO what's the difference between a trace and track?
+
  </details>
 
  <details>
     <summary>Transmission Line</summary>
- Stuff
+
+> A set of conductors that connects a signal between its source and destination. There are three common types of transmission lines: microstrips (left), striplines (middle), or coplanar waveguides (right). For each type, we can calculate the characteristic impedance and electrical length to analyze circuit performance (??). PROOFREAD AND TODO (not sure when you would use which?)
+
+<img src="https://www.protoexpress.com/blog/wp-content/uploads/2018/02/Microstrip-1024x598.jpg" width="250px">
+<img src="https://www.protoexpress.com/blog/wp-content/uploads/2018/02/Stripline-1-1024x599.jpg" width="250px">
+<img src="https://www.protoexpress.com/blog/wp-content/uploads/2018/02/Coplanar-1-1024x598.jpg" width="250px">
+
  </details>
 
  <details>
     <summary>Triboelectricity</summary>
- Stuff
+
+> The triboelectric effect is when materials become electrically charged through contact (ex. rubbing). PROOFREAD (not sure how this relates to PCBs?)
+
+> ![](https://upload.wikimedia.org/wikipedia/commons/e/e0/Cat_demonstrating_static_cling_with_styrofoam_peanuts.jpg)
+
  </details>
 
  <details>
     <summary>TSOP</summary>
- Stuff
+
+ > TSOP (thin small outline package) is a type of surface mount IC package. They have leads on only two sides of the IC and have very tight lead spacing. PROOFREAD
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/05/TSOP_32_%28T1%29_Blank.svg)
+
  </details>
 
  <details>
     <summary>Ultrasonic Bonding</summary>
- Stuff
+ 
+> A process in which two workpieces are bonded by the pressure of high-frequency ultrasonic sound waves. Generally used for thermoplastics and thin metals. For electronics, ultrasonic welding can be used to make small electrical connections (ex. wire bonding). PROOFREAD
+
  </details>
  <details>
     <summary>Via(s)</summary>
 
 > A hole in a PCB that allows current to pass from one layer to another. Vias can either be tented, meaning that they are covered by the soldermask so nothing can be soldered to them, or untented, meaning that we can solder a component to it. 
 
+![](https://www.ourpcb.com/wp-content/uploads/2018/06/PCB-via-size2-1.png)
+
  </details>
 
 
  <details>
     <summary>Via Stitching</summary>
- Stuff
+
+> A PCB design technique to tie together large copper areas. Stitching vias can be used to join ground planes on different layers to lower return path impedance. Stitching vias are important in RF design; they can be placed around an RF trace to EM interference with other components on the board. PROOFREAD AND TODO (b/c i don't actually understand)
+
  </details>
 
  <details>
     <summary>V-Scoring</summary>
- Stuff
+
+> A method of cutting a V-shaped groove into PCBs to split them. This is useful when you want to leave a set of PCBs grouped for easier assembly but want to separate them afterwards. Alternative to mouse bites.
+
+![](https://file.pcbway.com/ordershow/18/04/13/6365922698909584691237.png)
+
  </details>
  <details>
     <summary>Wire Bonding</summary>
 
-> A method to make an electric connection between an integrated circuit and chips. Different types of wire bonding include ball bonding and wedge bonding. 
+> A method to make an electric connection between an integrated circuit and chips. Different types of wire bonding include ball bonding and wedge bonding. Here is a [video](https://www.youtube.com/watch?v=fazeH4PHvpk) that shows both methods of wire bonding.
+
+![](http://integratedhybridassembly.com/Images/wirebonding-withcopper01.png)
 
  </details>
 
  <details>
     <summary>Wedge Bonding</summary>
 
-> Unlike ball bonding, wedge bonding requires the wire to be in a specific direction during bonding, so it's a slower process than ball bonding due to the extra time needed for tool alignment. Wedge bonding can use a larger diameter wire than ball bonding. 
+> Unlike ball bonding, wedge bonding requires the wire to be in a specific direction during bonding, so it's a slower process than ball bonding due to the extra time needed for tool alignment. However, the lack of the ball means wedge bonds can be used in finer pitch applications (PROOFREAD). Wedge bonding can use a larger diameter wire than ball bonding. 
 
  </details>
 

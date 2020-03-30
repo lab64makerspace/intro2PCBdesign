@@ -16,11 +16,11 @@ You can make a simple board that has a more complicated outline and have that fa
 
 ## Introduction - 
 
-In the course of building things one may not want to wait for a printed circuit board to be fabricated. Often results can be obtained more quickly by "prototyping" a circuit. This is particularly true if the circuit is simple and only one is required. There are many different small prototyping PCBs available commercially that are suitable for this sort of application. Among these is the so-called "1/2 sized" breadboard. These tend to be about 2 3/8" by 3 1/4" x 1/16" thick. They have an array of holes into which one can place components for soldering. The "back" side of the board is used for point to point wiring. If one so chooses, sockets and wire-wrapping techniques may be employed so that circuitry can be built up in sections and can be re-wired as the need arises.
+In the course of building things one may not want to wait for a printed circuit board to be fabricated. Often results can be obtained more quickly by "prototyping" a circuit. This is particularly true if the circuit is simple and only one is required. There are many different small prototyping PCBs available commercially that are suitable for this sort of application. Among these is the so-called "1/2 sized" breadboard. These tend to be about 60 mm (~ 2.375") by 80 mm (~ 3.25") by 1.6 mm (~ 1/16") thick. They have an array of holes into which one can place components for soldering. The "back" side of the board is used for point to point wiring. If one so chooses, sockets and wire-wrapping techniques may be employed so that circuitry can be built up in sections and can be re-wired as the need arises.
 
 Although these are super cool, for some projects they can be very difficult to use. For example, if you want to build a USB powered thing, it is difficult to place USB connectors on the board since no provision has been made for that. Also, this size protoboard usually has two centrally located mounting holes; great if you want to work on a tippy gizmo!
 
-**SO**, you are going to fix these deficiencies by creating your OWN "1/2" sized protoboard!!
+**SO**, you are going to fix these deficiencies by creating your OWN "1/2 sized" protoboard!!
 
 Let's look at a couple of existing "1/2 sized" protoboards... <br/>
 <img width="500" src="../../Week_1/Images/Half-sized Protos Orig.jpg">
@@ -40,10 +40,13 @@ Discussion....
 
 ## Instructions 
 #### 1) Open a CAD program <br/>
-Make a sketch of a board outline (for example a 3.25in x 2 3/8in rectangle). Fillet the edges of the sketch. Export the sketch as a DXF. You may use our sample DXF file found [here](../../Week_1/Week_1_Activity/Project_1) if you wish. 
+Make a sketch of a board outline (for example a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You can find more detailed instructions on how to do this on [this page](../../Week_1/Week_1_Activity/Board_Outline_Instructions.md).
+
+You may use our sample DXF file found [here](../../Week_1/Week_1_Activity/Project_1) if you wish. 
 
 #### 2) Open the Activity 1 Schematic <br/>
-Open Activity_1.sch (found [here](../../Week_1/Week_1_Activity/Project_1)) in KiCad
+Open Activity_1.pro in KiCad (found [here](../../Week_1/Week_1_Activity/Project_1)).
+Then select Activity_1.sch from the project.
 
 #### 3) Add the following connections <br/>
 D+ -- no connect <br/>
@@ -54,9 +57,13 @@ Shield -- connect to GNDREF <br/>
 VBUS -- connect to pins 1 and 2 of the connector <br/>
 Connect pins 3 and 4 of the connector to GNDREF <br/>
 
-To add a “no connect”, select the cross symbol (“Place no connection flag”) in the toolbar on the right. <br/>
-To add a wire, press W. <br/>
-To move a wire, hover over the wire and press G. <br/>
+To add a “no connect”, select the cross symbol (“Place no connection flag”) in the toolbar on the right.
+
+(It is also nice to add a little "n/c" designation, too. It helps when you're zoomed out!)
+
+To add a wire, press W.
+
+To move a wire, hover over the wire and press G.
 
 <img width="700" src="../../Week_1/Images/Activity1_18.png">
 
@@ -65,7 +72,7 @@ Go to Tools -- Annotate Schematic Symbols. This will give all lines and componen
 Add a “+5” label to the wire connected to VBUS. Hover over the wire, and press L to add this label. You can later edit the label by hovering over the label and pressing E. Any wires with the same labels are considered by the program to be electrically connected. Note that labels are case sensitive. 
 
 #### 5) Download the USB connector footprint 
-Download the following [file](../../Week_1/Week_1_Activity/USB%202.0%20MINI%20B%20SMD%20R:A/USB_Mini_B_Female_UX60-MB-5S8.kicad_mod) to get the correct USB connector footprint. 
+Download the following [file](../../Week_1/Week_1_Activity/USB2_MINI/USB_Mini_B_Female_UX60-MB-5S8.kicad_mod) to get the correct USB connector footprint. 
 
 Open the footprint editor in the Pcbnew software. <br/>
 <img width="350" src="../../Week_1/Images/Activity1_12.png">
