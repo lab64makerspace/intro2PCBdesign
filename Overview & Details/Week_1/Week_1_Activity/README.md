@@ -56,6 +56,7 @@ VBUS -- connect to pins 1 and 2 of the connector <br/>
 Connect pins 3 and 4 of the connector to GNDREF <br/>
 
 To add a “no connect”, select the cross symbol (“Place no connection flag”) in the toolbar on the right. <br/>
+(It is also nice to add a little "n/c" designation, too. It helps when you're zoomed out!)
 To add a wire, press W. <br/>
 To move a wire, hover over the wire and press G. <br/>
 
