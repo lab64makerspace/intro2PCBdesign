@@ -4,7 +4,7 @@ Open Inkscape.
 
 Draw a rectangle using the tool shown below. 
 
-<img width="400" src="../../Images/Inkscape1.png">
+<img width="400" src="../../Week_1/Images/Inkscape1.png">
 
 Open the "Fill and Stroke" menu if it is not already open. Go to Object -> Fill and Stroke... 
 With the rectangle selected, adjust the following properties: 
@@ -14,20 +14,20 @@ With the rectangle selected, adjust the following properties:
 
 Define the dimensions of the rectangle by selecting the rectangle and modifying the following values. Make sure the units are set to mm. 
 
-<img width="400" src="../../Images/Inkscape6.png">
+<img width="400" src="../../Week_1/Images/Inkscape6.png">
 
 First select the rectangle, then round the edges of the rectangle by selecting the "Edit paths by nodes" tool, as shown below. 
 
-<img width="400" src="../../Images/Inkscape2.png">
+<img width="400" src="../../Week_1/Images/Inkscape2.png">
 
 The top right corner of the rectangle should be a circle. Drag the circle until the edges of the rectangle are rounded the way you want. 
 
-<img width="400" src="../../Images/Inkscape3.png">
+<img width="400" src="../../Week_1/Images/Inkscape3.png">
 
 Convert the object you have created into a path. Select the rectangle, then go to Path -> Object to path. Nothing will seem to have happened, but this is important for the rounded edges to appear in KiCAD. 
 
-<img width="400" src="../../Images/Inkscape4.png">
+<img width="400" src="../../Week_1/Images/Inkscape4.png">
 
 Save your design as a dxf. Go to File -> Save as and select the DXF file type. The following options will succesfully get your outline into KiCAD, but feel free to explore the proposed options. 
 
-<img width="400" src="../../Images/Inkscape5.png">
+<img width="400" src="../../Week_1/Images/Inkscape5.png">
