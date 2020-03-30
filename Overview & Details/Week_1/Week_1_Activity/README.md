@@ -20,7 +20,7 @@ In the course of building things one may not want to wait for a printed circuit 
 
 Although these are super cool, for some projects they can be very difficult to use. For example, if you want to build a USB powered thing, it is difficult to place USB connectors on the board since no provision has been made for that. Also, this size protoboard usually has two centrally located mounting holes; great if you want to work on a tippy gizmo!
 
-**SO**, you are going to fix these deficiencies by creating your OWN "1/2" sized protoboard!!
+**SO**, you are going to fix these deficiencies by creating your OWN "1/2 sized" protoboard!!
 
 Let's look at a couple of existing "1/2 sized" protoboards... <br/>
 <img width="500" src="../../Week_1/Images/Half-sized Protos Orig.jpg">
