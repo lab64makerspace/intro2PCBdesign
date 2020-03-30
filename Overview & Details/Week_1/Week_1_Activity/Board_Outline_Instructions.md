@@ -15,7 +15,11 @@ While still in the same sketch, fillet the edges of the rectangle. Either select
 
 Exit out of the sketch by clicking the green checkmark. 
 
-Export your drawing as a dxf by right-clicking on your sketch in the side bar and select "Export as DXF/DWG..."
+Export your drawing as a dxf by either :
+
+1. right-clicking anywhere inside the sketch boundaries, or
+
+1. right-clicking on your sketch in the side bar and select "Export as DXF/DWG..."
 
 <img width="200" src="../../Week_1/Images/Onshape2.png">
 
