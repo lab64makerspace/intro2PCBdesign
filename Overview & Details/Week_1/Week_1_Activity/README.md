@@ -22,8 +22,9 @@ Although these are super cool, for some projects they can be very difficult to u
 
 **SO**, you are going to fix these deficiencies by creating your OWN "1/2 sized" protoboard!!
 
-Let's look at a couple of existing "1/2 sized" protoboards... <br/>
-<img width="500" src="../../Week_1/Images/Half-sized Protos Orig.jpg">
+Let's look at a couple of existing "1/2 sized" protoboards...
+
+<img width="700" src="../../Week_1/Images/Half-sized Protos Orig.jpg">
 
 What do you notice?
 
