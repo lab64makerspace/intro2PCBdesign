@@ -130,7 +130,7 @@ Create an array from this via by right clicking on the via and select "Create Ar
 <img width="350" src="../../../Week_1/Images/Activity1_9.png">
 
 Here is what a sample board might look like now. <br/>
-<img width="700" src="../../../Week_1/Images/Activity1_11.png">
+<img width="700" src="../../../Week_1/Images/Activity1_26.png">
 
 #### 10) Add routes 
 Add route tracks by clicking the following button. <br/>
@@ -139,7 +139,7 @@ Add route tracks by clicking the following button. <br/>
 Hover over the route and press E to change the route properties. Set the track width to 0.635mm and select whether you want the track to be on the top (red) or bottom (green) of the board. 
 
 Add routes to the USB connector as follows. Note that you must place the routes on top of the board in order to make an electrical connection with the USB connector. If you place the routes properly, the white x's will disappear. <br/>
-<img width="350" src="../../../Week_1/Images/Activity1_19.png">
+<img width="350" src="../../../Week_1/Images/Activity1_27.png">
 
 Add routes to the power rail lines (if you want to add power rail lines). <br/>
 <img width="350" src="../../../Week_1/Images/Activity1_21.png">
