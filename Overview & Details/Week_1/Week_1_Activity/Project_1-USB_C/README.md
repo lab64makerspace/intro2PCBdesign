@@ -65,7 +65,7 @@ To add a wire, press W.
 
 To move a wire, hover over the wire and press G.
 
-<img width="700" src="../../../Week_1/Images/Activity1_18.png">
+<img width="700" src="../../../Week_1/Images/Activity1_23.png">
 
 #### 4) Annotate the schematic. 
 Go to Tools -- Annotate Schematic Symbols. This will give all lines and components names. <br/>
@@ -77,16 +77,20 @@ Download the following [file](../../../Week_1/Week_1_Activity/Project_1-USB_C/US
 Open the footprint editor in the Pcbnew software. <br/>
 <img width="350" src="../../../Week_1/Images/Activity1_12.png">
 
+Go to File -- New Library... <br/>
+Make sure you are in your project folder and that the name of the library is the same as the name of the project. The next prompt should ask which library table you'd like to add to. Be sure to select Project. 
+<img width="350" src="../../../Week_1/Images/Activity1_24.png">
+
 Go to File -- Import Footprint from KiCad File... <br/>
-Select the file you downloaded (USB_C_Receptacle_XKB_U262-161N-4BVC11.kicad_mod). It should now appear in your footprint library. <br/>
+Select the file you downloaded (USB_C_Receptacle_XKB_U262-161N-4BVC11.kicad_mod). Ctrl + S to save the footprint and select the library you created (same name as the project). It should now appear in your footprint library. <br/>
 
 If this doesn't work for you, you can also import the footprint by selecting "Preferences - Manage Footprint Libraries" and select the "plus" button to add the connector. 
 
 #### 6) Link the footprints to the symbols 
 Symbols are the components on schematics, while footprints are where components get placed onto the board. At this time, the footprint and schematic are still not linked. <br/>
-Hover over the USB connector and press E to get access to symbol properties. Select the button (shaped liked library books) on the far right of the footprint field to open up the footprint library. Select “USB_Mini_B_Female_UX60-MB-5S8” as shown below. 
+Hover over the USB connector symbol and press E to get access to symbol properties. Select the button (shaped liked library books) on the far right of the footprint field to open up the footprint library. Select “USB_C_Receptacle_XKB_U262-161N-4BVC11” as shown below. 
 
-<img width="700" src="../../../Week_1/Images/Activity1_13.png">
+<img width="700" src="../../../Week_1/Images/Activity1_25.png">
 
 Repeat this process for the pin header connector. For this component, select “PinHeader_1x04_P2.54mm_Vertical”. Note that in the footprint of this connector, pin 1 is square. This is useful to avoid getting confused when orienting the connector.  
 
