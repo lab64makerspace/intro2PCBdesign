@@ -51,7 +51,10 @@ Then select Activity_1.sch from the project.
 #### 3) Add the following connections <br/>
 D+ -- no connect <br/>
 D- -- no connect <br/>
-ID -- no connect <br/>
+SBU1 -- no connect <br/>
+SBU2 -- no connect <br/>
+CC1 -- connect to GNDREF <br/>
+CC2 -- connect to GNDREF <br/>
 GND -- connect to GNDREF <br/>
 Shield -- connect to GNDREF <br/>
 VBUS -- connect to pins 1 and 2 of the connector <br/>
