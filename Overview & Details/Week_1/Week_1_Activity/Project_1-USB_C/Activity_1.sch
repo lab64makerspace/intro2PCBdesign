@@ -80,14 +80,14 @@ F 3 "~" H 5000 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J?
-U 1 1 5E814F84
-P 3650 3550
-F 0 "J?" H 3757 4417 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 3757 4326 50  0000 C CNN
-F 2 "" H 3800 3550 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3800 3550 50  0001 C CNN
-	1    3650 3550
+L Activity_1:USB_C J?
+U 1 1 5E86F2D0
+P 3275 3625
+F 0 "J?" H 3382 4492 50  0000 C CNN
+F 1 "USB_C" H 3382 4401 50  0000 C CNN
+F 2 "" H 3275 4425 50  0001 C CNN
+F 3 "" H 3275 4425 50  0001 C CNN
+	1    3275 3625
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
