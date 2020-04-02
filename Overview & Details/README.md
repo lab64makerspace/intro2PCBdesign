@@ -1,9 +1,9 @@
 # Overview of "*Intro to PCB Design*"
 Below is a proposed timeline with a list of topics to be discussed. Please let us know if we have missed something that you think should be covered.
 
-*We will NOT go into any depth concerning stripline structures, etc. because of time constraints.*
+<!---*We will NOT go into any depth concerning stripline structures, etc. because of time constraints.* --->
 
-Truth be told, it is a lot of stuff! *IF* there is something *IN PARTICULAR* that you are interested in or curious about, please let us know and, if it is in scope, we'll try to accommodate; you're probably not the only person interested, so please pitch in.
+Truth be told, it is a lot of stuff! If there is something in particular that you are interested in or curious about, please let us know and, if it is in scope, we'll try to accommodate; you're probably not the only person interested, so please pitch in.
 
 We want your feedback! Please send comments, questions and suggestions to: lab64ca@ee.stanford.edu
 
@@ -11,7 +11,7 @@ Please use the [issues tab](../../issues) to post questions and answer other stu
 
 ## Timeline
 Below is our first try at some structure. It is preliminary and subject to revision based
-on, you guessed it, YOUR FEEDBACK!
+on, you guessed it, **your feedback**!
 
 Week | Content | Lab / Activity
 ---- | ------- | -------------
@@ -56,10 +56,10 @@ the basics correct.
 <details>
   <summary>Workshop focus</summary>
   
-This is an **introductory** workshop. **No previous experience is required.** Since we will
-emphasize basic connectivity, form, fit, and function it will be helpful (but **NOT REQUIRED**)
+This is an **introductory** workshop. **No previous experience is required!** Since we will
+emphasize basic connectivity, form, fit, and function it will be helpful (but **not required**)
 if you have some limited experience with a mechanical design program. Suitable programs
-include SolidWorks, Fusion360, FreeCAD, or any similar program. SolidWorks and Fusion360
+include SolidWorks, Onshape, Fusion360, FreeCAD, or any similar program. SolidWorks, Onshape, and Fusion360
 are available free of cost for students. Additionally, they are available on lab64 servers
 and you can use them without needing to run a VM, etc. If you need help with this, please
 contact the lab64 staff by sending an email to lab64ca@ee.stanford.edu
@@ -87,8 +87,7 @@ week. And it may be uneven depending on your background.
 ### Sending PCBs out for fabrication
 The whole point of this workshop is to master the process of designing PCBs, so naturally
 you will need to send boards out for fabrication, otherwise how will you know how you are
-doing? So we will et the expectation that you will send out "on average" **ONE BOARD PER
-WEEK**.
+doing? So we will set the expectation that you will send out "on average" **one board every two weeks**.
 
 ### How will this work?
 You will get either complete schematics or almost complete schematics. YOU WILL NOT BE DOING
