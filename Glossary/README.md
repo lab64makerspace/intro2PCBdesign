@@ -102,7 +102,7 @@
  <details>
     <summary>Clock Distribution</summary>
 
-    TODO
+> A digital hardware design style which *distributes* a single clock source to **multiple** components. Clock distribution is relevant when multiple components need to share timing (whether that timing is synchronous or not is another design decision). Clock distribution can create problems because various physical factors (varying trace lengths, trace coupling, noise, etc.) can alter the different clock lines in different ways.
  </details>
 
  <details>
