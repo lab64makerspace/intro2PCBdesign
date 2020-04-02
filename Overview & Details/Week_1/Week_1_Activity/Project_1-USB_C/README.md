@@ -83,7 +83,7 @@ Open the footprint editor in the Pcbnew software. <br/>
 <img width="350" src="../../../Week_1/Images/Activity1_12.png">
 
 Go to File -- New Library... <br/>
-Make sure you are in your project folder and that the name of the library is the same as the name of the project. The next prompt should ask which library table you'd like to add to. Be sure to select Project. 
+Make sure you are in your project folder and that the name of the library is the same as the name of the project. The next prompt should ask which library table you'd like to add to. Be sure to select Project. <br/>
 <img width="350" src="../../../Week_1/Images/Activity1_24.png">
 
 Go to File -- Import Footprint from KiCad File... <br/>
