@@ -31,8 +31,8 @@ As you can see, we will try to design and send out a board for fabrication each 
 * have a design review (this is where we learn a LOT!)
 * tidy things up and send the boards out for fabrication
 * wait a week (or so) for the boards (sent out last week) to arrive
-* assemble the board (where we learn EVEN MORE!)
-  * If the board is simple this goes quickly, if it is more complex we go through "board bring-up".
+* assemble the board (where we learn EVEN MORE!)*(Hopefully, we can remotely assemble them into functional devices. Due to current circumstances, we cannot offer hands-on lab  support, but we will provide assistance remotely. It will be super helpful if you have the ability to solder where you are, but you can still get a lot from the workshops by just designing boards and looking at them when they get to you)*.
+  <!-- * If the board is simple this goes quickly, if it is more complex we go through "board bring-up". -->
 * see if it meets the functional requirements
 
 We'll do our best to arrange the schedule so we can get the most experience from our time together.
