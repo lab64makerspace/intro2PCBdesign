@@ -24,8 +24,8 @@
 </details>
 
  <details>
-    <summary>Antenna</summary
-
+ <summary>Antenna</summary>
+ 
 > A conductive physical object which can be used to transmit and receive radio waves. 
  </details>
      
