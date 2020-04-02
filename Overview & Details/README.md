@@ -35,7 +35,7 @@ As you can see, we will try to design and send out a board for fabrication each 
   * If the board is simple this goes quickly, if it is more complex we go through "board bring-up".
 * see if it meets the functional requirements
 
-We'll do our best to arrange the schedule so we can get the most experience fro our time together.
+We'll do our best to arrange the schedule so we can get the most experience from our time together.
 
 ## FAQs
 
