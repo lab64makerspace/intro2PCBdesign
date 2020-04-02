@@ -41,7 +41,7 @@ Discussion....
 
 ## Instructions 
 #### 1) Open a CAD program <br/>
-Make a sketch of a board outline (for example a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You can find more detailed instructions on how to do this on [this page](../../Week_1/Week_1_Activity/Board_Outline_Instructions.md).
+Choose your favorite **C**omputer **A**ided **D**esign tool. If you don't have one, consider: [Solidworks](https://library.stanford.edu/englib/using-terman/computers-equipment-software/solidworks), [Onshape](https://www.onshape.com/education-plan), or [Inkscape](https://inkscape.org/release/inkscape-0.92.4/). Make a sketch of a board outline (for example a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You can find more detailed instructions on how to do this on [this page](../../Week_1/Week_1_Activity/Board_Outline_Instructions.md).
 
 You may use our sample DXF file found [here](../../Week_1/Week_1_Activity/Project_1) if you wish. 
 
@@ -223,4 +223,6 @@ The manufacturing company will drill the hole to the specified size, but the hol
 
 **Why is the annular ring ideas so important?**<br/> 
 The annular ring represents a tolerance stack up. Because holes may not be drilled exactly where we intended them to, the hole and its corresponding pad may be too far from each other and cause a faulty circuit.  
+![The Danger of Drilling!](https://www.protoexpress.com/blog/wp-content/uploads/2018/04/annular-ring-cross-section.png)  
 
+<https://www.protoexpress.com/blog/dont-let-annular-rings-drive-you-crazy/>
