@@ -93,7 +93,9 @@ If this doesn't work for you, you can also import the footprint by selecting "Pr
 
 #### 6) Link the footprints to the symbols 
 Symbols are the components on schematics, while footprints are where components get placed onto the board. At this time, the footprint and schematic are still not linked. <br/>
-Hover over the USB connector symbol (remember that symbols are in *schematics*) and press E to get access to symbol properties. Select the button (shaped liked library books) on the far right of the footprint field to open up the footprint library. Select “USB_C_Receptacle_XKB_U262-161N-4BVC11” as shown below. 
+Hover over the USB connector symbol (remember that symbols are in *schematics*) and press E to get access to symbol properties. Select the button (shaped liked library books) on the far right of the footprint field to open up the footprint library. <br/>
+<img width="700" src="../../../Week_1/Images/symbol-footprint-link.png"> <br/>
+Select “USB_C_Receptacle_XKB_U262-161N-4BVC11” as shown below. 
 
 <img width="700" src="../../../Week_1/Images/Activity1_25.png">
 
