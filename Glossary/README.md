@@ -26,7 +26,7 @@
  <details>
     <summary>Antenna</summary
 
-    Stuff
+> A conductive physical object which can be used to transmit and receive radio waves. 
  </details>
      
  <details>
@@ -141,6 +141,12 @@
 > A highly conductive metal and good thermal conductor commonly used in certain layers of a PCB board to create electrical connections. 
  </details>
 
+<details>
+    <summary>Coupling</summary>
+
+> When the electric field of a trace latches onto an unintended component (e.g. another trace) and induces noise. Better coupling translates to less noise.
+ </details>
+
  <details>
     <summary>DDR Memory Design</summary>
 
@@ -212,7 +218,7 @@
  <details>
     <summary>Flip Chip</summary>
  
- > TODO
+ > A method to connect semiconductor devices (IC's or MEMS) to external circuity by use of solder bumps. Solder bumps are deposited onto the device's pads; the pads are on the top side of the device. The device is mounted by flipping the chip so its solder bumps face down and aligning the bumps with the external circuit's pads. Flip chips are a consequence of semiconductor device manufacturing processes. 
  </details>
 
  <details>
@@ -402,14 +408,22 @@
 ![](https://cdn.sparkfun.com/assets/7/f/3/8/c/50d4ac6fce395f2b59000000.jpg)
  </details>
 
+<details>
+    <summary>Node</summary>
+ 
+ > A connection between two or more terminals of a circuit component.
+ </details>
+
  <details>
     <summary>Netlist</summary>
- Stuff
+ 
+ > A description of the connectivity of a circuit. A netlist is a list of electrical components and the nodes which connect them.
  </details>
 
  <details>
     <summary>Ounces of Cu (Oz of Cu)</summary>
- Stuff
+
+> A specification of <strong>copper weight</strong> needed for circuit traces. Copper weight is the weight *in ounces* of copper present in one square foot of area. Ounces of Cu therefore indicate the thickness of copper in a circuit board layer.
  </details>
 
  <details>
@@ -420,37 +434,45 @@
 
  <details>
     <summary>Padstack</summary>
- Stuff
+
+> Padstack refers to the geometry and composition of a pad. Surface mount padstacks are different than plated through-hole padstacks. Consider the plated through-hole padstack:<br/>
+ <img src="images/PTH-padstack.png" width="300" />
  </details>
 
  <details>
     <summary>Panelization</summary>
- Stuff
+
+> The PCB manufacturing strategy to process *multiple* PCBs on a single panel. A panel can either have duplicates of a single design or have multiple designs on it. This method allows for easier copper pouring and mounting of components. Eventually, the panel is broken into individual PCBs.
  </details>
 
  <details>
     <summary>PDN (Power Distribution Network)</summary>
- Stuff
+
+> A Power Distribution Network is the implementation of delivering current and voltage to components in a PCB. PDNs must take into account different power supply voltages and a PCBs physical design.
  </details>
 
  <details>
     <summary>Phototools</summary>
- Stuff
+
+> A phototool is the [negative](https://en.wikipedia.org/wiki/Negative_(photography)) image of the copper circuitry. Phototools are typically made from photo emulsions. 
  </details>
 
  <details>
     <summary>Piezoelectricity</summary>
- Stuff
+
+> The electric charge which accumulates in (certain) solid materials due to applied mechanical stress (pressure and latent heat).
  </details>
 
  <details>
     <summary>Pin 1</summary>
- Stuff
+ 
+ > Pin 1 can refer to an IC package's pin in order to prove a positional reference. Pin 1 is often denoted by a bump or special notch on an IC's package.
  </details>
 
  <details>
     <summary>Placement</summary>
-
+ 
+ > Placement is the stage of PCB manufacturing when components are fixed to a board. Placement can be done manually or by [pick-and-place machines](https://en.wikipedia.org/wiki/Pick-and-place_machine).
  </details>
 
  <details>
@@ -461,58 +483,71 @@
 
  <details>
     <summary>Potting</summary>
- Stuff
+ 
+> The process of filling an electronic component with a solid or gelatinous compound. Potting protects electronic assemblies against corona discharge, vibrations, and moisture or corosive agents.
  </details>
 
  <details>
     <summary>Pour(s)</summary>
- Stuff
+ 
+> A pour is the filling of an area on a PCB with copper.
  </details>
 
  <details>
-    <summary>QFN</summary>
- Stuff
+    <summary>QFN (Quad Flat No-leads)</summary>
+ 
+> A type of IC packaging which connects an IC to a PCB via surface-mount technology.<br/>
+![](https://upload.wikimedia.org/wikipedia/commons/2/23/28_pin_MLP_integrated_circuit.jpg)
  </details>
 
  <details>
-    <summary>Ratsnest</summary>
- Stuff
+    <summary>Ratsnest (Airwires)</summary>
+ 
+ > A feature of PCB CAD softwares which indicate the direct path between two components. They do not represent physical connections. The ratsnest can help visualize congestion of parts and traces.
  </details>
 
  <details>
     <summary>Real Estate</summary>
- Stuff
+ 
+ > Space on a PCB.
  </details>
 
  <details>
     <summary>Rework</summary>
- Stuff
+ 
+ > Refinishing or repair of a PCB. Rework often includes desoldering and re-soldering of surface-mount devices.
  </details>
 
  <details>
     <summary>Rigid - Flex</summary>
- Stuff
+ 
+ > A type of PCB which is rigid at some points of the board and flexible at others.
  </details>
 
  <details>
     <summary>Routing</summary>
- Stuff
+ 
+ > The step in PCB design in which electrical components are electrically connected. Connections are made by traces and vias.
  </details>
 
  <details>
     <summary>Schematic</summary>
- Stuff
+ 
+ > A circuit diagram. Symbols on a schematic represent circuit components while wires represent their connections.
  </details>
 
  <details>
     <summary>Schematic Capture</summary>
- Stuff
+ 
+ > The step in PCB design in which the schematic(s) are created.
  </details>
 
  <details>
     <summary>Scripting</summary>
- Stuff
+ 
+ > The concept of writing scripts to automate the PCB design process.
  </details>
+ 
  <details>
     <summary>Silkscreen</summary>
 
@@ -523,13 +558,16 @@
 
  <details>
     <summary>SMT (Surface Mount Technology)</summary>
- Stuff
+ 
+ > The method of directly mounting components onto the surface of a PCB.
  </details>
 
  <details>
     <summary>SMD (Surface Mount Device)</summary>
- Stuff
+ 
+ > Electrical components which are mounted by SMT.
  </details>
+ 
  <details>
     <summary>Soldermask</summary>
 
@@ -540,32 +578,38 @@
 
  <details>
     <summary>Stackup</summary>
- Stuff
+ 
+> The arrangement of layers that make up a PCB.
  </details>
 
  <details>
     <summary>Stencil</summary>
- Stuff
+ 
+> A thin metal sheet with a circuit pattern cut into it in order to match the pattern of SMDs on a PCB. Stencils are used when applying solder paste onto pads.
  </details>
 
  <details>
     <summary>Stiffeners</summary>
- Stuff
+ 
+> Materials added to a flex or rigid-flex PCB in order to rigidize a particular area.
  </details>
 
  <details>
     <summary>Stripline</summary>
- Stuff
+ 
+> A transmission line which is surrounded by dielectric material and suspended between to ground planes.
  </details>
 
  <details>
     <summary>Surface Finish</summary>
- Stuff
+ 
+ > A coating between a component and its bare PCB. Surface finishes ensure solderability and protect exposed copper. Some types of surface finish are: Hot air solder leveling (HASL) and lead-free HASL, OSP, Immersion Tin, Immersion Silver, and Electroless Nickel Immersion (ENIG).
  </details>
 
  <details>
     <summary>Symbol</summary>
- Stuff
+ 
+ > The graphic which represents an electrical component.
  </details>
 
  <details>
@@ -588,8 +632,10 @@
 
  <details>
     <summary>Termination</summary>
-TODO not sure how to look this up?
+
+> The practice of placing a device at the end of a transmission line which matches that line's characteristic impedance. Proper termination cancels a signal's reflections in the transmisison line. Improper termination, or not terminating your lines, will cause distortion of the signal.
  </details>
+ 
  <details>
     <summary>Thermal / Thermal Relief</summary>
 
@@ -640,8 +686,10 @@ TODO not sure how to look this up?
 
  <details>
     <summary>Top</summary>
- TODO not sure how to look this up?
+ 
+ > The top layer of a PCB. The Top can also be called the component side. The Top side is usually where components are placed. Using "Top" is preferrable because components can be placed on both sides of a circuit board.
  </details>
+ 
  <details>
     <summary>Trace(s)</summary>
 
@@ -655,14 +703,14 @@ TODO not sure how to look this up?
  <details>
     <summary>Track(s)</summary>
  
-TODO what's the difference between a trace and track?
+A synonym for trace(s).
 
  </details>
 
  <details>
     <summary>Transmission Line</summary>
 
-> A set of conductors that connects a signal between its source and destination. There are three common types of transmission lines: microstrips (left), striplines (middle), or coplanar waveguides (right). For each type, we can calculate the characteristic impedance and electrical length to analyze circuit performance (??). PROOFREAD AND TODO (not sure when you would use which?)
+> A set of conductors that connects a signal between its source and destination. There are three common types of transmission lines: microstrips (left), striplines (middle), or coplanar waveguides (right). For each type, we can calculate the characteristic impedance and electrical length to analyze circuit performance. Each type is defined by their specific geometry and consequently their electrical coupling. Microstrips are signal traces which have a dielectric layer beneath them (and ideally a ground plane beneath the dielectric) and have their top side exposed to air. Microstrips are used on the top and bottom sides of a PCB. Striplines are like microstrips, but have a dielectric layer above and below the trace (and ideally a ground plane above the top dielectric and one below the bottom dielectric). Striplines are used in the inner layers of a PCB. Coplanar waveguides are like microstrips, but ground traces run parallel to the signal trace. The ground traces provide the signal trace with better coupling. Coplanar waveguides can appear on the top and bottom of PCBs.
 
 <img src="https://www.protoexpress.com/blog/wp-content/uploads/2018/02/Microstrip-1024x598.jpg" width="250px">
 <img src="https://www.protoexpress.com/blog/wp-content/uploads/2018/02/Stripline-1-1024x599.jpg" width="250px">
