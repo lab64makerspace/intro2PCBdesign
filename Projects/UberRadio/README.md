@@ -1,7 +1,7 @@
 ## Motivation for the UberRadio
 Some years back, I bought an AM /FM table top radio that was visually attractive and had exceptional sound quality, called the Tivoli Audio Model One. Although it was a bit expensive, it was a treasure! I loved to listen to it! It could fill a room with sound, was easy to operate, and was popular with the entire family. It looks like this –
 
-![Tivoli Model One](UberRadio Images/Tivoli_Model_One.png)
+![Tivoli Model One](/UberRadio Images/Tivoli_Model_One.png)
 
 After we moved I found that, at my new home, I did not get good reception with any of my AM / FM radios. Even the Model One with its excellent tuner didn’t work very well. Alas, no more free good music for me!
 
