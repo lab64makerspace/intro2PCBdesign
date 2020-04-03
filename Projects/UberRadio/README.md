@@ -36,9 +36,18 @@ We could use basically any graphics program to create a block digram, but since 
 
 ### The SAM32 Block
 
-Looking at the blocks, we see that there is a block marked "**MCU / WiFi / BLE**" with another label "**SAM32 Board**". Good news for us, Mr. Max Holliday has designed, built and been hard at work coding and debugging this block! You can find a TON of information about this board on his Github here [**SAM32**](https://github.com/maholli/SAM32). Here is what it looks like - ![SAM32](https://github.com/maholli/SAM32/blob/master/references/boardv2.PNG)</br>
-I **strongly** encourage you to spend some *quality time* with this block because it is a marvel of modern engineering! You may never need another board again!!</br>
-PLEASE THANK MAX FOR ALL HIS TIME AND EFFORT BUILDING THIS!!</br>
+Looking at the blocks, we see that there is a block marked "**MCU / WiFi / BLE**" with another label "**SAM32 Board**". Good news for us, Mr. Max Holliday has designed, built and been hard at work coding and debugging this block! You can find a TON of information about this board on his Github here [**SAM32**](https://github.com/maholli/SAM32). Here is what it looks like -
+
+<img src="https://raw.githubusercontent.com/maholli/SAM32/master/references/top2.jpg" width="500" />
+
+I **strongly** encourage you to spend some *quality time* with this block because it is a marvel of modern engineering! You may never need another board again!!
+
+Below is a link to a diagram with the pinout of the SAM32. We're using Version 2.6 so this diagram (for Ver. 2.4 -->) will be what you need!
+
+[SAM32 Pinout](https://www.notion.so/SAM32-Pinout-v2-4-Current-e463fe83c5ba47e78313ccf47eb0b1b5)
+
+PLEASE THANK MAX FOR ALL HIS TIME AND EFFORT BUILDING THIS!!
+
 Also don't forget, if you can code, you can contribute! Visit https://github.com/maholli/SAM32/projects/1 for a current list of software tasks that you can help with!
 
 ### The Audio Board Block
@@ -57,7 +66,7 @@ here is a link to the [Edzelf/ESP32-Radio](https://github.com/Edzelf/ESP32-Radio
 
 OK, so the Swiss guy, Andreas Spiess, made his with a VS1053 chip. If we look into this a bit, we find that there is a later chip with very similar but additional capabilities, the [VS1063](www.vlsi.fi/en/products/vs1063.html) also from VLSI. This seems promising! So maybe we can just connect the SAM32 to a VS1063 to produce audio output!?!?
 
-Looking at the prices on the VLSI Web Store, it seems that the VS1053 is about half the price of the VS1063. Is it worth the price difference? More to think about...
+Looking at the prices on the VLSI Web Store, it seems that the VS1053 is about half the price of the VS1063. Is it worth the price difference? More to think about... *Hint: I'm very cheap!*
 
 But wait! We still need something to drive the speaker(s)! This is where Professor Wong's Class D amplifer comes in. We can probably just connect the audio output from the VS10x3 codec to the input of the amplifier section. Hmmm... 
 
