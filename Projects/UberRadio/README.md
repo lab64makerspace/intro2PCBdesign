@@ -42,9 +42,7 @@ Looking at the blocks, we see that there is a block marked "**MCU / WiFi / BLE**
 
 I **strongly** encourage you to spend some *quality time* with this block because it is a marvel of modern engineering! You may never need another board again!!
 
-Below is a link to a diagram with the pinout of the SAM32. We're using Version 2.6 so this diagram (for Ver. 2.4 -->) will be what you need!
-
-[SAM32 Pinout](https://www.notion.so/SAM32-Pinout-v2-4-Current-e463fe83c5ba47e78313ccf47eb0b1b5)
+Here is a link to a diagram with the [SAM32 Pinout](https://www.notion.so/SAM32-Pinout-v2-4-Current-e463fe83c5ba47e78313ccf47eb0b1b5). We're using Version 2.6, so this diagram (for Ver. 2.4 -->) will be what you need!
 
 PLEASE THANK MAX FOR ALL HIS TIME AND EFFORT BUILDING THIS!!
 
