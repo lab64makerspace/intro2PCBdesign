@@ -1,28 +1,43 @@
-# Overview of "Intro to PCB Design"
-This workshop series was offered Winter Quarter AY 2018-2019. We're thinking about offering it in Spring Quarter AY2019-2020.
+# Overview of "*Intro to PCB Design*"
+Below is a proposed timeline with a list of topics to be discussed. Please let us know if we have missed something that you think should be covered.
 
-We are interested in your feedback! Please send comments, question and suggestions to: lab64ca@ee.stanford.edu
+<!---*We will NOT go into any depth concerning stripline structures, etc. because of time constraints.* --->
+
+Truth be told, it is a lot of stuff! If there is something in particular that you are interested in or curious about, please let us know and, if it is in scope, we'll try to accommodate; you're probably not the only person interested, so please pitch in.
+
+We want your feedback! Please send comments, questions and suggestions to: lab64ca@ee.stanford.edu
 
 Please use the [issues tab](../../issues) to post questions and answer other students' questions.
 
 ## Timeline
 Below is our first try at some structure. It is preliminary and subject to revision based
-on, you guessed it, YOUR FEEDBACK!
+on, you guessed it, **your feedback**!
 
 Week | Content | Lab / Activity
 ---- | ------- | -------------
-0  | ["Why make PCBs / Our Goals"](/Week_0/Week_0_Content) | [0 - Preload](/Week_0/Week_0_Activity)
-1  | ["PCB Structure / Workflow"](https://github.com/lab64makerspace/intro2PCBdesign/tree/master/Week_1/Week_1_Content) | [1 - Modern Proto Board](https://github.com/lab64makerspace/intro2PCBdesign/tree/master/Week_1/Week_1_Activity)
-2  | "Schematic Capture / Symbols & Footprints" | 2 - Design LED Board / Set up for Audio Board Design
-3  | "Stuff 3" | 3 - Design Audio Board
-4  | "Stuff 4" | 4 - Assemble LED Board / Design Radio Board
-5  | "Stuff 5" | 5 - Assemble Audio Board / Design Power Board
-6  | "Stuff 6" | 6 - Assemble Radio Board / Start Integration
-7  | "Stuff 7" | 7 - Assemble Power Board / Code & Debug
-8  | "Stuff 8" | 8 - Wrap things up!
-9  | "Stuff 9" | 9 - DEMO DAY PARTY!!
+0  | [Why make PCBs / Our Goals](Week_0/Week_0_Content) | [Preload: Install and Configure KiCAD](Week_0/Week_0_Activity)
+1  | [PCB Structure & Design Workflow](Week_1/Week_1_Content) | [Our First Board Goes Out to Fab](Week_1/Week_1_Activity)
+2  | [Schematic Capture](Week_2/Week_2_Content) | 2 - Design LED Board / Set up for Audio Board Design
+3  | [Basics of Board Layout](Week_3/Week_3_Content) | 3 - Design Audio Board
+4  | [More on Board Layout](Week_4/Week_4_Content) | 4 - Assemble LED Board / Design Radio Board
+5  | [Antennas - Intended and *NOT*](Week_5/Week_5_Content) | 5 - Assemble Audio Board / Design Power Board
+6  | [High-Speed Signals / EMC](Week_6/Week_6_Content) | 6 - Assemble Radio Board / Start Integration
+7  | [Thermal Management](Week_7/Week_7_Content) | 7 - Assemble Power Board / Code & Debug
+8  | [Using PCB Structures as Components](Week_8/Week_8_Content) | 8 - Wrap things up!
+9  | [PCBs as Sensors & Actuators](Week_9/Week_9_Content) | 9 - DEMO DAY PARTY!!
 
-## FAQ
+As you can see, we will try to design and send out a board for fabrication each week. This is an ambitious schedule; it means that each week we will :
+* design a board
+* have a design review (this is where we learn a LOT!)
+* tidy things up and send the boards out for fabrication
+* wait a week (or so) for the boards (sent out last week) to arrive
+* assemble the board (where we learn EVEN MORE!)*(Hopefully, we can remotely assemble them into functional devices. Due to current circumstances, we cannot offer hands-on lab  support, but we will provide assistance remotely. It will be super helpful if you have the ability to solder where you are, but you can still get a lot from the workshops by just designing boards and looking at them when they get to you)*.
+  <!-- * If the board is simple this goes quickly, if it is more complex we go through "board bring-up". -->
+* see if it meets the functional requirements
+
+We'll do our best to arrange the schedule so we can get the most experience from our time together.
+
+## FAQs
 
 <details>
   <summary>Why this workshop?</summary>
@@ -41,10 +56,10 @@ the basics correct.
 <details>
   <summary>Workshop focus</summary>
   
-This is an **introductory** workshop. **No previous experience is required.** Since we will
-emphasize basic connectivity, form, fit, and function it will be helpful (but **NOT REQUIRED**)
+This is an **introductory** workshop. **No previous experience is required!** Since we will
+emphasize basic connectivity, form, fit, and function it will be helpful (but **not required**)
 if you have some limited experience with a mechanical design program. Suitable programs
-include SolidWorks, Fusion360, FreeCAD, or any similar program. SolidWorks and Fusion360
+include SolidWorks, Onshape, Fusion360, FreeCAD, or any similar program. SolidWorks, Onshape, and Fusion360
 are available free of cost for students. Additionally, they are available on lab64 servers
 and you can use them without needing to run a VM, etc. If you need help with this, please
 contact the lab64 staff by sending an email to lab64ca@ee.stanford.edu
@@ -72,8 +87,7 @@ week. And it may be uneven depending on your background.
 ### Sending PCBs out for fabrication
 The whole point of this workshop is to master the process of designing PCBs, so naturally
 you will need to send boards out for fabrication, otherwise how will you know how you are
-doing? So we will et the expectation that you will send out "on average" **ONE BOARD PER
-WEEK**.
+doing? So we will set the expectation that you will send out "on average" **one board every two weeks**.
 
 ### How will this work?
 You will get either complete schematics or almost complete schematics. YOU WILL NOT BE DOING
@@ -99,8 +113,3 @@ Yes, you may work on other boards in parallel to this workshop, but we want you 
 Since the board you're making is for *your* research, you will have to purchase it (and the required components) yourself or using your research funds.
 </details>
 
-
-The "Stuff x" will soon be fleshed out. We have a list of stuff to put in each "Stuff x"
-section. Truth be told, it is a lot of stuff! IF there is something *IN PARTICULAR* that you
-are interested in or curious about, please let us know and, if it is in scope, we'll try
-to accommodate; you're probably not the only person interested, so please pitch in.

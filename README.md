@@ -1,5 +1,5 @@
 # Introduction to PCB Design
-First offered during Winter Quarter AY2018-2019, we're currently updating some material and thinking about offering it again during Spring Quarter AY2019-2020.
+First offered during Winter Quarter AY2018-2019, we're currently updating some material and planning to offer it again during Spring Quarter AY2019-2020.
 
 There are many excellent online tutorials about how to use the various PCB design programs available. This being the case, in this workshop / course we will focus on :
 * rapid prototyping of electronics (copper tape on various substrates, "dead-bug" construction, etc.)

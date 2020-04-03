@@ -1,22 +1,29 @@
 
 
-## Week 0
+## Week 0 - Why make PCBs & Our Goals
 
 The main goals for this week are:
 
+### For the Activity -
+* to install and configure KiCAD
+* to confirm this has been done correctly by opening a board design project in KiCAD.
+
+The Activity material may be found [HERE](../Week_0/Week_0_Activity).
+
+### For the Content -
 * to understand *why* we might want to make a printed circuit board (PCB)
 * to understand *why* we are doing all this work, that is *what* is the goal we are trying to achieve
 
 These questions are (hopefully) answered in this week's *Content* section.
 
-Some slides illustrating some prototyping techniques and hopefully motivating the first point may be found
-in ["Intro to PCB Design 1.pdf"](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_0/Week_0_Content/Intro%20to%20PCB%20Design%201.pdf).
+Slides illustrating some prototyping techniques and hopefully motivating the first point may be found
+in ["Intro to PCB Design 1.pdf"](../Week_0/Week_0_Content/Intro%20to%20PCB%20Design%201.pdf).
 
-The discusion is continued in the [Week_0/Content README.md](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Week_0/Week_0_Content/README.md).
+The discusion is continued in the [Week_0/Content README.md](../Week_0/Week_0_Content/README.md).
 
 I will add more detail on *what* we are trying to achieve as time allows, but suffice it to say that:
 
-**the end goal of all the design work is a set of fabrication instructions in the form of computer files that will enable the repeatable and efficient construction of the printed circuit board that the designer (that's *you*!) intended**.
+**the end goal of all the design work is a set of fabrication instructions (in the form of computer files) that will enable the repeatable and efficient construction of the printed circuit board that the designer (that's *you*!) intended**.
 
 So our goal, as designers, is to provide **ALL** the information required to make the gizmo we envisioned. This will require that we specify each layer of the printed circuit board. By convention, we always view a PCB from the "top", so
 
