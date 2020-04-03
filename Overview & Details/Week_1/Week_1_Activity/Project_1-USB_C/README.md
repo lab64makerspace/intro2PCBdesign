@@ -76,9 +76,7 @@ To move a wire, hover over the wire and press G.
 Go to Tools -- Annotate Schematic Symbols. This will give all lines and components names. <br/>
 Add a “+5” label to the wire connected to VBUS. Hover over the wire, and press L to add this label. You can later edit the label by hovering over the label and pressing E. Any wires with the same labels are considered by the program to be electrically connected. Note that labels are case sensitive. 
 
-#### 5) Download the USB connector footprint 
-Download the following [file](../../../Week_1/Week_1_Activity/Project_1-USB_C/USBC/USB_C_Receptacle_XKB_U262-161N-4BVC11.kicad_mod) to get the correct USB connector footprint. 
-
+#### 5) Import the USB connector footprint 
 Open the footprint editor in the Pcbnew software. <br/>
 <img width="350" src="../../../Week_1/Images/Activity1_12.png">
 
@@ -87,7 +85,7 @@ Make sure you are in your project folder and that the name of the library is the
 <img width="350" src="../../../Week_1/Images/Activity1_24.png">
 
 Go to File -- Import Footprint from KiCad File... <br/>
-Select the file you downloaded (USB_C_Receptacle_XKB_U262-161N-4BVC11.kicad_mod). Ctrl + S to save the footprint and select the library you created (same name as the project). It should now appear in your footprint library. <br/>
+Use the kicad_mod [file](../../../Week_1/Week_1_Activity/Project_1-USB_C/USB_C/USB_C_Receptacle_XKB_U262-161N-4BVC11.kicad_mod) located in the [USB_C folder](../../../Week_1/Week_1_Activity/Project_1-USB_C/USB_C) to get the correct USB connector footprint.. Ctrl + S to save the footprint and select the library you created (same name as the project). It should now appear in your footprint library. <br/>
 
 If this doesn't work for you, you can also import the footprint by selecting "Preferences - Manage Footprint Libraries" and select the "plus" button to add the connector. 
 
