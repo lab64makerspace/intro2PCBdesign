@@ -14,7 +14,7 @@ So the crux is this -
 
 More recently, Matthew Trost shared a project he has been working on. He calls it “LED Towers”. Several other students are building them along with Matthew. The project looks like this (two shown) –</br>
 
-![LED Towers](UberRadio Images/LED Towers.png)
+<img src="../UberRadio/UberRadio Images/LED Towers.png" width="700"/>)
 
 These have speakers in the base and multi-color LEDs arranged such that they illuminate the different pieces of acrylic in response to the sound. Matthew has made good progress in packaging the project (version 2.0 not shown) but it doesn’t include an amplifier to drive the speaker so the sound could be louder.
 
@@ -30,7 +30,7 @@ Before we move forward with this, I need to make a disclaimer-
 I WILL TRY TO PROVIDE PROPER ATTRIBUTION WHENEVER POSSIBLE, BUT I PROBABLY WON'T GET EVRYTHING CORRECT. IF YOU SEE SOMETHING THAT IS YOUR ORIGINAL IDEA, PLEASE LET ME KNOW SO I CAN GIVE YOU CREDIT!*</br>
 
 OK, then, there are a couple of ways to approach this, but one of the first things we'll need is a sort of map of where everything fits. This type of diagram is called a "**block diagram**" and it will allow us to see how the various functions interact. In addition, this representation allows us to focus on the **interfaces** between blocks (and blocks and the external world). This will prove to be a powerful way to understand what each block does and what it needs to function. The first "bare bones" version of the block diagram may be seen here -
-![Starting Block Diagram](/Uber_Radio.pdf)
+![Starting Block Diagram](../UberRadio/Uber_Radio.pdf)
 
 We could use basically any graphics program to create a block digram, but since we are learning KiCAD, I have chosen to us that and create the block diagram as a heirarchical first schematic page. This will allow us to use **global labels** to connect the blocks and make it easier to keep things straight. This is not so difficult for something as simple as the UberRadio, but for more complicated systems this can be a real help!
 
