@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Audio_Board-cache
+EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -59,7 +60,7 @@ F 7 "Phoenix Contact" H 15850 3050 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR085
+L power:Earth_w_GND #PWR085
 U 1 1 5C569A3E
 P 12350 7800
 F 0 "#PWR085" H 12350 7550 50  0001 C CNN
@@ -145,7 +146,7 @@ F 7 "" H 15050 3100 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR097
+L power:Earth_w_GND #PWR097
 U 1 1 5C573D8F
 P 15050 3300
 F 0 "#PWR097" H 15050 3050 50  0001 C CNN
@@ -176,7 +177,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 2600 14650 2550
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR093
+L power:Earth_w_GND #PWR093
 U 1 1 5C574C62
 P 14650 2950
 F 0 "#PWR093" H 14650 2700 50  0001 C CNN
@@ -187,7 +188,7 @@ F 3 "~" H 14650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR089
+L power:Earth_w_GND #PWR089
 U 1 1 5C575284
 P 14000 2950
 F 0 "#PWR089" H 14000 2700 50  0001 C CNN
@@ -202,7 +203,7 @@ Wire Wire Line
 Wire Wire Line
 	14000 2900 14000 2950
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR098
+L power:Earth_w_GND #PWR098
 U 1 1 5C59454A
 P 15050 4400
 F 0 "#PWR098" H 15050 4150 50  0001 C CNN
@@ -233,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 3700 14650 3650
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR094
+L power:Earth_w_GND #PWR094
 U 1 1 5C59455D
 P 14650 4050
 F 0 "#PWR094" H 14650 3800 50  0001 C CNN
@@ -244,7 +245,7 @@ F 3 "~" H 14650 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR090
+L power:Earth_w_GND #PWR090
 U 1 1 5C594563
 P 14000 4050
 F 0 "#PWR090" H 14000 3800 50  0001 C CNN
@@ -261,7 +262,7 @@ Wire Wire Line
 Wire Wire Line
 	13300 3650 13550 3650
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR099
+L power:Earth_w_GND #PWR099
 U 1 1 5C59B46D
 P 15050 5600
 F 0 "#PWR099" H 15050 5350 50  0001 C CNN
@@ -292,7 +293,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 4900 14650 4850
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR095
+L power:Earth_w_GND #PWR095
 U 1 1 5C59B480
 P 14650 5250
 F 0 "#PWR095" H 14650 5000 50  0001 C CNN
@@ -303,7 +304,7 @@ F 3 "~" H 14650 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR091
+L power:Earth_w_GND #PWR091
 U 1 1 5C59B486
 P 14000 5250
 F 0 "#PWR091" H 14000 5000 50  0001 C CNN
@@ -318,7 +319,7 @@ Wire Wire Line
 Wire Wire Line
 	14000 5200 14000 5250
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR0100
+L power:Earth_w_GND #PWR0100
 U 1 1 5C5A336E
 P 15050 6650
 F 0 "#PWR0100" H 15050 6400 50  0001 C CNN
@@ -349,7 +350,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 5950 14650 5900
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR096
+L power:Earth_w_GND #PWR096
 U 1 1 5C5A3381
 P 14650 6300
 F 0 "#PWR096" H 14650 6050 50  0001 C CNN
@@ -360,7 +361,7 @@ F 3 "~" H 14650 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR092
+L power:Earth_w_GND #PWR092
 U 1 1 5C5A3387
 P 14000 6300
 F 0 "#PWR092" H 14000 6050 50  0001 C CNN
@@ -496,7 +497,7 @@ F 7 "Panasonic" H 9250 3000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR075
+L power:Earth_w_GND #PWR075
 U 1 1 5C674CFC
 P 9950 3700
 F 0 "#PWR075" H 9950 3450 50  0001 C CNN
@@ -507,7 +508,7 @@ F 3 "~" H 9950 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR070
+L power:Earth_w_GND #PWR070
 U 1 1 5C675949
 P 9600 3700
 F 0 "#PWR070" H 9600 3450 50  0001 C CNN
@@ -518,7 +519,7 @@ F 3 "~" H 9600 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR065
+L power:Earth_w_GND #PWR065
 U 1 1 5C675EEF
 P 9250 3700
 F 0 "#PWR065" H 9250 3450 50  0001 C CNN
@@ -529,7 +530,7 @@ F 3 "~" H 9250 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR074
+L power:Earth_w_GND #PWR074
 U 1 1 5C676523
 P 9950 3150
 F 0 "#PWR074" H 9950 2900 50  0001 C CNN
@@ -540,7 +541,7 @@ F 3 "~" H 9950 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR069
+L power:Earth_w_GND #PWR069
 U 1 1 5C676CF1
 P 9600 3150
 F 0 "#PWR069" H 9600 2900 50  0001 C CNN
@@ -551,7 +552,7 @@ F 3 "~" H 9600 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR064
+L power:Earth_w_GND #PWR064
 U 1 1 5C6772AE
 P 9250 3150
 F 0 "#PWR064" H 9250 2900 50  0001 C CNN
@@ -644,7 +645,7 @@ F 7 "MuRata" H 10000 4650 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR077
+L power:Earth_w_GND #PWR077
 U 1 1 5C6BADDD
 P 10000 4800
 F 0 "#PWR077" H 10000 4550 50  0001 C CNN
@@ -655,7 +656,7 @@ F 3 "~" H 10000 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR071
+L power:Earth_w_GND #PWR071
 U 1 1 5C6C331D
 P 9600 4800
 F 0 "#PWR071" H 9600 4550 50  0001 C CNN
@@ -676,7 +677,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 4450 9600 4500
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR058
+L power:Earth_w_GND #PWR058
 U 1 1 5C6D5277
 P 8750 3900
 F 0 "#PWR058" H 8750 3650 50  0001 C CNN
@@ -702,7 +703,7 @@ F 7 "Kemet, Inc." H 9100 4650 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR062
+L power:Earth_w_GND #PWR062
 U 1 1 5C6DF03F
 P 9100 4800
 F 0 "#PWR062" H 9100 4550 50  0001 C CNN
@@ -713,7 +714,7 @@ F 3 "~" H 9100 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR053
+L power:Earth_w_GND #PWR053
 U 1 1 5C6E4AC7
 P 8550 4650
 F 0 "#PWR053" H 8550 4400 50  0001 C CNN
@@ -757,7 +758,7 @@ F 3 "~" H 8600 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR054
+L power:Earth_w_GND #PWR054
 U 1 1 5C71E383
 P 8600 6200
 F 0 "#PWR054" H 8600 5950 50  0001 C CNN
@@ -977,7 +978,7 @@ F 3 "~" H 7950 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR049
+L power:Earth_w_GND #PWR049
 U 1 1 5C677EE6
 P 8350 7350
 F 0 "#PWR049" H 8350 7100 50  0001 C CNN
@@ -988,7 +989,7 @@ F 3 "~" H 8350 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR046
+L power:Earth_w_GND #PWR046
 U 1 1 5C67893C
 P 7950 7350
 F 0 "#PWR046" H 7950 7100 50  0001 C CNN
@@ -999,7 +1000,7 @@ F 3 "~" H 7950 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR043
+L power:Earth_w_GND #PWR043
 U 1 1 5C678D89
 P 7100 7350
 F 0 "#PWR043" H 7100 7100 50  0001 C CNN
@@ -1010,7 +1011,7 @@ F 3 "~" H 7100 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR038
+L power:Earth_w_GND #PWR038
 U 1 1 5C6794CD
 P 6700 7350
 F 0 "#PWR038" H 6700 7100 50  0001 C CNN
@@ -1135,7 +1136,7 @@ F 3 "" H 8400 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR044
+L power:Earth_w_GND #PWR044
 U 1 1 5C74749F
 P 7900 3750
 F 0 "#PWR044" H 7900 3500 50  0001 C CNN
@@ -1146,7 +1147,7 @@ F 3 "~" H 7900 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR048
+L power:Earth_w_GND #PWR048
 U 1 1 5C7481F3
 P 8250 3750
 F 0 "#PWR048" H 8250 3500 50  0001 C CNN
@@ -1181,7 +1182,7 @@ Connection ~ 6750 3400
 Wire Wire Line
 	6750 3400 7050 3400
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR042
+L power:Earth_w_GND #PWR042
 U 1 1 5C77F647
 P 7050 3750
 F 0 "#PWR042" H 7050 3500 50  0001 C CNN
@@ -1192,7 +1193,7 @@ F 3 "~" H 7050 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR039
+L power:Earth_w_GND #PWR039
 U 1 1 5C77FD2F
 P 6750 3750
 F 0 "#PWR039" H 6750 3500 50  0001 C CNN
@@ -1311,7 +1312,7 @@ F 3 "~" H 6000 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR033
+L power:Earth_w_GND #PWR033
 U 1 1 5C8C4B81
 P 6000 4900
 F 0 "#PWR033" H 6000 4650 50  0001 C CNN
@@ -1366,7 +1367,7 @@ F 3 "~" H 6000 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR034
+L power:Earth_w_GND #PWR034
 U 1 1 5C976087
 P 6000 6100
 F 0 "#PWR034" H 6000 5850 50  0001 C CNN
@@ -1427,7 +1428,7 @@ F 3 "~" H 1250 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR02
+L power:Earth_w_GND #PWR02
 U 1 1 5C9C47A4
 P 1250 4600
 F 0 "#PWR02" H 1250 4350 50  0001 C CNN
@@ -1490,7 +1491,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4600 2000 4600
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR016
+L power:Earth_w_GND #PWR016
 U 1 1 5CAEEB69
 P 2150 4400
 F 0 "#PWR016" H 2150 4150 50  0001 C CNN
@@ -1549,7 +1550,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 5700 2050 6100
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR015
+L power:Earth_w_GND #PWR015
 U 1 1 5CC40C4F
 P 2050 6850
 F 0 "#PWR015" H 2050 6600 50  0001 C CNN
@@ -1636,7 +1637,7 @@ F 3 "~" H 1600 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR07
+L power:Earth_w_GND #PWR07
 U 1 1 5CCAB01C
 P 1600 6350
 F 0 "#PWR07" H 1600 6100 50  0001 C CNN
@@ -1647,7 +1648,7 @@ F 3 "~" H 1600 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR04
+L power:Earth_w_GND #PWR04
 U 1 1 5CCAB57D
 P 1300 6350
 F 0 "#PWR04" H 1300 6100 50  0001 C CNN
@@ -1718,7 +1719,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5900 5300 5850
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR030
+L power:Earth_w_GND #PWR030
 U 1 1 5CEB08AE
 P 5450 5550
 F 0 "#PWR030" H 5450 5300 50  0001 C CNN
@@ -2714,7 +2715,7 @@ F 3 "" H 2350 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR014
+L power:Earth_w_GND #PWR014
 U 1 1 5C68C9B8
 P 2050 2500
 F 0 "#PWR014" H 2050 2250 50  0001 C CNN
@@ -2809,7 +2810,7 @@ F 3 "~" H 3150 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR020
+L power:Earth_w_GND #PWR020
 U 1 1 5C7E8249
 P 3150 2350
 F 0 "#PWR020" H 3150 2100 50  0001 C CNN
@@ -2888,7 +2889,7 @@ Connection ~ 4700 1850
 Wire Wire Line
 	4700 1850 4700 2050
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR021
+L power:Earth_w_GND #PWR021
 U 1 1 5C9A24A4
 P 4500 2350
 F 0 "#PWR021" H 4500 2100 50  0001 C CNN
@@ -2899,7 +2900,7 @@ F 3 "~" H 4500 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR023
+L power:Earth_w_GND #PWR023
 U 1 1 5C9A2D05
 P 4700 2350
 F 0 "#PWR023" H 4700 2100 50  0001 C CNN
@@ -2910,7 +2911,7 @@ F 3 "~" H 4700 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR027
+L power:Earth_w_GND #PWR027
 U 1 1 5C9A30F6
 P 5150 2350
 F 0 "#PWR027" H 5150 2100 50  0001 C CNN
@@ -2964,7 +2965,7 @@ Connection ~ 6700 4300
 Wire Wire Line
 	6700 4300 6600 4300
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR040
+L power:Earth_w_GND #PWR040
 U 1 1 5CB3513F
 P 6850 4600
 F 0 "#PWR040" H 6850 4350 50  0001 C CNN
@@ -2981,7 +2982,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 5500 6700 5500
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR041
+L power:Earth_w_GND #PWR041
 U 1 1 5CB9291A
 P 6850 6100
 F 0 "#PWR041" H 6850 5850 50  0001 C CNN
@@ -3067,7 +3068,7 @@ F 7 "Kemet, Inc." H 13150 6450 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR086
+L power:Earth_w_GND #PWR086
 U 1 1 5D093516
 P 13150 6600
 F 0 "#PWR086" H 13150 6350 50  0001 C CNN
@@ -3082,7 +3083,7 @@ Wire Wire Line
 Wire Wire Line
 	12350 6700 12350 6800
 $Comp
-L Audio_Board-rescue:TPA3250D2DDW-Amplifier_Audio U8
+L Amplifier_Audio:TPA3250D2DDW U8
 U 1 1 5D132757
 P 11350 5300
 F 0 "U8" H 11350 7888 60  0000 C CNN
@@ -3238,7 +3239,7 @@ $EndComp
 Wire Wire Line
 	8600 5900 10350 5900
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR068
+L power:Earth_w_GND #PWR068
 U 1 1 5D4AAEB7
 P 9450 6450
 F 0 "#PWR068" H 9450 6200 50  0001 C CNN
@@ -3260,7 +3261,7 @@ F 3 "" H 9450 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR076
+L power:Earth_w_GND #PWR076
 U 1 1 5D4CE326
 P 9950 6300
 F 0 "#PWR076" H 9950 6050 50  0001 C CNN
@@ -3301,7 +3302,7 @@ F 3 "~" H 9350 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR066
+L power:Earth_w_GND #PWR066
 U 1 1 5D687627
 P 9350 7200
 F 0 "#PWR066" H 9350 6950 50  0001 C CNN
@@ -3366,7 +3367,7 @@ $EndComp
 Text Notes 13850 1550 0    50   ~ 0
 Phoenix\nContact
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR088
+L power:Earth_w_GND #PWR088
 U 1 1 5D7F1297
 P 13700 1500
 F 0 "#PWR088" H 13700 1250 50  0001 C CNN
@@ -3408,7 +3409,7 @@ F 3 "~" H 1900 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR012
+L power:Earth_w_GND #PWR012
 U 1 1 5D8B586A
 P 2000 1700
 F 0 "#PWR012" H 2000 1450 50  0001 C CNN
@@ -3528,7 +3529,7 @@ F 3 "~" H 9650 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR073
+L power:Earth_w_GND #PWR073
 U 1 1 5DAB38A6
 P 9650 2200
 F 0 "#PWR073" H 9650 1950 50  0001 C CNN
@@ -3557,7 +3558,7 @@ Connection ~ 9650 1800
 Wire Wire Line
 	9650 1800 9650 1900
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR063
+L power:Earth_w_GND #PWR063
 U 1 1 5DB1F019
 P 9200 2200
 F 0 "#PWR063" H 9200 1950 50  0001 C CNN
@@ -3626,7 +3627,7 @@ Connection ~ 10800 1500
 Wire Wire Line
 	10800 1500 10500 1500
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR079
+L power:Earth_w_GND #PWR079
 U 1 1 5DC47431
 P 10500 1900
 F 0 "#PWR079" H 10500 1650 50  0001 C CNN
@@ -3637,7 +3638,7 @@ F 3 "~" H 10500 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR080
+L power:Earth_w_GND #PWR080
 U 1 1 5DC4783D
 P 10800 1900
 F 0 "#PWR080" H 10800 1650 50  0001 C CNN
@@ -3648,7 +3649,7 @@ F 3 "~" H 10800 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR081
+L power:Earth_w_GND #PWR081
 U 1 1 5DC47BA4
 P 11300 1900
 F 0 "#PWR081" H 11300 1650 50  0001 C CNN
@@ -3683,7 +3684,7 @@ F 3 "~" H 12000 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR082
+L power:Earth_w_GND #PWR082
 U 1 1 5DC6FF4C
 P 11700 1900
 F 0 "#PWR082" H 11700 1650 50  0001 C CNN
@@ -3694,7 +3695,7 @@ F 3 "~" H 11700 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR084
+L power:Earth_w_GND #PWR084
 U 1 1 5DC70272
 P 12000 1900
 F 0 "#PWR084" H 12000 1650 50  0001 C CNN
@@ -3736,7 +3737,7 @@ Murata
 Text Notes 1460 2500 0    42   ~ 0
 0603
 $Comp
-L Audio_Board-rescue:MAX1735EUK25+T-2019-02-05_05-23-06 U3
+L 2019-02-05_05-23-06:MAX1735EUK25+T U3
 U 1 1 5C7290D7
 P 6200 1900
 F 0 "U3" H 6925 2287 60  0000 C CNN
@@ -3747,7 +3748,7 @@ F 3 "" H 6200 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR035
+L power:Earth_w_GND #PWR035
 U 1 1 5C72ACE0
 P 6150 2500
 F 0 "#PWR035" H 6150 2250 50  0001 C CNN
@@ -3784,7 +3785,7 @@ F 3 "~" H 8700 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR056
+L power:Earth_w_GND #PWR056
 U 1 1 5C7C63DE
 P 8700 2200
 F 0 "#PWR056" H 8700 1950 50  0001 C CNN
@@ -3806,7 +3807,7 @@ F 3 "~" H 5700 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR032
+L power:Earth_w_GND #PWR032
 U 1 1 5C7ECCCD
 P 5700 2500
 F 0 "#PWR032" H 5700 2250 50  0001 C CNN
@@ -3842,7 +3843,7 @@ F 3 "~" H 7950 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR045
+L power:Earth_w_GND #PWR045
 U 1 1 5C860A11
 P 7950 2500
 F 0 "#PWR045" H 7950 2250 50  0001 C CNN
