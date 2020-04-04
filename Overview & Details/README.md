@@ -20,7 +20,7 @@ Week | Content | Lab / Activity
 4  | [More on Board Layout](Week_4/Week_4_Content) | [Assemble Power Board / Design Display Board](Week_4/Week_4_Activity)
 5  | [Antennas - Intended and *NOT*](Week_5/Week_5_Content) | [Assemble Audio Board / Design LED Board](Week_5/Week_5_Activity)
 6  | [High-Speed Signals / EMC](Week_6/Week_6_Content) | [Assemble Display Board / Start Integration](Week_6/Week_6_Activity)
-7  | [Thermal Management](Week_7/Week_7_Content) | [Assemble Power Board / Code & Debug](Week_7/Week_7_Activity)
+7  | [Thermal Management](Week_7/Week_7_Content) | [Assemble LED Board / Code & Debug](Week_7/Week_7_Activity)
 8  | [Using PCB Structures as Components](Week_8/Week_8_Content) | Wrap things up!
 9  | [PCBs as Sensors & Actuators](Week_9/Week_9_Content) | REMOTE DEMO DAY PARTY!!
 
