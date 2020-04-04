@@ -29,8 +29,7 @@ As you can see, we will try to design and send out a board for fabrication each 
 * have a design review (this is where we learn a LOT!)
 * tidy things up and send the boards out for fabrication
 * wait a week (or so) for the boards (sent out the previous week) to arrive
-* assemble the board (where we learn EVEN MORE!)*(Hopefully, we can remotely assemble them into functional devices. Due to current circumstances, we cannot offer hands-on lab  support, but we will provide assistance remotely. It will be super helpful if you have the ability to solder where you are, but you can still get a lot from the workshops by just designing boards and looking at them when they get to you)*.
-
+* assemble the board [^1] (where we learn EVEN MORE!)
 * see if it meets the functional requirements
 
 We'll do our best to arrange the schedule so we can get the most experience from our time together.
@@ -112,4 +111,6 @@ KiCad is open-source, easy to use, and powerful. Almost everything we can do usi
 Yes, you may work on other boards in parallel to this workshop, but we want you to also work on making the designs we're providing. We'll do our best to answer any questions you might have on making pcb's for your own research project, but we cannot guarantee extensive help.
 Since the board you're making is for *your* research, you will have to purchase it (and the required components) yourself or using your research funds.
 </details>
+
+[^1]: *(Hopefully, we can remotely assemble them into functional devices. Due to current circumstances, we cannot offer hands-on lab  support, but we will provide assistance remotely. It will be super helpful if you have the ability to solder where you are, but you can still get a lot from the workshops by just designing boards and looking at them when they get to you)*.
 
