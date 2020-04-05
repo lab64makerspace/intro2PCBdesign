@@ -10,6 +10,7 @@ The main goals for this week are:
 The Activity material may be found [HERE](../Week_2/Week_2_Activity).
 
 ### For the Content -
-* to learn about PCB schematics 
+* Learn what makes an audio amp!<br/>
+* See what it takes to integrate multiple components to make something!
 
 These questions are (hopefully) answered in this week's [*Content*](../Week_2/Week_2_Content) section.
