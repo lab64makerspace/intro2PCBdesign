@@ -52,152 +52,14 @@ $EndComp
 $Comp
 L 2020-04-05_01-22-35:62684-502100ALF J1
 U 1 1 5F061D23
-P 5450 1390
-F 0 "J1" H 5978 -1007 60  0000 L CNN
-F 1 "62684-502100ALF" H 5978 -1113 60  0000 L CNN
-F 2 "CONN50_62684-502100ALF" H 5850 -1070 60  0001 C CNN
-F 3 "" H 5450 1390 60  0000 C CNN
-	1    5450 1390
-	1    0    0    -1  
+P 6000 1420
+F 0 "J1" H 6300 1570 60  0000 L CNN
+F 1 "62684-502100ALF" H 6050 1630 60  0000 L CNN
+F 2 "CONN50_62684-502100ALF" H 6400 -1040 60  0001 C CNN
+F 3 "" H 6000 1420 60  0000 C CNN
+	1    6000 1420
+	-1   0    0    -1  
 $EndComp
-Text Label 4440 1450 0    50   ~ 10
-32
-Text Label 4440 1550 0    50   ~ 10
-31
-Text Label 4440 1650 0    50   ~ 10
-30
-Text Label 4440 1750 0    50   ~ 10
-29
-Text Label 5450 4490 2    50   ~ 10
-32
-Text Label 5450 4390 2    50   ~ 10
-31
-Text Label 5450 4290 2    50   ~ 10
-30
-Text Label 5450 4190 2    50   ~ 10
-29
-Text Label 4440 1850 0    50   ~ 10
-28
-Text Label 4440 1950 0    50   ~ 10
-27
-Text Label 4440 2050 0    50   ~ 10
-26
-Text Label 4440 2150 0    50   ~ 10
-25
-Text Label 4440 2250 0    50   ~ 10
-24
-Text Label 4440 2350 0    50   ~ 10
-23
-Text Label 4440 2450 0    50   ~ 10
-22
-Text Label 4440 2550 0    50   ~ 10
-21
-Text Label 4440 2650 0    50   ~ 10
-20
-Text Label 4440 2750 0    50   ~ 10
-19
-Text Label 4440 2850 0    50   ~ 10
-18
-Text Label 4440 2950 0    50   ~ 10
-17
-Text Label 4440 3050 0    50   ~ 10
-16
-Text Label 4440 3150 0    50   ~ 10
-15
-Text Label 5450 4090 2    50   ~ 10
-28
-Text Label 5450 3990 2    50   ~ 10
-27
-Text Label 5450 3890 2    50   ~ 10
-26
-Text Label 5450 3790 2    50   ~ 10
-25
-Text Label 5450 3690 2    50   ~ 10
-24
-Text Label 5450 3590 2    50   ~ 10
-23
-Text Label 5450 3490 2    50   ~ 10
-22
-Text Label 5450 3390 2    50   ~ 10
-21
-Text Label 5450 3290 2    50   ~ 10
-20
-Text Label 5450 3190 2    50   ~ 10
-19
-Text Label 5450 3090 2    50   ~ 10
-18
-Text Label 5450 2990 2    50   ~ 10
-17
-Text Label 5450 2890 2    50   ~ 10
-16
-Text Label 5450 2790 2    50   ~ 10
-15
-Text Label 4440 3350 0    50   ~ 10
-14
-Text Label 4440 3450 0    50   ~ 10
-13
-Text Label 4440 3550 0    50   ~ 10
-12
-Text Label 4440 3650 0    50   ~ 10
-11
-Text Label 5450 2690 2    50   ~ 10
-14
-Text Label 5450 2590 2    50   ~ 10
-13
-Text Label 5450 2490 2    50   ~ 10
-12
-Text Label 5450 2390 2    50   ~ 10
-11
-Text Label 4440 3900 0    50   ~ 10
-39
-Text Label 4440 4000 0    50   ~ 10
-38
-Text Label 4440 4100 0    50   ~ 10
-37
-Text Label 4440 4200 0    50   ~ 10
-36
-Text Label 4440 4300 0    50   ~ 10
-35
-Text Label 4440 4400 0    50   ~ 10
-34
-Text Label 4440 4500 0    50   ~ 10
-33
-Text Label 5450 5190 2    50   ~ 10
-39
-Text Label 5450 5090 2    50   ~ 10
-38
-Text Label 5450 4990 2    50   ~ 10
-37
-Text Label 5450 4890 2    50   ~ 10
-36
-Text Label 5450 4790 2    50   ~ 10
-35
-Text Label 5450 4690 2    50   ~ 10
-34
-Text Label 5450 4590 2    50   ~ 10
-33
-Text Label 1890 4200 2    50   ~ 10
-43
-Text Label 1890 3900 2    50   ~ 10
-42
-Text Label 1890 3800 2    50   ~ 10
-41
-Text Label 1890 3700 2    50   ~ 10
-40
-Text Label 5450 5490 2    50   ~ 10
-42
-Text Label 5450 5390 2    50   ~ 10
-41
-Text Label 5450 5290 2    50   ~ 10
-40
-Text Label 5450 5590 2    50   ~ 10
-43
-Text Label 1890 4300 2    50   ~ 10
-48
-Text Label 1890 4400 2    50   ~ 10
-49
-Text Label 1890 4500 2    50   ~ 10
-50
 $Comp
 L Display_Board_Lib:DISP_TFT_2.8IN_240x320_50PIN U3
 U 1 1 5F053F83
@@ -209,68 +71,6 @@ F 3 "" H 3340 2900 50  0001 C CNN
 	1    3190 2900
 	1    0    0    -1  
 $EndComp
-Text Label 5450 6090 2    50   ~ 10
-48
-Text Label 5450 6190 2    50   ~ 10
-49
-Text Label 5450 6290 2    50   ~ 10
-50
-Text Label 1890 2950 2    50   ~ 10
-1
-Text Label 1890 3050 2    50   ~ 10
-2
-Text Label 1890 3150 2    50   ~ 10
-3
-Text Label 1890 3250 2    50   ~ 10
-4
-Text Label 1890 3350 2    50   ~ 10
-5
-Text Label 5450 1390 2    50   ~ 10
-1
-Text Label 5450 1490 2    50   ~ 10
-2
-Text Label 5450 1590 2    50   ~ 10
-3
-Text Label 5450 1690 2    50   ~ 10
-4
-Text Label 5450 1790 2    50   ~ 10
-5
-Text Label 1890 2600 2    50   ~ 10
-47
-Text Label 1890 2500 2    50   ~ 10
-45
-Text Label 1890 2400 2    50   ~ 10
-46
-Text Label 1890 2300 2    50   ~ 10
-44
-Text Label 5450 5990 2    50   ~ 10
-47
-Text Label 5450 5790 2    50   ~ 10
-45
-Text Label 5450 5890 2    50   ~ 10
-46
-Text Label 5450 5690 2    50   ~ 10
-44
-Text Label 1890 2000 2    50   ~ 10
-10
-Text Label 1890 1750 2    50   ~ 10
-9
-Text Label 1890 1650 2    50   ~ 10
-8
-Text Label 1890 1550 2    50   ~ 10
-7
-Text Label 1890 1450 2    50   ~ 10
-6
-Text Label 5450 2290 2    50   ~ 10
-10
-Text Label 5450 2190 2    50   ~ 10
-9
-Text Label 5450 2090 2    50   ~ 10
-8
-Text Label 5450 1990 2    50   ~ 10
-7
-Text Label 5450 1890 2    50   ~ 10
-6
 Wire Wire Line
 	4290 4500 4440 4500
 Wire Wire Line
@@ -371,4 +171,14 @@ Wire Wire Line
 	1890 4300 2040 4300
 Wire Wire Line
 	1890 4200 2040 4200
+Text Notes 3110 970  0    79   ~ 0
+LCD DISPLAY (U3) CONNECTS TO FFC CONNECTOR (J1) \nUSING A FLEX CONNECTOR. J1 HAS TOP-CONTACT PINS (1-50)
+Text Label 6000 5720 0    79   ~ 0
+X+
+Text Label 6000 5920 0    79   ~ 0
+X-
+Text Label 6000 5820 0    79   ~ 0
+Y+
+Text Label 6000 6020 0    79   ~ 0
+Y-
 $EndSCHEMATC
