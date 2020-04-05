@@ -1,11 +1,11 @@
 ## Week_2_Activity Summary
 
-
 Download the Week_2_Activity folder. 
 
 Open the audio_board.pro file in KiCad
 
-
+## Add commonly used libraries to your KiCAD libraries
+* Follow these instructions to import the Digi-Key KiCad Library: https://forum.digikey.com/t/importing-the-digi-key-kicad-library-into-kicad-5-0-0/4075
 
 ## Add Footprints
 
