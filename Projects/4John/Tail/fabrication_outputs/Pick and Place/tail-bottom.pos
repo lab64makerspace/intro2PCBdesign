@@ -1,0 +1,33 @@
+### Module positions - created on 3/4/2020 4:44:33 PM ###
+### Printed by Pcbnew version kicad (5.1.5)-3
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val              Package                                  PosX       PosY       Rot  Side
+C6        18nF             C_0603_1608Metric                   -153.1250  -106.5000   90.0000  bottom
+C7        18nF             C_0603_1608Metric                   -151.5250  -106.5000   90.0000  bottom
+C8        18nF             C_0603_1608Metric                   -149.9250  -106.5000   90.0000  bottom
+C9        2.2uF            C_0603_1608Metric                   -143.5750   -96.6470    0.0000  bottom
+C10       100nF            C_0603_1608Metric                   -149.0250  -100.0500   90.0000  bottom
+C11       100nF            C_0603_1608Metric                   -147.1930   -96.5200   90.0000  bottom
+C12       6.8pF            C_0603_1608Metric                   -139.3000  -100.5000  270.0000  bottom
+C13       15nF             C_0603_1608Metric                   -148.2250  -104.9375  270.0000  bottom
+C14       1pF              C_0603_1608Metric                   -146.6250  -104.9500  270.0000  bottom
+C15       470pF            C_0603_1608Metric                   -141.3500  -107.5750  180.0000  bottom
+FID4      Fiducial         Fiducial_1mm_Mask2mm                 -81.2800   -74.9300   -0.0000  bottom
+FID5      Fiducial         Fiducial_1mm_Mask2mm                -198.1200   -74.9300   -0.0000  bottom
+FID6      Fiducial         Fiducial_1mm_Mask2mm                -198.1200  -115.5700   -0.0000  bottom
+J5        10103594-0001LF  USB_Micro_B_Female_10103594-0001LF   -79.5500   -95.2000   90.0000  bottom
+R2        200k             R_0603_1608Metric                   -151.9250   -96.9500   90.0000  bottom
+R3        7.68k            R_0603_1608Metric                   -152.3750  -102.5500  180.0000  bottom
+R4        23.2k            R_0603_1608Metric                   -152.3750  -104.1500  180.0000  bottom
+R5        2.1              R_0603_1608Metric                   -149.0250   -96.8500   90.0000  bottom
+R6        20k              R_0603_1608Metric                   -143.5250   -93.4720    0.0000  bottom
+R7        20k              R_0603_1608Metric                   -143.5500   -95.1230    0.0000  bottom
+R8        1.18k            R_0603_1608Metric                   -140.9000   -98.8250  270.0000  bottom
+R9        2.67k            R_0603_1608Metric                   -145.0500  -108.2500   90.0000  bottom
+R10       18k              R_0603_1608Metric                   -144.2750  -105.8500  180.0000  bottom
+R11       845              R_0603_1608Metric                   -144.2750  -104.2000  180.0000  bottom
+R12       17.4             R_0603_1608Metric                   -138.9250  -106.8000   90.0000  bottom
+R53       10k              R_0603_1608Metric                   -138.5000   -92.9250  180.0000  bottom
+R54       20k              R_0603_1608Metric                   -138.5000   -96.0120  180.0000  bottom
+## End

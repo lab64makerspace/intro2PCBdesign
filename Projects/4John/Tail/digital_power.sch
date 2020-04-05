@@ -1,0 +1,269 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4250 3700 4650 3700
+Wire Wire Line
+	4650 4400 7850 4400
+Wire Wire Line
+	4650 3700 4650 4400
+$Comp
+L Device:C C45
+U 1 1 576454EF
+P 1000 4300
+F 0 "C45" H 850 4200 66  0000 R TNN
+F 1 "10uF" H 850 4300 66  0000 R TNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1000 4300 50  0001 C CNN
+F 3 "" H 1000 4300 50  0001 C CNN
+F 4 "" V 1000 4300 50  0001 C CNN "DigiKey PN"
+F 5 "C3216X6S1V106K160AC" V 1000 4300 50  0001 C CNN "Manufacturer PN"
+F 6 "TDK Corporation" V 1000 4300 50  0001 C CNN "Manufacturer"
+F 7 "CAP CER 10UF 35V X6S 1206" V 1000 4300 50  0001 C CNN "Description"
+F 8 "445-14778-1-ND" H 1000 4300 50  0001 C CNN "Digikey PN"
+	1    1000 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R58
+U 1 1 A57F52E2
+P 7850 3800
+F 0 "R58" H 7750 3700 66  0000 R TNN
+F 1 "111k" H 7750 3800 66  0000 R TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7850 3800 50  0001 C CNN
+F 3 "" H 7850 3800 50  0001 C CNN
+F 4 "749-1601-1-ND" V 7850 3800 50  0001 C CNN "Digikey PN"
+F 5 "Vishay Beyschlag" V 7850 3800 50  0001 C CNN "Manufacturer"
+F 6 "MCT06030C1103FP500" V 7850 3800 50  0001 C CNN "Manufacturer PN"
+F 7 "RES SMD 110K OHM 1% 1/8W 0603" V 7850 3800 50  0001 C CNN "Description"
+	1    7850 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R59
+U 1 1 7A262C21
+P 7850 5050
+F 0 "R59" H 7750 4900 66  0000 R TNN
+F 1 "20k" H 7750 5000 66  0000 R TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7850 5050 50  0001 C CNN
+F 3 "" H 7850 5050 50  0001 C CNN
+F 4 "" V 7850 5050 50  0001 C CNN "DigiKey PN"
+F 5 "MCT06030E2002BP500" V 7850 5050 50  0001 C CNN "Manufacturer PN"
+F 6 "Vishay Beyschlag" V 7850 5050 50  0001 C CNN "Manufacturer"
+F 7 "RES 20K OHM 0.1% 1/10W 0603" V 7850 5050 50  0001 C CNN "Description"
+F 8 "749-1747-1-ND" H 7850 5050 50  0001 C CNN "Digikey PN"
+	1    7850 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:L L8
+U 1 1 FD6D4333
+P 6650 3300
+F 0 "L8" V 6850 3100 66  0000 C BNN
+F 1 "18uH" V 6750 3050 66  0000 C BNN
+F 2 "light_footprints:SDE0604A-180M" H 6650 3300 50  0001 C CNN
+F 3 "" H 6650 3300 50  0001 C CNN
+F 4 "" H 6650 3300 50  0001 C CNN "DigiKey PN"
+F 5 "SDE0604A-180M" H 6650 3300 50  0001 C CNN "Manufacturer PN"
+F 6 "Bourns Inc." H 6650 3300 50  0001 C CNN "Manufacturer"
+F 7 "FIXED IND 18UH 2A 150 MOHM SMD" H 6650 3300 50  0001 C CNN "Description"
+F 8 "SDE0604A-180MCT-ND" H 6650 3300 50  0001 C CNN "Digikey PN"
+	1    6650 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C47
+U 1 1 8D44AB37
+P 5100 2850
+F 0 "C47" H 5450 3100 66  0000 R TNN
+F 1 "100nF" H 5550 3000 66  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 2850 50  0001 C CNN
+F 3 "" H 5100 2850 50  0001 C CNN
+F 4 "311-1335-1-ND" V 5100 2850 50  0001 C CNN "Digikey PN"
+F 5 "CC0603KPX7R7BB104" V 5100 2850 50  0001 C CNN "Manufacturer PN"
+F 6 "Yageo" V 5100 2850 50  0001 C CNN "Manufacturer"
+F 7 "CAP CER 0.1UF 16V X7R 0603" V 5100 2850 50  0001 C CNN "Description"
+	1    5100 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  3000 1000 3000
+$Comp
+L 2020-02-03_11-12-10-rescue:LMR14010ADDCRLMR14010ADDCR-2020-02-03_11-12-10-eagle-import U11
+U 1 1 112AEF2B
+P 3550 3400
+F 0 "U11" H 3200 4050 66  0000 C BNN
+F 1 "LMR14010ADDCR" H 3550 3400 66  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 3550 3400 50  0001 C CNN
+F 3 "" H 3550 3400 50  0001 C CNN
+F 4 "" H 3550 3400 50  0001 C CNN "DigiKey PN"
+F 5 "LMR14010ADDCR" H 3700 2750 50  0000 C CNN "Manufacturer PN"
+F 6 "Texas Instruments" H 3550 3400 50  0001 C CNN "Manufacturer"
+F 7 "IC REG BUCK ADJ 1A TSOT23-6" H 3550 3400 50  0001 C CNN "Description"
+F 8 "296-49761-1-ND" H 3550 3400 50  0001 C CNN "Digikey PN"
+	1    3550 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2550 4250 3000
+$Comp
+L Device:C C46
+U 1 1 2E95CAA8
+P 8850 4400
+F 0 "C46" H 8700 4300 66  0000 R TNN
+F 1 "22uF" H 8700 4400 66  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8850 4400 50  0001 C CNN
+F 3 "" H 8850 4400 50  0001 C CNN
+F 4 "" V 8850 4400 50  0001 C CNN "DigiKey PN"
+F 5 "GRM188R61A226ME15D" V 8850 4400 50  0001 C CNN "Manufacturer PN"
+F 6 "Murata Electronics" V 8850 4400 50  0001 C CNN "Manufacturer"
+F 7 "CAP CER 22UF 10V X5R 0603" V 8850 4400 50  0001 C CNN "Description"
+F 8 "490-10476-1-ND" H 8850 4400 50  0001 C CNN "Digikey PN"
+	1    8850 4400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4250 2550 5100 2550
+Wire Wire Line
+	8850 3100 8850 3300
+Connection ~ 8850 3300
+Wire Wire Line
+	5100 2550 5100 2700
+Wire Wire Line
+	5100 3000 5100 3300
+$Comp
+L Diode:1N4448 D2
+U 1 1 1BC56F0F
+P 5750 3700
+F 0 "D2" V 5650 3800 66  0000 L BNN
+F 1 "550mV" V 5780 3800 66  0000 L BNN
+F 2 "Diode_SMD:D_SOD-123F" H 5750 3700 50  0001 C CNN
+F 3 "" H 5750 3700 50  0001 C CNN
+F 4 "" V 5750 3700 50  0001 C CNN "DigiKey PN"
+F 5 "SS14FL" V 5750 3700 50  0001 C CNN "Manufacturer PN"
+F 6 "ON Semiconductor" V 5750 3700 50  0001 C CNN "Manufacturer"
+F 7 "DIODE SCHOTTKY 40V 1A SOD123F" V 5750 3700 50  0001 C CNN "Description"
+F 8 "SS14FLCT-ND" H 5750 3700 50  0001 C CNN "Digikey PN"
+	1    5750 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 3550 5750 3300
+Wire Wire Line
+	4250 3300 5100 3300
+Wire Wire Line
+	5750 3300 5100 3300
+Connection ~ 5750 3300
+Connection ~ 5100 3300
+Wire Wire Line
+	5750 3300 6500 3300
+Wire Wire Line
+	6800 3300 7850 3300
+Wire Wire Line
+	7850 3650 7850 3300
+Connection ~ 7850 3300
+Wire Wire Line
+	7850 3300 8400 3300
+Wire Wire Line
+	7850 3950 7850 4400
+Wire Wire Line
+	7850 4900 7850 4400
+Connection ~ 7850 4400
+Wire Wire Line
+	7850 5200 7850 5500
+Wire Wire Line
+	8850 3300 8850 4250
+Wire Wire Line
+	8850 4550 8850 5500
+Wire Wire Line
+	1000 4150 1000 3000
+Wire Wire Line
+	1000 4450 1000 5500
+Wire Wire Line
+	8850 5500 7850 5500
+Connection ~ 7850 5500
+Text HLabel 800  3000 0    50   Input ~ 0
+18Vin
+Text HLabel 8850 3100 1    50   Input ~ 0
+5Vout
+Text HLabel 4900 5700 3    50   Input ~ 0
+GND
+Wire Wire Line
+	4900 5700 4900 5500
+Connection ~ 4900 5500
+Wire Wire Line
+	4900 5500 5750 5500
+Wire Wire Line
+	1650 3400 1950 3400
+$Comp
+L tail-rescue:R-Device R?
+U 1 1 5E52CC2F
+P 2100 3400
+AR Path="/5E46B36B/5E52CC2F" Ref="R?"  Part="1" 
+AR Path="/5E4888F1/5E52CC2F" Ref="R?"  Part="1" 
+AR Path="/5E62F324/5E52CC2F" Ref="R?"  Part="1" 
+AR Path="/5E48C025/5E52CC2F" Ref="R?"  Part="1" 
+AR Path="/5E4F0F52/5E52CC2F" Ref="R?"  Part="1" 
+AR Path="/5E416D2E/5E52CC2F" Ref="R33"  Part="1" 
+F 0 "R33" V 2200 3600 50  0000 C CNN
+F 1 "0" V 2300 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2030 3400 50  0001 C CNN
+F 3 "~" H 2100 3400 50  0001 C CNN
+F 4 "RC0603JR-070RL" V 2100 3400 50  0001 C CNN "Manufacturer PN"
+F 5 "Yageo" V 2100 3400 50  0001 C CNN "Manufacturer"
+F 6 "311-0.0GRCT-ND" V 2100 3400 50  0001 C CNN "Digikey PN"
+F 7 "RES SMD 0 OHM JUMPER 1/10W 0603" V 2100 3400 50  0001 C CNN "Description"
+	1    2100 3400
+	0    1    1    0   
+$EndComp
+Text HLabel 1650 3400 0    50   Input ~ 0
+ENin
+Connection ~ 1000 3000
+Wire Wire Line
+	1000 3000 2850 3000
+Wire Wire Line
+	1000 5500 4250 5500
+Wire Wire Line
+	2850 3400 2250 3400
+Wire Wire Line
+	4250 3900 4250 5500
+Connection ~ 4250 5500
+Wire Wire Line
+	4250 5500 4900 5500
+Wire Wire Line
+	5750 3850 5750 5500
+Connection ~ 5750 5500
+Wire Wire Line
+	5750 5500 7850 5500
+$Comp
+L tail-rescue:TestPoint-Connector TP?
+U 1 1 5E5496CD
+P 8400 3300
+AR Path="/5E5496CD" Ref="TP?"  Part="1" 
+AR Path="/5E62F324/5E5496CD" Ref="TP?"  Part="1" 
+AR Path="/5E4888F1/5E5496CD" Ref="TP?"  Part="1" 
+AR Path="/5E46B36B/5E5496CD" Ref="TP?"  Part="1" 
+AR Path="/5E48C025/5E5496CD" Ref="TP?"  Part="1" 
+AR Path="/5E416D2E/5E5496CD" Ref="TP7"  Part="1" 
+F 0 "TP7" H 8458 3418 50  0000 L CNN
+F 1 "TestPoint" H 8458 3327 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 8600 3300 50  0001 C CNN
+F 3 "~" H 8600 3300 50  0001 C CNN
+	1    8400 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 8400 3300
+Wire Wire Line
+	8400 3300 8850 3300
+$EndSCHEMATC

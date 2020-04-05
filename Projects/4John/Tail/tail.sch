@@ -1,0 +1,1247 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1250 4250 650  500 
+U 5E46B36B
+F0 "led_power_1" 50
+F1 "led_power.sch" 50
+F2 "18Vin" U L 1250 4350 50 
+F3 "5Vout" U R 1900 4350 50 
+F4 "GND" U L 1250 4650 50 
+F5 "ENin" I L 1250 4500 50 
+$EndSheet
+$Comp
+L tail-rescue:640456-3-dk_Rectangular-Connectors-Headers-Male-Pins J2
+U 1 1 5E610559
+P 3000 4350
+F 0 "J2" V 2850 4250 50  0000 C CNN
+F 1 "LED RIGHT" V 3350 4250 50  0000 C CNN
+F 2 "jst:JST_1x3" H 3200 4550 60  0001 L CNN
+F 3 "" H 3200 4650 60  0001 L CNN
+F 4 "CONN HEADER VERT 3POS 2.5MM" H 3200 5350 60  0001 L CNN "Description"
+F 5 "JST Sales America Inc." H 3200 5450 60  0001 L CNN "Manufacturer"
+F 6 "455-2248-ND" H 3000 4350 50  0001 C CNN "Digikey PN"
+F 7 "B3B-XH-A(LF)(SN)" H 3000 4350 50  0001 C CNN "Manufacturer PN"
+	1    3000 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L tail-rescue:+48V-power #PWR07
+U 1 1 5E624385
+P 2750 3100
+F 0 "#PWR07" H 2750 2950 50  0001 C CNN
+F 1 "+48V-power" H 2765 3273 50  0000 C CNN
+F 2 "" H 2750 3100 50  0001 C CNN
+F 3 "" H 2750 3100 50  0001 C CNN
+	1    2750 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3100 2750 3250
+Wire Wire Line
+	2750 3250 3050 3250
+$Comp
+L tail-rescue:GND-power #PWR08
+U 1 1 5E624F18
+P 2850 3600
+F 0 "#PWR08" H 2850 3350 50  0001 C CNN
+F 1 "GND-power" H 2855 3427 50  0000 C CNN
+F 2 "" H 2850 3600 50  0001 C CNN
+F 3 "" H 2850 3600 50  0001 C CNN
+	1    2850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3600 2850 3450
+Wire Wire Line
+	2850 3450 3050 3450
+$Comp
+L tail-rescue:GND-power #PWR01
+U 1 1 5E625834
+P 1050 4750
+F 0 "#PWR01" H 1050 4500 50  0001 C CNN
+F 1 "GND" H 1055 4577 50  0000 C CNN
+F 2 "" H 1050 4750 50  0001 C CNN
+F 3 "" H 1050 4750 50  0001 C CNN
+	1    1050 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1050 4350 0    50   Input ~ 0
++18V
+Wire Wire Line
+	1050 4350 1250 4350
+Text GLabel 2100 4350 2    50   Input ~ 0
++5V_LED_1
+Wire Wire Line
+	1900 4350 2100 4350
+$Comp
+L tail-rescue:GND-power #PWR09
+U 1 1 5E62732A
+P 3250 4600
+F 0 "#PWR09" H 3250 4350 50  0001 C CNN
+F 1 "GND" H 3255 4427 50  0000 C CNN
+F 2 "" H 3250 4600 50  0001 C CNN
+F 3 "" H 3250 4600 50  0001 C CNN
+	1    3250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L tail-rescue:10103594-0001LF-dk_USB-DVI-HDMI-Connectors J5
+U 1 1 5E6292E8
+P 6700 1950
+F 0 "J5" H 6714 2673 50  0000 C CNN
+F 1 "10103594-0001LF" H 6714 2582 50  0000 C CNN
+F 2 "light_footprints:USB_Micro_B_Female_10103594-0001LF" H 6900 2150 60  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf" H 6900 2250 60  0001 L CNN
+F 4 "" H 6900 2350 60  0001 L CNN "Digi-Key_PN"
+F 5 "" H 6900 2450 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 6900 2550 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 6900 2650 60  0001 L CNN "Family"
+F 8 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf" H 6900 2750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/amphenol-icc-fci/10103594-0001LF/609-4050-1-ND/2350357" H 6900 2850 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 6900 2950 60  0001 L CNN "Description"
+F 11 "Amphenol ICC (FCI)" H 6900 3050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6900 3150 60  0001 L CNN "Status"
+F 13 "609-4050-1-ND" H 6700 1950 50  0001 C CNN "Digikey PN"
+F 14 "10103594-0001LF" H 6700 1950 50  0001 C CNN "Manufacturer PN"
+	1    6700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L tail-rescue:GND-power #PWR018
+U 1 1 5E62DEA6
+P 7100 2650
+F 0 "#PWR018" H 7100 2400 50  0001 C CNN
+F 1 "GND" H 7105 2477 50  0000 C CNN
+F 2 "" H 7100 2650 50  0001 C CNN
+F 3 "" H 7100 2650 50  0001 C CNN
+	1    7100 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2150 7100 2150
+$Sheet
+S 4400 5600 650  500 
+U 5E62F324
+F0 "motor_power_+5v" 50
+F1 "led_power.sch" 50
+F2 "18Vin" U L 4400 5700 50 
+F3 "5Vout" U R 5050 5700 50 
+F4 "GND" U L 4400 6000 50 
+F5 "ENin" I L 4400 5850 50 
+$EndSheet
+$Comp
+L tail-rescue:GND-power #PWR013
+U 1 1 5E62F32A
+P 4200 6100
+F 0 "#PWR013" H 4200 5850 50  0001 C CNN
+F 1 "GND" H 4205 5927 50  0000 C CNN
+F 2 "" H 4200 6100 50  0001 C CNN
+F 3 "" H 4200 6100 50  0001 C CNN
+	1    4200 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 5700 0    50   Input ~ 0
++18V
+Wire Wire Line
+	4200 5700 4400 5700
+Text GLabel 5250 5700 2    50   Input ~ 0
++5V_MOTOR
+Wire Wire Line
+	5050 5700 5250 5700
+$Comp
+L tail-rescue:RJ45-Connector J1
+U 1 1 5E3E104D
+P 1100 1450
+F 0 "J1" H 900 2000 50  0000 C CNN
+F 1 "RJ45" H 1450 1000 50  0000 C CNN
+F 2 "light_footprints:RJ45_SS-650810S-A-NF" V 1100 1475 50  0001 C CNN
+F 3 "~" V 1100 1475 50  0001 C CNN
+F 4 "SS-650810S-A-NF" H 1100 1450 50  0001 C CNN "Manufacturer PN"
+F 5 "Stewart Connector" H 1100 1450 50  0001 C CNN "Manufacturer"
+F 6 "380-1028-ND" H 1100 1450 50  0001 C CNN "Digikey PN"
+F 7 "CONN MOD JACK 8P8C VERT SHLD" H 1100 1450 50  0001 C CNN "Description"
+	1    1100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1750 1950 1750
+Wire Wire Line
+	1500 1250 1950 1250
+Wire Wire Line
+	1500 1550 1950 1550
+Text Label 1550 1750 0    50   ~ 0
+D+
+Text Label 1550 1250 0    50   ~ 0
+VUSB
+Text Label 1550 1550 0    50   ~ 0
+RESET
+$Comp
+L tail-rescue:GND-power #PWR05
+U 1 1 5E3E39DD
+P 2250 1700
+F 0 "#PWR05" H 2250 1450 50  0001 C CNN
+F 1 "GND" H 2255 1527 50  0000 C CNN
+F 2 "" H 2250 1700 50  0001 C CNN
+F 3 "" H 2250 1700 50  0001 C CNN
+	1    2250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L tail-rescue:Polyfuse-Device F1
+U 1 1 5E3EC0E1
+P 3550 1750
+F 0 "F1" V 3350 1900 50  0000 C CNN
+F 1 "Polyfuse" V 3450 2000 50  0000 C CNN
+F 2 "light_footprints:Fuse_Bourns_MF_RX300_72" H 3600 1550 50  0001 L CNN
+F 3 "~" H 3550 1750 50  0001 C CNN
+F 4 "Bourns Inc." V 3550 1750 50  0001 C CNN "Manufacturer"
+F 5 "MF-RX300/72-2" V 3550 1750 50  0001 C CNN "Manufacturer PN"
+F 6 "MF-RX300/72-2CT-ND" V 3550 1750 50  0001 C CNN "Digikey PN"
+F 7 "PTC RESET FUSE 72V 3A RADIAL" V 3550 1750 50  0001 C CNN "Description"
+	1    3550 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L tail-rescue:+48V-power #PWR016
+U 1 1 5E3E4572
+P 5850 1650
+F 0 "#PWR016" H 5850 1500 50  0001 C CNN
+F 1 "+48V-power" H 5865 1823 50  0000 C CNN
+F 2 "" H 5850 1650 50  0001 C CNN
+F 3 "" H 5850 1650 50  0001 C CNN
+	1    5850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L tail-rescue:CP-Device C1
+U 1 1 5E3E09E5
+P 4250 2150
+F 0 "C1" H 4368 2196 50  0000 L CNN
+F 1 "10u" H 4368 2105 50  0000 L CNN
+F 2 "light_footprints:CP_Elec_8x6.2_panasonic" H 4288 2000 50  0001 C CNN
+F 3 "~" H 4250 2150 50  0001 C CNN
+F 4 "EEE-2AA100UP" H 4250 2150 50  0001 C CNN "Manufacturer PN"
+F 5 "Panasonic Electronic Components" H 4250 2150 50  0001 C CNN "Manufacturer"
+F 6 "PCE3966CT-ND" H 4250 2150 50  0001 C CNN "Digikey PN"
+F 7 "CAP ALUM 10UF 20% 100V SMD" H 4250 2150 50  0001 C CNN "Description"
+	1    4250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L tail-rescue:L-Device L1
+U 1 1 5E3E24AE
+P 4700 1750
+F 0 "L1" V 4890 1750 50  0000 C CNN
+F 1 "1u" V 4799 1750 50  0000 C CNN
+F 2 "light_footprints:L_Bourns-SRN5040TA-1R0M" H 4700 1750 50  0001 C CNN
+F 3 "~" H 4700 1750 50  0001 C CNN
+F 4 "" V 4700 1750 50  0001 C CNN "Manufacfurer PN"
+F 5 "Bourns Inc." V 4700 1750 50  0001 C CNN "Manufacturer"
+F 6 "SRN5040TA-1R0MCT-ND" V 4700 1750 50  0001 C CNN "Digikey PN"
+F 7 "FIXED IND 1UH 5A 12 MOHM SMD" V 4700 1750 50  0001 C CNN "Description"
+F 8 "SRN5040TA-1R0M" H 4700 1750 50  0001 C CNN "Manufacturer PN"
+	1    4700 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L tail-rescue:R-Device R1
+U 1 1 5E3E47BD
+P 5100 1950
+F 0 "R1" H 5170 1996 50  0000 L CNN
+F 1 "0.3" H 5170 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5030 1950 50  0001 C CNN
+F 3 "~" H 5100 1950 50  0001 C CNN
+F 4 "ERJ-3BQFR30V" H 5100 1950 50  0001 C CNN "Manufacturer PN"
+F 5 "Panasonic Electronic Components" H 5100 1950 50  0001 C CNN "Manufacturer"
+F 6 "P17395CT-ND" H 5100 1950 50  0001 C CNN "Digikey PN"
+F 7 "RES 0.3 OHM 1% 1/4W 0603" H 5100 1950 50  0001 C CNN "Description"
+	1    5100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L tail-rescue:GND-power #PWR014
+U 1 1 5E3E7D0C
+P 4250 2600
+F 0 "#PWR014" H 4250 2350 50  0001 C CNN
+F 1 "GND" H 4255 2427 50  0000 C CNN
+F 2 "" H 4250 2600 50  0001 C CNN
+F 3 "" H 4250 2600 50  0001 C CNN
+	1    4250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L tail-rescue:GND-power #PWR015
+U 1 1 5E3E8479
+P 5100 2600
+F 0 "#PWR015" H 5100 2350 50  0001 C CNN
+F 1 "GND" H 5105 2427 50  0000 C CNN
+F 2 "" H 5100 2600 50  0001 C CNN
+F 3 "" H 5100 2600 50  0001 C CNN
+	1    5100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2300 4250 2600
+Wire Wire Line
+	4250 2000 4250 1750
+Wire Wire Line
+	4250 1750 4550 1750
+Wire Wire Line
+	5100 2100 5100 2200
+Wire Wire Line
+	5100 2500 5100 2600
+Wire Wire Line
+	4850 1750 5100 1750
+Wire Wire Line
+	5100 1750 5100 1800
+Connection ~ 5100 1750
+$Comp
+L tail-rescue:GND-power #PWR06
+U 1 1 5E3ECB42
+P 2750 2600
+F 0 "#PWR06" H 2750 2350 50  0001 C CNN
+F 1 "GND" H 2755 2427 50  0000 C CNN
+F 2 "" H 2750 2600 50  0001 C CNN
+F 3 "" H 2750 2600 50  0001 C CNN
+	1    2750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2600 2750 2300
+Wire Wire Line
+	2750 2000 2750 1750
+$Comp
+L tail-rescue:CP-Device C2
+U 1 1 5E3EF96A
+P 5100 2350
+F 0 "C2" H 5218 2396 50  0000 L CNN
+F 1 "10u" H 5218 2305 50  0000 L CNN
+F 2 "light_footprints:CP_Elec_8x6.2_panasonic" H 5138 2200 50  0001 C CNN
+F 3 "~" H 5100 2350 50  0001 C CNN
+F 4 "EEE-2AA100UP" H 5100 2350 50  0001 C CNN "Manufacturer PN"
+F 5 "Panasonic Electronic Components" H 5100 2350 50  0001 C CNN "Manufacturer"
+F 6 "PCE3966CT-ND" H 5100 2350 50  0001 C CNN "Digikey PN"
+F 7 "CAP ALUM 10UF 20% 100V SMD" H 5100 2350 50  0001 C CNN "Description"
+	1    5100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L tail-rescue:TestPoint-Connector TP1
+U 1 1 5E3F0E1A
+P 5300 1650
+F 0 "TP1" H 5358 1768 50  0000 L CNN
+F 1 "TestPoint" H 5358 1677 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 5500 1650 50  0001 C CNN
+F 3 "~" H 5500 1650 50  0001 C CNN
+	1    5300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1750 5850 1650
+Wire Wire Line
+	5100 1750 5300 1750
+Wire Wire Line
+	5300 1650 5300 1750
+Connection ~ 5300 1750
+Wire Wire Line
+	5300 1750 5850 1750
+Text Notes 4400 1950 0    50   ~ 0
+40kHz cutoff
+Wire Wire Line
+	2750 1750 3400 1750
+Wire Wire Line
+	3700 1750 4250 1750
+Connection ~ 4250 1750
+$Comp
+L tail-rescue:Conn_01x17_feather_left-Feather_connectors J?
+U 1 1 5E42AD55
+P 8800 1800
+AR Path="/5E41758F/5E42AD55" Ref="J?"  Part="1" 
+AR Path="/5E42AD55" Ref="J8"  Part="1" 
+F 0 "J8" H 8850 2700 50  0000 L CNN
+F 1 "Conn_01x17" H 8950 900 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x17_P2.54mm_Vertical" H 8800 1800 50  0001 C CNN
+F 3 "~" H 8800 1800 50  0001 C CNN
+F 4 "DNI" H 8750 2850 50  0001 C CNN "DNI"
+F 5 "40-0518-10" H 8800 1800 50  0001 C CNN "Manufacturer PN"
+F 6 "Aries Electronics" H 8800 1800 50  0001 C CNN "Manufacturer"
+F 7 "A460-ND" H 8800 1800 50  0001 C CNN "Digikey PN"
+F 8 "" H 8800 1800 50  0001 C CNN "Descrition"
+F 9 "CONN SOCKET SIP 40POS GOLD" H 8800 1800 50  0001 C CNN "Description"
+	1    8800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L tail-rescue:Conn_01x14_feather_right-Feather_connectors J?
+U 1 1 5E42AD5B
+P 9950 1600
+AR Path="/5E41758F/5E42AD5B" Ref="J?"  Part="1" 
+AR Path="/5E42AD5B" Ref="J9"  Part="1" 
+F 0 "J9" H 10400 2300 50  0000 C CNN
+F 1 "Conn_01x14" H 10050 800 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 9950 1600 50  0001 C CNN
+F 3 "~" H 9950 1600 50  0001 C CNN
+F 4 "40-0518-10" H 9950 1600 50  0001 C CNN "Manufacturer PN"
+F 5 "Aries Electronics" H 9950 1600 50  0001 C CNN "Manufacturer"
+F 6 "A460-ND" H 9950 1600 50  0001 C CNN "Digikey PN"
+F 7 "CONN SOCKET SIP 40POS GOLD" H 9950 1600 50  0001 C CNN "Description"
+	1    9950 1600
+	-1   0    0    -1  
+$EndComp
+Text Notes 8700 800  0    79   ~ 0
+THRU-HOLE HEADERS\n    (SAMD51 I/O)
+$Comp
+L tail-rescue:GND-power #PWR?
+U 1 1 5E42AD98
+P 8000 2500
+AR Path="/5E41758F/5E42AD98" Ref="#PWR?"  Part="1" 
+AR Path="/5E42AD98" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 8000 2250 50  0001 C CNN
+F 1 "GND" V 8005 2372 50  0000 R CNN
+F 2 "" H 8000 2500 50  0001 C CNN
+F 3 "" H 8000 2500 50  0001 C CNN
+	1    8000 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L tail-rescue:GND-power #PWR?
+U 1 1 5E42AD9F
+P 8000 1300
+AR Path="/5E41758F/5E42AD9F" Ref="#PWR?"  Part="1" 
+AR Path="/5E42AD9F" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 8000 1050 50  0001 C CNN
+F 1 "GND" V 8005 1172 50  0000 R CNN
+F 2 "" H 8000 1300 50  0001 C CNN
+F 3 "" H 8000 1300 50  0001 C CNN
+	1    8000 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 4350 3100 4350
+Wire Wire Line
+	3250 4600 3250 4550
+Wire Wire Line
+	3250 4550 3100 4550
+$Sheet
+S 1250 5150 650  500 
+U 5E4888F1
+F0 "led_power_2" 50
+F1 "led_power.sch" 50
+F2 "18Vin" U L 1250 5250 50 
+F3 "5Vout" U R 1900 5250 50 
+F4 "GND" U L 1250 5550 50 
+F5 "ENin" I L 1250 5400 50 
+$EndSheet
+$Comp
+L tail-rescue:640456-3-dk_Rectangular-Connectors-Headers-Male-Pins J3
+U 1 1 5E4888FB
+P 3000 5250
+F 0 "J3" V 2850 5150 50  0000 C CNN
+F 1 "BODY" V 3350 5150 50  0000 C CNN
+F 2 "jst:JST_1x3" H 3200 5450 60  0001 L CNN
+F 3 "" H 3200 5550 60  0001 L CNN
+F 4 "" H 3200 5650 60  0001 L CNN "Digi-Key_PN"
+F 5 "" H 3200 5750 60  0001 L CNN "MPN"
+F 6 "CONN HEADER VERT 3POS 2.5MM" H 3200 6250 60  0001 L CNN "Description"
+F 7 "JST Sales America Inc." H 3200 6350 60  0001 L CNN "Manufacturer"
+F 8 "455-2248-ND" H 3000 5250 50  0001 C CNN "Digikey PN"
+F 9 "B3B-XH-A(LF)(SN)" H 3000 5250 50  0001 C CNN "Manufacturer PN"
+	1    3000 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L tail-rescue:GND-power #PWR02
+U 1 1 5E488901
+P 1050 5650
+F 0 "#PWR02" H 1050 5400 50  0001 C CNN
+F 1 "GND" H 1055 5477 50  0000 C CNN
+F 2 "" H 1050 5650 50  0001 C CNN
+F 3 "" H 1050 5650 50  0001 C CNN
+	1    1050 5650
+	1    0    0    -1  
+$EndComp
+Text GLabel 1050 5250 0    50   Input ~ 0
++18V
+Wire Wire Line
+	1050 5250 1250 5250
+Text GLabel 2100 5250 2    50   Input ~ 0
++5V_LED_2
+Wire Wire Line
+	1900 5250 2100 5250
+$Comp
+L tail-rescue:GND-power #PWR010
+U 1 1 5E48890E
+P 3250 5500
+F 0 "#PWR010" H 3250 5250 50  0001 C CNN
+F 1 "GND" H 3255 5327 50  0000 C CNN
+F 2 "" H 3250 5500 50  0001 C CNN
+F 3 "" H 3250 5500 50  0001 C CNN
+	1    3250 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5250 3100 5250
+Wire Wire Line
+	3250 5500 3250 5450
+Wire Wire Line
+	3250 5450 3100 5450
+$Sheet
+S 1250 6000 650  500 
+U 5E48C025
+F0 "led_power_3" 50
+F1 "led_power.sch" 50
+F2 "18Vin" U L 1250 6100 50 
+F3 "5Vout" U R 1900 6100 50 
+F4 "GND" U L 1250 6400 50 
+F5 "ENin" I L 1250 6250 50 
+$EndSheet
+$Comp
+L tail-rescue:640456-3-dk_Rectangular-Connectors-Headers-Male-Pins J4
+U 1 1 5E48C02F
+P 3000 6100
+F 0 "J4" V 2850 6000 50  0000 C CNN
+F 1 "LED LEFT" V 3350 6000 50  0000 C CNN
+F 2 "jst:JST_1x3" H 3200 6300 60  0001 L CNN
+F 3 "" H 3200 6400 60  0001 L CNN
+F 4 "" H 3200 6500 60  0001 L CNN "Digi-Key_PN"
+F 5 "" H 3200 6600 60  0001 L CNN "MPN"
+F 6 "CONN HEADER VERT 3POS 2.5MM" H 3200 7100 60  0001 L CNN "Description"
+F 7 "JST Sales America Inc." H 3200 7200 60  0001 L CNN "Manufacturer"
+F 8 "455-2248-ND" H 3000 6100 50  0001 C CNN "Digikey PN"
+F 9 "B3B-XH-A(LF)(SN)" H 3000 6100 50  0001 C CNN "Manufacturer PN"
+	1    3000 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L tail-rescue:GND-power #PWR03
+U 1 1 5E48C035
+P 1050 6500
+F 0 "#PWR03" H 1050 6250 50  0001 C CNN
+F 1 "GND" H 1055 6327 50  0000 C CNN
+F 2 "" H 1050 6500 50  0001 C CNN
+F 3 "" H 1050 6500 50  0001 C CNN
+	1    1050 6500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1050 6100 0    50   Input ~ 0
++18V
+Wire Wire Line
+	1050 6100 1250 6100
+Text GLabel 2100 6100 2    50   Input ~ 0
++5V_LED_3
+Wire Wire Line
+	1900 6100 2100 6100
+$Comp
+L tail-rescue:GND-power #PWR011
+U 1 1 5E48C042
+P 3250 6350
+F 0 "#PWR011" H 3250 6100 50  0001 C CNN
+F 1 "GND" H 3255 6177 50  0000 C CNN
+F 2 "" H 3250 6350 50  0001 C CNN
+F 3 "" H 3250 6350 50  0001 C CNN
+	1    3250 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6100 3100 6100
+Wire Wire Line
+	3250 6350 3250 6300
+Wire Wire Line
+	3250 6300 3100 6300
+$Comp
+L tail-rescue:GND-power #PWR012
+U 1 1 5E416D34
+P 4200 4700
+F 0 "#PWR012" H 4200 4450 50  0001 C CNN
+F 1 "GND" H 4205 4527 50  0000 C CNN
+F 2 "" H 4200 4700 50  0001 C CNN
+F 3 "" H 4200 4700 50  0001 C CNN
+	1    4200 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 4300 0    50   Input ~ 0
++18V
+Wire Wire Line
+	4200 4300 4400 4300
+Text GLabel 5250 4300 2    50   Input ~ 0
++5V_DIGITAL
+Wire Wire Line
+	5050 4300 5250 4300
+Text GLabel 3200 4250 2    50   Input ~ 0
++5V_LED_1
+Text GLabel 3200 5150 2    50   Input ~ 0
++5V_LED_2
+Text GLabel 3200 6000 2    50   Input ~ 0
++5V_LED_3
+Wire Wire Line
+	8100 2200 8600 2200
+Wire Wire Line
+	8100 2100 8600 2100
+Wire Wire Line
+	8100 2000 8600 2000
+Wire Wire Line
+	8100 1900 8600 1900
+Wire Wire Line
+	8100 1800 8600 1800
+Wire Wire Line
+	8100 1700 8600 1700
+Wire Wire Line
+	8100 1600 8600 1600
+Wire Wire Line
+	8100 1500 8600 1500
+Wire Wire Line
+	8100 1400 8600 1400
+Wire Wire Line
+	8100 1200 8600 1200
+Wire Wire Line
+	10150 1000 10600 1000
+Text Label 8300 2200 0    50   ~ 0
+MISO
+Text Label 8300 2100 0    50   ~ 0
+MOSI
+Text Label 8300 2000 0    50   ~ 0
+SCK
+Text Label 8300 1900 0    50   ~ 0
+D31
+Text Label 8200 1800 0    50   ~ 0
+PWM_M1_A
+Text Label 8200 1700 0    50   ~ 0
+PWM_M1_B
+Text Label 8200 1600 0    50   ~ 0
+PWM_M2_A
+Text Label 10200 1000 0    50   ~ 0
+PWM_M2_B
+Wire Wire Line
+	8600 1300 8000 1300
+Wire Wire Line
+	8600 2500 8000 2500
+Wire Wire Line
+	7050 5400 6350 5400
+Wire Wire Line
+	7050 5550 6350 5550
+Wire Wire Line
+	7050 5700 6850 5700
+Wire Wire Line
+	7050 5850 6350 5850
+Wire Wire Line
+	7050 6000 6350 6000
+Wire Wire Line
+	7050 6150 6350 6150
+Text Label 6350 6000 0    50   ~ 0
+PWM_M2_A
+Text Label 6350 6150 0    50   ~ 0
+PWM_M2_B
+Text Label 6350 5550 0    50   ~ 0
+PWM_M1_B
+Text Label 6350 5400 0    50   ~ 0
+PWM_M1_A
+$Comp
+L tail-rescue:GND-power #PWR017
+U 1 1 5E65531B
+P 6350 5850
+F 0 "#PWR017" H 6350 5600 50  0001 C CNN
+F 1 "GND" H 6355 5677 50  0000 C CNN
+F 2 "" H 6350 5850 50  0001 C CNN
+F 3 "" H 6350 5850 50  0001 C CNN
+	1    6350 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5E6566C9
+P 8500 5450
+F 0 "J6" H 8450 5550 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8400 5250 50  0000 L CNN
+F 2 "jst:JST_1x2" H 8500 5450 50  0001 C CNN
+F 3 "~" H 8500 5450 50  0001 C CNN
+F 4 "455-2257-ND" H 8500 5450 50  0001 C CNN "Digikey PN"
+F 5 "S2B-XH-A(LF)(SN)" H 8500 5450 50  0001 C CNN "Manufacturer PN"
+F 6 "JST Sales America inc." H 8500 5450 50  0001 C CNN "Manufacturer"
+F 7 "CONN HEADER R/A 2POS 2.5MM" H 8500 5450 50  0001 C CNN "Description"
+	1    8500 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 5450 7750 5450
+Wire Wire Line
+	7750 5550 8300 5550
+Wire Wire Line
+	8300 5850 7750 5850
+Wire Wire Line
+	7750 5950 8300 5950
+Text Label 7900 5450 0    50   ~ 0
+M1A
+Text Label 7900 5550 0    50   ~ 0
+M1B
+Text Label 7900 5850 0    50   ~ 0
+M2A
+Text Label 7900 5950 0    50   ~ 0
+M2B
+Text GLabel 7250 1750 2    50   Input ~ 0
++5V_DIGITAL
+Wire Wire Line
+	6950 1750 7250 1750
+Text Label 7050 1950 0    50   ~ 0
+D+
+Text Label 7050 1850 0    50   ~ 0
+D-
+Wire Wire Line
+	6950 1850 7450 1850
+Wire Wire Line
+	6950 1950 7450 1950
+NoConn ~ 6950 2050
+Wire Wire Line
+	6550 2550 6550 2600
+Wire Wire Line
+	6550 2600 7100 2600
+Wire Wire Line
+	7100 2600 7100 2650
+Wire Wire Line
+	7100 2150 7100 2600
+Connection ~ 7100 2600
+Text Label 8300 1500 0    50   ~ 0
+CS_A3
+Text Label 8300 1200 0    50   ~ 0
+CS_A1
+Text Label 8300 1400 0    50   ~ 0
+CS_A2
+NoConn ~ 8600 2300
+NoConn ~ 8600 2400
+NoConn ~ 8600 2600
+NoConn ~ 10150 1200
+NoConn ~ 10150 1300
+NoConn ~ 10150 1400
+NoConn ~ 8600 1100
+NoConn ~ 10150 1100
+NoConn ~ 10150 1800
+NoConn ~ 10150 1900
+NoConn ~ 10150 2000
+NoConn ~ 10150 2100
+NoConn ~ 10150 2200
+NoConn ~ 10150 2300
+Wire Wire Line
+	8600 1000 8100 1000
+Text Label 8300 1000 0    50   ~ 0
+RESET
+$Comp
+L tail-rescue:GND-power #PWR04
+U 1 1 5E4AFA49
+P 1300 2050
+F 0 "#PWR04" H 1300 1800 50  0001 C CNN
+F 1 "GND" H 1305 1877 50  0000 C CNN
+F 2 "" H 1300 2050 50  0001 C CNN
+F 3 "" H 1300 2050 50  0001 C CNN
+	1    1300 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 1950 1300 2050
+Wire Wire Line
+	1250 4650 1050 4650
+Wire Wire Line
+	1050 4650 1050 4750
+Wire Wire Line
+	1250 5550 1050 5550
+Wire Wire Line
+	1050 5550 1050 5650
+Wire Wire Line
+	1250 6400 1050 6400
+Wire Wire Line
+	1050 6400 1050 6500
+Wire Wire Line
+	4400 6000 4200 6000
+Wire Wire Line
+	4200 6000 4200 6100
+Wire Wire Line
+	4400 4600 4200 4600
+Wire Wire Line
+	4200 4600 4200 4700
+Wire Wire Line
+	1250 4500 800  4500
+Wire Wire Line
+	1250 5400 800  5400
+Wire Wire Line
+	1250 6250 800  6250
+Wire Wire Line
+	4400 5850 3950 5850
+Wire Wire Line
+	4400 4450 3950 4450
+Text Label 800  4500 0    50   ~ 0
+PGOOD
+Text Label 800  5400 0    50   ~ 0
+PGOOD
+Text Label 800  6250 0    50   ~ 0
+PGOOD
+Text Label 3950 5850 0    50   ~ 0
+PGOOD
+Text Label 3950 4450 0    50   ~ 0
+PGOOD
+Wire Wire Line
+	3100 4450 3650 4450
+Wire Wire Line
+	3100 5350 3650 5350
+Wire Wire Line
+	3100 6200 3650 6200
+Wire Wire Line
+	3200 6100 3200 6000
+Wire Wire Line
+	3200 5150 3200 5250
+Wire Wire Line
+	3200 4250 3200 4350
+Text Label 3650 4450 2    50   ~ 0
+LED1_SIG
+Text Label 3650 5350 2    50   ~ 0
+LED2_SIG
+Text Label 3650 6200 2    50   ~ 0
+LED3_SIG
+Text Label 10200 1500 0    50   ~ 0
+LED1_SIG
+Wire Wire Line
+	10150 1500 10600 1500
+Wire Wire Line
+	10150 1600 10600 1600
+Wire Wire Line
+	10150 1700 10600 1700
+Text Label 10200 1600 0    50   ~ 0
+LED2_SIG
+Text Label 10200 1700 0    50   ~ 0
+LED3_SIG
+$Comp
+L tail-rescue:GND-power #PWR0101
+U 1 1 5E503AF8
+P 4200 7150
+F 0 "#PWR0101" H 4200 6900 50  0001 C CNN
+F 1 "GND" H 4205 6977 50  0000 C CNN
+F 2 "" H 4200 7150 50  0001 C CNN
+F 3 "" H 4200 7150 50  0001 C CNN
+	1    4200 7150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 6750 0    50   Input ~ 0
++18V
+Wire Wire Line
+	4200 6750 4400 6750
+Wire Wire Line
+	4400 7050 4200 7050
+Wire Wire Line
+	4200 7050 4200 7150
+Wire Wire Line
+	4400 6900 3950 6900
+Text Label 3950 6900 0    50   ~ 0
+PGOOD
+Wire Wire Line
+	5050 6750 5250 6750
+$Sheet
+S 4400 6650 650  500 
+U 5E4F0F52
+F0 "motor_power_+12v" 50
+F1 "motor_power.sch" 50
+F2 "18Vin" U L 4400 6750 50 
+F3 "12V" U R 5050 6750 50 
+F4 "GND" U L 4400 7050 50 
+F5 "ENin" I L 4400 6900 50 
+$EndSheet
+$Comp
+L tail-rescue:TestPoint-Connector MH1
+U 1 1 5E584D96
+P 1650 6850
+F 0 "MH1" V 1650 7038 50  0000 L CNN
+F 1 "Mounting Hole" V 1695 7038 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1850 6850 50  0001 C CNN
+F 3 "~" H 1850 6850 50  0001 C CNN
+	1    1650 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L tail-rescue:TestPoint-Connector MH2
+U 1 1 5E5865A5
+P 1650 7050
+F 0 "MH2" V 1650 7238 50  0000 L CNN
+F 1 "Mounting Hole" V 1695 7238 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1850 7050 50  0001 C CNN
+F 3 "~" H 1850 7050 50  0001 C CNN
+	1    1650 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L tail-rescue:TestPoint-Connector MH3
+U 1 1 5E586AF5
+P 1650 7250
+F 0 "MH3" V 1650 7438 50  0000 L CNN
+F 1 "Mounting Hole" V 1695 7438 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1850 7250 50  0001 C CNN
+F 3 "~" H 1850 7250 50  0001 C CNN
+	1    1650 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L tail-rescue:TestPoint-Connector MH4
+U 1 1 5E586ED6
+P 1650 7450
+F 0 "MH4" V 1650 7638 50  0000 L CNN
+F 1 "Mounting Hole" V 1695 7638 50  0001 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 1850 7450 50  0001 C CNN
+F 3 "~" H 1850 7450 50  0001 C CNN
+	1    1650 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L tail-rescue:GND-power #PWR0102
+U 1 1 5E58E9EF
+P 1500 7550
+F 0 "#PWR0102" H 1500 7300 50  0001 C CNN
+F 1 "GND" H 1505 7377 50  0000 C CNN
+F 2 "" H 1500 7550 50  0001 C CNN
+F 3 "" H 1500 7550 50  0001 C CNN
+	1    1500 7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 7450 1500 7450
+Wire Wire Line
+	1500 7450 1500 7550
+Wire Wire Line
+	1650 7250 1500 7250
+Wire Wire Line
+	1500 7250 1500 7450
+Connection ~ 1500 7450
+Wire Wire Line
+	1650 7050 1500 7050
+Wire Wire Line
+	1500 7050 1500 7250
+Connection ~ 1500 7250
+Wire Wire Line
+	1650 6850 1500 6850
+Wire Wire Line
+	1500 6850 1500 7050
+Connection ~ 1500 7050
+$Sheet
+S 4400 4200 650  500 
+U 5E416D2E
+F0 "digital_power" 50
+F1 "digital_power.sch" 50
+F2 "18Vin" U L 4400 4300 50 
+F3 "5Vout" U R 5050 4300 50 
+F4 "GND" U L 4400 4600 50 
+F5 "ENin" I L 4400 4450 50 
+$EndSheet
+$Comp
+L Connector_Generic:Conn_01x06 J11
+U 1 1 5E4E48A5
+P 10400 3350
+F 0 "J11" H 10480 3342 50  0000 L CNN
+F 1 "Conn_01x06" H 10480 3251 50  0000 L CNN
+F 2 "jst:JST_1x6" H 10400 3350 50  0001 C CNN
+F 3 "~" H 10400 3350 50  0001 C CNN
+F 4 "455-2271-ND" H 10400 3350 50  0001 C CNN "Digikey PN"
+F 5 "B6B-XH-A(LF)(SN)" H 10400 3350 50  0001 C CNN "Manufacturer PN"
+F 6 "JST Sales America Inc." H 10400 3350 50  0001 C CNN "Manufacturer"
+F 7 "CONN HEADER VERT 6POS 2.5MM" H 10400 3350 50  0001 C CNN "Description"
+	1    10400 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 3150 9900 3150
+Text Label 9900 3150 0    50   ~ 0
+MISO
+Wire Wire Line
+	10200 3250 9900 3250
+Text Label 9900 3250 0    50   ~ 0
+CS_A1
+Wire Wire Line
+	10200 3350 9900 3350
+Text Label 9900 3350 0    50   ~ 0
+MOSI
+Wire Wire Line
+	10200 3450 9900 3450
+Text Label 9900 3450 0    50   ~ 0
+SCK
+$Comp
+L power:GND #PWR0103
+U 1 1 5E504DCC
+P 9850 3550
+F 0 "#PWR0103" H 9850 3300 50  0001 C CNN
+F 1 "GND" V 9855 3422 50  0000 R CNN
+F 2 "" H 9850 3550 50  0001 C CNN
+F 3 "" H 9850 3550 50  0001 C CNN
+	1    9850 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 3550 10200 3550
+Text GLabel 9900 3650 0    50   Input ~ 0
++5V_DIGITAL
+Wire Wire Line
+	9900 3650 10200 3650
+$Comp
+L Connector_Generic:Conn_01x06 J12
+U 1 1 5E558231
+P 10400 4150
+F 0 "J12" H 10480 4142 50  0000 L CNN
+F 1 "Conn_01x06" H 10480 4051 50  0000 L CNN
+F 2 "jst:JST_1x6" H 10400 4150 50  0001 C CNN
+F 3 "~" H 10400 4150 50  0001 C CNN
+F 4 "455-2271-ND" H 10400 4150 50  0001 C CNN "Digikey PN"
+F 5 "B6B-XH-A(LF)(SN)" H 10400 4150 50  0001 C CNN "Manufacturer PN"
+F 6 "JST Sales America Inc." H 10400 4150 50  0001 C CNN "Manufacturer"
+F 7 "CONN HEADER VERT 6POS 2.5MM" H 10400 4150 50  0001 C CNN "Description"
+	1    10400 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 3950 9900 3950
+Text Label 9900 3950 0    50   ~ 0
+MISO
+Wire Wire Line
+	10200 4050 9900 4050
+Text Label 9900 4050 0    50   ~ 0
+CS_A2
+Wire Wire Line
+	10200 4150 9900 4150
+Text Label 9900 4150 0    50   ~ 0
+MOSI
+Wire Wire Line
+	10200 4250 9900 4250
+Text Label 9900 4250 0    50   ~ 0
+SCK
+$Comp
+L power:GND #PWR0104
+U 1 1 5E558243
+P 9850 4350
+F 0 "#PWR0104" H 9850 4100 50  0001 C CNN
+F 1 "GND" V 9855 4222 50  0000 R CNN
+F 2 "" H 9850 4350 50  0001 C CNN
+F 3 "" H 9850 4350 50  0001 C CNN
+	1    9850 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 4350 10200 4350
+Text GLabel 9900 4450 0    50   Input ~ 0
++5V_DIGITAL
+Wire Wire Line
+	9900 4450 10200 4450
+$Comp
+L Connector_Generic:Conn_01x06 J13
+U 1 1 5E55F7DF
+P 10400 4950
+F 0 "J13" H 10480 4942 50  0000 L CNN
+F 1 "Conn_01x06" H 10480 4851 50  0000 L CNN
+F 2 "jst:JST_1x6" H 10400 4950 50  0001 C CNN
+F 3 "~" H 10400 4950 50  0001 C CNN
+F 4 "455-2271-ND" H 10400 4950 50  0001 C CNN "Digikey PN"
+F 5 "B6B-XH-A(LF)(SN)" H 10400 4950 50  0001 C CNN "Manufacturer PN"
+F 6 "JST Sales America Inc." H 10400 4950 50  0001 C CNN "Manufacturer"
+F 7 "CONN HEADER VERT 6POS 2.5MM" H 10400 4950 50  0001 C CNN "Description"
+	1    10400 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4750 9900 4750
+Text Label 9900 4750 0    50   ~ 0
+MISO
+Wire Wire Line
+	10200 4850 9900 4850
+Text Label 9900 4850 0    50   ~ 0
+CS_A3
+Wire Wire Line
+	10200 4950 9900 4950
+Text Label 9900 4950 0    50   ~ 0
+MOSI
+Wire Wire Line
+	10200 5050 9900 5050
+Text Label 9900 5050 0    50   ~ 0
+SCK
+$Comp
+L power:GND #PWR0105
+U 1 1 5E55F7F1
+P 9850 5150
+F 0 "#PWR0105" H 9850 4900 50  0001 C CNN
+F 1 "GND" V 9855 5022 50  0000 R CNN
+F 2 "" H 9850 5150 50  0001 C CNN
+F 3 "" H 9850 5150 50  0001 C CNN
+	1    9850 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 5150 10200 5150
+Text GLabel 9900 5250 0    50   Input ~ 0
++5V_DIGITAL
+Wire Wire Line
+	9900 5250 10200 5250
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5E58058B
+P 8500 5850
+F 0 "J10" H 8450 5950 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 8400 5650 50  0000 L CNN
+F 2 "jst:JST_1x2" H 8500 5850 50  0001 C CNN
+F 3 "~" H 8500 5850 50  0001 C CNN
+F 4 "455-2257-ND" H 8500 5850 50  0001 C CNN "Digikey PN"
+F 5 "S2B-XH-A(LF)(SN)" H 8500 5850 50  0001 C CNN "Manufacturer PN"
+F 6 "JST Sales America inc." H 8500 5850 50  0001 C CNN "Manufacturer"
+F 7 "CONN HEADER R/A 2POS 2.5MM" H 8500 5850 50  0001 C CNN "Description"
+	1    8500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L tail-rescue:D_TVS-Device D1
+U 1 1 5E3EB77A
+P 2750 2150
+F 0 "D1" V 2704 2229 50  0000 L CNN
+F 1 "54V" V 2795 2229 50  0000 L CNN
+F 2 "light_footprints:SMCJ54CA" H 2750 2150 50  0001 C CNN
+F 3 "~" H 2750 2150 50  0001 C CNN
+F 4 "SMCJ54CA" V 2750 2150 50  0001 C CNN "Manufacturer PN"
+F 5 "Littelfuse Inc." V 2750 2150 50  0001 C CNN "Manufacturer"
+F 6 "SMCJ54CALFCT-ND" V 2750 2150 50  0001 C CNN "Digikey PN"
+F 7 "TVS DIODE 54V 87.1V DO214AB" V 2750 2150 50  0001 C CNN "Description"
+	1    2750 2150
+	0    1    1    0   
+$EndComp
+Text GLabel 6850 5700 0    50   UnSpc ~ 0
+12V
+Text GLabel 5250 6750 2    50   UnSpc ~ 0
+12V
+$Sheet
+S 7050 5300 700  900 
+U 5E4A2CB9
+F0 "motor control" 50
+F1 "motor_driver.sch" 50
+F2 "M1A" O R 7750 5450 50 
+F3 "M1B" O R 7750 5550 50 
+F4 "PWM1" I L 7050 5400 50 
+F5 "PWM2" I L 7050 5550 50 
+F6 "M2A" O R 7750 5850 50 
+F7 "M2B" O R 7750 5950 50 
+F8 "PWM3" I L 7050 6000 50 
+F9 "PWM4" I L 7050 6150 50 
+F10 "12V" I L 7050 5700 50 
+F11 "GND" I L 7050 5850 50 
+$EndSheet
+Text Label 4200 3450 2    50   ~ 0
+PGOOD
+$Sheet
+S 3050 3150 850  400 
+U 5E4325FD
+F0 "input_power" 50
+F1 "input_power.sch" 50
+F2 "48Vin" U L 3050 3250 50 
+F3 "18Vout" U R 3900 3250 50 
+F4 "GND" U L 3050 3450 50 
+F5 "5VPGOODout" O R 3900 3450 50 
+$EndSheet
+Text GLabel 3950 3250 2    50   Input ~ 0
++18V
+Wire Wire Line
+	4200 3450 3900 3450
+Wire Wire Line
+	3950 3250 3900 3250
+Text Label 1550 1650 0    50   ~ 0
+D-
+Wire Wire Line
+	1500 1650 1950 1650
+Wire Wire Line
+	2000 1150 1500 1150
+Wire Wire Line
+	1500 1050 2000 1050
+Wire Wire Line
+	2000 1050 2000 1150
+Connection ~ 2750 1750
+Wire Wire Line
+	1500 1350 2000 1350
+Wire Wire Line
+	2000 1350 2000 1450
+Wire Wire Line
+	2000 1450 1500 1450
+Wire Wire Line
+	2000 1350 2250 1350
+Wire Wire Line
+	2250 1350 2250 1700
+Connection ~ 2000 1350
+Wire Wire Line
+	2750 1050 2000 1050
+Wire Wire Line
+	2750 1050 2750 1750
+Connection ~ 2000 1050
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5E707DC6
+P 2550 6850
+F 0 "FID1" H 2635 6896 50  0000 L CNN
+F 1 "Fiducial" H 2635 6805 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2550 6850 50  0001 C CNN
+F 3 "~" H 2550 6850 50  0001 C CNN
+	1    2550 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5E708863
+P 2550 7200
+F 0 "FID2" H 2635 7246 50  0000 L CNN
+F 1 "Fiducial" H 2635 7155 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2550 7200 50  0001 C CNN
+F 3 "~" H 2550 7200 50  0001 C CNN
+	1    2550 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5E70F549
+P 2550 7550
+F 0 "FID3" H 2635 7596 50  0000 L CNN
+F 1 "Fiducial" H 2635 7505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2550 7550 50  0001 C CNN
+F 3 "~" H 2550 7550 50  0001 C CNN
+	1    2550 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 5E7161A0
+P 3400 6850
+F 0 "FID4" H 3485 6896 50  0000 L CNN
+F 1 "Fiducial" H 3485 6805 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 3400 6850 50  0001 C CNN
+F 3 "~" H 3400 6850 50  0001 C CNN
+	1    3400 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 5E71CF17
+P 3400 7200
+F 0 "FID5" H 3485 7246 50  0000 L CNN
+F 1 "Fiducial" H 3485 7155 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 3400 7200 50  0001 C CNN
+F 3 "~" H 3400 7200 50  0001 C CNN
+	1    3400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 5E723BEE
+P 3400 7550
+F 0 "FID6" H 3485 7596 50  0000 L CNN
+F 1 "Fiducial" H 3485 7505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 3400 7550 50  0001 C CNN
+F 3 "~" H 3400 7550 50  0001 C CNN
+	1    3400 7550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
