@@ -3,7 +3,9 @@
 The main goals for this week are:
 
 ### For the Activity -
-* (TODO)
+
+* Find footprints for componenets.<br/>
+* Layout the audio board!<br/>
 
 The Activity material may be found [HERE](../Week_2/Week_2_Activity).
 
