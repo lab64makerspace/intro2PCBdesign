@@ -173,12 +173,12 @@ Wire Wire Line
 	1890 4200 2040 4200
 Text Notes 3110 970  0    79   ~ 0
 LCD DISPLAY (U3) CONNECTS TO FFC CONNECTOR (J1) \nUSING A FLEX CONNECTOR. J1 HAS TOP-CONTACT PINS (1-50)
-Text Label 6000 5720 0    79   ~ 0
+Text HLabel 6000 5720 2    79   Input ~ 0
 X+
-Text Label 6000 5920 0    79   ~ 0
-X-
-Text Label 6000 5820 0    79   ~ 0
+Text HLabel 6000 5820 2    79   Input ~ 0
 Y+
-Text Label 6000 6020 0    79   ~ 0
+Text HLabel 6000 5920 2    79   Input ~ 0
+X-
+Text HLabel 6000 6020 2    79   Input ~ 0
 Y-
 $EndSCHEMATC
