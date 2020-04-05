@@ -34,6 +34,24 @@ As you can see, we will try to design and send out a board for fabrication each 
 
 We'll do our best to arrange the schedule so we can get the most experience from our time together.
 
+## Boards Overview
+* Power Board - takes AC/DC wall adapter* input and derives many required system voltages
+                      - provides physical connector support for any other I/O (e.g., speakers, LED boards, etc.)
+                      - provides all required inter-module connectivity
+                      * [Tri-Mag, LLC P/N ICM30-360 (+36 V @ 1.83A / 66W) these are ~ USD $ 9-10 each]
+
+* Audio Board - takes bitstream and +36 V power inputs
+                     - uses audio codec to generate audio signals
+                     - has amplifier stages required to drive speakers
+
+* Display Board - Connects to SAM32 to implement a 2.8" 320 x 240 Color TFT LCD with resistive touch sensing
+                       - Will use Adafuit Product ID 1774 (w/ ILI9341 Driver)
+                       - Will also incorporate a STMPE811 resistive touch screen controller
+                       - Will have all the required peripheral circuitry (level-shifters, etc.)
+
+* LED Board - Will be a board to support short linear arrays of RGB LEDs (APA102-2020 "DotStars")
+                   - Will be arranged so that 12 acrylic pieces can be supported with 8 "DotSar" LEDs per piece
+
 ## FAQs
 
 <details>
