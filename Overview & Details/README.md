@@ -13,16 +13,15 @@ on, you guessed it, **your feedback**!
 
 Week | Content | Lab / Activity
 ---- | ------- | -------------
-0  | [Why make PCBs / Our Goals](Week_0/Week_0_Content) | [Preload: Install and Configure KiCAD](Week_0/Week_0_Activity)
-1  | [PCB Structure & Design Workflow](Week_1/Week_1_Content) | [Our First Board Goes Out to Fab](Week_1/Week_1_Activity)
-2  | [Schematic Capture](Week_2/Week_2_Content) | [Design Power Board / Set up for Audio Board Design](Week_2/Week_2_Activity)
-3  | [Basics of Board Layout](Week_3/Week_3_Content) | [Design Audio Board / Set up for Display Board Design](Week_3/Week_3_Activity)
-4  | [More on Board Layout](Week_4/Week_4_Content) | [Assemble Power Board / Design Display Board](Week_4/Week_4_Activity)
-5  | [Antennas - Intended and *NOT*](Week_5/Week_5_Content) | [Assemble Audio Board / Design LED Board](Week_5/Week_5_Activity)
-6  | [High-Speed Signals / EMC](Week_6/Week_6_Content) | [Assemble Display Board / Start Integration](Week_6/Week_6_Activity)
-7  | [Thermal Management](Week_7/Week_7_Content) | [Assemble LED Board / Code & Debug](Week_7/Week_7_Activity)
-8  | [Using PCB Structures as Components](Week_8/Week_8_Content) | Wrap things up!
-9  | [PCBs as Sensors & Actuators](Week_9/Week_9_Content) | REMOTE DEMO DAY PARTY!!
+0    | [Why make PCBs / Our Goals](Setup/Setup_Content) | [Preload: Install and Configure KiCAD](Setup/Setup_Activity)
+1/2  | [PCB Structure & Design Workflow](Protoboard/Protoboard_Content) | [Design Protoboard](Protoboard/Protoboard_Activity)
+3/4  | [Schematic Capture](Powerboard/Powerboard_Content) | [Design Power Board](Powerboard/Powerboard_Activity)
+5/6  | [Basics of Board Layout](Audioboard/Audioboard_Content) | [Design Audio Board](Audioboard/Audioboard_Activity)
+7/8  | [More on Board Layout](Displayboard/Displayboard_Content) | [Design Display Board](Displayboard/Displayboard_Activity)
+9    | [TBD](LEDboard/LEDboard_Content) | [Design LED Board](LEDboard/LEDboard_Activity)
+
+
+<!-- Other content topics: High-speed signals, Thermal management, Using PCB Structures as Components, PCBs as Sensors & Actuators -->
 
 As you can see, we will try to design and send out a board for fabrication each week. This is an ambitious schedule; it means that each week we will :
 * design a board
