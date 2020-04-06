@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Audio_Board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -15,12 +14,12 @@ Comment3 "Electrical Engineering Department"
 Comment4 "lab64 / Stanford University"
 $EndDescr
 $Comp
-L Adafruit_VS1053_Breakout-eagle-import:VS1053B U1
+L Audio_Board-rescue:VS1053B-Adafruit_VS1053_Breakout-eagle-import U1
 U 1 1 5C529004
 P 3450 5300
 F 0 "U1" H 3500 7086 59  0000 C CNN
 F 1 "VS1053B" H 3500 6981 59  0000 C CNN
-F 2 "" H 3450 5300 50  0001 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3450 5300 50  0001 C CNN
 F 3 "http://www.vlsi.fi/fileadmin/datasheets/vs1053.pdf" H 3450 5300 50  0001 C CNN
 F 4 "VS1053b -Ogg Vorbis/MP3/AAC/WMA/FLAC/MIDI AUDIO CODEC CIRCUIT" H 3450 5300 50  0001 C CNN "Description"
 F 5 "LQFP-48" H 3450 5300 50  0001 C CNN "Package"
@@ -50,7 +49,7 @@ U 1 1 5C569151
 P 15850 3050
 F 0 "J6" H 15930 3042 50  0000 L CNN
 F 1 "1017521" H 15700 2850 50  0000 L CNN
-F 2 "" H 15850 3050 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:PhoenixContact_TermBlk_2P_SideEnt_6.35MM" H 15850 3050 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1017523&library=usen&pcck=P-11-01-05&tab=1&selectedCategory=ALL" H 15850 3050 50  0001 C CNN
 F 4 "PCB Terminal Block, 4 Contact, TH" H 15850 3050 50  0001 C CNN "Description"
 F 5 "" H 15850 3050 50  0001 C CNN "Package"
@@ -60,7 +59,7 @@ F 7 "Phoenix Contact" H 15850 3050 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR085
+L Audio_Board-rescue:Earth_w_GND-power #PWR085
 U 1 1 5C569A3E
 P 12350 7800
 F 0 "#PWR085" H 12350 7550 50  0001 C CNN
@@ -76,7 +75,7 @@ U 1 1 5C56B234
 P 14000 2750
 F 0 "C46" H 14115 2796 50  0000 L CNN
 F 1 "1µF" H 14115 2705 50  0000 L CNN
-F 2 "" H 14038 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14038 2600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/F3294_PHE426.pdf" H 14000 2750 50  0001 C CNN
 F 4 "Capacitor, Film, 1.0µF, 250V, ±5%, TH" H 14000 2750 50  0001 C CNN "Description"
 F 5 "18x9x17.5mm" H 14000 2750 50  0001 C CNN "Package"
@@ -91,7 +90,7 @@ U 1 1 5C56B8E0
 P 14350 2550
 F 0 "C50" V 14602 2550 50  0000 C CNN
 F 1 "470µF" V 14511 2550 50  0000 C CNN
-F 2 "" H 14350 2550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D16.0mm_H31.5mm_P7.50mm" H 14350 2550 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/fc/EEUFC1J471" H 14350 2550 50  0001 C CNN
 F 4 "Capacitor, Al Electrolytic, 470µF, 63V, ±20%, 0.059, TH" V 14350 2550 50  0001 C CNN "Description"
 F 5 "D16xL20mm" V 14350 2550 50  0001 C CNN "Package"
@@ -106,7 +105,7 @@ U 1 1 5C56C882
 P 14650 2750
 F 0 "C54" H 14765 2796 50  0000 L CNN
 F 1 "1nF" H 14765 2705 50  0000 L CNN
-F 2 "" H 14688 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 14688 2600 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM3195C1H102JA01-01.pdf" H 14650 2750 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 1000pF, 50V, 5%, C0G/NP0, 1206" H 14650 2750 50  0001 C CNN "Description"
 F 5 "1206" H 14650 2750 50  0001 C CNN "Package"
@@ -121,7 +120,7 @@ U 1 1 5C56CF21
 P 15050 2750
 F 0 "C58" H 15165 2796 50  0000 L CNN
 F 1 "0.01µF" H 15165 2705 50  0000 L CNN
-F 2 "" H 15088 2600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15088 2600 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 15050 2750 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.01µF, 50V, 10%, X7R, 0603" H 15050 2750 50  0001 C CNN "Description"
 F 5 "0603" H 15050 2750 50  0001 C CNN "Package"
@@ -136,7 +135,7 @@ U 1 1 5C56D42E
 P 15050 3100
 F 0 "R15" H 15118 3146 50  0000 L CNN
 F 1 "3R3" H 15118 3055 50  0000 L CNN
-F 2 "" V 15090 3090 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15090 3090 50  0001 C CNN
 F 3 "https://www.digikey.com/en/datasheets/vishay-dale/vishay-dale-dcrcwe3" H 15050 3100 50  0001 C CNN
 F 4 "Resistor, Thick Film, 3.3 Ohms, 5%, 0.1W, ± 200 ppm" H 15050 3100 50  0001 C CNN "Description"
 F 5 "0603" H 15050 3100 50  0001 C CNN "Package"
@@ -146,7 +145,7 @@ F 7 "" H 15050 3100 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR097
+L Audio_Board-rescue:Earth_w_GND-power #PWR097
 U 1 1 5C573D8F
 P 15050 3300
 F 0 "#PWR097" H 15050 3050 50  0001 C CNN
@@ -177,7 +176,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 2600 14650 2550
 $Comp
-L power:Earth_w_GND #PWR093
+L Audio_Board-rescue:Earth_w_GND-power #PWR093
 U 1 1 5C574C62
 P 14650 2950
 F 0 "#PWR093" H 14650 2700 50  0001 C CNN
@@ -188,7 +187,7 @@ F 3 "~" H 14650 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR089
+L Audio_Board-rescue:Earth_w_GND-power #PWR089
 U 1 1 5C575284
 P 14000 2950
 F 0 "#PWR089" H 14000 2700 50  0001 C CNN
@@ -203,7 +202,7 @@ Wire Wire Line
 Wire Wire Line
 	14000 2900 14000 2950
 $Comp
-L power:Earth_w_GND #PWR098
+L Audio_Board-rescue:Earth_w_GND-power #PWR098
 U 1 1 5C59454A
 P 15050 4400
 F 0 "#PWR098" H 15050 4150 50  0001 C CNN
@@ -234,7 +233,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 3700 14650 3650
 $Comp
-L power:Earth_w_GND #PWR094
+L Audio_Board-rescue:Earth_w_GND-power #PWR094
 U 1 1 5C59455D
 P 14650 4050
 F 0 "#PWR094" H 14650 3800 50  0001 C CNN
@@ -245,7 +244,7 @@ F 3 "~" H 14650 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR090
+L Audio_Board-rescue:Earth_w_GND-power #PWR090
 U 1 1 5C594563
 P 14000 4050
 F 0 "#PWR090" H 14000 3800 50  0001 C CNN
@@ -262,7 +261,7 @@ Wire Wire Line
 Wire Wire Line
 	13300 3650 13550 3650
 $Comp
-L power:Earth_w_GND #PWR099
+L Audio_Board-rescue:Earth_w_GND-power #PWR099
 U 1 1 5C59B46D
 P 15050 5600
 F 0 "#PWR099" H 15050 5350 50  0001 C CNN
@@ -293,7 +292,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 4900 14650 4850
 $Comp
-L power:Earth_w_GND #PWR095
+L Audio_Board-rescue:Earth_w_GND-power #PWR095
 U 1 1 5C59B480
 P 14650 5250
 F 0 "#PWR095" H 14650 5000 50  0001 C CNN
@@ -304,7 +303,7 @@ F 3 "~" H 14650 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR091
+L Audio_Board-rescue:Earth_w_GND-power #PWR091
 U 1 1 5C59B486
 P 14000 5250
 F 0 "#PWR091" H 14000 5000 50  0001 C CNN
@@ -319,7 +318,7 @@ Wire Wire Line
 Wire Wire Line
 	14000 5200 14000 5250
 $Comp
-L power:Earth_w_GND #PWR0100
+L Audio_Board-rescue:Earth_w_GND-power #PWR0100
 U 1 1 5C5A336E
 P 15050 6650
 F 0 "#PWR0100" H 15050 6400 50  0001 C CNN
@@ -350,7 +349,7 @@ Wire Wire Line
 Wire Wire Line
 	14650 5950 14650 5900
 $Comp
-L power:Earth_w_GND #PWR096
+L Audio_Board-rescue:Earth_w_GND-power #PWR096
 U 1 1 5C5A3381
 P 14650 6300
 F 0 "#PWR096" H 14650 6050 50  0001 C CNN
@@ -361,7 +360,7 @@ F 3 "~" H 14650 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR092
+L Audio_Board-rescue:Earth_w_GND-power #PWR092
 U 1 1 5C5A3387
 P 14000 6300
 F 0 "#PWR092" H 14000 6050 50  0001 C CNN
@@ -381,7 +380,7 @@ U 1 1 5C5DA450
 P 12550 3100
 F 0 "C41" V 12500 3250 50  0000 C CNN
 F 1 "0.033µF" V 12600 3300 50  0000 C CNN
-F 2 "" H 12588 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12588 2950 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H333KA61-01.pdf" H 12550 3100 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.033µF, 50V, ±10%, X7R, 0603" V 12550 3100 50  0001 C CNN "Description"
 F 5 "0603" V 12550 3100 50  0001 C CNN "Package"
@@ -472,7 +471,7 @@ U 1 1 5C6693C7
 P 9950 3000
 F 0 "C34" H 10065 3046 50  0000 L CNN
 F 1 "1µF" H 10065 2955 50  0000 L CNN
-F 2 "" H 9988 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9988 2850 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31MR71H105KA88-01.pdf" H 9950 3000 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 1µF, 50V, ±10%, X7R, 1206" H 9950 3000 50  0001 C CNN "Description"
 F 5 "1206" H 9950 3000 50  0001 C CNN "Package"
@@ -487,7 +486,7 @@ U 1 1 5C66A164
 P 9250 3000
 F 0 "C27" H 9365 3046 50  0000 L CNN
 F 1 "3300µF" H 9250 2900 50  0000 L CNN
-F 2 "" H 9250 3000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D18.0mm_H35.5mm_P7.50mm" H 9250 3000 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 9250 3000 50  0001 C CNN
 F 4 "Capacitor, Al Electrolytic, 3300µF, 50V, ±20%, TH" H 9250 3000 50  0001 C CNN "Description"
 F 5 "D18xL35.5mm Radial Can" H 9250 3000 50  0001 C CNN "Package"
@@ -497,7 +496,7 @@ F 7 "Panasonic" H 9250 3000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR075
+L Audio_Board-rescue:Earth_w_GND-power #PWR075
 U 1 1 5C674CFC
 P 9950 3700
 F 0 "#PWR075" H 9950 3450 50  0001 C CNN
@@ -508,7 +507,7 @@ F 3 "~" H 9950 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR070
+L Audio_Board-rescue:Earth_w_GND-power #PWR070
 U 1 1 5C675949
 P 9600 3700
 F 0 "#PWR070" H 9600 3450 50  0001 C CNN
@@ -519,7 +518,7 @@ F 3 "~" H 9600 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR065
+L Audio_Board-rescue:Earth_w_GND-power #PWR065
 U 1 1 5C675EEF
 P 9250 3700
 F 0 "#PWR065" H 9250 3450 50  0001 C CNN
@@ -530,7 +529,7 @@ F 3 "~" H 9250 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR074
+L Audio_Board-rescue:Earth_w_GND-power #PWR074
 U 1 1 5C676523
 P 9950 3150
 F 0 "#PWR074" H 9950 2900 50  0001 C CNN
@@ -541,7 +540,7 @@ F 3 "~" H 9950 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR069
+L Audio_Board-rescue:Earth_w_GND-power #PWR069
 U 1 1 5C676CF1
 P 9600 3150
 F 0 "#PWR069" H 9600 2900 50  0001 C CNN
@@ -552,7 +551,7 @@ F 3 "~" H 9600 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR064
+L Audio_Board-rescue:Earth_w_GND-power #PWR064
 U 1 1 5C6772AE
 P 9250 3150
 F 0 "#PWR064" H 9250 2900 50  0001 C CNN
@@ -635,7 +634,7 @@ U 1 1 5C6B9C7D
 P 10000 4650
 F 0 "C36" H 9800 4750 50  0000 L CNN
 F 1 "1µF" H 9800 4550 50  0000 L CNN
-F 2 "" H 10038 4500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10038 4500 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf" H 10000 4650 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 1µF, 16V, ±10%, X7R, 0603" H 10000 4650 50  0001 C CNN "Description"
 F 5 "0603" H 10000 4650 50  0001 C CNN "Package"
@@ -645,7 +644,7 @@ F 7 "MuRata" H 10000 4650 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR077
+L Audio_Board-rescue:Earth_w_GND-power #PWR077
 U 1 1 5C6BADDD
 P 10000 4800
 F 0 "#PWR077" H 10000 4550 50  0001 C CNN
@@ -656,7 +655,7 @@ F 3 "~" H 10000 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR071
+L Audio_Board-rescue:Earth_w_GND-power #PWR071
 U 1 1 5C6C331D
 P 9600 4800
 F 0 "#PWR071" H 9600 4550 50  0001 C CNN
@@ -677,7 +676,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 4450 9600 4500
 $Comp
-L power:Earth_w_GND #PWR058
+L Audio_Board-rescue:Earth_w_GND-power #PWR058
 U 1 1 5C6D5277
 P 8750 3900
 F 0 "#PWR058" H 8750 3650 50  0001 C CNN
@@ -693,7 +692,7 @@ U 1 1 5C6DF039
 P 9100 4650
 F 0 "C26" H 8900 4750 50  0000 L CNN
 F 1 "0.1µF" H 8850 4550 50  0000 L CNN
-F 2 "" H 9138 4500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9138 4500 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 9100 4650 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.1µF, 50V, ±10%, X7R, 0603" H 9100 4650 50  0001 C CNN "Description"
 F 5 "0603" H 9100 4650 50  0001 C CNN "Package"
@@ -703,7 +702,7 @@ F 7 "Kemet, Inc." H 9100 4650 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR062
+L Audio_Board-rescue:Earth_w_GND-power #PWR062
 U 1 1 5C6DF03F
 P 9100 4800
 F 0 "#PWR062" H 9100 4550 50  0001 C CNN
@@ -714,7 +713,7 @@ F 3 "~" H 9100 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR053
+L Audio_Board-rescue:Earth_w_GND-power #PWR053
 U 1 1 5C6E4AC7
 P 8550 4650
 F 0 "#PWR053" H 8550 4400 50  0001 C CNN
@@ -752,13 +751,13 @@ U 1 1 5C71BED6
 P 8600 6050
 F 0 "R14" H 8668 6096 50  0000 L CNN
 F 1 "22.0k" H 8668 6005 50  0000 L CNN
-F 2 "" V 8640 6040 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8640 6040 50  0001 C CNN
 F 3 "~" H 8600 6050 50  0001 C CNN
 	1    8600 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR054
+L Audio_Board-rescue:Earth_w_GND-power #PWR054
 U 1 1 5C71E383
 P 8600 6200
 F 0 "#PWR054" H 8600 5950 50  0001 C CNN
@@ -774,7 +773,7 @@ U 1 1 5C5A80B8
 P 7500 4100
 F 0 "U4" H 7450 4100 50  0000 C CNN
 F 1 "ADA4807-2" H 7550 3850 50  0000 C CNN
-F 2 "" H 7500 4100 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 7500 4100 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf" H 7500 4100 50  0001 C CNN
 F 4 "IC, 3.1 nV/√Hz, 1 mA, 180 MHz, Rail-to-Rail Input/Output Amplifier, Dual" H 7500 4100 50  0001 C CNN "Description"
 F 5 "10 Lead LFCSP" H 7500 4100 50  0001 C CNN "Package"
@@ -852,7 +851,7 @@ U 1 1 5C61DF73
 P 7500 5600
 F 0 "U5" H 7450 5600 50  0000 C CNN
 F 1 "ADA4807-2" H 7550 5350 50  0000 C CNN
-F 2 "" H 7500 5600 50  0001 C CNN
+F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 7500 5600 50  0001 C CNN
 F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADA4807-1_4807-2_4807-4.pdf" H 7500 5600 50  0001 C CNN
 F 4 "IC, 3.1 nV/√Hz, 1 mA, 180 MHz, Rail-to-Rail Input/Output Amplifier, Dual" H 7500 5600 50  0001 C CNN "Description"
 F 5 "10 Lead LFCSP" H 7500 5600 50  0001 C CNN "Package"
@@ -897,7 +896,7 @@ U 1 1 5C61DF85
 P 7050 6300
 F 0 "R10" V 7150 6000 50  0000 L CNN
 F 1 "10.0k" V 7150 6200 50  0000 L CNN
-F 2 "" V 7090 6290 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7090 6290 50  0001 C CNN
 F 3 "~" H 7050 6300 50  0001 C CNN
 	1    7050 6300
 	0    1    1    0   
@@ -939,7 +938,7 @@ U 1 1 5C670305
 P 6700 7200
 F 0 "C12" H 6700 7100 50  0000 L CNN
 F 1 "10µF" H 6750 7300 50  0000 L CNN
-F 2 "" H 6700 7200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6700 7200 50  0001 C CNN
 F 3 "~" H 6700 7200 50  0001 C CNN
 	1    6700 7200
 	-1   0    0    1   
@@ -950,7 +949,7 @@ U 1 1 5C671472
 P 7100 7200
 F 0 "C15" H 6900 7300 50  0000 L CNN
 F 1 "0.1µF" H 7150 7100 50  0000 L CNN
-F 2 "" H 7138 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7138 7050 50  0001 C CNN
 F 3 "~" H 7100 7200 50  0001 C CNN
 	1    7100 7200
 	1    0    0    -1  
@@ -961,7 +960,7 @@ U 1 1 5C671F12
 P 8350 7200
 F 0 "C22" H 8465 7246 50  0000 L CNN
 F 1 "10µF" H 8465 7155 50  0000 L CNN
-F 2 "" H 8350 7200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8350 7200 50  0001 C CNN
 F 3 "~" H 8350 7200 50  0001 C CNN
 	1    8350 7200
 	1    0    0    -1  
@@ -972,13 +971,13 @@ U 1 1 5C672A46
 P 7950 7200
 F 0 "C20" H 8065 7246 50  0000 L CNN
 F 1 "0.1µF" H 8000 7100 50  0000 L CNN
-F 2 "" H 7988 7050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7988 7050 50  0001 C CNN
 F 3 "~" H 7950 7200 50  0001 C CNN
 	1    7950 7200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR049
+L Audio_Board-rescue:Earth_w_GND-power #PWR049
 U 1 1 5C677EE6
 P 8350 7350
 F 0 "#PWR049" H 8350 7100 50  0001 C CNN
@@ -989,7 +988,7 @@ F 3 "~" H 8350 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR046
+L Audio_Board-rescue:Earth_w_GND-power #PWR046
 U 1 1 5C67893C
 P 7950 7350
 F 0 "#PWR046" H 7950 7100 50  0001 C CNN
@@ -1000,7 +999,7 @@ F 3 "~" H 7950 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR043
+L Audio_Board-rescue:Earth_w_GND-power #PWR043
 U 1 1 5C678D89
 P 7100 7350
 F 0 "#PWR043" H 7100 7100 50  0001 C CNN
@@ -1011,7 +1010,7 @@ F 3 "~" H 7100 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR038
+L Audio_Board-rescue:Earth_w_GND-power #PWR038
 U 1 1 5C6794CD
 P 6700 7350
 F 0 "#PWR038" H 6700 7100 50  0001 C CNN
@@ -1075,7 +1074,7 @@ U 1 1 5C729227
 P 7050 3600
 F 0 "C14" H 7165 3646 50  0000 L CNN
 F 1 "0.1µF" H 7165 3555 50  0000 L CNN
-F 2 "" H 7088 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7088 3450 50  0001 C CNN
 F 3 "~" H 7050 3600 50  0001 C CNN
 	1    7050 3600
 	1    0    0    -1  
@@ -1086,7 +1085,7 @@ U 1 1 5C7297D6
 P 6750 3600
 F 0 "C13" H 6600 3500 50  0000 L CNN
 F 1 "10µF" H 6800 3700 50  0000 L CNN
-F 2 "" H 6750 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6750 3600 50  0001 C CNN
 F 3 "~" H 6750 3600 50  0001 C CNN
 	1    6750 3600
 	-1   0    0    1   
@@ -1108,7 +1107,7 @@ U 1 1 5C72ADFC
 P 7900 3600
 F 0 "C18" H 7700 3700 50  0000 L CNN
 F 1 "0.1µF" H 7650 3500 50  0000 L CNN
-F 2 "" H 7938 3450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7938 3450 50  0001 C CNN
 F 3 "~" H 7900 3600 50  0001 C CNN
 	1    7900 3600
 	1    0    0    -1  
@@ -1119,7 +1118,7 @@ U 1 1 5C72BA23
 P 8250 3600
 F 0 "C21" H 8365 3646 50  0000 L CNN
 F 1 "10µF" H 8365 3555 50  0000 L CNN
-F 2 "" H 8250 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8250 3600 50  0001 C CNN
 F 3 "~" H 8250 3600 50  0001 C CNN
 	1    8250 3600
 	1    0    0    -1  
@@ -1136,7 +1135,7 @@ F 3 "" H 8400 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR044
+L Audio_Board-rescue:Earth_w_GND-power #PWR044
 U 1 1 5C74749F
 P 7900 3750
 F 0 "#PWR044" H 7900 3500 50  0001 C CNN
@@ -1147,7 +1146,7 @@ F 3 "~" H 7900 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR048
+L Audio_Board-rescue:Earth_w_GND-power #PWR048
 U 1 1 5C7481F3
 P 8250 3750
 F 0 "#PWR048" H 8250 3500 50  0001 C CNN
@@ -1182,7 +1181,7 @@ Connection ~ 6750 3400
 Wire Wire Line
 	6750 3400 7050 3400
 $Comp
-L power:Earth_w_GND #PWR042
+L Audio_Board-rescue:Earth_w_GND-power #PWR042
 U 1 1 5C77F647
 P 7050 3750
 F 0 "#PWR042" H 7050 3500 50  0001 C CNN
@@ -1193,7 +1192,7 @@ F 3 "~" H 7050 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR039
+L Audio_Board-rescue:Earth_w_GND-power #PWR039
 U 1 1 5C77FD2F
 P 6750 3750
 F 0 "#PWR039" H 6750 3500 50  0001 C CNN
@@ -1248,7 +1247,7 @@ U 1 1 5C82F813
 P 7500 6700
 F 0 "C16" V 7600 6600 50  0000 C CNN
 F 1 "22pF" V 7600 6900 50  0000 C CNN
-F 2 "" H 7500 6700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7500 6700 50  0001 C CNN
 F 3 "~" H 7500 6700 50  0001 C CNN
 	1    7500 6700
 	0    1    1    0   
@@ -1295,7 +1294,7 @@ U 1 1 5C8C295C
 P 6000 4550
 F 0 "R3" H 5800 4650 50  0000 L CNN
 F 1 "20" H 6068 4505 50  0000 L CNN
-F 2 "" V 6040 4540 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6040 4540 50  0001 C CNN
 F 3 "~" H 6000 4550 50  0001 C CNN
 	1    6000 4550
 	1    0    0    -1  
@@ -1306,13 +1305,13 @@ U 1 1 5C8C3927
 P 6000 4800
 F 0 "C8" H 6092 4846 50  0000 L CNN
 F 1 "10nF" H 6092 4755 50  0000 L CNN
-F 2 "" H 6000 4800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6000 4800 50  0001 C CNN
 F 3 "~" H 6000 4800 50  0001 C CNN
 	1    6000 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR033
+L Audio_Board-rescue:Earth_w_GND-power #PWR033
 U 1 1 5C8C4B81
 P 6000 4900
 F 0 "#PWR033" H 6000 4650 50  0001 C CNN
@@ -1328,7 +1327,7 @@ U 1 1 5C8D48F4
 P 6150 4300
 F 0 "R5" V 6050 4150 50  0000 L CNN
 F 1 "100" V 6250 4250 50  0000 L CNN
-F 2 "" V 6190 4290 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6190 4290 50  0001 C CNN
 F 3 "~" H 6150 4300 50  0001 C CNN
 	1    6150 4300
 	0    1    1    0   
@@ -1350,7 +1349,7 @@ U 1 1 5C976073
 P 6000 5750
 F 0 "R4" H 5800 5850 50  0000 L CNN
 F 1 "20" H 6068 5705 50  0000 L CNN
-F 2 "" V 6040 5740 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6040 5740 50  0001 C CNN
 F 3 "~" H 6000 5750 50  0001 C CNN
 	1    6000 5750
 	1    0    0    -1  
@@ -1361,13 +1360,13 @@ U 1 1 5C97607D
 P 6000 6000
 F 0 "C9" H 6092 6046 50  0000 L CNN
 F 1 "10nF" H 6092 5955 50  0000 L CNN
-F 2 "" H 6000 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6000 6000 50  0001 C CNN
 F 3 "~" H 6000 6000 50  0001 C CNN
 	1    6000 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR034
+L Audio_Board-rescue:Earth_w_GND-power #PWR034
 U 1 1 5C976087
 P 6000 6100
 F 0 "#PWR034" H 6000 5850 50  0001 C CNN
@@ -1383,7 +1382,7 @@ U 1 1 5C97609B
 P 6150 5500
 F 0 "R6" V 6050 5350 50  0000 L CNN
 F 1 "100" V 6250 5450 50  0000 L CNN
-F 2 "" V 6190 5490 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6190 5490 50  0001 C CNN
 F 3 "~" H 6150 5500 50  0001 C CNN
 	1    6150 5500
 	0    1    1    0   
@@ -1411,7 +1410,7 @@ U 1 1 5C9C23C1
 P 1250 4150
 F 0 "R1" H 1318 4196 50  0000 L CNN
 F 1 "100k" H 1318 4105 50  0000 L CNN
-F 2 "" V 1290 4140 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1290 4140 50  0001 C CNN
 F 3 "~" H 1250 4150 50  0001 C CNN
 	1    1250 4150
 	1    0    0    -1  
@@ -1422,13 +1421,13 @@ U 1 1 5C9C40E4
 P 1250 4450
 F 0 "C1" H 1365 4496 50  0000 L CNN
 F 1 "0.1µF" H 1365 4405 50  0000 L CNN
-F 2 "" H 1288 4300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1288 4300 50  0001 C CNN
 F 3 "~" H 1250 4450 50  0001 C CNN
 	1    1250 4450
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR02
+L Audio_Board-rescue:Earth_w_GND-power #PWR02
 U 1 1 5C9C47A4
 P 1250 4600
 F 0 "#PWR02" H 1250 4350 50  0001 C CNN
@@ -1491,7 +1490,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 4600 2000 4600
 $Comp
-L power:Earth_w_GND #PWR016
+L Audio_Board-rescue:Earth_w_GND-power #PWR016
 U 1 1 5CAEEB69
 P 2150 4400
 F 0 "#PWR016" H 2150 4150 50  0001 C CNN
@@ -1550,7 +1549,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 5700 2050 6100
 $Comp
-L power:Earth_w_GND #PWR015
+L Audio_Board-rescue:Earth_w_GND-power #PWR015
 U 1 1 5CC40C4F
 P 2050 6850
 F 0 "#PWR015" H 2050 6600 50  0001 C CNN
@@ -1594,18 +1593,18 @@ U 1 1 5CCA4497
 P 1450 5900
 F 0 "R2" V 1350 5800 50  0000 L CNN
 F 1 "1M" V 1350 5950 50  0000 L CNN
-F 2 "" V 1490 5890 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1490 5890 50  0001 C CNN
 F 3 "~" H 1450 5900 50  0001 C CNN
 	1    1450 5900
 	0    1    1    0   
 $EndComp
 $Comp
-L Adafruit_VS1053_Breakout-eagle-import:CRYSTAL3.2X2.5 Y1
+L Audio_Board-rescue:CRYSTAL3.2X2.5-Adafruit_VS1053_Breakout-eagle-import Y1
 U 1 1 5CCA6A9E
 P 1450 6100
 F 0 "Y1" H 1450 6200 42  0000 C CNN
 F 1 "ABM8G-" H 1000 6250 42  0000 C CNN
-F 2 "" H 1450 6100 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 1450 6100 50  0001 C CNN
 F 3 "https://abracon.com/Resonators/ABM8G.pdf" H 1450 6100 50  0001 C CNN
 F 4 "Crystal, 12.288MHz, 10pF, SMD" H 1450 6100 50  0001 C CNN "Description"
 F 5 "4-SMD, No Lead (3.2 x 2.5 x 1.0mm)" H 1450 6100 50  0001 C CNN "Package"
@@ -1620,7 +1619,7 @@ U 1 1 5CCA9CB7
 P 1300 6250
 F 0 "C2" H 1150 6350 50  0000 L CNN
 F 1 "10pF" H 1000 6250 50  0000 L CNN
-F 2 "" H 1300 6250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1300 6250 50  0001 C CNN
 F 3 "~" H 1300 6250 50  0001 C CNN
 	1    1300 6250
 	1    0    0    -1  
@@ -1631,13 +1630,13 @@ U 1 1 5CCAA52F
 P 1600 6250
 F 0 "C3" H 1700 6350 50  0000 L CNN
 F 1 "10pF" H 1700 6250 50  0000 L CNN
-F 2 "" H 1600 6250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1600 6250 50  0001 C CNN
 F 3 "~" H 1600 6250 50  0001 C CNN
 	1    1600 6250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR07
+L Audio_Board-rescue:Earth_w_GND-power #PWR07
 U 1 1 5CCAB01C
 P 1600 6350
 F 0 "#PWR07" H 1600 6100 50  0001 C CNN
@@ -1648,7 +1647,7 @@ F 3 "~" H 1600 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR04
+L Audio_Board-rescue:Earth_w_GND-power #PWR04
 U 1 1 5CCAB57D
 P 1300 6350
 F 0 "#PWR04" H 1300 6100 50  0001 C CNN
@@ -1719,7 +1718,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 5900 5300 5850
 $Comp
-L power:Earth_w_GND #PWR030
+L Audio_Board-rescue:Earth_w_GND-power #PWR030
 U 1 1 5CEB08AE
 P 5450 5550
 F 0 "#PWR030" H 5450 5300 50  0001 C CNN
@@ -2649,12 +2648,12 @@ B5 B7 1D 74 15 74 95 22 41 AD BB 85 54 3F 86 7C 6A 77 93 E8 6E D1 DB 8F 60 67 8B
 EndData
 $EndBitmap
 $Comp
-L Adafruit_VS1053_Breakout-eagle-import:FERRITE_0603 FB1
+L Audio_Board-rescue:FERRITE_0603-Adafruit_VS1053_Breakout-eagle-import FB1
 U 1 1 5C637F4B
 P 1550 2550
 F 0 "FB1" H 1550 2700 42  0000 C CNN
 F 1 "BLM18AG601BH1D" H 1550 2450 42  0000 C CNN
-F 2 "" H 1550 2550 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 1550 2550 50  0001 C CNN
 F 3 "" H 1550 2550 50  0001 C CNN
 	1    1550 2550
 	1    0    0    -1  
@@ -2704,18 +2703,18 @@ F 3 "" H 2650 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_VS1053_Breakout-eagle-import:FERRITE_0603 FB2
+L Audio_Board-rescue:FERRITE_0603-Adafruit_VS1053_Breakout-eagle-import FB2
 U 1 1 5C68B93E
 P 2350 2350
 F 0 "FB2" H 2350 2150 42  0000 C CNN
 F 1 "BLM18AG601BH1D" H 2350 2450 42  0000 C CNN
-F 2 "" H 2350 2350 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 2350 2350 50  0001 C CNN
 F 3 "" H 2350 2350 50  0001 C CNN
 	1    2350 2350
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR014
+L Audio_Board-rescue:Earth_w_GND-power #PWR014
 U 1 1 5C68C9B8
 P 2050 2500
 F 0 "#PWR014" H 2050 2250 50  0001 C CNN
@@ -2742,7 +2741,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 2350 2650 2500
 $Comp
-L Adafruit_VS1053_Breakout-eagle-import:MOUNTINGHOLE2.5_THICK U12
+L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U12
 U 1 1 5C71A3AA
 P 12050 10350
 F 0 "U12" H 12100 10400 50  0001 C CNN
@@ -2753,7 +2752,7 @@ F 3 "" H 12050 10350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_VS1053_Breakout-eagle-import:MOUNTINGHOLE2.5_THICK U11
+L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U11
 U 1 1 5C71AFFE
 P 12050 10100
 F 0 "U11" H 12100 10150 50  0001 C CNN
@@ -2764,7 +2763,7 @@ F 3 "" H 12050 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_VS1053_Breakout-eagle-import:MOUNTINGHOLE2.5_THICK U10
+L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U10
 U 1 1 5C71B4B6
 P 12050 9850
 F 0 "U10" H 12100 9900 50  0001 C CNN
@@ -2775,7 +2774,7 @@ F 3 "" H 12050 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Adafruit_VS1053_Breakout-eagle-import:MOUNTINGHOLE2.5_THICK U9
+L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U9
 U 1 1 5C71B8C9
 P 12050 9600
 F 0 "U9" H 12100 9650 50  0001 C CNN
@@ -2788,12 +2787,12 @@ $EndComp
 Text Notes 11450 9750 0    50   ~ 0
 Mounting\nHoles (x4)
 $Comp
-L Adafruit_VS1053_Breakout-cache:Adafruit_VS1053_Breakout-eagle-import_VREG_SOT23-6_DUALAP7312 U2
+L Audio_Board-rescue:Adafruit_VS1053_Breakout-eagle-import_VREG_SOT23-6_DUALAP7312-Adafruit_VS1053_Breakout-cache U2
 U 1 1 5C755E6A
 P 3900 1850
 F 0 "U2" H 3550 2100 42  0000 C CNN
 F 1 "AP7312-1833W6-7" H 3900 1600 42  0000 C CNN
-F 2 "" H 3900 1850 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3900 1850 50  0001 C CNN
 F 3 "" H 3900 1850 50  0001 C CNN
 	1    3900 1850
 	1    0    0    -1  
@@ -2804,13 +2803,13 @@ U 1 1 5C75964E
 P 3150 2200
 F 0 "C4" H 3265 2246 50  0000 L CNN
 F 1 "10µF" H 3265 2155 50  0000 L CNN
-F 2 "" H 3188 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3188 2050 50  0001 C CNN
 F 3 "~" H 3150 2200 50  0001 C CNN
 	1    3150 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR020
+L Audio_Board-rescue:Earth_w_GND-power #PWR020
 U 1 1 5C7E8249
 P 3150 2350
 F 0 "#PWR020" H 3150 2100 50  0001 C CNN
@@ -2865,7 +2864,7 @@ U 1 1 5C878DCF
 P 4700 2200
 F 0 "C5" H 4815 2246 50  0000 L CNN
 F 1 "10µF" H 4815 2155 50  0000 L CNN
-F 2 "" H 4738 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4738 2050 50  0001 C CNN
 F 3 "~" H 4700 2200 50  0001 C CNN
 	1    4700 2200
 	1    0    0    -1  
@@ -2876,7 +2875,7 @@ U 1 1 5C8794C0
 P 5150 2200
 F 0 "C6" H 5265 2246 50  0000 L CNN
 F 1 "10µF" H 5265 2155 50  0000 L CNN
-F 2 "" H 5188 2050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5188 2050 50  0001 C CNN
 F 3 "~" H 5150 2200 50  0001 C CNN
 	1    5150 2200
 	1    0    0    -1  
@@ -2889,7 +2888,7 @@ Connection ~ 4700 1850
 Wire Wire Line
 	4700 1850 4700 2050
 $Comp
-L power:Earth_w_GND #PWR021
+L Audio_Board-rescue:Earth_w_GND-power #PWR021
 U 1 1 5C9A24A4
 P 4500 2350
 F 0 "#PWR021" H 4500 2100 50  0001 C CNN
@@ -2900,7 +2899,7 @@ F 3 "~" H 4500 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR023
+L Audio_Board-rescue:Earth_w_GND-power #PWR023
 U 1 1 5C9A2D05
 P 4700 2350
 F 0 "#PWR023" H 4700 2100 50  0001 C CNN
@@ -2911,7 +2910,7 @@ F 3 "~" H 4700 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR027
+L Audio_Board-rescue:Earth_w_GND-power #PWR027
 U 1 1 5C9A30F6
 P 5150 2350
 F 0 "#PWR027" H 5150 2100 50  0001 C CNN
@@ -2945,7 +2944,7 @@ U 1 1 5CB14FE1
 P 7050 6100
 F 0 "R9" V 6950 5900 50  0000 L CNN
 F 1 "5.0k" V 6950 6100 50  0000 L CNN
-F 2 "" V 7090 6090 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7090 6090 50  0001 C CNN
 F 3 "~" H 7050 6100 50  0001 C CNN
 	1    7050 6100
 	0    1    1    0   
@@ -2965,7 +2964,7 @@ Connection ~ 6700 4300
 Wire Wire Line
 	6700 4300 6600 4300
 $Comp
-L power:Earth_w_GND #PWR040
+L Audio_Board-rescue:Earth_w_GND-power #PWR040
 U 1 1 5CB3513F
 P 6850 4600
 F 0 "#PWR040" H 6850 4350 50  0001 C CNN
@@ -2982,7 +2981,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 5500 6700 5500
 $Comp
-L power:Earth_w_GND #PWR041
+L Audio_Board-rescue:Earth_w_GND-power #PWR041
 U 1 1 5CB9291A
 P 6850 6100
 F 0 "#PWR041" H 6850 5850 50  0001 C CNN
@@ -3058,7 +3057,7 @@ U 1 1 5D091F24
 P 13150 6450
 F 0 "C45" H 13265 6496 50  0000 L CNN
 F 1 "0.1µF" H 13265 6405 50  0000 L CNN
-F 2 "" H 13188 6300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 13188 6300 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 13150 6450 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.1µF, 50V, ±10%, X7R, 0603" H 13150 6450 50  0001 C CNN "Description"
 F 5 "0603" H 13150 6450 50  0001 C CNN "Package"
@@ -3068,7 +3067,7 @@ F 7 "Kemet, Inc." H 13150 6450 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR086
+L Audio_Board-rescue:Earth_w_GND-power #PWR086
 U 1 1 5D093516
 P 13150 6600
 F 0 "#PWR086" H 13150 6350 50  0001 C CNN
@@ -3083,7 +3082,7 @@ Wire Wire Line
 Wire Wire Line
 	12350 6700 12350 6800
 $Comp
-L Amplifier_Audio:TPA3250D2DDW U8
+L Audio_Board-rescue:TPA3250D2DDW-Amplifier_Audio U8
 U 1 1 5D132757
 P 11350 5300
 F 0 "U8" H 11350 7888 60  0000 C CNN
@@ -3231,7 +3230,7 @@ U 1 1 5D3CF1EA
 P 9250 6200
 F 0 "J4" H 9200 6400 50  0000 C CNN
 F 1 "PBC03SAAN" H 9200 6000 50  0000 C CNN
-F 2 "" H 9250 6200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9250 6200 50  0001 C CNN
 F 3 "~" H 9250 6200 50  0001 C CNN
 	1    9250 6200
 	1    0    0    -1  
@@ -3239,7 +3238,7 @@ $EndComp
 Wire Wire Line
 	8600 5900 10350 5900
 $Comp
-L power:Earth_w_GND #PWR068
+L Audio_Board-rescue:Earth_w_GND-power #PWR068
 U 1 1 5D4AAEB7
 P 9450 6450
 F 0 "#PWR068" H 9450 6200 50  0001 C CNN
@@ -3261,7 +3260,7 @@ F 3 "" H 9450 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR076
+L Audio_Board-rescue:Earth_w_GND-power #PWR076
 U 1 1 5D4CE326
 P 9950 6300
 F 0 "#PWR076" H 9950 6050 50  0001 C CNN
@@ -3296,13 +3295,13 @@ U 1 1 5D685DB1
 P 9350 7050
 F 0 "C29" H 9465 7096 50  0000 L CNN
 F 1 "0.01µF" H 9465 7005 50  0000 L CNN
-F 2 "" H 9388 6900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9388 6900 50  0001 C CNN
 F 3 "~" H 9350 7050 50  0001 C CNN
 	1    9350 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR066
+L Audio_Board-rescue:Earth_w_GND-power #PWR066
 U 1 1 5D687627
 P 9350 7200
 F 0 "#PWR066" H 9350 6950 50  0001 C CNN
@@ -3356,7 +3355,7 @@ U 1 1 5D7CDFBA
 P 13550 1200
 F 0 "J5" V 13514 912 50  0000 R CNN
 F 1 "1017523" V 13423 912 50  0000 R CNN
-F 2 "" H 13550 1200 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:PhoenixContact_TermBlk_4P_SideEnt_6.35MM" H 13550 1200 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1017523&library=usen&pcck=P-11-01-05&tab=1&selectedCategory=ALL" H 13550 1200 50  0001 C CNN
 F 4 "PCB Terminal Block, 4 Position, Through Hole, Push-in Spring connection" V 13550 1200 50  0001 C CNN "Description"
 F 5 "n/a" V 13550 1200 50  0001 C CNN "Package"
@@ -3367,7 +3366,7 @@ $EndComp
 Text Notes 13850 1550 0    50   ~ 0
 Phoenix\nContact
 $Comp
-L power:Earth_w_GND #PWR088
+L Audio_Board-rescue:Earth_w_GND-power #PWR088
 U 1 1 5D7F1297
 P 13700 1500
 F 0 "#PWR088" H 13700 1250 50  0001 C CNN
@@ -3403,13 +3402,13 @@ U 1 1 5D8B413B
 P 1900 1300
 F 0 "J1" V 1864 1012 50  0000 R CNN
 F 1 "1017523" V 1773 1012 50  0000 R CNN
-F 2 "" H 1900 1300 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:PhoenixContact_TermBlk_4P_SideEnt_6.35MM" H 1900 1300 50  0001 C CNN
 F 3 "~" H 1900 1300 50  0001 C CNN
 	1    1900 1300
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR012
+L Audio_Board-rescue:Earth_w_GND-power #PWR012
 U 1 1 5D8B586A
 P 2000 1700
 F 0 "#PWR012" H 2000 1450 50  0001 C CNN
@@ -3491,7 +3490,7 @@ U 1 1 5DA68B3F
 P 9200 1800
 F 0 "U6" H 9200 2042 50  0000 C CNN
 F 1 "TC1262-2.5VDB" H 9200 1951 50  0000 C CNN
-F 2 "" H 9200 2025 50  0001 C CIN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9200 2025 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf" H 9200 1500 50  0001 C CNN
 F 4 "Linear Voltage Regulator IC Positive Fixed 1 Output 2.5V 500mA SOT-223-3" H 9200 1800 50  0001 C CNN "Description"
 F 5 "SOT223-3" H 9200 1800 50  0001 C CNN "Package"
@@ -3523,13 +3522,13 @@ U 1 1 5DAB389C
 P 9650 2050
 F 0 "C33" H 9700 2150 50  0000 L CNN
 F 1 "1µF" H 9700 1950 50  0000 L CNN
-F 2 "" H 9688 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9688 1900 50  0001 C CNN
 F 3 "~" H 9650 2050 50  0001 C CNN
 	1    9650 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR073
+L Audio_Board-rescue:Earth_w_GND-power #PWR073
 U 1 1 5DAB38A6
 P 9650 2200
 F 0 "#PWR073" H 9650 1950 50  0001 C CNN
@@ -3558,7 +3557,7 @@ Connection ~ 9650 1800
 Wire Wire Line
 	9650 1800 9650 1900
 $Comp
-L power:Earth_w_GND #PWR063
+L Audio_Board-rescue:Earth_w_GND-power #PWR063
 U 1 1 5DB1F019
 P 9200 2200
 F 0 "#PWR063" H 9200 1950 50  0001 C CNN
@@ -3587,7 +3586,7 @@ U 1 1 5DBD7979
 P 10500 1750
 F 0 "C37" H 10550 1850 50  0000 L CNN
 F 1 "10µF" H 10250 1650 50  0000 L CNN
-F 2 "" H 10500 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10500 1750 50  0001 C CNN
 F 3 "~" H 10500 1750 50  0001 C CNN
 	1    10500 1750
 	1    0    0    -1  
@@ -3598,7 +3597,7 @@ U 1 1 5DBD839F
 P 10800 1750
 F 0 "C38" H 10850 1850 50  0000 L CNN
 F 1 "0.33µF" H 10850 1650 50  0000 L CNN
-F 2 "" H 10838 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10838 1600 50  0001 C CNN
 F 3 "~" H 10800 1750 50  0001 C CNN
 	1    10800 1750
 	1    0    0    -1  
@@ -3627,7 +3626,7 @@ Connection ~ 10800 1500
 Wire Wire Line
 	10800 1500 10500 1500
 $Comp
-L power:Earth_w_GND #PWR079
+L Audio_Board-rescue:Earth_w_GND-power #PWR079
 U 1 1 5DC47431
 P 10500 1900
 F 0 "#PWR079" H 10500 1650 50  0001 C CNN
@@ -3638,7 +3637,7 @@ F 3 "~" H 10500 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR080
+L Audio_Board-rescue:Earth_w_GND-power #PWR080
 U 1 1 5DC4783D
 P 10800 1900
 F 0 "#PWR080" H 10800 1650 50  0001 C CNN
@@ -3649,7 +3648,7 @@ F 3 "~" H 10800 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR081
+L Audio_Board-rescue:Earth_w_GND-power #PWR081
 U 1 1 5DC47BA4
 P 11300 1900
 F 0 "#PWR081" H 11300 1650 50  0001 C CNN
@@ -3667,7 +3666,7 @@ U 1 1 5DC6D3F3
 P 11700 1750
 F 0 "C39" H 11750 1850 50  0000 L CNN
 F 1 "10µF" H 11450 1650 50  0000 L CNN
-F 2 "" H 11700 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11700 1750 50  0001 C CNN
 F 3 "~" H 11700 1750 50  0001 C CNN
 	1    11700 1750
 	1    0    0    -1  
@@ -3678,13 +3677,13 @@ U 1 1 5DC6F2E0
 P 12000 1750
 F 0 "C40" H 12050 1850 50  0000 L CNN
 F 1 "1µF" H 12050 1650 50  0000 L CNN
-F 2 "" H 12038 1600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12038 1600 50  0001 C CNN
 F 3 "~" H 12000 1750 50  0001 C CNN
 	1    12000 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR082
+L Audio_Board-rescue:Earth_w_GND-power #PWR082
 U 1 1 5DC6FF4C
 P 11700 1900
 F 0 "#PWR082" H 11700 1650 50  0001 C CNN
@@ -3695,7 +3694,7 @@ F 3 "~" H 11700 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR084
+L Audio_Board-rescue:Earth_w_GND-power #PWR084
 U 1 1 5DC70272
 P 12000 1900
 F 0 "#PWR084" H 12000 1650 50  0001 C CNN
@@ -3737,7 +3736,7 @@ Murata
 Text Notes 1460 2500 0    42   ~ 0
 0603
 $Comp
-L 2019-02-05_05-23-06:MAX1735EUK25+T U3
+L Audio_Board-rescue:MAX1735EUK25+T-2019-02-05_05-23-06 U3
 U 1 1 5C7290D7
 P 6200 1900
 F 0 "U3" H 6925 2287 60  0000 C CNN
@@ -3748,7 +3747,7 @@ F 3 "" H 6200 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR035
+L Audio_Board-rescue:Earth_w_GND-power #PWR035
 U 1 1 5C72ACE0
 P 6150 2500
 F 0 "#PWR035" H 6150 2250 50  0001 C CNN
@@ -3779,13 +3778,13 @@ U 1 1 5C7C63D8
 P 8700 2050
 F 0 "C24" H 8750 2150 50  0000 L CNN
 F 1 "1µF" H 8750 1950 50  0000 L CNN
-F 2 "" H 8738 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8738 1900 50  0001 C CNN
 F 3 "~" H 8700 2050 50  0001 C CNN
 	1    8700 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR056
+L Audio_Board-rescue:Earth_w_GND-power #PWR056
 U 1 1 5C7C63DE
 P 8700 2200
 F 0 "#PWR056" H 8700 1950 50  0001 C CNN
@@ -3801,13 +3800,13 @@ U 1 1 5C7ECCC7
 P 5700 2150
 F 0 "C7" H 5750 2250 50  0000 L CNN
 F 1 "2.2µF" H 5750 2050 50  0000 L CNN
-F 2 "" H 5738 2000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5738 2000 50  0001 C CNN
 F 3 "~" H 5700 2150 50  0001 C CNN
 	1    5700 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR032
+L Audio_Board-rescue:Earth_w_GND-power #PWR032
 U 1 1 5C7ECCCD
 P 5700 2500
 F 0 "#PWR032" H 5700 2250 50  0001 C CNN
@@ -3837,13 +3836,13 @@ U 1 1 5C860A0B
 P 7950 2050
 F 0 "C19" H 8000 2150 50  0000 L CNN
 F 1 "2.2µF" H 8000 1950 50  0000 L CNN
-F 2 "" H 7988 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7988 1900 50  0001 C CNN
 F 3 "~" H 7950 2050 50  0001 C CNN
 	1    7950 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth_w_GND #PWR045
+L Audio_Board-rescue:Earth_w_GND-power #PWR045
 U 1 1 5C860A11
 P 7950 2500
 F 0 "#PWR045" H 7950 2250 50  0001 C CNN
@@ -3944,7 +3943,7 @@ U 1 1 5C5F9F70
 P 15850 5300
 F 0 "J7" H 15930 5292 50  0000 L CNN
 F 1 "1017521" H 15700 5100 50  0000 L CNN
-F 2 "" H 15850 5300 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:PhoenixContact_TermBlk_2P_SideEnt_6.35MM" H 15850 5300 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1017523&library=usen&pcck=P-11-01-05&tab=1&selectedCategory=ALL" H 15850 5300 50  0001 C CNN
 F 4 "PCB Terminal Block, 4 Contact, TH" H 15850 5300 50  0001 C CNN "Description"
 F 5 "" H 15850 5300 50  0001 C CNN "Package"
@@ -3959,7 +3958,7 @@ U 1 1 5C6753C4
 P 15050 3850
 F 0 "C59" H 15165 3896 50  0000 L CNN
 F 1 "0.01µF" H 15165 3805 50  0000 L CNN
-F 2 "" H 15088 3700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15088 3700 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 15050 3850 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.01µF, 50V, 10%, X7R, 0603" H 15050 3850 50  0001 C CNN "Description"
 F 5 "0603" H 15050 3850 50  0001 C CNN "Package"
@@ -3974,7 +3973,7 @@ U 1 1 5C675A8E
 P 15050 5050
 F 0 "C60" H 15165 5096 50  0000 L CNN
 F 1 "0.01µF" H 15165 5005 50  0000 L CNN
-F 2 "" H 15088 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15088 4900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 15050 5050 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.01µF, 50V, 10%, X7R, 0603" H 15050 5050 50  0001 C CNN "Description"
 F 5 "0603" H 15050 5050 50  0001 C CNN "Package"
@@ -3989,7 +3988,7 @@ U 1 1 5C676323
 P 15050 6100
 F 0 "C61" H 15165 6146 50  0000 L CNN
 F 1 "0.01µF" H 15165 6055 50  0000 L CNN
-F 2 "" H 15088 5950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 15088 5950 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 15050 6100 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.01µF, 50V, 10%, X7R, 0603" H 15050 6100 50  0001 C CNN "Description"
 F 5 "0603" H 15050 6100 50  0001 C CNN "Package"
@@ -4004,7 +4003,7 @@ U 1 1 5C677390
 P 15050 4200
 F 0 "R16" H 15118 4246 50  0000 L CNN
 F 1 "3R3" H 15118 4155 50  0000 L CNN
-F 2 "" V 15090 4190 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15090 4190 50  0001 C CNN
 F 3 "https://www.digikey.com/en/datasheets/vishay-dale/vishay-dale-dcrcwe3" H 15050 4200 50  0001 C CNN
 F 4 "Resistor, Thick Film, 3.3 Ohms, 5%, 0.1W, ± 200 ppm" H 15050 4200 50  0001 C CNN "Description"
 F 5 "0603" H 15050 4200 50  0001 C CNN "Package"
@@ -4019,7 +4018,7 @@ U 1 1 5C6F1E02
 P 15050 5400
 F 0 "R17" H 15118 5446 50  0000 L CNN
 F 1 "3R3" H 15118 5355 50  0000 L CNN
-F 2 "" V 15090 5390 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15090 5390 50  0001 C CNN
 F 3 "https://www.digikey.com/en/datasheets/vishay-dale/vishay-dale-dcrcwe3" H 15050 5400 50  0001 C CNN
 F 4 "Resistor, Thick Film, 3.3 Ohms, 5%, 0.1W, ± 200 ppm" H 15050 5400 50  0001 C CNN "Description"
 F 5 "0603" H 15050 5400 50  0001 C CNN "Package"
@@ -4034,7 +4033,7 @@ U 1 1 5C71AEEF
 P 15050 6450
 F 0 "R18" H 15118 6496 50  0000 L CNN
 F 1 "3R3" H 15118 6405 50  0000 L CNN
-F 2 "" V 15090 6440 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 15090 6440 50  0001 C CNN
 F 3 "https://www.digikey.com/en/datasheets/vishay-dale/vishay-dale-dcrcwe3" H 15050 6450 50  0001 C CNN
 F 4 "Resistor, Thick Film, 3.3 Ohms, 5%, 0.1W, ± 200 ppm" H 15050 6450 50  0001 C CNN "Description"
 F 5 "0603" H 15050 6450 50  0001 C CNN "Package"
@@ -4049,7 +4048,7 @@ U 1 1 5C79664A
 P 14650 3850
 F 0 "C55" H 14765 3896 50  0000 L CNN
 F 1 "1nF" H 14765 3805 50  0000 L CNN
-F 2 "" H 14688 3700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 14688 3700 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM3195C1H102JA01-01.pdf" H 14650 3850 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 1000pF, 50V, 5%, C0G/NP0, 1206" H 14650 3850 50  0001 C CNN "Description"
 F 5 "1206" H 14650 3850 50  0001 C CNN "Package"
@@ -4064,7 +4063,7 @@ U 1 1 5C796E3D
 P 14650 5050
 F 0 "C56" H 14765 5096 50  0000 L CNN
 F 1 "1nF" H 14765 5005 50  0000 L CNN
-F 2 "" H 14688 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 14688 4900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM3195C1H102JA01-01.pdf" H 14650 5050 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 1000pF, 50V, 5%, C0G/NP0, 1206" H 14650 5050 50  0001 C CNN "Description"
 F 5 "1206" H 14650 5050 50  0001 C CNN "Package"
@@ -4079,7 +4078,7 @@ U 1 1 5C797723
 P 14650 6100
 F 0 "C57" H 14765 6146 50  0000 L CNN
 F 1 "1nF" H 14765 6055 50  0000 L CNN
-F 2 "" H 14688 5950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 14688 5950 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM3195C1H102JA01-01.pdf" H 14650 6100 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 1000pF, 50V, 5%, C0G/NP0, 1206" H 14650 6100 50  0001 C CNN "Description"
 F 5 "1206" H 14650 6100 50  0001 C CNN "Package"
@@ -4094,7 +4093,7 @@ U 1 1 5C811E31
 P 14350 3650
 F 0 "C51" V 14602 3650 50  0000 C CNN
 F 1 "470µF" V 14511 3650 50  0000 C CNN
-F 2 "" H 14350 3650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D16.0mm_H31.5mm_P7.50mm" H 14350 3650 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/fc/EEUFC1J471" H 14350 3650 50  0001 C CNN
 F 4 "Capacitor, Al Electrolytic, 470µF, 63V, ±20%, 0.059, TH" V 14350 3650 50  0001 C CNN "Description"
 F 5 "D16xL20mm" V 14350 3650 50  0001 C CNN "Package"
@@ -4109,7 +4108,7 @@ U 1 1 5C8122B6
 P 14350 4850
 F 0 "C52" V 14602 4850 50  0000 C CNN
 F 1 "470µF" V 14511 4850 50  0000 C CNN
-F 2 "" H 14350 4850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm" H 14350 4850 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/fc/EEUFC1J471" H 14350 4850 50  0001 C CNN
 F 4 "Capacitor, Al Electrolytic, 470µF, 63V, ±20%, 0.059, TH" V 14350 4850 50  0001 C CNN "Description"
 F 5 "D16xL20mm" V 14350 4850 50  0001 C CNN "Package"
@@ -4124,7 +4123,7 @@ U 1 1 5C812ABE
 P 14350 5900
 F 0 "C53" V 14602 5900 50  0000 C CNN
 F 1 "470µF" V 14511 5900 50  0000 C CNN
-F 2 "" H 14350 5900 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D16.0mm_H25.0mm_P7.50mm" H 14350 5900 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-lead/fc/EEUFC1J471" H 14350 5900 50  0001 C CNN
 F 4 "Capacitor, Al Electrolytic, 470µF, 63V, ±20%, 0.059, TH" V 14350 5900 50  0001 C CNN "Description"
 F 5 "D16xL20mm" V 14350 5900 50  0001 C CNN "Package"
@@ -4139,7 +4138,7 @@ U 1 1 5C88D79E
 P 14000 3850
 F 0 "C47" H 14115 3896 50  0000 L CNN
 F 1 "1µF" H 14115 3805 50  0000 L CNN
-F 2 "" H 14038 3700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14038 3700 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/F3294_PHE426.pdf" H 14000 3850 50  0001 C CNN
 F 4 "Capacitor, Film, 1.0µF, 250V, ±5%, TH" H 14000 3850 50  0001 C CNN "Description"
 F 5 "18x9x17.5mm" H 14000 3850 50  0001 C CNN "Package"
@@ -4154,7 +4153,7 @@ U 1 1 5C88DE32
 P 14000 5050
 F 0 "C48" H 14115 5096 50  0000 L CNN
 F 1 "1µF" H 14115 5005 50  0000 L CNN
-F 2 "" H 14038 4900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14038 4900 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/F3294_PHE426.pdf" H 14000 5050 50  0001 C CNN
 F 4 "Capacitor, Film, 1.0µF, 250V, ±5%, TH" H 14000 5050 50  0001 C CNN "Description"
 F 5 "18x9x17.5mm" H 14000 5050 50  0001 C CNN "Package"
@@ -4169,7 +4168,7 @@ U 1 1 5C88E517
 P 14000 6100
 F 0 "C49" H 14115 6146 50  0000 L CNN
 F 1 "1µF" H 14115 6055 50  0000 L CNN
-F 2 "" H 14038 5950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14038 5950 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/F3294_PHE426.pdf" H 14000 6100 50  0001 C CNN
 F 4 "Capacitor, Film, 1.0µF, 250V, ±5%, TH" H 14000 6100 50  0001 C CNN "Description"
 F 5 "18x9x17.5mm" H 14000 6100 50  0001 C CNN "Package"
@@ -4184,7 +4183,7 @@ U 1 1 5C90992E
 P 12550 3300
 F 0 "C42" V 12500 3400 50  0000 C CNN
 F 1 "0.033µF" V 12600 3500 50  0000 C CNN
-F 2 "" H 12588 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12588 3150 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H333KA61-01.pdf" H 12550 3300 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.033µF, 50V, ±10%, X7R, 0603" V 12550 3300 50  0001 C CNN "Description"
 F 5 "0603" V 12550 3300 50  0001 C CNN "Package"
@@ -4199,7 +4198,7 @@ U 1 1 5C909E48
 P 12550 5600
 F 0 "C43" V 12500 5700 50  0000 C CNN
 F 1 "0.033µF" V 12600 5800 50  0000 C CNN
-F 2 "" H 12588 5450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12588 5450 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H333KA61-01.pdf" H 12550 5600 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.033µF, 50V, ±10%, X7R, 0603" V 12550 5600 50  0001 C CNN "Description"
 F 5 "0603" V 12550 5600 50  0001 C CNN "Package"
@@ -4214,7 +4213,7 @@ U 1 1 5C90A806
 P 12550 5800
 F 0 "C44" V 12500 5900 50  0000 C CNN
 F 1 "0.033µF" V 12600 6000 50  0000 C CNN
-F 2 "" H 12588 5650 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12588 5650 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H333KA61-01.pdf" H 12550 5800 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.033µF, 50V, ±10%, X7R, 0603" V 12550 5800 50  0001 C CNN "Description"
 F 5 "0603" V 12550 5800 50  0001 C CNN "Package"
@@ -4229,7 +4228,7 @@ U 1 1 5C8D2F48
 P 6450 4300
 F 0 "C10" V 6565 4346 50  0000 L CNN
 F 1 "470µF" V 6300 4150 50  0000 L CNN
-F 2 "" H 6450 4300 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x11.9" H 6450 4300 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uka.pdf" H 6450 4300 50  0001 C CNN
 F 4 "Capacitor, Al Electrolytic, 470µF, 6.3V, ± 20%, 3.5, TH" V 6450 4300 50  0001 C CNN "Description"
 F 5 "Radial, Can" V 6450 4300 50  0001 C CNN "Package"
@@ -4244,7 +4243,7 @@ U 1 1 5C9C5D16
 P 6450 5500
 F 0 "C11" V 6565 5546 50  0000 L CNN
 F 1 "470µF" V 6300 5350 50  0000 L CNN
-F 2 "" H 6450 5500 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_8x11.9" H 6450 5500 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uka.pdf" H 6450 5500 50  0001 C CNN
 F 4 "Capacitor, Al Electrolytic, 470µF, 6.3V, ± 20%, 3.5, TH" V 6450 5500 50  0001 C CNN "Description"
 F 5 "Radial, Can" V 6450 5500 50  0001 C CNN "Package"
@@ -4261,7 +4260,7 @@ U 1 1 5CA3E50F
 P 9600 3000
 F 0 "C30" H 9715 3046 50  0000 L CNN
 F 1 "1µF" H 9715 2955 50  0000 L CNN
-F 2 "" H 9638 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9638 2850 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31MR71H105KA88-01.pdf" H 9600 3000 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 1µF, 50V, ±10%, X7R, 1206" H 9600 3000 50  0001 C CNN "Description"
 F 5 "1206" H 9600 3000 50  0001 C CNN "Package"
@@ -4279,7 +4278,7 @@ U 1 1 5CA3EB47
 P 9950 3550
 F 0 "C35" H 10065 3596 50  0000 L CNN
 F 1 "1µF" H 10065 3505 50  0000 L CNN
-F 2 "" H 9988 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9988 3400 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31MR71H105KA88-01.pdf" H 9950 3550 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 1µF, 50V, ±10%, X7R, 1206" H 9950 3550 50  0001 C CNN "Description"
 F 5 "1206" H 9950 3550 50  0001 C CNN "Package"
@@ -4297,7 +4296,7 @@ U 1 1 5CA3F314
 P 9600 3550
 F 0 "C31" H 9715 3596 50  0000 L CNN
 F 1 "1µF" H 9715 3505 50  0000 L CNN
-F 2 "" H 9638 3400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 9638 3400 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31MR71H105KA88-01.pdf" H 9600 3550 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 1µF, 50V, ±10%, X7R, 1206" H 9600 3550 50  0001 C CNN "Description"
 F 5 "1206" H 9600 3550 50  0001 C CNN "Package"
@@ -4315,7 +4314,7 @@ U 1 1 5CA67CED
 P 9600 4650
 F 0 "C32" H 9400 4750 50  0000 L CNN
 F 1 "1µF" H 9400 4550 50  0000 L CNN
-F 2 "" H 9638 4500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9638 4500 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KA12-01.pdf" H 9600 4650 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 1µF, 16V, ±10%, X7R, 0603" H 9600 4650 50  0001 C CNN "Description"
 F 5 "0603" H 9600 4650 50  0001 C CNN "Package"
@@ -4330,7 +4329,7 @@ U 1 1 5CAB8B25
 P 8550 4500
 F 0 "C23" H 8350 4600 50  0000 L CNN
 F 1 "0.1µF" H 8300 4400 50  0000 L CNN
-F 2 "" H 8588 4350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8588 4350 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 8550 4500 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.1µF, 50V, ±10%, X7R, 0603" H 8550 4500 50  0001 C CNN "Description"
 F 5 "0603" H 8550 4500 50  0001 C CNN "Package"
@@ -4345,7 +4344,7 @@ U 1 1 5CAB8FAB
 P 8750 3750
 F 0 "C25" H 8800 3850 50  0000 L CNN
 F 1 "0.1µF" H 8800 3650 50  0000 L CNN
-F 2 "" H 8788 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8788 3600 50  0001 C CNN
 F 3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" H 8750 3750 50  0001 C CNN
 F 4 "Capacitor, Ceramic, 0.1µF, 50V, ±10%, X7R, 0603" H 8750 3750 50  0001 C CNN "Description"
 F 5 "0603" H 8750 3750 50  0001 C CNN "Package"
@@ -4361,7 +4360,7 @@ U 1 1 5CAB9D47
 P 8550 4200
 F 0 "R13" H 8618 4246 50  0000 L CNN
 F 1 "3R3" H 8618 4155 50  0000 L CNN
-F 2 "" V 8590 4190 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8590 4190 50  0001 C CNN
 F 3 "https://www.digikey.com/en/datasheets/vishay-dale/vishay-dale-dcrcwe3" H 8550 4200 50  0001 C CNN
 F 4 "Resistor, Thick Film, 3.3 Ohms, 5%, 0.1W, ± 200 ppm" H 8550 4200 50  0001 C CNN "Description"
 F 5 "0603" H 8550 4200 50  0001 C CNN "Package"
@@ -4379,7 +4378,7 @@ U 1 1 5CB0C040
 P 9250 3550
 F 0 "C28" H 9365 3596 50  0000 L CNN
 F 1 "3300µF" H 9250 3450 50  0000 L CNN
-F 2 "" H 9250 3550 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D18.0mm_H35.5mm_P7.50mm" H 9250 3550 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 9250 3550 50  0001 C CNN
 F 4 "Capacitor, Al Electrolytic, 3300µF, 50V, ±20%, TH" H 9250 3550 50  0001 C CNN "Description"
 F 5 "D18xL35.5mm Radial Can" H 9250 3550 50  0001 C CNN "Package"
