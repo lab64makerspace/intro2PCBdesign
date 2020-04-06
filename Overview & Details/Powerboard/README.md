@@ -4,12 +4,12 @@ The main goals for this week are:
 
 ### For the Activity -
 
-* Find footprints for components.<br/>
+* Find footprints for components.
+* Layout and route your first major board!
 
-The Activity material may be found [HERE](../Powerboard/Powerboard_Activity).
+The Activity material may be found [*here*](../Powerboard/Powerboard_Activity).
 
 ### For the Content -
-* Learn TODO<br/>
-* See what it takes to integrate multiple components to make something!
+* Learn basic rules of thumb for board layout and routing.
 
-These questions are (hopefully) answered in this week's [*Content*](../Powerboard/Powerboard_Content) section.
+The Content material may be found [*here*](../Powerboard/Powerboard_Content) section.
