@@ -50,7 +50,7 @@ F 3 "" H 7210 5735 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L display_board:62684-502100ALF J1
+L Display_Board:62684-502100ALF J1
 U 1 1 5F061D23
 P 6000 1420
 F 0 "J1" H 6300 1570 60  0000 L CNN
@@ -61,7 +61,7 @@ F 3 "" H 6000 1420 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L display_board:DISP_TFT_2.8IN_240x320_50PIN U3
+L Display_Board:DISP_TFT_2.8IN_240x320_50PIN U3
 U 1 1 5F053F83
 P 3190 2900
 F 0 "U3" H 3165 4615 50  0000 C CNN
