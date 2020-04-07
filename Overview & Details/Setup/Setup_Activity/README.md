@@ -28,3 +28,6 @@ NOTE FOR Mac USERS - Right click to open KiCad the first time. You may also get 
 
 Verify that your installation was successful by trying to open one of our past PCB projects, [a snowflake PCB](https://github.com/maholli/snowflake/tree/master/snowflake_1). (Open the .pro file). 
 
+## Quick Introduction to KiCAD
+Please watch this 5 min video to understand the KiCAD workflow: https://www.youtube.com/watch?v=l9b_6WLemmg
+
