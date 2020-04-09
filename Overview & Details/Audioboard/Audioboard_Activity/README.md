@@ -20,13 +20,11 @@ Select "Tools - Assign Footprints"
 
 Note that there are a couple of symbols that don't have footprints yet (J5/6/7 are blank!). Unfortunately there are no native Kicad footprints for Phoenix contacts so we will make our own. It's very common to find parts that you want to put on your PCB but most parts don't have premade footprints so you'll get really good at reading datasheets. We already made the 4-pin version for you but keep reading to learn how to make the 2-pin version. 
 
+<img width="400" src="../../Audioboard/Images/datasheet.jpg">
 
-In order to make the footprint, we need to look at the datasheet to get the sizing right. Below is an image from the datasheet for the 2-pin phoenix pins. 
+In order to make the footprint, we need to look at the datasheet to get the sizing right. Above is an image from the datasheet for the 2-pin phoenix pins. We will use it throughtout this tutorial so take a good look. 
 
-<img width="700" src="../../Audioboard/Images/datasheet.jpg">
-
-Now, to start open the footprint editor using this button: 
-<img width="200" src="../../Audioboard/Images/footprint_editor.jpg">
+Now, to start open the footprint editor using this button: <img width="50" src="../../Audioboard/Images/footprint_editor.jpg">
 
 Next click file -> new footprint. It will prompt you for a name and you should put something appropriate, for example "PhoenixContact_TermBlk_2P_SideEnt_6.35MM". Next click on each of the two labels that appear in the center of the screen and type m. Now you can move your cursor to move them around and then click to place them out of the way. 
 
@@ -41,16 +39,20 @@ Next, lets do the right side using the following dimensions:
 Try finishing the rest of the dimensions on your own and leave a comment on piazza if you have any trouble.
 
 Now we have to add the holes. Click on the 'add pad' button (below the arrow) before place the first hole in the upper left corner and then the second button in the bottom right (look at schematic for reference). Now use the arrow button again, hover over the first hole, and click e. Put the following settings in: 
-<img width="700" src="../../Audioboard/Images/hole1.jpg">
+
+<img width="500" src="../../Audioboard/Images/hole1.jpg">
 
 Now do the second hole like this:
-<img width="700" src="../../Audioboard/Images/hole2.jpg">
+
+<img width="500" src="../../Audioboard/Images/hole2.jpg">
 
 Your footprint should now look something like this: 
-<img width="700" src="../../Audioboard/Images/final.jpg">
+
+<img width="500" src="../../Audioboard/Images/final.jpg">
 
 Now save the footprint to the Audio Board library: 
-<img width="700" src="../../Audioboard/Images/save_footprint.jpg">
+
+<img width="500" src="../../Audioboard/Images/save_footprint.jpg">
 
 CONGRATS!!! You've finished your first footprint. You should be extremely proud. 
 
