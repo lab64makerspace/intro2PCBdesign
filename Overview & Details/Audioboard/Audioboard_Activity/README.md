@@ -26,7 +26,7 @@ In order to make the footprint, we need to look at the datasheet to get the sizi
 
 Now, to start open the footprint editor using this button: <img width="50" src="../../Audioboard/Images/footprint_editor.jpg">
 
-Next click file -> new footprint. It will prompt you for a name and you should put something appropriate, for example "PhoenixContact_TermBlk_2P_SideEnt_6.35MM". Next click on each of the two labels that appear in the center of the screen and type m. Now you can move your cursor to move them around and then click to place them out of the way. 
+Next click File -> New Footprint. It will prompt you for a name and you should put something appropriate, for example "PhoenixContact_TermBlk_2P_SideEnt_6.35MM". Next click on each of the two labels that appear in the center of the screen and type m. Now you can move your cursor to move them around and then click to place them out of the way. 
 
 Okay now to start the footprint we can look at the image above and plan it out. Because we want it to be centered on the origin, we will make the vertical part (labeled 20.75mm) go from -10.375 to 10.375 and then the horizontal part (labeled 13.5mm) will go from -6.75 to 6.75. To start click on the graphic line button and then click on each edge to create a box and finally double click to end. This is just a rough sketch but once youre done click on the arrow button again. Now click on the top line and press e to edit. Now we will define the top line as follows:
 
@@ -38,7 +38,7 @@ Next, lets do the right side using the following dimensions:
 
 Try finishing the rest of the dimensions on your own and leave a comment on piazza if you have any trouble.
 
-Now we have to add the holes. Click on the 'add pad' button (below the arrow) before place the first hole in the upper left corner and then the second button in the bottom right (look at schematic for reference). Now use the arrow button again, hover over the first hole, and click e. Put the following settings in: 
+Now we have to add the holes. Click on the 'add pad' button (below the arrow button) before placing the first hole in the upper left corner and then the second hole in the bottom right (look at schematic for reference). Now use the arrow button again, hover over the first hole, and click e. Put the following settings in: 
 
 <img width="500" src="../../Audioboard/Images/hole1.jpg">
 
@@ -57,14 +57,14 @@ Now save the footprint to the Audio Board library:
 CONGRATS!!! You've finished your first footprint. You should be extremely proud. 
 
 ## Assigning Footprints
-If you followed the previous instructions correctly you should now be able to go file -> assign footprints. The first phoenix contact is a four-pin and then the other two are two-pin contacts. Double click using the selections below to add:
+If you followed the previous instructions correctly you should now be able to go Tools -> Assign Footprints. The first phoenix contact is a four-pin and then the other two are two-pin contacts. Double click using the selections below to add:
 <img width="700" src="../../Audioboard/Images/assign_footprint.jpg">
 
 Finally hit "apply save schematic and continue" to finalize the selections.
 
 ## Layout the footprints
 
-Save the schematic and go tools -> Update PCB from schematic to add the footprints you selected in the previous step to the board layout. 
+Save the schematic and go Tools -> Update PCB from Schematic to add the footprints you selected in the previous step to the board layout. 
 
 
 You should see many white lines connecting the footprints. These are known as net lines and correspond to the electrical connections outlined in your schematic. You now need to strategically arrange the footprints such that you'll be able to add the necessary routes to connect all of the footprints together as dictated by the net lines. **Remember that you should aim to spend 90% of your time creating your footprint layout and only 10% of your time adding traces after you're done the layout.** If you add traces too early, it will be difficult to fix mistakes in your footprint layout. Note that the way components are laid out in a schematic is not always the best way to layout the components on a board. 
