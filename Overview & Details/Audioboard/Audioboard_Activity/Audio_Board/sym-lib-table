@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Adafruit)(type Legacy)(uri "/Users/stevenclark/Documents/KiCAD Projects/VS1053/Adafruit-VS1053-Breakout-PCB-master")(options "")(descr ""))
   (lib (name Audio_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/Audio_Board-rescue.lib)(options "")(descr ""))
+  (lib (name Audio_Board)(type Legacy)(uri ${KIPRJMOD}/Audio_Board.lib)(options "")(descr ""))
 )

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Audio_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
@@ -13,21 +14,6 @@ Comment2 "350 Serra Mall"
 Comment3 "Electrical Engineering Department"
 Comment4 "lab64 / Stanford University"
 $EndDescr
-$Comp
-L Audio_Board-rescue:VS1053B-Adafruit_VS1053_Breakout-eagle-import U1
-U 1 1 5C529004
-P 3450 5300
-F 0 "U1" H 3500 7086 59  0000 C CNN
-F 1 "VS1053B" H 3500 6981 59  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3450 5300 50  0001 C CNN
-F 3 "http://www.vlsi.fi/fileadmin/datasheets/vs1053.pdf" H 3450 5300 50  0001 C CNN
-F 4 "VS1053b -Ogg Vorbis/MP3/AAC/WMA/FLAC/MIDI AUDIO CODEC CIRCUIT" H 3450 5300 50  0001 C CNN "Description"
-F 5 "LQFP-48" H 3450 5300 50  0001 C CNN "Package"
-F 6 "VS1053b" H 3450 5300 50  0001 C CNN "Part Number"
-F 7 "VLSI Solution" H 3450 5300 50  0001 C CNN "Manufacturer"
-	1    3450 5300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:L_Core_Iron L1
 U 1 1 5C567CD3
@@ -61,12 +47,12 @@ $EndComp
 $Comp
 L Audio_Board-rescue:Earth_w_GND-power #PWR085
 U 1 1 5C569A3E
-P 12350 7800
-F 0 "#PWR085" H 12350 7550 50  0001 C CNN
-F 1 "Earth_w_GND" H 12350 7650 50  0001 C CNN
-F 2 "" H 12350 7800 50  0001 C CNN
-F 3 "~" H 12350 7800 50  0001 C CNN
-	1    12350 7800
+P 12350 8100
+F 0 "#PWR085" H 12350 7850 50  0001 C CNN
+F 1 "Earth_w_GND" H 12350 7950 50  0001 C CNN
+F 2 "" H 12350 8100 50  0001 C CNN
+F 3 "~" H 12350 8100 50  0001 C CNN
+	1    12350 8100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -390,30 +376,11 @@ F 7 "MuRata" V 12550 3100 50  0001 C CNN "Mnaufacturer"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12350 3100 12400 3100
-Wire Wire Line
-	12350 3300 12400 3300
-Wire Wire Line
-	12350 5600 12400 5600
-Wire Wire Line
-	12350 5800 12400 5800
-Wire Wire Line
 	12350 4200 13000 4200
 Wire Wire Line
 	13300 4200 13300 3650
 Wire Wire Line
-	12350 3800 12500 3800
-Wire Wire Line
-	13150 3800 13150 3100
-Wire Wire Line
 	13150 2550 13550 2550
-Wire Wire Line
-	12350 3700 12500 3700
-Wire Wire Line
-	12500 3700 12500 3800
-Connection ~ 12500 3800
-Wire Wire Line
-	12500 3800 13150 3800
 Wire Wire Line
 	12700 3100 13150 3100
 Connection ~ 13150 3100
@@ -427,27 +394,13 @@ Connection ~ 13000 4200
 Wire Wire Line
 	13000 4200 13300 4200
 Wire Wire Line
-	12350 4600 13000 4600
-Wire Wire Line
-	12350 5000 12500 5000
-Wire Wire Line
 	13150 5000 13150 5800
 Wire Wire Line
 	13150 5900 13550 5900
 Wire Wire Line
-	12350 5100 12500 5100
-Wire Wire Line
-	12500 5100 12500 5000
-Connection ~ 12500 5000
-Wire Wire Line
-	12500 5000 13150 5000
-Wire Wire Line
 	12700 5600 13000 5600
 Wire Wire Line
 	13000 5600 13000 4600
-Connection ~ 13000 4600
-Wire Wire Line
-	13000 4600 13150 4600
 Wire Wire Line
 	12700 5800 13150 5800
 Connection ~ 13150 5800
@@ -1389,10 +1342,6 @@ F 3 "~" H 6150 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 5600 6000 5500
-Wire Wire Line
-	4650 5000 5800 5000
-Wire Wire Line
-	5800 5000 5800 5500
 Connection ~ 6000 5500
 Wire Wire Line
 	4650 5700 4900 5700
@@ -1449,11 +1398,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 5200 2100 5200
 Wire Wire Line
-	2350 4100 2100 4100
-Wire Wire Line
 	2350 4200 2100 4200
-Text Label 2100 4100 0    50   ~ 0
-MIC_P
 Text Label 2100 4200 0    50   ~ 0
 MIC_N
 $Comp
@@ -1468,40 +1413,22 @@ F 3 "" H 2000 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 4700 2350 4700
-Wire Wire Line
 	1250 4300 2350 4300
 $Comp
 L power:+1V8 #PWR08
 U 1 1 5CAA8DE5
-P 1650 4500
-F 0 "#PWR08" H 1650 4350 50  0001 C CNN
-F 1 "+1V8" H 1750 4600 50  0000 C CNN
-F 2 "" H 1650 4500 50  0001 C CNN
-F 3 "" H 1650 4500 50  0001 C CNN
-	1    1650 4500
+P 1650 4450
+F 0 "#PWR08" H 1650 4300 50  0001 C CNN
+F 1 "+1V8" H 1750 4550 50  0000 C CNN
+F 2 "" H 1650 4450 50  0001 C CNN
+F 3 "" H 1650 4450 50  0001 C CNN
+	1    1650 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 4500 1650 4700
-Connection ~ 1650 4500
-Wire Wire Line
-	1650 4500 2350 4500
+	1650 4450 2350 4450
 Wire Wire Line
 	2350 4600 2000 4600
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR016
-U 1 1 5CAEEB69
-P 2150 4400
-F 0 "#PWR016" H 2150 4150 50  0001 C CNN
-F 1 "Earth_w_GND" H 2150 4250 50  0001 C CNN
-F 2 "" H 2150 4400 50  0001 C CNN
-F 3 "~" H 2150 4400 50  0001 C CNN
-	1    2150 4400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2150 4400 2350 4400
 Wire Wire Line
 	2350 4800 2100 4800
 Text Label 2100 4800 0    50   ~ 0
@@ -1520,71 +1447,30 @@ Wire Wire Line
 	2100 5400 2350 5400
 Text Label 2100 5400 0    50   ~ 0
 XDCS
-$Comp
-L power:+3V3 #PWR010
-U 1 1 5CBBEAE3
-P 1900 5450
-F 0 "#PWR010" H 1900 5300 50  0001 C CNN
-F 1 "+3V3" H 1750 5550 50  0000 C CNN
-F 2 "" H 1900 5450 50  0001 C CNN
-F 3 "" H 1900 5450 50  0001 C CNN
-	1    1900 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2350 6000 1900 6000
-Wire Wire Line
-	1900 6000 1900 5500
-Wire Wire Line
-	2350 5500 1900 5500
-Connection ~ 1900 5500
-Wire Wire Line
-	1900 5500 1900 5450
-Text Label 2150 6400 0    50   ~ 0
+Text Label 2200 6400 0    50   ~ 0
 XCS
-Wire Wire Line
-	2350 6400 2150 6400
-Wire Wire Line
-	2350 5700 2050 5700
-Wire Wire Line
-	2050 5700 2050 6100
 $Comp
 L Audio_Board-rescue:Earth_w_GND-power #PWR015
 U 1 1 5CC40C4F
-P 2050 6850
-F 0 "#PWR015" H 2050 6600 50  0001 C CNN
-F 1 "Earth_w_GND" H 2050 6700 50  0001 C CNN
-F 2 "" H 2050 6850 50  0001 C CNN
-F 3 "~" H 2050 6850 50  0001 C CNN
-	1    2050 6850
+P 2100 6750
+F 0 "#PWR015" H 2100 6500 50  0001 C CNN
+F 1 "Earth_w_GND" H 2100 6600 50  0001 C CNN
+F 2 "" H 2100 6750 50  0001 C CNN
+F 3 "~" H 2100 6750 50  0001 C CNN
+	1    2100 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 6100 2050 6100
-Connection ~ 2050 6100
-Wire Wire Line
-	2050 6100 2050 6200
-Wire Wire Line
-	2350 6200 2050 6200
-Connection ~ 2050 6200
-Wire Wire Line
-	2050 6200 2050 6300
-Wire Wire Line
-	2350 6300 2050 6300
-Connection ~ 2050 6300
-Wire Wire Line
-	2050 6300 2050 6850
-Wire Wire Line
-	2350 6500 1900 6500
+	2100 6200 2100 6750
 $Comp
 L power:+1V8 #PWR011
 U 1 1 5CC8E94B
-P 1900 6500
-F 0 "#PWR011" H 1900 6350 50  0001 C CNN
-F 1 "+1V8" H 1850 6650 50  0000 C CNN
-F 2 "" H 1900 6500 50  0001 C CNN
-F 3 "" H 1900 6500 50  0001 C CNN
-	1    1900 6500
+P 2000 6150
+F 0 "#PWR011" H 2000 6000 50  0001 C CNN
+F 1 "+1V8" H 1950 6300 50  0000 C CNN
+F 2 "" H 2000 6150 50  0001 C CNN
+F 3 "" H 2000 6150 50  0001 C CNN
+	1    2000 6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1676,28 +1562,11 @@ Connection ~ 1600 6100
 Wire Wire Line
 	1600 6100 1600 5900
 Wire Wire Line
-	1300 5750 1800 5750
-Wire Wire Line
-	1800 5750 1800 5800
-Wire Wire Line
-	1800 5800 2350 5800
-Wire Wire Line
 	1300 5750 1300 5900
 Text Notes 850  6150 0    42   ~ 0
 12.288MHz\n-4Y-T3
-Text Notes 1350 4900 0    42   ~ 0
-DERQ high ≥ 32 bytes\nfree in FIFO
-$Comp
-L power:+1V8 #PWR029
-U 1 1 5CE55DDD
-P 5300 5850
-F 0 "#PWR029" H 5300 5700 50  0001 C CNN
-F 1 "+1V8" H 5250 6000 50  0000 C CNN
-F 2 "" H 5300 5850 50  0001 C CNN
-F 3 "" H 5300 5850 50  0001 C CNN
-	1    5300 5850
-	1    0    0    -1  
-$EndComp
+Text Notes 1550 4900 0    42   ~ 0
+DERQ high \n≥ 32 bytes\nfree in FIFO
 $Comp
 L power:+3V3 #PWR025
 U 1 1 5CE56290
@@ -1714,49 +1583,15 @@ Wire Wire Line
 Wire Wire Line
 	4650 5800 5100 5800
 Wire Wire Line
-	4650 5900 5300 5900
-Wire Wire Line
-	5300 5900 5300 5850
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR030
-U 1 1 5CEB08AE
-P 5450 5550
-F 0 "#PWR030" H 5450 5300 50  0001 C CNN
-F 1 "Earth_w_GND" H 5450 5400 50  0001 C CNN
-F 2 "" H 5450 5550 50  0001 C CNN
-F 3 "~" H 5450 5550 50  0001 C CNN
-	1    5450 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 5500 5450 5550
-Wire Wire Line
 	4650 5400 4900 5400
 Text Label 4700 5400 0    50   ~ 0
 GPIO4
 Wire Wire Line
-	4650 4200 5100 4200
+	4650 5250 5100 5250
 Wire Wire Line
-	5100 4200 5100 4800
-Wire Wire Line
-	4650 4800 5100 4800
-Connection ~ 5100 4800
-Wire Wire Line
-	5100 4800 5100 4900
-Wire Wire Line
-	4650 4900 5100 4900
-Connection ~ 5100 4900
-Wire Wire Line
-	5100 4900 5100 5200
-Wire Wire Line
-	4650 5200 5100 5200
-Connection ~ 5100 5200
-Wire Wire Line
-	5100 5200 5100 5250
+	5100 5250 5100 5300
 Text Label 4700 4100 0    50   ~ 0
 LINE_2
-Wire Wire Line
-	4650 4100 4950 4100
 $Comp
 L power:VAA #PWR01
 U 1 1 5CFB94A8
@@ -1771,44 +1606,26 @@ $EndComp
 $Comp
 L power:VAA #PWR028
 U 1 1 5CFBA062
-P 5250 4000
-F 0 "#PWR028" H 5250 3850 50  0001 C CNN
-F 1 "VAA" H 5267 4173 50  0000 C CNN
-F 2 "" H 5250 4000 50  0001 C CNN
-F 3 "" H 5250 4000 50  0001 C CNN
-	1    5250 4000
+P 5100 5000
+F 0 "#PWR028" H 5100 4850 50  0001 C CNN
+F 1 "VAA" H 5200 5050 50  0000 C CNN
+F 2 "" H 5100 5000 50  0001 C CNN
+F 3 "" H 5100 5000 50  0001 C CNN
+	1    5100 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 4400 5250 4400
-Wire Wire Line
-	4650 4600 5250 4600
-Wire Wire Line
-	5250 4600 5250 4400
-Wire Wire Line
-	4650 5100 5250 5100
-Wire Wire Line
-	5250 5100 5250 4600
-Connection ~ 5250 4600
-Wire Wire Line
-	5250 4000 5250 4400
-Connection ~ 5250 4400
-Wire Wire Line
 	4650 4500 4750 4500
 Wire Wire Line
-	4650 4700 4750 4700
+	4650 4650 4750 4650
 NoConn ~ 4750 4500
-NoConn ~ 4750 4700
+NoConn ~ 4750 4650
 Text Notes 4800 4500 0    42   ~ 0
 N/C
 Text Notes 4800 4700 0    42   ~ 0
 N/C
 Text Label 2100 4300 0    42   ~ 0
 ~RESET
-Text Label 10150 6600 0    50   ~ 0
-~RESET
-Wire Wire Line
-	10350 6600 10150 6600
 $Bitmap
 Pos 16223 9575
 Scale 0.580000
@@ -2683,12 +2500,12 @@ $EndComp
 $Comp
 L power:GNDA #PWR024
 U 1 1 5C6566C3
-P 5100 5250
-F 0 "#PWR024" H 5100 5000 50  0001 C CNN
-F 1 "GNDA" H 5105 5077 50  0000 C CNN
-F 2 "" H 5100 5250 50  0001 C CNN
-F 3 "" H 5100 5250 50  0001 C CNN
-	1    5100 5250
+P 5100 5300
+F 0 "#PWR024" H 5100 5050 50  0001 C CNN
+F 1 "GNDA" H 5250 5200 50  0000 C CNN
+F 2 "" H 5100 5300 50  0001 C CNN
+F 3 "" H 5100 5300 50  0001 C CNN
+	1    5100 5300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2786,17 +2603,6 @@ F 3 "" H 12050 9600 50  0001 C CNN
 $EndComp
 Text Notes 11450 9750 0    50   ~ 0
 Mounting\nHoles (x4)
-$Comp
-L Audio_Board-rescue:Adafruit_VS1053_Breakout-eagle-import_VREG_SOT23-6_DUALAP7312-Adafruit_VS1053_Breakout-cache U2
-U 1 1 5C755E6A
-P 3900 1850
-F 0 "U2" H 3550 2100 42  0000 C CNN
-F 1 "AP7312-1833W6-7" H 3900 1600 42  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3900 1850 50  0001 C CNN
-F 3 "" H 3900 1850 50  0001 C CNN
-	1    3900 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C4
 U 1 1 5C75964E
@@ -2933,10 +2739,6 @@ Text Notes 9450 10250 0    50   ~ 0
 +36V -> +36 VDC\n+12V -> +12 VDC\nVAA -> “Analog” +3.3V nom.\n+3V3 -> +3.3 VDC\n+2V5 -> +2.5 VDC\n+1V8 -> +1.8 VDC\nGND\nGNDA - “Analog” GND\n-2V5 -> -2.5 VDC
 Text Notes 9400 9450 0    71   Italic 14
 REQUIRED POWER
-Wire Wire Line
-	5800 5500 6000 5500
-Wire Wire Line
-	4650 5500 5450 5500
 Connection ~ 7200 6300
 $Comp
 L Device:R_US R9
@@ -3079,25 +2881,6 @@ F 3 "~" H 13150 6600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12350 6300 13150 6300
-Wire Wire Line
-	12350 6700 12350 6800
-$Comp
-L Audio_Board-rescue:TPA3250D2DDW-Amplifier_Audio U8
-U 1 1 5D132757
-P 11350 5300
-F 0 "U8" H 11350 7888 60  0000 C CNN
-F 1 "TPA3250D2DDW" H 11350 7782 60  0000 C CNN
-F 2 "Audio_Board:TPA3250D2DDWR" H 11350 5240 60  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tpa3250.pdf" H 11350 5300 60  0001 C CNN
-F 4 "50-W Stereo, 175W peak Ultra-HD Pad Down Class-D Amplifier" H 11350 5300 50  0001 C CNN "Description"
-F 5 "DDW0044A" H 11350 5300 50  0001 C CNN "Package"
-F 6 "TPA3250D2DDWR" H 11350 5300 50  0001 C CNN "Part Number"
-F 7 "Texas Instruments" H 11350 5300 50  0001 C CNN "Manufacturer"
-	1    11350 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12350 7500 12350 7800
 Text Label 12350 6200 0    50   ~ 0
 ~CLIP_OTW
 Wire Wire Line
@@ -3106,124 +2889,6 @@ Text Label 12350 6400 0    50   ~ 0
 ~FAULT
 Wire Wire Line
 	12350 6400 12700 6400
-Wire Wire Line
-	12350 6800 12350 6900
-Connection ~ 12350 6800
-Wire Wire Line
-	12350 6900 12350 7000
-Connection ~ 12350 6900
-Wire Wire Line
-	12350 7000 12350 7100
-Connection ~ 12350 7000
-Wire Wire Line
-	12350 7100 12350 7200
-Connection ~ 12350 7100
-Wire Wire Line
-	12350 7200 12350 7300
-Connection ~ 12350 7200
-Wire Wire Line
-	12350 7300 12350 7400
-Connection ~ 12350 7300
-Wire Wire Line
-	12350 7400 12350 7500
-Connection ~ 12350 7400
-Connection ~ 12350 7500
-$Comp
-L Connector:Conn_01x14_Female J3
-U 1 1 5D2DC4CC
-P 4300 8900
-F 0 "J3" H 4192 9685 50  0000 C CNN
-F 1 "310-87-114-41-001101 " H 4000 8000 50  0000 C CNN
-F 2 "Audio_Board:310-87-114-41-001101" H 4300 8900 50  0001 C CNN
-F 3 "~" H 4300 8900 50  0001 C CNN
-	1    4300 8900
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x17_Female J2
-U 1 1 5D306635
-P 2800 8800
-F 0 "J2" H 2600 9800 50  0000 L CNN
-F 1 "801-47-018-10-012000" H 2000 7800 50  0000 L CNN
-F 2 "Audio_Board:801-47-018-10-012000" H 2800 8800 50  0001 C CNN
-F 3 "~" H 2800 8800 50  0001 C CNN
-	1    2800 8800
-	1    0    0    -1  
-$EndComp
-Wire Notes Line width 12
-	3000 7900 3000 9650
-Wire Notes Line width 12
-	3000 9650 4050 9650
-Wire Notes Line width 12
-	4050 9650 4050 7900
-Wire Notes Line width 12
-	4050 7900 3000 7900
-Text Notes 3250 8350 0    71   Italic 14
-“Socket”\n   for\n SAM32
-Text Notes 4150 8350 0    50   ~ 0
-GND
-Text Notes 4150 8450 0    50   ~ 0
-3V3
-Text Notes 4150 8550 0    50   ~ 0
-D49
-Text Notes 4100 8650 0    50   ~ 0
-DAC1
-Text Notes 4150 8750 0    50   ~ 0
-D59
-Text Notes 4150 8850 0    50   ~ 0
-D60
-Text Notes 4150 8950 0    50   ~ 0
-D64
-Text Notes 4100 9050 0    50   ~ 0
-DAC0
-Text Notes 4100 9150 0    50   ~ 0
-AIN6
-Text Notes 4100 9250 0    50   ~ 0
-AIN7
-Text Notes 4100 9350 0    50   ~ 0
-AIN8
-Text Notes 4100 9450 0    50   ~ 0
-AIN9
-Text Notes 4100 9550 0    50   ~ 0
-AIN0
-Text Notes 4100 9650 0    50   ~ 0
-AIN1
-Text Notes 2800 9550 0    50   ~ 0
-SDA
-Text Notes 2800 9650 0    50   ~ 0
-GND
-Text Notes 2800 9450 0    50   ~ 0
-SCL
-Text Notes 2800 9350 0    50   ~ 0
-MISO
-Text Notes 2800 9250 0    50   ~ 0
-MOSI
-Text Notes 2800 9150 0    50   ~ 0
-SCK
-Text Notes 2800 9050 0    50   ~ 0
-D29
-Text Notes 2800 8950 0    50   ~ 0
-D30
-Text Notes 2800 8850 0    50   ~ 0
-D31
-Text Notes 2800 8750 0    50   ~ 0
-D35
-Text Notes 2800 8650 0    50   ~ 0
-D36
-Text Notes 2800 8550 0    50   ~ 0
-D37
-Text Notes 2800 8450 0    50   ~ 0
-D38
-Text Notes 2800 8350 0    50   ~ 0
-D41
-Text Notes 2800 8250 0    50   ~ 0
-D42
-Text Notes 2800 8150 0    50   ~ 0
-D43
-Text Notes 2800 8050 0    50   ~ 0
-D44
-Text Notes 3100 9500 0    42   ~ 0
-Github.com/maholli/SAM32
 $Comp
 L Connector:Conn_01x03_Male J4
 U 1 1 5D3CF1EA
@@ -3273,12 +2938,7 @@ $EndComp
 Wire Wire Line
 	9950 6300 10350 6300
 Wire Wire Line
-	9450 6200 10350 6200
-Wire Wire Line
 	9450 6300 9450 6450
-Connection ~ 10350 6200
-Wire Wire Line
-	10350 6200 10550 6200
 Wire Notes Line
 	9200 6050 9200 6350
 Wire Notes Line
@@ -3343,12 +3003,6 @@ Text Notes 14250 7850 0    71   Italic 14
 NOTES
 Text Notes 14250 7950 0    50   ~ 0
 C9 & C10 - Nichicon UKA0J471MPD1TD
-Text Notes 4100 9750 0    50   ~ 0
-Preci-Dip P/N
-Text Notes 2250 9750 0    50   ~ 0
-Mill-Max Mfg. Corp.
-Text Notes 2000 10000 0    50   ~ 0
-(P/N for 18 pos. ->\n Break off 1 pin to install)
 $Comp
 L Connector:Screw_Terminal_01x04 J5
 U 1 1 5D7CDFBA
@@ -4390,4 +4044,395 @@ $EndComp
 Connection ~ 9250 3400
 Wire Wire Line
 	9250 3400 9600 3400
+$Comp
+L Audio_Board:VS1053B-Adafruit_VS1053_Breakout-eagle-import U1
+U 1 1 5E93C47B
+P 3450 5300
+F 0 "U1" H 3500 7086 59  0000 C CNN
+F 1 "VS1053B" H 3500 6981 59  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 3450 5300 50  0001 C CNN
+F 3 "http://www.vlsi.fi/fileadmin/datasheets/vs1053.pdf" H 3450 5300 50  0001 C CNN
+F 4 "VS1053b -Ogg Vorbis/MP3/AAC/WMA/FLAC/MIDI AUDIO CODEC CIRCUIT" H 3450 5300 50  0001 C CNN "Description"
+F 5 "LQFP-48" H 3450 5300 50  0001 C CNN "Package"
+	1    3450 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5050 5100 5050
+Wire Wire Line
+	5100 5050 5100 5000
+Wire Wire Line
+	2000 5750 2000 5800
+Wire Wire Line
+	2000 5800 2350 5800
+Wire Wire Line
+	1300 5750 2000 5750
+Wire Wire Line
+	2100 6200 2350 6200
+Wire Wire Line
+	2000 6400 2000 6150
+Wire Wire Line
+	2000 6400 2350 6400
+Wire Wire Line
+	5600 5500 5600 4850
+Wire Wire Line
+	5600 4850 4650 4850
+Wire Wire Line
+	5600 5500 6000 5500
+Wire Wire Line
+	2350 4100 2100 4100
+Text Label 2100 4100 0    50   ~ 0
+MIC_P
+NoConn ~ 2100 4100
+NoConn ~ 2100 4200
+NoConn ~ 2100 4800
+NoConn ~ 2100 4900
+NoConn ~ 2100 5000
+NoConn ~ 2100 5100
+NoConn ~ 2100 5200
+NoConn ~ 2100 5400
+NoConn ~ 2050 5600
+NoConn ~ 4900 5400
+NoConn ~ 4900 5600
+NoConn ~ 4900 5700
+NoConn ~ 4900 6000
+NoConn ~ 4900 6100
+NoConn ~ 4900 6200
+NoConn ~ 4900 6300
+NoConn ~ 4900 6400
+NoConn ~ 4900 6500
+Wire Wire Line
+	4650 4100 5000 4100
+NoConn ~ 5000 4100
+NoConn ~ 10350 3350
+$Comp
+L Audio_Board:TPA3250D2DDW-Amplifier_Audio U8
+U 1 1 5F5B97F7
+P 11350 5300
+F 0 "U8" H 11350 7888 60  0000 C CNN
+F 1 "TPA3250D2DDW-Amplifier_Audio" H 11350 7782 60  0000 C CNN
+F 2 "Audio_Board:TPA3250D2DDWR" H 11350 5240 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tpa3250.pdf" H 11350 7782 60  0001 C CNN
+F 4 "50-W Stereo, 175W peak Ultra-HD Pad Down Class-D Amplifier" H 11350 5300 50  0001 C CNN "Description"
+F 5 "DDW0044A" H 11350 5300 50  0001 C CNN "Package"
+F 6 "TPA3250D2DDWR" H 11350 5300 50  0001 C CNN "Part Number"
+F 7 "Texas Instruments" H 11350 5300 50  0001 C CNN "Manufacturer"
+	1    11350 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 6700 12350 6800
+Connection ~ 12350 6800
+Wire Wire Line
+	12350 6800 12350 6900
+Connection ~ 12350 6900
+Wire Wire Line
+	12350 6900 12350 7000
+Connection ~ 12350 7000
+Wire Wire Line
+	12350 7000 12350 7100
+Connection ~ 12350 7100
+Wire Wire Line
+	12350 7100 12350 7200
+Connection ~ 12350 7200
+Wire Wire Line
+	12350 7200 12350 7300
+Connection ~ 12350 7300
+Wire Wire Line
+	12350 7300 12350 7400
+Connection ~ 12350 7400
+Wire Wire Line
+	12350 7400 12350 7500
+Connection ~ 12350 7500
+Wire Wire Line
+	12350 7500 12350 8100
+NoConn ~ 12700 6200
+NoConn ~ 12700 6400
+Wire Wire Line
+	12350 5000 13150 5000
+Wire Wire Line
+	12350 5600 12400 5600
+Wire Wire Line
+	12350 5800 12400 5800
+Wire Wire Line
+	13150 4600 13000 4600
+Connection ~ 13000 4600
+Wire Wire Line
+	13000 4600 12350 4600
+Wire Wire Line
+	12350 3700 13150 3700
+Wire Wire Line
+	13150 3700 13150 3100
+Wire Wire Line
+	9450 6200 10350 6200
+Wire Wire Line
+	12350 3100 12400 3100
+Wire Wire Line
+	12350 3300 12400 3300
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FA067DA
+P 4650 9800
+F 0 "#FLG0101" H 4650 9875 50  0001 C CNN
+F 1 "PWR_FLAG" H 4650 9973 50  0000 C CNN
+F 2 "" H 4650 9800 50  0001 C CNN
+F 3 "~" H 4650 9800 50  0001 C CNN
+	1    4650 9800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FA08D7B
+P 5200 9800
+F 0 "#FLG0102" H 5200 9875 50  0001 C CNN
+F 1 "PWR_FLAG" H 5200 9973 50  0000 C CNN
+F 2 "" H 5200 9800 50  0001 C CNN
+F 3 "~" H 5200 9800 50  0001 C CNN
+	1    5200 9800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5FA0A11C
+P 5650 9800
+F 0 "#FLG0103" H 5650 9875 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 9973 50  0000 C CNN
+F 2 "" H 5650 9800 50  0001 C CNN
+F 3 "~" H 5650 9800 50  0001 C CNN
+	1    5650 9800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5FA0A122
+P 6900 9800
+F 0 "#FLG0104" H 6900 9875 50  0001 C CNN
+F 1 "PWR_FLAG" H 6900 9973 50  0000 C CNN
+F 2 "" H 6900 9800 50  0001 C CNN
+F 3 "~" H 6900 9800 50  0001 C CNN
+	1    6900 9800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5FA4D04D
+P 7400 9800
+F 0 "#FLG0105" H 7400 9875 50  0001 C CNN
+F 1 "PWR_FLAG" H 7400 9973 50  0000 C CNN
+F 2 "" H 7400 9800 50  0001 C CNN
+F 3 "~" H 7400 9800 50  0001 C CNN
+	1    7400 9800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5FA4D053
+P 7900 9800
+F 0 "#FLG0106" H 7900 9875 50  0001 C CNN
+F 1 "PWR_FLAG" H 7900 9973 50  0000 C CNN
+F 2 "" H 7900 9800 50  0001 C CNN
+F 3 "~" H 7900 9800 50  0001 C CNN
+	1    7900 9800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 5FA90347
+P 6500 9600
+F 0 "#FLG0107" H 6500 9675 50  0001 C CNN
+F 1 "PWR_FLAG" H 6500 9773 50  0000 C CNN
+F 2 "" H 6500 9600 50  0001 C CNN
+F 3 "~" H 6500 9600 50  0001 C CNN
+	1    6500 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0108
+U 1 1 5FA9034D
+P 6050 9600
+F 0 "#FLG0108" H 6050 9675 50  0001 C CNN
+F 1 "PWR_FLAG" H 6050 9773 50  0000 C CNN
+F 2 "" H 6050 9600 50  0001 C CNN
+F 3 "~" H 6050 9600 50  0001 C CNN
+	1    6050 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR0101
+U 1 1 5FAB2978
+P 4650 9600
+F 0 "#PWR0101" H 4650 9700 50  0001 C CNN
+F 1 "-5V" H 4665 9773 50  0000 C CNN
+F 2 "" H 4650 9600 50  0001 C CNN
+F 3 "" H 4650 9600 50  0001 C CNN
+	1    4650 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 5FAB443B
+P 5200 9600
+F 0 "#PWR0102" H 5200 9450 50  0001 C CNN
+F 1 "+3V3" H 5215 9773 50  0000 C CNN
+F 2 "" H 5200 9600 50  0001 C CNN
+F 3 "" H 5200 9600 50  0001 C CNN
+	1    5200 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VAA #PWR0103
+U 1 1 5FAB5C0C
+P 5650 9600
+F 0 "#PWR0103" H 5650 9450 50  0001 C CNN
+F 1 "VAA" H 5667 9773 50  0000 C CNN
+F 2 "" H 5650 9600 50  0001 C CNN
+F 3 "" H 5650 9600 50  0001 C CNN
+	1    5650 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5FAFA23A
+P 6050 9800
+F 0 "#PWR0104" H 6050 9550 50  0001 C CNN
+F 1 "GND" H 6055 9627 50  0000 C CNN
+F 2 "" H 6050 9800 50  0001 C CNN
+F 3 "" H 6050 9800 50  0001 C CNN
+	1    6050 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0105
+U 1 1 5FAFBCB8
+P 6500 9800
+F 0 "#PWR0105" H 6500 9550 50  0001 C CNN
+F 1 "GNDA" H 6505 9627 50  0000 C CNN
+F 2 "" H 6500 9800 50  0001 C CNN
+F 3 "" H 6500 9800 50  0001 C CNN
+	1    6500 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+36V #PWR0106
+U 1 1 5FB1E877
+P 6900 9600
+F 0 "#PWR0106" H 6900 9450 50  0001 C CNN
+F 1 "+36V" H 6915 9773 50  0000 C CNN
+F 2 "" H 6900 9600 50  0001 C CNN
+F 3 "" H 6900 9600 50  0001 C CNN
+	1    6900 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR0107
+U 1 1 5FB20262
+P 7400 9600
+F 0 "#PWR0107" H 7400 9450 50  0001 C CNN
+F 1 "+15V" H 7415 9773 50  0000 C CNN
+F 2 "" H 7400 9600 50  0001 C CNN
+F 3 "" H 7400 9600 50  0001 C CNN
+	1    7400 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5FB21A12
+P 7900 9600
+F 0 "#PWR0108" H 7900 9450 50  0001 C CNN
+F 1 "+5V" H 7915 9773 50  0000 C CNN
+F 2 "" H 7900 9600 50  0001 C CNN
+F 3 "" H 7900 9600 50  0001 C CNN
+	1    7900 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 9600 4650 9800
+Wire Wire Line
+	5200 9600 5200 9800
+Wire Wire Line
+	5650 9600 5650 9800
+Wire Wire Line
+	6050 9600 6050 9800
+Wire Wire Line
+	6500 9600 6500 9800
+Wire Wire Line
+	6900 9600 6900 9800
+Wire Wire Line
+	7400 9600 7400 9800
+Wire Wire Line
+	7900 9600 7900 9800
+NoConn ~ 10000 7500
+NoConn ~ 10000 7300
+NoConn ~ 10000 7200
+NoConn ~ 10350 6600
+$Comp
+L Audio_Board:Adafruit_VS1053_Breakout-eagle-import_VREG_SOT23-6_DUALAP7312-Adafruit_VS1053_Breakout U2
+U 1 1 5FCEB7C0
+P 3900 1850
+F 0 "U2" H 3900 2197 42  0000 C CNN
+F 1 "AP7312-1833W6-7" H 3900 2118 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3900 1850 50  0001 C CNN
+F 3 "" H 3900 1850 50  0001 C CNN
+	1    3900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board-rescue:Earth_w_GND-power #PWR0109
+U 1 1 5FD5AF00
+P 5350 5600
+F 0 "#PWR0109" H 5350 5350 50  0001 C CNN
+F 1 "Earth_w_GND" H 5350 5450 50  0001 C CNN
+F 2 "" H 5350 5600 50  0001 C CNN
+F 3 "~" H 5350 5600 50  0001 C CNN
+	1    5350 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 5600 5350 5500
+Wire Wire Line
+	5350 5500 4650 5500
+$Comp
+L Connector:Conn_01x10_Female J1
+U 1 1 5FE2DB2F
+P 1950 8650
+F 0 "J1" H 1978 8626 50  0000 L CNN
+F 1 "01x10 pinout" H 1978 8535 50  0000 L CNN
+F 2 "" H 1950 8650 50  0001 C CNN
+F 3 "~" H 1950 8650 50  0001 C CNN
+	1    1950 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FE311AA
+P 1550 9150
+F 0 "#PWR?" H 1550 8900 50  0001 C CNN
+F 1 "GND" H 1555 8977 50  0000 C CNN
+F 2 "" H 1550 9150 50  0001 C CNN
+F 3 "" H 1550 9150 50  0001 C CNN
+	1    1550 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 9150 1750 9150
+Text Label 1750 8250 2    42   ~ 0
+~RESET
+Text Label 1750 8350 2    42   ~ 0
+XDCS
+Text Label 1750 8450 2    42   ~ 0
+XCS
+Text Label 1750 8550 2    42   ~ 0
+DREQ
+Text Label 1750 8650 2    42   ~ 0
+SCLK
+Text Label 1750 8750 2    42   ~ 0
+MOSI
+Text Label 1750 8850 2    42   ~ 0
+MISO
+Text Label 1750 8950 2    42   ~ 0
+TX
+Text Label 1750 9050 2    42   ~ 0
+RX
+Text Notes 1650 8050 0    71   Italic 14
+SAM32\nInput\n
 $EndSCHEMATC
