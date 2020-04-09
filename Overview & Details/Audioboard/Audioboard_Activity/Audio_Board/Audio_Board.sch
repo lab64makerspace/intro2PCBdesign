@@ -1485,7 +1485,7 @@ F 3 "~" H 1450 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Audio_Board-rescue:CRYSTAL3.2X2.5-Adafruit_VS1053_Breakout-eagle-import Y1
+L Audio_Board:CRYSTAL3.2X2.5-Adafruit_VS1053_Breakout-eagle-import Y1
 U 1 1 5CCA6A9E
 P 1450 6100
 F 0 "Y1" H 1450 6200 42  0000 C CNN
@@ -2465,7 +2465,7 @@ B5 B7 1D 74 15 74 95 22 41 AD BB 85 54 3F 86 7C 6A 77 93 E8 6E D1 DB 8F 60 67 8B
 EndData
 $EndBitmap
 $Comp
-L Audio_Board-rescue:FERRITE_0603-Adafruit_VS1053_Breakout-eagle-import FB1
+L Audio_Board:FERRITE_0603-Adafruit_VS1053_Breakout-eagle-import FB1
 U 1 1 5C637F4B
 P 1550 2550
 F 0 "FB1" H 1550 2700 42  0000 C CNN
@@ -2520,7 +2520,7 @@ F 3 "" H 2650 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:FERRITE_0603-Adafruit_VS1053_Breakout-eagle-import FB2
+L Audio_Board:FERRITE_0603-Adafruit_VS1053_Breakout-eagle-import FB2
 U 1 1 5C68B93E
 P 2350 2350
 F 0 "FB2" H 2350 2150 42  0000 C CNN
@@ -3390,7 +3390,7 @@ Murata
 Text Notes 1460 2500 0    42   ~ 0
 0603
 $Comp
-L Audio_Board-rescue:MAX1735EUK25+T-2019-02-05_05-23-06 U3
+L Audio_Board:MAX1735EUK25+T-2019-02-05_05-23-06 U3
 U 1 1 5C7290D7
 P 6200 1900
 F 0 "U3" H 6925 2287 60  0000 C CNN
@@ -4085,26 +4085,18 @@ Text Label 2100 4100 0    50   ~ 0
 MIC_P
 NoConn ~ 2100 4100
 NoConn ~ 2100 4200
-NoConn ~ 2100 4800
 NoConn ~ 2100 4900
 NoConn ~ 2100 5000
 NoConn ~ 2100 5100
 NoConn ~ 2100 5200
-NoConn ~ 2100 5400
 NoConn ~ 2050 5600
 NoConn ~ 4900 5400
 NoConn ~ 4900 5600
 NoConn ~ 4900 5700
-NoConn ~ 4900 6000
-NoConn ~ 4900 6100
-NoConn ~ 4900 6200
-NoConn ~ 4900 6300
-NoConn ~ 4900 6400
 NoConn ~ 4900 6500
 Wire Wire Line
 	4650 4100 5000 4100
 NoConn ~ 5000 4100
-NoConn ~ 10350 3350
 $Comp
 L Audio_Board:TPA3250D2DDW-Amplifier_Audio U8
 U 1 1 5F5B97F7
@@ -4392,10 +4384,10 @@ Wire Wire Line
 Wire Wire Line
 	5350 5500 4650 5500
 $Comp
-L Connector:Conn_01x10_Female J1
+L Connector:Conn_01x10_Female J2
 U 1 1 5FE2DB2F
 P 1950 8650
-F 0 "J1" H 1978 8626 50  0000 L CNN
+F 0 "J2" H 1978 8626 50  0000 L CNN
 F 1 "01x10 pinout" H 1978 8535 50  0000 L CNN
 F 2 "" H 1950 8650 50  0001 C CNN
 F 3 "~" H 1950 8650 50  0001 C CNN
@@ -4403,10 +4395,10 @@ F 3 "~" H 1950 8650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 5FE311AA
 P 1550 9150
-F 0 "#PWR?" H 1550 8900 50  0001 C CNN
+F 0 "#PWR0110" H 1550 8900 50  0001 C CNN
 F 1 "GND" H 1555 8977 50  0000 C CNN
 F 2 "" H 1550 9150 50  0001 C CNN
 F 3 "" H 1550 9150 50  0001 C CNN
