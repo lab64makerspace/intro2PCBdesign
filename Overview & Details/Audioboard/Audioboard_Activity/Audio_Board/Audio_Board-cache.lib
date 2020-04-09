@@ -36,36 +36,6 @@ X V+ 8 -100 300 150 D 50 50 3 1 W
 ENDDRAW
 ENDDEF
 #
-# Audio_Board-rescue_Earth_w_GND-power
-#
-DEF Audio_Board-rescue_Earth_w_GND-power #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "Audio_Board-rescue_Earth_w_GND-power" 0 -150 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 0 -150 50 0 0 0 GND Normal 0 C C
-P 2 0 1 0 -25 -75 25 -75 N
-P 2 0 1 0 -5 -100 5 -100 N
-P 2 0 1 0 0 -50 0 0 N
-P 2 0 1 0 50 -50 -50 -50 N
-X Earth 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# Audio_Board-rescue_MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import
-#
-DEF Audio_Board-rescue_MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import ~ 0 40 Y Y 1 L N
-F0 "" 0 0 50 H I C CNN
-F1 "Audio_Board-rescue_MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import" 0 0 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 0 75 1 0 10 N
-C 0 0 100 1 0 10 N
-ENDDRAW
-ENDDEF
-#
 # Audio_Board_Adafruit_VS1053_Breakout-eagle-import_VREG_SOT23-6_DUALAP7312-Adafruit_VS1053_Breakout
 #
 DEF Audio_Board_Adafruit_VS1053_Breakout-eagle-import_VREG_SOT23-6_DUALAP7312-Adafruit_VS1053_Breakout U 0 40 Y Y 1 L N
@@ -107,6 +77,23 @@ P 2 1 0 0 40 70 40 0 N
 P 2 1 0 0 100 0 40 0 N
 X 1 1 -100 0 0 R 0 0 1 0 P
 X 2 2 100 0 0 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# Audio_Board_Earth_w_GND-power
+#
+DEF Audio_Board_Earth_w_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Audio_Board_Earth_w_GND-power" 0 -150 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 -150 50 0 0 0 GND Normal 0 C C
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X Earth 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -157,6 +144,19 @@ X IN 2 0 -100 300 R 59 59 1 0 I
 X *SHDN 3 1450 -250 300 L 59 59 1 0 I
 X SET 4 1450 -100 300 L 59 59 1 0 I
 X OUT 5 1450 0 300 L 59 59 1 0 O
+ENDDRAW
+ENDDEF
+#
+# Audio_Board_MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import
+#
+DEF Audio_Board_MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import ~ 0 40 Y Y 1 L N
+F0 "" 0 0 50 H I C CNN
+F1 "Audio_Board_MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 75 1 0 10 N
+C 0 0 100 1 0 10 N
 ENDDRAW
 ENDDEF
 #
@@ -699,19 +699,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 30 50 0 100 -30 50 0 50 F
 X -5V 1 0 0 0 U 50 50 0 0 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

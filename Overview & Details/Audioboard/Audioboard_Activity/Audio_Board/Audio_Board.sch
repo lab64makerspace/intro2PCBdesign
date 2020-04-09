@@ -45,17 +45,6 @@ F 7 "Phoenix Contact" H 15850 3050 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR085
-U 1 1 5C569A3E
-P 12350 8100
-F 0 "#PWR085" H 12350 7850 50  0001 C CNN
-F 1 "Earth_w_GND" H 12350 7950 50  0001 C CNN
-F 2 "" H 12350 8100 50  0001 C CNN
-F 3 "~" H 12350 8100 50  0001 C CNN
-	1    12350 8100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C46
 U 1 1 5C56B234
 P 14000 2750
@@ -130,17 +119,6 @@ F 7 "" H 15050 3100 50  0001 C CNN "Manufacturer"
 	1    15050 3100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR097
-U 1 1 5C573D8F
-P 15050 3300
-F 0 "#PWR097" H 15050 3050 50  0001 C CNN
-F 1 "Earth_w_GND" H 15050 3150 50  0001 C CNN
-F 2 "" H 15050 3300 50  0001 C CNN
-F 3 "~" H 15050 3300 50  0001 C CNN
-	1    15050 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13850 2550 14000 2550
 Wire Wire Line
@@ -161,43 +139,10 @@ Wire Wire Line
 	15050 3300 15050 3250
 Wire Wire Line
 	14650 2600 14650 2550
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR093
-U 1 1 5C574C62
-P 14650 2950
-F 0 "#PWR093" H 14650 2700 50  0001 C CNN
-F 1 "Earth_w_GND" H 14650 2800 50  0001 C CNN
-F 2 "" H 14650 2950 50  0001 C CNN
-F 3 "~" H 14650 2950 50  0001 C CNN
-	1    14650 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR089
-U 1 1 5C575284
-P 14000 2950
-F 0 "#PWR089" H 14000 2700 50  0001 C CNN
-F 1 "Earth_w_GND" H 14000 2800 50  0001 C CNN
-F 2 "" H 14000 2950 50  0001 C CNN
-F 3 "~" H 14000 2950 50  0001 C CNN
-	1    14000 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14650 2900 14650 2950
 Wire Wire Line
 	14000 2900 14000 2950
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR098
-U 1 1 5C59454A
-P 15050 4400
-F 0 "#PWR098" H 15050 4150 50  0001 C CNN
-F 1 "Earth_w_GND" H 15050 4250 50  0001 C CNN
-F 2 "" H 15050 4400 50  0001 C CNN
-F 3 "~" H 15050 4400 50  0001 C CNN
-	1    15050 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13850 3650 14000 3650
 Wire Wire Line
@@ -218,45 +163,12 @@ Wire Wire Line
 	15050 4400 15050 4350
 Wire Wire Line
 	14650 3700 14650 3650
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR094
-U 1 1 5C59455D
-P 14650 4050
-F 0 "#PWR094" H 14650 3800 50  0001 C CNN
-F 1 "Earth_w_GND" H 14650 3900 50  0001 C CNN
-F 2 "" H 14650 4050 50  0001 C CNN
-F 3 "~" H 14650 4050 50  0001 C CNN
-	1    14650 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR090
-U 1 1 5C594563
-P 14000 4050
-F 0 "#PWR090" H 14000 3800 50  0001 C CNN
-F 1 "Earth_w_GND" H 14000 3900 50  0001 C CNN
-F 2 "" H 14000 4050 50  0001 C CNN
-F 3 "~" H 14000 4050 50  0001 C CNN
-	1    14000 4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14650 4000 14650 4050
 Wire Wire Line
 	14000 4000 14000 4050
 Wire Wire Line
 	13300 3650 13550 3650
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR099
-U 1 1 5C59B46D
-P 15050 5600
-F 0 "#PWR099" H 15050 5350 50  0001 C CNN
-F 1 "Earth_w_GND" H 15050 5450 50  0001 C CNN
-F 2 "" H 15050 5600 50  0001 C CNN
-F 3 "~" H 15050 5600 50  0001 C CNN
-	1    15050 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13850 4850 14000 4850
 Wire Wire Line
@@ -277,43 +189,10 @@ Wire Wire Line
 	15050 5600 15050 5550
 Wire Wire Line
 	14650 4900 14650 4850
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR095
-U 1 1 5C59B480
-P 14650 5250
-F 0 "#PWR095" H 14650 5000 50  0001 C CNN
-F 1 "Earth_w_GND" H 14650 5100 50  0001 C CNN
-F 2 "" H 14650 5250 50  0001 C CNN
-F 3 "~" H 14650 5250 50  0001 C CNN
-	1    14650 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR091
-U 1 1 5C59B486
-P 14000 5250
-F 0 "#PWR091" H 14000 5000 50  0001 C CNN
-F 1 "Earth_w_GND" H 14000 5100 50  0001 C CNN
-F 2 "" H 14000 5250 50  0001 C CNN
-F 3 "~" H 14000 5250 50  0001 C CNN
-	1    14000 5250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14650 5200 14650 5250
 Wire Wire Line
 	14000 5200 14000 5250
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR0100
-U 1 1 5C5A336E
-P 15050 6650
-F 0 "#PWR0100" H 15050 6400 50  0001 C CNN
-F 1 "Earth_w_GND" H 15050 6500 50  0001 C CNN
-F 2 "" H 15050 6650 50  0001 C CNN
-F 3 "~" H 15050 6650 50  0001 C CNN
-	1    15050 6650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13850 5900 14000 5900
 Wire Wire Line
@@ -334,28 +213,6 @@ Wire Wire Line
 	15050 6650 15050 6600
 Wire Wire Line
 	14650 5950 14650 5900
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR096
-U 1 1 5C5A3381
-P 14650 6300
-F 0 "#PWR096" H 14650 6050 50  0001 C CNN
-F 1 "Earth_w_GND" H 14650 6150 50  0001 C CNN
-F 2 "" H 14650 6300 50  0001 C CNN
-F 3 "~" H 14650 6300 50  0001 C CNN
-	1    14650 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR092
-U 1 1 5C5A3387
-P 14000 6300
-F 0 "#PWR092" H 14000 6050 50  0001 C CNN
-F 1 "Earth_w_GND" H 14000 6150 50  0001 C CNN
-F 2 "" H 14000 6300 50  0001 C CNN
-F 3 "~" H 14000 6300 50  0001 C CNN
-	1    14000 6300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14650 6250 14650 6300
 Wire Wire Line
@@ -449,72 +306,6 @@ F 7 "Panasonic" H 9250 3000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR075
-U 1 1 5C674CFC
-P 9950 3700
-F 0 "#PWR075" H 9950 3450 50  0001 C CNN
-F 1 "Earth_w_GND" H 9950 3550 50  0001 C CNN
-F 2 "" H 9950 3700 50  0001 C CNN
-F 3 "~" H 9950 3700 50  0001 C CNN
-	1    9950 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR070
-U 1 1 5C675949
-P 9600 3700
-F 0 "#PWR070" H 9600 3450 50  0001 C CNN
-F 1 "Earth_w_GND" H 9600 3550 50  0001 C CNN
-F 2 "" H 9600 3700 50  0001 C CNN
-F 3 "~" H 9600 3700 50  0001 C CNN
-	1    9600 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR065
-U 1 1 5C675EEF
-P 9250 3700
-F 0 "#PWR065" H 9250 3450 50  0001 C CNN
-F 1 "Earth_w_GND" H 9250 3550 50  0001 C CNN
-F 2 "" H 9250 3700 50  0001 C CNN
-F 3 "~" H 9250 3700 50  0001 C CNN
-	1    9250 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR074
-U 1 1 5C676523
-P 9950 3150
-F 0 "#PWR074" H 9950 2900 50  0001 C CNN
-F 1 "Earth_w_GND" H 9950 3000 50  0001 C CNN
-F 2 "" H 9950 3150 50  0001 C CNN
-F 3 "~" H 9950 3150 50  0001 C CNN
-	1    9950 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR069
-U 1 1 5C676CF1
-P 9600 3150
-F 0 "#PWR069" H 9600 2900 50  0001 C CNN
-F 1 "Earth_w_GND" H 9600 3000 50  0001 C CNN
-F 2 "" H 9600 3150 50  0001 C CNN
-F 3 "~" H 9600 3150 50  0001 C CNN
-	1    9600 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR064
-U 1 1 5C6772AE
-P 9250 3150
-F 0 "#PWR064" H 9250 2900 50  0001 C CNN
-F 1 "Earth_w_GND" H 9250 3000 50  0001 C CNN
-F 2 "" H 9250 3150 50  0001 C CNN
-F 3 "~" H 9250 3150 50  0001 C CNN
-	1    9250 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+36V #PWR059
 U 1 1 5C6892BB
 P 9000 2850
@@ -596,28 +387,6 @@ F 7 "MuRata" H 10000 4650 50  0001 C CNN "Manufacturer"
 	1    10000 4650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR077
-U 1 1 5C6BADDD
-P 10000 4800
-F 0 "#PWR077" H 10000 4550 50  0001 C CNN
-F 1 "Earth_w_GND" H 10000 4650 50  0001 C CNN
-F 2 "" H 10000 4800 50  0001 C CNN
-F 3 "~" H 10000 4800 50  0001 C CNN
-	1    10000 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR071
-U 1 1 5C6C331D
-P 9600 4800
-F 0 "#PWR071" H 9600 4550 50  0001 C CNN
-F 1 "Earth_w_GND" H 9600 4650 50  0001 C CNN
-F 2 "" H 9600 4800 50  0001 C CNN
-F 3 "~" H 9600 4800 50  0001 C CNN
-	1    9600 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10350 4700 10250 4700
 Wire Wire Line
@@ -628,17 +397,6 @@ Wire Wire Line
 	10350 4500 10350 4450
 Wire Wire Line
 	9600 4450 9600 4500
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR058
-U 1 1 5C6D5277
-P 8750 3900
-F 0 "#PWR058" H 8750 3650 50  0001 C CNN
-F 1 "Earth_w_GND" H 8750 3750 50  0001 C CNN
-F 2 "" H 8750 3900 50  0001 C CNN
-F 3 "~" H 8750 3900 50  0001 C CNN
-	1    8750 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C C26
 U 1 1 5C6DF039
@@ -652,28 +410,6 @@ F 5 "0603" H 9100 4650 50  0001 C CNN "Package"
 F 6 "C0603C104K5RACTU" H 9100 4650 50  0001 C CNN "Part Number"
 F 7 "Kemet, Inc." H 9100 4650 50  0001 C CNN "Manufacturer"
 	1    9100 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR062
-U 1 1 5C6DF03F
-P 9100 4800
-F 0 "#PWR062" H 9100 4550 50  0001 C CNN
-F 1 "Earth_w_GND" H 9100 4650 50  0001 C CNN
-F 2 "" H 9100 4800 50  0001 C CNN
-F 3 "~" H 9100 4800 50  0001 C CNN
-	1    9100 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR053
-U 1 1 5C6E4AC7
-P 8550 4650
-F 0 "#PWR053" H 8550 4400 50  0001 C CNN
-F 1 "Earth_w_GND" H 8550 4500 50  0001 C CNN
-F 2 "" H 8550 4650 50  0001 C CNN
-F 3 "~" H 8550 4650 50  0001 C CNN
-	1    8550 4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -707,17 +443,6 @@ F 1 "22.0k" H 8668 6005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8640 6040 50  0001 C CNN
 F 3 "~" H 8600 6050 50  0001 C CNN
 	1    8600 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR054
-U 1 1 5C71E383
-P 8600 6200
-F 0 "#PWR054" H 8600 5950 50  0001 C CNN
-F 1 "Earth_w_GND" H 8600 6050 50  0001 C CNN
-F 2 "" H 8600 6200 50  0001 C CNN
-F 3 "~" H 8600 6200 50  0001 C CNN
-	1    8600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -929,50 +654,6 @@ F 3 "~" H 7950 7200 50  0001 C CNN
 	1    7950 7200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR049
-U 1 1 5C677EE6
-P 8350 7350
-F 0 "#PWR049" H 8350 7100 50  0001 C CNN
-F 1 "Earth_w_GND" H 8350 7200 50  0001 C CNN
-F 2 "" H 8350 7350 50  0001 C CNN
-F 3 "~" H 8350 7350 50  0001 C CNN
-	1    8350 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR046
-U 1 1 5C67893C
-P 7950 7350
-F 0 "#PWR046" H 7950 7100 50  0001 C CNN
-F 1 "Earth_w_GND" H 7950 7200 50  0001 C CNN
-F 2 "" H 7950 7350 50  0001 C CNN
-F 3 "~" H 7950 7350 50  0001 C CNN
-	1    7950 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR043
-U 1 1 5C678D89
-P 7100 7350
-F 0 "#PWR043" H 7100 7100 50  0001 C CNN
-F 1 "Earth_w_GND" H 7100 7200 50  0001 C CNN
-F 2 "" H 7100 7350 50  0001 C CNN
-F 3 "~" H 7100 7350 50  0001 C CNN
-	1    7100 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR038
-U 1 1 5C6794CD
-P 6700 7350
-F 0 "#PWR038" H 6700 7100 50  0001 C CNN
-F 1 "Earth_w_GND" H 6700 7200 50  0001 C CNN
-F 2 "" H 6700 7350 50  0001 C CNN
-F 3 "~" H 6700 7350 50  0001 C CNN
-	1    6700 7350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7250 7000 7100 7000
 $Comp
@@ -1087,28 +768,6 @@ F 3 "" H 8400 3400 50  0001 C CNN
 	1    8400 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR044
-U 1 1 5C74749F
-P 7900 3750
-F 0 "#PWR044" H 7900 3500 50  0001 C CNN
-F 1 "Earth_w_GND" H 7900 3600 50  0001 C CNN
-F 2 "" H 7900 3750 50  0001 C CNN
-F 3 "~" H 7900 3750 50  0001 C CNN
-	1    7900 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR048
-U 1 1 5C7481F3
-P 8250 3750
-F 0 "#PWR048" H 8250 3500 50  0001 C CNN
-F 1 "Earth_w_GND" H 8250 3600 50  0001 C CNN
-F 2 "" H 8250 3750 50  0001 C CNN
-F 3 "~" H 8250 3750 50  0001 C CNN
-	1    8250 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7750 3400 7900 3400
 Wire Wire Line
@@ -1133,28 +792,6 @@ Wire Wire Line
 Connection ~ 6750 3400
 Wire Wire Line
 	6750 3400 7050 3400
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR042
-U 1 1 5C77F647
-P 7050 3750
-F 0 "#PWR042" H 7050 3500 50  0001 C CNN
-F 1 "Earth_w_GND" H 7050 3600 50  0001 C CNN
-F 2 "" H 7050 3750 50  0001 C CNN
-F 3 "~" H 7050 3750 50  0001 C CNN
-	1    7050 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR039
-U 1 1 5C77FD2F
-P 6750 3750
-F 0 "#PWR039" H 6750 3500 50  0001 C CNN
-F 1 "Earth_w_GND" H 6750 3600 50  0001 C CNN
-F 2 "" H 6750 3750 50  0001 C CNN
-F 3 "~" H 6750 3750 50  0001 C CNN
-	1    6750 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6800 4000 7200 4000
 Wire Wire Line
@@ -1264,17 +901,6 @@ F 3 "~" H 6000 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR033
-U 1 1 5C8C4B81
-P 6000 4900
-F 0 "#PWR033" H 6000 4650 50  0001 C CNN
-F 1 "Earth_w_GND" H 6000 4750 50  0001 C CNN
-F 2 "" H 6000 4900 50  0001 C CNN
-F 3 "~" H 6000 4900 50  0001 C CNN
-	1    6000 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R5
 U 1 1 5C8D48F4
 P 6150 4300
@@ -1316,17 +942,6 @@ F 1 "10nF" H 6092 5955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6000 6000 50  0001 C CNN
 F 3 "~" H 6000 6000 50  0001 C CNN
 	1    6000 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR034
-U 1 1 5C976087
-P 6000 6100
-F 0 "#PWR034" H 6000 5850 50  0001 C CNN
-F 1 "Earth_w_GND" H 6000 5950 50  0001 C CNN
-F 2 "" H 6000 6100 50  0001 C CNN
-F 3 "~" H 6000 6100 50  0001 C CNN
-	1    6000 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1373,17 +988,6 @@ F 1 "0.1µF" H 1365 4405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1288 4300 50  0001 C CNN
 F 3 "~" H 1250 4450 50  0001 C CNN
 	1    1250 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR02
-U 1 1 5C9C47A4
-P 1250 4600
-F 0 "#PWR02" H 1250 4350 50  0001 C CNN
-F 1 "Earth_w_GND" H 1250 4450 50  0001 C CNN
-F 2 "" H 1250 4600 50  0001 C CNN
-F 3 "~" H 1250 4600 50  0001 C CNN
-	1    1250 4600
 	1    0    0    -1  
 $EndComp
 Connection ~ 1250 4300
@@ -1450,11 +1054,11 @@ XDCS
 Text Label 2200 6400 0    50   ~ 0
 XCS
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR015
+L Audio_Board:Earth_w_GND-power #PWR015
 U 1 1 5CC40C4F
 P 2100 6750
 F 0 "#PWR015" H 2100 6500 50  0001 C CNN
-F 1 "Earth_w_GND" H 2100 6600 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 2100 6600 50  0001 C CNN
 F 2 "" H 2100 6750 50  0001 C CNN
 F 3 "~" H 2100 6750 50  0001 C CNN
 	1    2100 6750
@@ -1519,28 +1123,6 @@ F 1 "10pF" H 1700 6250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1600 6250 50  0001 C CNN
 F 3 "~" H 1600 6250 50  0001 C CNN
 	1    1600 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR07
-U 1 1 5CCAB01C
-P 1600 6350
-F 0 "#PWR07" H 1600 6100 50  0001 C CNN
-F 1 "Earth_w_GND" H 1600 6200 50  0001 C CNN
-F 2 "" H 1600 6350 50  0001 C CNN
-F 3 "~" H 1600 6350 50  0001 C CNN
-	1    1600 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR04
-U 1 1 5CCAB57D
-P 1300 6350
-F 0 "#PWR04" H 1300 6100 50  0001 C CNN
-F 1 "Earth_w_GND" H 1300 6200 50  0001 C CNN
-F 2 "" H 1300 6350 50  0001 C CNN
-F 3 "~" H 1300 6350 50  0001 C CNN
-	1    1300 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2530,17 +2112,6 @@ F 3 "" H 2350 2350 50  0001 C CNN
 	1    2350 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR014
-U 1 1 5C68C9B8
-P 2050 2500
-F 0 "#PWR014" H 2050 2250 50  0001 C CNN
-F 1 "Earth_w_GND" H 2050 2350 50  0001 C CNN
-F 2 "" H 2050 2500 50  0001 C CNN
-F 3 "~" H 2050 2500 50  0001 C CNN
-	1    2050 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1350 2450 1350 2550
 Wire Wire Line
@@ -2558,7 +2129,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 2350 2650 2500
 $Comp
-L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U12
+L Audio_Board:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U12
 U 1 1 5C71A3AA
 P 12050 10350
 F 0 "U12" H 12100 10400 50  0001 C CNN
@@ -2569,7 +2140,7 @@ F 3 "" H 12050 10350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U11
+L Audio_Board:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U11
 U 1 1 5C71AFFE
 P 12050 10100
 F 0 "U11" H 12100 10150 50  0001 C CNN
@@ -2580,7 +2151,7 @@ F 3 "" H 12050 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U10
+L Audio_Board:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U10
 U 1 1 5C71B4B6
 P 12050 9850
 F 0 "U10" H 12100 9900 50  0001 C CNN
@@ -2591,7 +2162,7 @@ F 3 "" H 12050 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U9
+L Audio_Board:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U9
 U 1 1 5C71B8C9
 P 12050 9600
 F 0 "U9" H 12100 9650 50  0001 C CNN
@@ -2612,17 +2183,6 @@ F 1 "10µF" H 3265 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3188 2050 50  0001 C CNN
 F 3 "~" H 3150 2200 50  0001 C CNN
 	1    3150 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR020
-U 1 1 5C7E8249
-P 3150 2350
-F 0 "#PWR020" H 3150 2100 50  0001 C CNN
-F 1 "Earth_w_GND" H 3150 2200 50  0001 C CNN
-F 2 "" H 3150 2350 50  0001 C CNN
-F 3 "~" H 3150 2350 50  0001 C CNN
-	1    3150 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2693,39 +2253,6 @@ Wire Wire Line
 Connection ~ 4700 1850
 Wire Wire Line
 	4700 1850 4700 2050
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR021
-U 1 1 5C9A24A4
-P 4500 2350
-F 0 "#PWR021" H 4500 2100 50  0001 C CNN
-F 1 "Earth_w_GND" H 4500 2200 50  0001 C CNN
-F 2 "" H 4500 2350 50  0001 C CNN
-F 3 "~" H 4500 2350 50  0001 C CNN
-	1    4500 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR023
-U 1 1 5C9A2D05
-P 4700 2350
-F 0 "#PWR023" H 4700 2100 50  0001 C CNN
-F 1 "Earth_w_GND" H 4700 2200 50  0001 C CNN
-F 2 "" H 4700 2350 50  0001 C CNN
-F 3 "~" H 4700 2350 50  0001 C CNN
-	1    4700 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR027
-U 1 1 5C9A30F6
-P 5150 2350
-F 0 "#PWR027" H 5150 2100 50  0001 C CNN
-F 1 "Earth_w_GND" H 5150 2200 50  0001 C CNN
-F 2 "" H 5150 2350 50  0001 C CNN
-F 3 "~" H 5150 2350 50  0001 C CNN
-	1    5150 2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4500 2350 4500 1950
 Wire Wire Line
@@ -2765,34 +2292,12 @@ $EndComp
 Connection ~ 6700 4300
 Wire Wire Line
 	6700 4300 6600 4300
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR040
-U 1 1 5CB3513F
-P 6850 4600
-F 0 "#PWR040" H 6850 4350 50  0001 C CNN
-F 1 "Earth_w_GND" H 6850 4450 50  0001 C CNN
-F 2 "" H 6850 4600 50  0001 C CNN
-F 3 "~" H 6850 4600 50  0001 C CNN
-	1    6850 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6700 4800 6900 4800
 Wire Wire Line
 	6900 4600 6850 4600
 Wire Wire Line
 	6600 5500 6700 5500
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR041
-U 1 1 5CB9291A
-P 6850 6100
-F 0 "#PWR041" H 6850 5850 50  0001 C CNN
-F 1 "Earth_w_GND" H 6850 5950 50  0001 C CNN
-F 2 "" H 6850 6100 50  0001 C CNN
-F 3 "~" H 6850 6100 50  0001 C CNN
-	1    6850 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6900 6100 6850 6100
 Wire Wire Line
@@ -2868,17 +2373,6 @@ F 7 "Kemet, Inc." H 13150 6450 50  0001 C CNN "Manufacturer"
 	1    13150 6450
 	1    0    0    -1  
 $EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR086
-U 1 1 5D093516
-P 13150 6600
-F 0 "#PWR086" H 13150 6350 50  0001 C CNN
-F 1 "Earth_w_GND" H 13150 6450 50  0001 C CNN
-F 2 "" H 13150 6600 50  0001 C CNN
-F 3 "~" H 13150 6600 50  0001 C CNN
-	1    13150 6600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12350 6300 13150 6300
 Text Label 12350 6200 0    50   ~ 0
@@ -2903,17 +2397,6 @@ $EndComp
 Wire Wire Line
 	8600 5900 10350 5900
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR068
-U 1 1 5D4AAEB7
-P 9450 6450
-F 0 "#PWR068" H 9450 6200 50  0001 C CNN
-F 1 "Earth_w_GND" H 9450 6300 50  0001 C CNN
-F 2 "" H 9450 6450 50  0001 C CNN
-F 3 "~" H 9450 6450 50  0001 C CNN
-	1    9450 6450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR067
 U 1 1 5D4AB6F9
 P 9450 6100
@@ -2922,17 +2405,6 @@ F 1 "+3V3" H 9450 6250 50  0000 C CNN
 F 2 "" H 9450 6100 50  0001 C CNN
 F 3 "" H 9450 6100 50  0001 C CNN
 	1    9450 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR076
-U 1 1 5D4CE326
-P 9950 6300
-F 0 "#PWR076" H 9950 6050 50  0001 C CNN
-F 1 "Earth_w_GND" H 9950 6150 50  0001 C CNN
-F 2 "" H 9950 6300 50  0001 C CNN
-F 3 "~" H 9950 6300 50  0001 C CNN
-	1    9950 6300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2958,17 +2430,6 @@ F 1 "0.01µF" H 9465 7005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9388 6900 50  0001 C CNN
 F 3 "~" H 9350 7050 50  0001 C CNN
 	1    9350 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR066
-U 1 1 5D687627
-P 9350 7200
-F 0 "#PWR066" H 9350 6950 50  0001 C CNN
-F 1 "Earth_w_GND" H 9350 7050 50  0001 C CNN
-F 2 "" H 9350 7200 50  0001 C CNN
-F 3 "~" H 9350 7200 50  0001 C CNN
-	1    9350 7200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3019,17 +2480,6 @@ F 6 "Phoenix Contact" V 13550 1200 50  0001 C CNN "Manufacturer"
 $EndComp
 Text Notes 13850 1550 0    50   ~ 0
 Phoenix\nContact
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR088
-U 1 1 5D7F1297
-P 13700 1500
-F 0 "#PWR088" H 13700 1250 50  0001 C CNN
-F 1 "Earth_w_GND" H 13700 1350 50  0001 C CNN
-F 2 "" H 13700 1500 50  0001 C CNN
-F 3 "~" H 13700 1500 50  0001 C CNN
-	1    13700 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13650 1400 13700 1400
 Wire Wire Line
@@ -3060,17 +2510,6 @@ F 2 "TerminalBlock_Phoenix:PhoenixContact_TermBlk_4P_SideEnt_6.35MM" H 1900 1300
 F 3 "~" H 1900 1300 50  0001 C CNN
 	1    1900 1300
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR012
-U 1 1 5D8B586A
-P 2000 1700
-F 0 "#PWR012" H 2000 1450 50  0001 C CNN
-F 1 "Earth_w_GND" H 2000 1550 50  0001 C CNN
-F 2 "" H 2000 1700 50  0001 C CNN
-F 3 "~" H 2000 1700 50  0001 C CNN
-	1    2000 1700
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2000 1500 2000 1700
@@ -3182,17 +2621,6 @@ F 3 "~" H 9650 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR073
-U 1 1 5DAB38A6
-P 9650 2200
-F 0 "#PWR073" H 9650 1950 50  0001 C CNN
-F 1 "Earth_w_GND" H 9650 2050 50  0001 C CNN
-F 2 "" H 9650 2200 50  0001 C CNN
-F 3 "~" H 9650 2200 50  0001 C CNN
-	1    9650 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+2V5 #PWR072
 U 1 1 5DAD7A4D
 P 9650 1750
@@ -3210,17 +2638,6 @@ Wire Wire Line
 Connection ~ 9650 1800
 Wire Wire Line
 	9650 1800 9650 1900
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR063
-U 1 1 5DB1F019
-P 9200 2200
-F 0 "#PWR063" H 9200 1950 50  0001 C CNN
-F 1 "Earth_w_GND" H 9200 2050 50  0001 C CNN
-F 2 "" H 9200 2200 50  0001 C CNN
-F 3 "~" H 9200 2200 50  0001 C CNN
-	1    9200 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9200 2100 9200 2200
 $Comp
@@ -3279,39 +2696,6 @@ Wire Wire Line
 Connection ~ 10800 1500
 Wire Wire Line
 	10800 1500 10500 1500
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR079
-U 1 1 5DC47431
-P 10500 1900
-F 0 "#PWR079" H 10500 1650 50  0001 C CNN
-F 1 "Earth_w_GND" H 10500 1750 50  0001 C CNN
-F 2 "" H 10500 1900 50  0001 C CNN
-F 3 "~" H 10500 1900 50  0001 C CNN
-	1    10500 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR080
-U 1 1 5DC4783D
-P 10800 1900
-F 0 "#PWR080" H 10800 1650 50  0001 C CNN
-F 1 "Earth_w_GND" H 10800 1750 50  0001 C CNN
-F 2 "" H 10800 1900 50  0001 C CNN
-F 3 "~" H 10800 1900 50  0001 C CNN
-	1    10800 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR081
-U 1 1 5DC47BA4
-P 11300 1900
-F 0 "#PWR081" H 11300 1650 50  0001 C CNN
-F 1 "Earth_w_GND" H 11300 1750 50  0001 C CNN
-F 2 "" H 11300 1900 50  0001 C CNN
-F 3 "~" H 11300 1900 50  0001 C CNN
-	1    11300 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11300 1900 11300 1800
 $Comp
@@ -3334,28 +2718,6 @@ F 1 "1µF" H 12050 1650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 12038 1600 50  0001 C CNN
 F 3 "~" H 12000 1750 50  0001 C CNN
 	1    12000 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR082
-U 1 1 5DC6FF4C
-P 11700 1900
-F 0 "#PWR082" H 11700 1650 50  0001 C CNN
-F 1 "Earth_w_GND" H 11700 1750 50  0001 C CNN
-F 2 "" H 11700 1900 50  0001 C CNN
-F 3 "~" H 11700 1900 50  0001 C CNN
-	1    11700 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR084
-U 1 1 5DC70272
-P 12000 1900
-F 0 "#PWR084" H 12000 1650 50  0001 C CNN
-F 1 "Earth_w_GND" H 12000 1750 50  0001 C CNN
-F 2 "" H 12000 1900 50  0001 C CNN
-F 3 "~" H 12000 1900 50  0001 C CNN
-	1    12000 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3400,17 +2762,6 @@ F 3 "" H 6200 1900 60  0000 C CNN
 	1    6200 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR035
-U 1 1 5C72ACE0
-P 6150 2500
-F 0 "#PWR035" H 6150 2250 50  0001 C CNN
-F 1 "Earth_w_GND" H 6150 2350 50  0001 C CNN
-F 2 "" H 6150 2500 50  0001 C CNN
-F 3 "~" H 6150 2500 50  0001 C CNN
-	1    6150 2500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 1900 6150 1900
 $Comp
@@ -3438,17 +2789,6 @@ F 3 "~" H 8700 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR056
-U 1 1 5C7C63DE
-P 8700 2200
-F 0 "#PWR056" H 8700 1950 50  0001 C CNN
-F 1 "Earth_w_GND" H 8700 2050 50  0001 C CNN
-F 2 "" H 8700 2200 50  0001 C CNN
-F 3 "~" H 8700 2200 50  0001 C CNN
-	1    8700 2200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C7
 U 1 1 5C7ECCC7
 P 5700 2150
@@ -3457,17 +2797,6 @@ F 1 "2.2µF" H 5750 2050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5738 2000 50  0001 C CNN
 F 3 "~" H 5700 2150 50  0001 C CNN
 	1    5700 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR032
-U 1 1 5C7ECCCD
-P 5700 2500
-F 0 "#PWR032" H 5700 2250 50  0001 C CNN
-F 1 "Earth_w_GND" H 5700 2350 50  0001 C CNN
-F 2 "" H 5700 2500 50  0001 C CNN
-F 3 "~" H 5700 2500 50  0001 C CNN
-	1    5700 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3493,17 +2822,6 @@ F 1 "2.2µF" H 8000 1950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7988 1900 50  0001 C CNN
 F 3 "~" H 7950 2050 50  0001 C CNN
 	1    7950 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR045
-U 1 1 5C860A11
-P 7950 2500
-F 0 "#PWR045" H 7950 2250 50  0001 C CNN
-F 1 "Earth_w_GND" H 7950 2350 50  0001 C CNN
-F 2 "" H 7950 2500 50  0001 C CNN
-F 3 "~" H 7950 2500 50  0001 C CNN
-	1    7950 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -4283,17 +3601,6 @@ F 3 "" H 5650 9600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0104
-U 1 1 5FAFA23A
-P 6050 9800
-F 0 "#PWR0104" H 6050 9550 50  0001 C CNN
-F 1 "GND" H 6055 9627 50  0000 C CNN
-F 2 "" H 6050 9800 50  0001 C CNN
-F 3 "" H 6050 9800 50  0001 C CNN
-	1    6050 9800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDA #PWR0105
 U 1 1 5FAFBCB8
 P 6500 9800
@@ -4368,17 +3675,6 @@ F 3 "" H 3900 1850 50  0001 C CNN
 	1    3900 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Audio_Board-rescue:Earth_w_GND-power #PWR0109
-U 1 1 5FD5AF00
-P 5350 5600
-F 0 "#PWR0109" H 5350 5350 50  0001 C CNN
-F 1 "Earth_w_GND" H 5350 5450 50  0001 C CNN
-F 2 "" H 5350 5600 50  0001 C CNN
-F 3 "~" H 5350 5600 50  0001 C CNN
-	1    5350 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5350 5600 5350 5500
 Wire Wire Line
@@ -4392,17 +3688,6 @@ F 1 "01x10 pinout" H 1978 8535 50  0000 L CNN
 F 2 "" H 1950 8650 50  0001 C CNN
 F 3 "~" H 1950 8650 50  0001 C CNN
 	1    1950 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 5FE311AA
-P 1550 9150
-F 0 "#PWR0110" H 1550 8900 50  0001 C CNN
-F 1 "GND" H 1555 8977 50  0000 C CNN
-F 2 "" H 1550 9150 50  0001 C CNN
-F 3 "" H 1550 9150 50  0001 C CNN
-	1    1550 9150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -4427,4 +3712,719 @@ Text Label 1750 9050 2    42   ~ 0
 RX
 Text Notes 1650 8050 0    71   Italic 14
 SAM32\nInput\n
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0109
+U 1 1 5E90F03A
+P 1550 9150
+F 0 "#PWR0109" H 1550 8900 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 1550 9000 50  0001 C CNN
+F 2 "" H 1550 9150 50  0001 C CNN
+F 3 "" H 1550 9150 50  0001 C CNN
+	1    1550 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0110
+U 1 1 5E9353B1
+P 2000 1700
+F 0 "#PWR0110" H 2000 1450 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 2000 1550 50  0001 C CNN
+F 2 "" H 2000 1700 50  0001 C CNN
+F 3 "" H 2000 1700 50  0001 C CNN
+	1    2000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0111
+U 1 1 5E97CC8A
+P 2050 2500
+F 0 "#PWR0111" H 2050 2250 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 2050 2350 50  0001 C CNN
+F 2 "" H 2050 2500 50  0001 C CNN
+F 3 "" H 2050 2500 50  0001 C CNN
+	1    2050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0112
+U 1 1 5E99F76F
+P 3150 2350
+F 0 "#PWR0112" H 3150 2100 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 3150 2200 50  0001 C CNN
+F 2 "" H 3150 2350 50  0001 C CNN
+F 3 "" H 3150 2350 50  0001 C CNN
+	1    3150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0113
+U 1 1 5E9C237F
+P 4500 2350
+F 0 "#PWR0113" H 4500 2100 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 4500 2200 50  0001 C CNN
+F 2 "" H 4500 2350 50  0001 C CNN
+F 3 "" H 4500 2350 50  0001 C CNN
+	1    4500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0114
+U 1 1 5E9E4F78
+P 4700 2350
+F 0 "#PWR0114" H 4700 2100 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 4700 2200 50  0001 C CNN
+F 2 "" H 4700 2350 50  0001 C CNN
+F 3 "" H 4700 2350 50  0001 C CNN
+	1    4700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0115
+U 1 1 5EA07C65
+P 5150 2350
+F 0 "#PWR0115" H 5150 2100 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 5150 2200 50  0001 C CNN
+F 2 "" H 5150 2350 50  0001 C CNN
+F 3 "" H 5150 2350 50  0001 C CNN
+	1    5150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0116
+U 1 1 5EA2AC97
+P 5700 2500
+F 0 "#PWR0116" H 5700 2250 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 5700 2350 50  0001 C CNN
+F 2 "" H 5700 2500 50  0001 C CNN
+F 3 "" H 5700 2500 50  0001 C CNN
+	1    5700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0117
+U 1 1 5EA4D923
+P 6150 2500
+F 0 "#PWR0117" H 6150 2250 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 6150 2350 50  0001 C CNN
+F 2 "" H 6150 2500 50  0001 C CNN
+F 3 "" H 6150 2500 50  0001 C CNN
+	1    6150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0118
+U 1 1 5EA706F1
+P 7950 2500
+F 0 "#PWR0118" H 7950 2250 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 7950 2350 50  0001 C CNN
+F 2 "" H 7950 2500 50  0001 C CNN
+F 3 "" H 7950 2500 50  0001 C CNN
+	1    7950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0119
+U 1 1 5EA93260
+P 8700 2200
+F 0 "#PWR0119" H 8700 1950 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 8700 2050 50  0001 C CNN
+F 2 "" H 8700 2200 50  0001 C CNN
+F 3 "" H 8700 2200 50  0001 C CNN
+	1    8700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0120
+U 1 1 5EAB5E70
+P 9200 2200
+F 0 "#PWR0120" H 9200 1950 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9200 2050 50  0001 C CNN
+F 2 "" H 9200 2200 50  0001 C CNN
+F 3 "" H 9200 2200 50  0001 C CNN
+	1    9200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0121
+U 1 1 5EAD8B0A
+P 9650 2200
+F 0 "#PWR0121" H 9650 1950 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9650 2050 50  0001 C CNN
+F 2 "" H 9650 2200 50  0001 C CNN
+F 3 "" H 9650 2200 50  0001 C CNN
+	1    9650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0122
+U 1 1 5EAFB65F
+P 10500 1900
+F 0 "#PWR0122" H 10500 1650 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 10500 1750 50  0001 C CNN
+F 2 "" H 10500 1900 50  0001 C CNN
+F 3 "" H 10500 1900 50  0001 C CNN
+	1    10500 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0123
+U 1 1 5EB1E2C8
+P 10800 1900
+F 0 "#PWR0123" H 10800 1650 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 10800 1750 50  0001 C CNN
+F 2 "" H 10800 1900 50  0001 C CNN
+F 3 "" H 10800 1900 50  0001 C CNN
+	1    10800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0124
+U 1 1 5EB40DF2
+P 11300 1900
+F 0 "#PWR0124" H 11300 1650 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 11300 1750 50  0001 C CNN
+F 2 "" H 11300 1900 50  0001 C CNN
+F 3 "" H 11300 1900 50  0001 C CNN
+	1    11300 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0125
+U 1 1 5EB63A92
+P 11700 1900
+F 0 "#PWR0125" H 11700 1650 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 11700 1750 50  0001 C CNN
+F 2 "" H 11700 1900 50  0001 C CNN
+F 3 "" H 11700 1900 50  0001 C CNN
+	1    11700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0126
+U 1 1 5EB86923
+P 12000 1900
+F 0 "#PWR0126" H 12000 1650 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 12000 1750 50  0001 C CNN
+F 2 "" H 12000 1900 50  0001 C CNN
+F 3 "" H 12000 1900 50  0001 C CNN
+	1    12000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0127
+U 1 1 5EBA94EE
+P 13700 1500
+F 0 "#PWR0127" H 13700 1250 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 13700 1350 50  0001 C CNN
+F 2 "" H 13700 1500 50  0001 C CNN
+F 3 "" H 13700 1500 50  0001 C CNN
+	1    13700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0128
+U 1 1 5EBCC1A8
+P 14000 2950
+F 0 "#PWR0128" H 14000 2700 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 14000 2800 50  0001 C CNN
+F 2 "" H 14000 2950 50  0001 C CNN
+F 3 "" H 14000 2950 50  0001 C CNN
+	1    14000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0129
+U 1 1 5EBEEF5F
+P 14650 2950
+F 0 "#PWR0129" H 14650 2700 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 14650 2800 50  0001 C CNN
+F 2 "" H 14650 2950 50  0001 C CNN
+F 3 "" H 14650 2950 50  0001 C CNN
+	1    14650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0130
+U 1 1 5EC11DCE
+P 15050 3300
+F 0 "#PWR0130" H 15050 3050 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 15050 3150 50  0001 C CNN
+F 2 "" H 15050 3300 50  0001 C CNN
+F 3 "" H 15050 3300 50  0001 C CNN
+	1    15050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0131
+U 1 1 5EC349D0
+P 14000 4050
+F 0 "#PWR0131" H 14000 3800 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 14000 3900 50  0001 C CNN
+F 2 "" H 14000 4050 50  0001 C CNN
+F 3 "" H 14000 4050 50  0001 C CNN
+	1    14000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0132
+U 1 1 5EC57981
+P 14650 4050
+F 0 "#PWR0132" H 14650 3800 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 14650 3900 50  0001 C CNN
+F 2 "" H 14650 4050 50  0001 C CNN
+F 3 "" H 14650 4050 50  0001 C CNN
+	1    14650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0133
+U 1 1 5EC7A7AB
+P 15050 4400
+F 0 "#PWR0133" H 15050 4150 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 15050 4250 50  0001 C CNN
+F 2 "" H 15050 4400 50  0001 C CNN
+F 3 "" H 15050 4400 50  0001 C CNN
+	1    15050 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0134
+U 1 1 5EC9D562
+P 14000 5250
+F 0 "#PWR0134" H 14000 5000 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 14000 5100 50  0001 C CNN
+F 2 "" H 14000 5250 50  0001 C CNN
+F 3 "" H 14000 5250 50  0001 C CNN
+	1    14000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0135
+U 1 1 5ECC03A3
+P 14650 5250
+F 0 "#PWR0135" H 14650 5000 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 14650 5100 50  0001 C CNN
+F 2 "" H 14650 5250 50  0001 C CNN
+F 3 "" H 14650 5250 50  0001 C CNN
+	1    14650 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0136
+U 1 1 5ECE3143
+P 15050 5600
+F 0 "#PWR0136" H 15050 5350 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 15050 5450 50  0001 C CNN
+F 2 "" H 15050 5600 50  0001 C CNN
+F 3 "" H 15050 5600 50  0001 C CNN
+	1    15050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0137
+U 1 1 5ED060EB
+P 12350 8100
+F 0 "#PWR0137" H 12350 7850 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 12350 7950 50  0001 C CNN
+F 2 "" H 12350 8100 50  0001 C CNN
+F 3 "" H 12350 8100 50  0001 C CNN
+	1    12350 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0138
+U 1 1 5ED28D1B
+P 13150 6600
+F 0 "#PWR0138" H 13150 6350 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 13150 6450 50  0001 C CNN
+F 2 "" H 13150 6600 50  0001 C CNN
+F 3 "" H 13150 6600 50  0001 C CNN
+	1    13150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0139
+U 1 1 5ED4BC0B
+P 14000 6300
+F 0 "#PWR0139" H 14000 6050 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 14000 6150 50  0001 C CNN
+F 2 "" H 14000 6300 50  0001 C CNN
+F 3 "" H 14000 6300 50  0001 C CNN
+	1    14000 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0140
+U 1 1 5ED92914
+P 14650 6300
+F 0 "#PWR0140" H 14650 6050 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 14650 6150 50  0001 C CNN
+F 2 "" H 14650 6300 50  0001 C CNN
+F 3 "" H 14650 6300 50  0001 C CNN
+	1    14650 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0141
+U 1 1 5EDB5710
+P 15050 6650
+F 0 "#PWR0141" H 15050 6400 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 15050 6500 50  0001 C CNN
+F 2 "" H 15050 6650 50  0001 C CNN
+F 3 "" H 15050 6650 50  0001 C CNN
+	1    15050 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0142
+U 1 1 5EDD82FA
+P 6700 7350
+F 0 "#PWR0142" H 6700 7100 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 6700 7200 50  0001 C CNN
+F 2 "" H 6700 7350 50  0001 C CNN
+F 3 "" H 6700 7350 50  0001 C CNN
+	1    6700 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0143
+U 1 1 5EDFAF6C
+P 7100 7350
+F 0 "#PWR0143" H 7100 7100 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 7100 7200 50  0001 C CNN
+F 2 "" H 7100 7350 50  0001 C CNN
+F 3 "" H 7100 7350 50  0001 C CNN
+	1    7100 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0144
+U 1 1 5EE1DB7C
+P 7950 7350
+F 0 "#PWR0144" H 7950 7100 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 7950 7200 50  0001 C CNN
+F 2 "" H 7950 7350 50  0001 C CNN
+F 3 "" H 7950 7350 50  0001 C CNN
+	1    7950 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0145
+U 1 1 5EE4082D
+P 8350 7350
+F 0 "#PWR0145" H 8350 7100 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 8350 7200 50  0001 C CNN
+F 2 "" H 8350 7350 50  0001 C CNN
+F 3 "" H 8350 7350 50  0001 C CNN
+	1    8350 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0146
+U 1 1 5EE63723
+P 9350 7200
+F 0 "#PWR0146" H 9350 6950 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9350 7050 50  0001 C CNN
+F 2 "" H 9350 7200 50  0001 C CNN
+F 3 "" H 9350 7200 50  0001 C CNN
+	1    9350 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0147
+U 1 1 5EE864A3
+P 9450 6450
+F 0 "#PWR0147" H 9450 6200 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9450 6300 50  0001 C CNN
+F 2 "" H 9450 6450 50  0001 C CNN
+F 3 "" H 9450 6450 50  0001 C CNN
+	1    9450 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0148
+U 1 1 5EEA9118
+P 9950 6300
+F 0 "#PWR0148" H 9950 6050 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9950 6150 50  0001 C CNN
+F 2 "" H 9950 6300 50  0001 C CNN
+F 3 "" H 9950 6300 50  0001 C CNN
+	1    9950 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0149
+U 1 1 5EECBD03
+P 8600 6200
+F 0 "#PWR0149" H 8600 5950 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 8600 6050 50  0001 C CNN
+F 2 "" H 8600 6200 50  0001 C CNN
+F 3 "" H 8600 6200 50  0001 C CNN
+	1    8600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0150
+U 1 1 5EEEEBF9
+P 6850 6100
+F 0 "#PWR0150" H 6850 5850 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 6850 5950 50  0001 C CNN
+F 2 "" H 6850 6100 50  0001 C CNN
+F 3 "" H 6850 6100 50  0001 C CNN
+	1    6850 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0151
+U 1 1 5EF11820
+P 6000 6100
+F 0 "#PWR0151" H 6000 5850 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 6000 5950 50  0001 C CNN
+F 2 "" H 6000 6100 50  0001 C CNN
+F 3 "" H 6000 6100 50  0001 C CNN
+	1    6000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0152
+U 1 1 5EF34475
+P 5350 5600
+F 0 "#PWR0152" H 5350 5350 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 5350 5450 50  0001 C CNN
+F 2 "" H 5350 5600 50  0001 C CNN
+F 3 "" H 5350 5600 50  0001 C CNN
+	1    5350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0153
+U 1 1 5EF570CA
+P 6000 4900
+F 0 "#PWR0153" H 6000 4650 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 6000 4750 50  0001 C CNN
+F 2 "" H 6000 4900 50  0001 C CNN
+F 3 "" H 6000 4900 50  0001 C CNN
+	1    6000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0154
+U 1 1 5EF79D1F
+P 6850 4600
+F 0 "#PWR0154" H 6850 4350 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 6850 4450 50  0001 C CNN
+F 2 "" H 6850 4600 50  0001 C CNN
+F 3 "" H 6850 4600 50  0001 C CNN
+	1    6850 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0155
+U 1 1 5EF9C8E6
+P 10000 4800
+F 0 "#PWR0155" H 10000 4550 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 10000 4650 50  0001 C CNN
+F 2 "" H 10000 4800 50  0001 C CNN
+F 3 "" H 10000 4800 50  0001 C CNN
+	1    10000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0156
+U 1 1 5EFBF3CB
+P 9600 4800
+F 0 "#PWR0156" H 9600 4550 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9600 4650 50  0001 C CNN
+F 2 "" H 9600 4800 50  0001 C CNN
+F 3 "" H 9600 4800 50  0001 C CNN
+	1    9600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0157
+U 1 1 5EFE21A7
+P 9100 4800
+F 0 "#PWR0157" H 9100 4550 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9100 4650 50  0001 C CNN
+F 2 "" H 9100 4800 50  0001 C CNN
+F 3 "" H 9100 4800 50  0001 C CNN
+	1    9100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0158
+U 1 1 5F004EF9
+P 8550 4650
+F 0 "#PWR0158" H 8550 4400 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 8550 4500 50  0001 C CNN
+F 2 "" H 8550 4650 50  0001 C CNN
+F 3 "" H 8550 4650 50  0001 C CNN
+	1    8550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0159
+U 1 1 5F027AEC
+P 9950 3700
+F 0 "#PWR0159" H 9950 3450 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9950 3550 50  0001 C CNN
+F 2 "" H 9950 3700 50  0001 C CNN
+F 3 "" H 9950 3700 50  0001 C CNN
+	1    9950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0160
+U 1 1 5F04A689
+P 9600 3700
+F 0 "#PWR0160" H 9600 3450 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9600 3550 50  0001 C CNN
+F 2 "" H 9600 3700 50  0001 C CNN
+F 3 "" H 9600 3700 50  0001 C CNN
+	1    9600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0161
+U 1 1 5F06D112
+P 9250 3700
+F 0 "#PWR0161" H 9250 3450 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9250 3550 50  0001 C CNN
+F 2 "" H 9250 3700 50  0001 C CNN
+F 3 "" H 9250 3700 50  0001 C CNN
+	1    9250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0162
+U 1 1 5F08FF22
+P 8750 3900
+F 0 "#PWR0162" H 8750 3650 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 8750 3750 50  0001 C CNN
+F 2 "" H 8750 3900 50  0001 C CNN
+F 3 "" H 8750 3900 50  0001 C CNN
+	1    8750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0163
+U 1 1 5F0B2AED
+P 8250 3750
+F 0 "#PWR0163" H 8250 3500 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 8250 3600 50  0001 C CNN
+F 2 "" H 8250 3750 50  0001 C CNN
+F 3 "" H 8250 3750 50  0001 C CNN
+	1    8250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0164
+U 1 1 5F0D57D2
+P 7900 3750
+F 0 "#PWR0164" H 7900 3500 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 7900 3600 50  0001 C CNN
+F 2 "" H 7900 3750 50  0001 C CNN
+F 3 "" H 7900 3750 50  0001 C CNN
+	1    7900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0165
+U 1 1 5F0F84B1
+P 7050 3750
+F 0 "#PWR0165" H 7050 3500 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 7050 3600 50  0001 C CNN
+F 2 "" H 7050 3750 50  0001 C CNN
+F 3 "" H 7050 3750 50  0001 C CNN
+	1    7050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0166
+U 1 1 5F11B093
+P 6750 3750
+F 0 "#PWR0166" H 6750 3500 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 6750 3600 50  0001 C CNN
+F 2 "" H 6750 3750 50  0001 C CNN
+F 3 "" H 6750 3750 50  0001 C CNN
+	1    6750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0167
+U 1 1 5F13E23A
+P 1300 6350
+F 0 "#PWR0167" H 1300 6100 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 1300 6200 50  0001 C CNN
+F 2 "" H 1300 6350 50  0001 C CNN
+F 3 "" H 1300 6350 50  0001 C CNN
+	1    1300 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0168
+U 1 1 5F160D7B
+P 1600 6350
+F 0 "#PWR0168" H 1600 6100 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 1600 6200 50  0001 C CNN
+F 2 "" H 1600 6350 50  0001 C CNN
+F 3 "" H 1600 6350 50  0001 C CNN
+	1    1600 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0169
+U 1 1 5F183B9C
+P 1250 4600
+F 0 "#PWR0169" H 1250 4350 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 1250 4450 50  0001 C CNN
+F 2 "" H 1250 4600 50  0001 C CNN
+F 3 "" H 1250 4600 50  0001 C CNN
+	1    1250 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0104
+U 1 1 5F1C9447
+P 6050 9800
+F 0 "#PWR0104" H 6050 9550 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 6050 9650 50  0001 C CNN
+F 2 "" H 6050 9800 50  0001 C CNN
+F 3 "" H 6050 9800 50  0001 C CNN
+	1    6050 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0170
+U 1 1 5F1EC201
+P 9250 3150
+F 0 "#PWR0170" H 9250 2900 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9250 3000 50  0001 C CNN
+F 2 "" H 9250 3150 50  0001 C CNN
+F 3 "" H 9250 3150 50  0001 C CNN
+	1    9250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0171
+U 1 1 5F20F084
+P 9600 3150
+F 0 "#PWR0171" H 9600 2900 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9600 3000 50  0001 C CNN
+F 2 "" H 9600 3150 50  0001 C CNN
+F 3 "" H 9600 3150 50  0001 C CNN
+	1    9600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_Board:Earth_w_GND-power #PWR0172
+U 1 1 5F231D4C
+P 9950 3150
+F 0 "#PWR0172" H 9950 2900 50  0001 C CNN
+F 1 "Earth_w_GND-power" H 9950 3000 50  0001 C CNN
+F 2 "" H 9950 3150 50  0001 C CNN
+F 3 "" H 9950 3150 50  0001 C CNN
+	1    9950 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
