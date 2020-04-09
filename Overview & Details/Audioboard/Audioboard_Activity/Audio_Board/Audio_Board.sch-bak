@@ -2129,7 +2129,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 2350 2650 2500
 $Comp
-L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import-Audio_Board-rescue U12
+L Audio_Board:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U12
 U 1 1 5C71A3AA
 P 12050 10350
 F 0 "U12" H 12100 10400 50  0001 C CNN
@@ -2140,7 +2140,7 @@ F 3 "" H 12050 10350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import-Audio_Board-rescue U11
+L Audio_Board:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U11
 U 1 1 5C71AFFE
 P 12050 10100
 F 0 "U11" H 12100 10150 50  0001 C CNN
@@ -2151,7 +2151,7 @@ F 3 "" H 12050 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import-Audio_Board-rescue U10
+L Audio_Board:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U10
 U 1 1 5C71B4B6
 P 12050 9850
 F 0 "U10" H 12100 9900 50  0001 C CNN
@@ -2162,7 +2162,7 @@ F 3 "" H 12050 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Audio_Board-rescue:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import-Audio_Board-rescue U9
+L Audio_Board:MOUNTINGHOLE2.5_THICK-Adafruit_VS1053_Breakout-eagle-import U9
 U 1 1 5C71B8C9
 P 12050 9600
 F 0 "U9" H 12100 9650 50  0001 C CNN

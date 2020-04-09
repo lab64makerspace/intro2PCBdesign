@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name PhoenixContact)(type KiCad)(uri "../PhoenixContact-Terminal Block")(options "")(descr "")(disabled))
+  (lib (name Audio_Board)(type KiCad)(uri ${KIPRJMOD}/Audio_Board.pretty)(options "")(descr ""))
 )
