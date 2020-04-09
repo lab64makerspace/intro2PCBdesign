@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP BS250FTA
-D P-Channel 45V 90mA (Ta) 330mW (Ta) Surface Mount SOT-23-3
-K P-Channel MOSFET
-$ENDCMP
-#
-#End Doc Library

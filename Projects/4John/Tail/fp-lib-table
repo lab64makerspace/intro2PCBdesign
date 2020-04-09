@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name jst)(type KiCad)(uri ${KIPRJMOD}/jst.pretty)(options "")(descr ""))
-  (lib (name motor12V)(type KiCad)(uri ${KIPRJMOD}/motor12V.pretty)(options "")(descr ""))
-)
