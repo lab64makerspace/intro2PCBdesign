@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Audio_Board-cache
 EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
@@ -34,9 +35,9 @@ U 1 1 5C569151
 P 15850 3050
 F 0 "J6" H 15930 3042 50  0000 L CNN
 F 1 "1017521" H 15700 2850 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:PhoenixContact_TermBlk_2P_SideEnt_6.35MM" H 15850 3050 50  0001 C CNN
+F 2 "" H 15850 3050 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1017523&library=usen&pcck=P-11-01-05&tab=1&selectedCategory=ALL" H 15850 3050 50  0001 C CNN
-F 4 "PCB Terminal Block, 4 Contact, TH" H 15850 3050 50  0001 C CNN "Description"
+F 4 "PCB Terminal Block, 2 Contact, TH" H 15850 3050 50  0001 C CNN "Description"
 F 5 "" H 15850 3050 50  0001 C CNN "Package"
 F 6 "1017521" H 15850 3050 50  0001 C CNN "Part Number"
 F 7 "Phoenix Contact" H 15850 3050 50  0001 C CNN "Manufacturer"
@@ -2469,7 +2470,7 @@ U 1 1 5D7CDFBA
 P 13550 1200
 F 0 "J5" V 13514 912 50  0000 R CNN
 F 1 "1017523" V 13423 912 50  0000 R CNN
-F 2 "TerminalBlock_Phoenix:PhoenixContact_TermBlk_4P_SideEnt_6.35MM" H 13550 1200 50  0001 C CNN
+F 2 "" H 13550 1200 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1017523&library=usen&pcck=P-11-01-05&tab=1&selectedCategory=ALL" H 13550 1200 50  0001 C CNN
 F 4 "PCB Terminal Block, 4 Position, Through Hole, Push-in Spring connection" V 13550 1200 50  0001 C CNN "Description"
 F 5 "n/a" V 13550 1200 50  0001 C CNN "Package"
@@ -2914,7 +2915,7 @@ U 1 1 5C5F9F70
 P 15850 5300
 F 0 "J7" H 15930 5292 50  0000 L CNN
 F 1 "1017521" H 15700 5100 50  0000 L CNN
-F 2 "TerminalBlock_Phoenix:PhoenixContact_TermBlk_2P_SideEnt_6.35MM" H 15850 5300 50  0001 C CNN
+F 2 "" H 15850 5300 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/online/portal/us/?uri=pxc-oc-itemdetail:pid=1017523&library=usen&pcck=P-11-01-05&tab=1&selectedCategory=ALL" H 15850 5300 50  0001 C CNN
 F 4 "PCB Terminal Block, 4 Contact, TH" H 15850 5300 50  0001 C CNN "Description"
 F 5 "" H 15850 5300 50  0001 C CNN "Package"
@@ -3684,7 +3685,7 @@ U 1 1 5FE2DB2F
 P 1950 8650
 F 0 "J2" H 1978 8626 50  0000 L CNN
 F 1 "01x10 pinout" H 1978 8535 50  0000 L CNN
-F 2 "" H 1950 8650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1950 8650 50  0001 C CNN
 F 3 "~" H 1950 8650 50  0001 C CNN
 	1    1950 8650
 	1    0    0    -1  
