@@ -18,7 +18,7 @@ Open the schematic.
 
 Select "Tools - Assign Footprints"
 
-Note that there are a couple of symbols that don't have footprints yet (J5/6/7 are blank!). Unfortunately there are no native Kicad footprints for Phoenix contacts so we will make our own. It's very common to find parts that you want to put on your PCB but most parts don't have premade footprints so you'll get really good at reading datasheets. We already made the 4-pin version for you but keep reading to learn how to make the 2-pin version. 
+Note that there are a couple of symbols that don't have footprints yet (J5/6/7 are blank!). J5/6/7 correspond to Phoenix contacts, but unfortunately there are no native Kicad footprints for Phoenix contacts, so we will make our own. It's very common to find parts that you want to put on your PCB but that don't come with a premade footprint. This means you'll have to make your own by reading the part's datasheet. We already made the 4-pin version of the Phoenix contact for you but keep reading to learn how to make the 2-pin version. 
 
 <img width="400" src="../../Audioboard/Images/datasheet.jpg">
 
@@ -28,7 +28,7 @@ Now, to start open the footprint editor using this button: <img width="50" src="
 
 Next click File -> New Footprint. It will prompt you for a name and you should put something appropriate, for example "PhoenixContact_TermBlk_2P_SideEnt_6.35MM". Next click on each of the two labels that appear in the center of the screen and type m. Now you can move your cursor to move them around and then click to place them out of the way. 
 
-Okay now to start the footprint we can look at the image above and plan it out. Because we want it to be centered on the origin, we will make the vertical part (labeled 20.75mm) go from -10.375 to 10.375 and then the horizontal part (labeled 13.5mm) will go from -6.75 to 6.75. To start click on the graphic line button and then click on each edge to create a box and finally double click to end. This is just a rough sketch but once youre done click on the arrow button again. Now click on the top line and press e to edit. Now we will define the top line as follows:
+To start the footprint, we can look at the image above and plan it out. Because we want it to be centered on the origin, we will make the vertical part (labeled 20.75mm) go from -10.375 to 10.375 and then the horizontal part (labeled 13.5mm) will go from -6.75 to 6.75. To start click on the graphic line button and then click on each edge to create a box and finally double click to end. This is just a rough sketch but once youre done click on the arrow button again. Now click on the top line and press e to edit. Now we will define the top line as follows:
 
 <img width="700" src="../../Audioboard/Images/top_line.jpg">
 
