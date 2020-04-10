@@ -55,4 +55,4 @@ Convert the object you have created into a path. Select the rectangle, then go t
 
 Save your design as a dxf. Go to File -> Save as and select the DXF file type. The following options will succesfully get your outline into KiCAD, but feel free to explore the proposed options. 
 
-<img width="400" src="../../Week_1/Images/Inkscape5.png">
+<img width="400" src="../../Protoboard/Images/Inkscape5.png">
