@@ -1,0 +1,7 @@
+Type in the following commands to update the public GitHub repository with whatever is on the branch you are on. 
+These steps assume you've git pull'd this GitLab repo recently enough so that this GitLab repo reflects the current edition of the GitHub repo.
+
+1. git remote add public https://github.com/lab64makerspace/intro2PCBdesign.git -- adds the link to the GitHub under the alias 'public'
+2. git push public master -- pushes the GitLab 'master' branch to 'public', i.e. the intro2PCBdesign GitHub repo
+
+Hopefully that worked
