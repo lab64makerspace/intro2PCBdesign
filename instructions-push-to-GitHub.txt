@@ -1,4 +1,4 @@
-Type in the following commands to update the public GitHub repository with whatever is on the branch you are on. 
+Type in the following commands to update the public GitHub repository with whatever is on the branch you are on; in other words, all of the work you've done on this branch (which might be more than you want to make public) will become visible on the GitHub. 
 These steps assume you've git pull'd this GitLab repo recently enough so that this GitLab repo reflects the current edition of the GitHub repo.
 
 1. git remote add public https://github.com/lab64makerspace/intro2PCBdesign.git -- adds the link to the GitHub under the alias 'public'
