@@ -41,9 +41,12 @@ Discussion....
 
 ## Instructions 
 #### 1) Open a CAD program <br/>
-Make a sketch of a board outline (for example a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You can find more detailed instructions on how to do this on [this page](../../../Week_1/Week_1_Activity/Board_Outline_Instructions.md).
+Choose your favorite **C**omputer **A**ided **D**esign tool. If you don't have one, consider: [Solidworks](https://library.stanford.edu/englib/using-terman/computers-equipment-software/solidworks), [Onshape](https://www.onshape.com/education-plan), or [Inkscape](https://inkscape.org/release/inkscape-0.92.4/). Make a sketch of a board outline (a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You can find more detailed instructions on how to do this on [this page](../../../Protoboard/Protoboard_Activity/Board_Outline_Instructions.md). You may use our sample DXF file found [here](../../../Protoboard/Protoboard_Activity/Project_1) if you wish. If you want to learn how to use a *custom* board outline then check out [this guide](custom-board-outline-guide.md).
 
-You may use our sample DXF file found [here](./activity_1_outline.dxf) if you wish. 
+
+**Why use a CAD program to make a board outline?**
+We encourage you to make your board outline in a CAD program instead of directly in KiCAD because CAD programs make it easier for you to dimension your sketch geometry and define curves. This also helps you avoid the constraints imposed by KiCAD's grid that makes it challenging to define more complex shapes that don't snap to grid points. Additionally, working with a CAD program allows you to design your outline with reference to the CAD models of other parts of your system (e.g. the box your board may sit in) to ensure proper mechanical integration of all your hardware. 
+
 
 #### 2) Open the Activity 1 Schematic <br/>
 Open Activity_1.pro in KiCad (found [here](Activity_1.pro)).
