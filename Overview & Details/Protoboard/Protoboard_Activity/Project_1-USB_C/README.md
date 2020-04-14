@@ -154,10 +154,10 @@ Select "Run DRC." Make sure your board passes this test by having 0 problems. <b
 Select "Plot" to generate the gerber files. <br/> 
 Select "Generate Drill Files" to generate the drill files. <br/> 
 Locate these newly generated files on your computer, and open them with Gerbview to check that everything looks good. 
-Zip your files and send them to Steve. 
-You're done with activity 1!
+You're done with the protoboard activity!
 
-
+#### 12) Submit your files so we can order your board!
+Once you've generated gerber files, zip your files and upload your board files to our workshop [google drive](https://drive.google.com/open?id=13aihW4muVBcD2FowuLPLqWqLCCmaQ_uM) and include a text file with your name and the address you'd like us to send it to.
 
 
 -------------------------------------
