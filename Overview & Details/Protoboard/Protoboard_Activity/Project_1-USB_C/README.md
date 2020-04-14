@@ -23,7 +23,7 @@ Although these are super cool, for some projects they can be very difficult to u
 **SO**, you are going to fix these deficiencies by creating your OWN "1/2" sized protoboard!!
 
 Let's look at a couple of existing "1/2 sized" protoboards... <br/>
-<img width="500" src="../../../Week_1/Images/Half-sized Protos Orig.jpg">
+<img width="500" src="../../../Protoboard/Images/Half-sized Protos Orig.jpg">
 
 What do you notice?
 
@@ -40,14 +40,14 @@ Discussion....
 
 ## Instructions 
 #### 1) Open a CAD program <br/>
-Make a sketch of a board outline (for example a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You can find more detailed instructions on how to do this on [this page](../../../Week_1/Week_1_Activity/Board_Outline_Instructions.md).
+Make a sketch of a board outline (for example a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You can find more detailed instructions on how to do this on [this page](../../../Protoboard/Protoboard_Activity/Board_Outline_Instructions.md).
 
-You may use our sample DXF file found [here](../../../Week_1/Week_1_Activity/Project_1-USB_C) if you wish. 
+You may use our sample DXF file found [here](../../../Protoboard/Protoboard_Activity/Project_1-USB_C) if you wish. 
 
 **Why use a CAD program to make a board outline?** We encourage you to make your board outline in a CAD program instead of directly in KiCAD because CAD programs make it easier for you to dimension your sketch geometry and define curves. This also helps you avoid the constraints imposed by KiCAD's grid that makes it challenging to define more complex shapes that don't snap to grid points. Additionally, working with a CAD program allows you to design your outline with reference to the CAD models of other parts of your system (e.g. the box your board may sit in) to ensure proper mechanical integration of all your hardware.
 
 #### 2) Open the Activity 1 Schematic <br/>
-Open Activity_1.pro in KiCad (found [here](../../../Week_1/Week_1_Activity/Project_1-USB_C)).
+Open Activity_1.pro in KiCad (found [here](../../../Protoboard/Protoboard_Activity/Project_1-USB_C)).
 Then select Activity_1.sch from the project.
 
 #### 3) Add the following connections <br/>
@@ -70,7 +70,7 @@ To add a wire, press W.
 
 To move a wire, hover over the wire and press G.
 
-<img width="700" src="../../../Week_1/Images/Activity1_23.png">
+<img width="700" src="../../../Protoboard/Images/Activity1_23.png">
 
 #### 4) Annotate the schematic. 
 Go to Tools -- Annotate Schematic Symbols. This will give all lines and components names. <br/>
@@ -78,73 +78,73 @@ Add a “+5” label to the wire connected to VBUS. Hover over the wire, and pre
 
 #### 5) Import the USB connector footprint 
 Open the footprint editor in the Pcbnew software. <br/>
-<img width="350" src="../../../Week_1/Images/Activity1_12.png">
+<img width="350" src="../../../Protoboard/Images/Activity1_12.png">
 
 Go to File -- New Library... <br/>
 Make sure you are in your project folder and that the name of the library is the same as the name of the project. The next prompt should ask which library table you'd like to add to. Be sure to select Project. <br/>
-<img width="350" src="../../../Week_1/Images/Activity1_24.png">
+<img width="350" src="../../../Protoboard/Images/Activity1_24.png">
 
 Go to File -- Import Footprint from KiCad File... <br/>
-Use the kicad_mod [file](../../../Week_1/Week_1_Activity/Project_1-USB_C/USB_C/USB_C_Receptacle_XKB_U262-161N-4BVC11.kicad_mod) located in the [USB_C folder](../../../Week_1/Week_1_Activity/Project_1-USB_C/USB_C) to get the correct USB connector footprint.. Ctrl + S to save the footprint and select the library you created (same name as the project). It should now appear in your footprint library. <br/>
+Use the kicad_mod [file](../../../Protoboard/Protoboard_Activity/Project_1-USB_C/USB_C/USB_C_Receptacle_XKB_U262-161N-4BVC11.kicad_mod) located in the [USB_C folder](../../../Protoboard/Protoboard_Activity/Project_1-USB_C/USB_C) to get the correct USB connector footprint.. Ctrl + S to save the footprint and select the library you created (same name as the project). It should now appear in your footprint library. <br/>
 
 If this doesn't work for you, you can also import the footprint by selecting "Preferences - Manage Footprint Libraries" and select the "plus" button to add the connector. 
 
 #### 6) Link the footprints to the symbols 
 Symbols are the components on schematics, while footprints are where components get placed onto the board. At this time, the footprint and schematic are still not linked. <br/>
 Hover over the USB connector symbol (remember that symbols are in *schematics*) and press E to get access to symbol properties. Select the button (shaped liked library books) on the far right of the footprint field to open up the footprint library. <br/>
-<img width="700" src="../../../Week_1/Images/symbol-footprint-link.png"> <br/>
+<img width="700" src="../../../Protoboard/Images/symbol-footprint-link.png"> <br/>
 Select “USB_C_Receptacle_XKB_U262-161N-4BVC11” as shown below. 
 
-<img width="700" src="../../../Week_1/Images/Activity1_25.png">
+<img width="700" src="../../../Protoboard/Images/Activity1_25.png">
 
 Repeat this process for the pin header connector. For this component, select “PinHeader_1x04_P2.54mm_Vertical”. Note that in the footprint of this connector, pin 1 is square. This is useful to avoid getting confused when orienting the connector.  
 
-<img width="700" src="../../../Week_1/Images/Activity1_2.png">
+<img width="700" src="../../../Protoboard/Images/Activity1_2.png">
 
 Repeat this process for the mounting holes. For these components, select "MountingHole_2.5mm". 
-<img width="700" src="../../../Week_1/Images/Activity1_17.png">
+<img width="700" src="../../../Protoboard/Images/Activity1_17.png">
 
 #### 7) Modify the USB connector footprint
 Open the footprint editor. <br/> 
 Select the “USB_C_Receptacle_XKB_U262-161N-4BVC11” and right click on it. Select "Edit Footprint." Hover over the holes labeled "SH" and press E. Change the "SH" label to "6." <br/>
 
-<img width="500" src="../../../Week_1/Images/Activity1_22.png">
+<img width="500" src="../../../Protoboard/Images/Activity1_22.png">
 
 #### 8) Add the board outline 
 Open the project .kicad_pcb file. One way this can be done is by clicking on the button shown below. 
 
-<img width="350" src="../../../Week_1/Images/Activity1_3.png">
+<img width="350" src="../../../Protoboard/Images/Activity1_3.png">
 
 Go to File -- Import -- Import graphics 
 
 Select your DXF and the following parameters. <br/>
-<img width="500" src="../../../Week_1/Images/Activity1_7.png">
+<img width="500" src="../../../Protoboard/Images/Activity1_7.png">
 
 #### 9) Add vias to the board 
 
 Add a via by selecting the add via button. <br/>
-<img width="350" src="../../../Week_1/Images/Activity1_8.png">
+<img width="350" src="../../../Protoboard/Images/Activity1_8.png">
 
 Change the via properties (hover over the via and press E) to the following diameter and drill sizes: 
-<img width="350" src="../../../Week_1/Images/Activity1_20.png">
+<img width="350" src="../../../Protoboard/Images/Activity1_20.png">
 
 Create an array from this via by right clicking on the via and select "Create Array". Note that the standard distance between vias is 2.54mm. <br/>  
-<img width="350" src="../../../Week_1/Images/Activity1_9.png">
+<img width="350" src="../../../Protoboard/Images/Activity1_9.png">
 
 Here is what a sample board might look like now. <br/>
-<img width="700" src="../../../Week_1/Images/Activity1_26.png">
+<img width="700" src="../../../Protoboard/Images/Activity1_26.png">
 
 #### 10) Add routes 
 Add route tracks by clicking the following button. <br/>
-<img width="350" src="../../../Week_1/Images/Activity1_14%20.png">
+<img width="350" src="../../../Protoboard/Images/Activity1_14%20.png">
 
 Hover over the route and press E to change the route properties. Set the track width to 0.635mm and select whether you want the track to be on the top (red) or bottom (green) of the board. 
 
 Add routes to the USB connector as follows. Note that you must place the routes on top of the board in order to make an electrical connection with the USB connector. If you place the routes properly, the white x's will disappear. <br/>
-<img width="350" src="../../../Week_1/Images/Activity1_27.png">
+<img width="350" src="../../../Protoboard/Images/Activity1_27.png">
 
 Add routes to the power rail lines (if you want to add power rail lines). <br/>
-<img width="350" src="../../../Week_1/Images/Activity1_21.png">
+<img width="350" src="../../../Protoboard/Images/Activity1_21.png">
 
 
 #### 11) Generate Gerber Files 
