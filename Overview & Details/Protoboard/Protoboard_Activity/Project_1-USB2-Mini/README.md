@@ -41,9 +41,12 @@ Discussion....
 
 ## Instructions 
 #### 1) Open a CAD program <br/>
-Make a sketch of a board outline (for example a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You can find more detailed instructions on how to do this on [this page](../../../Week_1/Week_1_Activity/Board_Outline_Instructions.md).
+Choose your favorite **C**omputer **A**ided **D**esign tool. If you don't have one, consider: [Solidworks](https://library.stanford.edu/englib/using-terman/computers-equipment-software/solidworks), [Onshape](https://www.onshape.com/education-plan), or [Inkscape](https://inkscape.org/release/inkscape-0.92.4/). Make a sketch of a board outline (a 60 mm x 80 mm rectangle). Fillet the corners of the sketch. Export the sketch as a DXF. You can find more detailed instructions on how to do this on [this page](../../../Protoboard/Protoboard_Activity/Board_Outline_Instructions.md). You may use our sample DXF file found [here](../../../Protoboard/Protoboard_Activity/Project_1) if you wish. If you want to learn how to use a *custom* board outline then check out [this guide](custom-board-outline-guide.md).
 
-You may use our sample DXF file found [here](./activity_1_outline.dxf) if you wish. 
+
+**Why use a CAD program to make a board outline?**
+We encourage you to make your board outline in a CAD program instead of directly in KiCAD because CAD programs make it easier for you to dimension your sketch geometry and define curves. This also helps you avoid the constraints imposed by KiCAD's grid that makes it challenging to define more complex shapes that don't snap to grid points. Additionally, working with a CAD program allows you to design your outline with reference to the CAD models of other parts of your system (e.g. the box your board may sit in) to ensure proper mechanical integration of all your hardware. 
+
 
 #### 2) Open the Activity 1 Schematic <br/>
 Open Activity_1.pro in KiCad (found [here](Activity_1.pro)).
@@ -148,13 +151,15 @@ Select "Run DRC." Make sure your board passes this test by having 0 problems. <b
 Select "Plot" to generate the gerber files. <br/> 
 Select "Generate Drill Files" to generate the drill files. <br/> 
 Locate these newly generated files on your computer, and open them with Gerbview to check that everything looks good. 
-Zip your files and send them to Steve. 
-You're done with activity 1!
+You're done with the protoboard activity!
 
-
+#### 12) Submit your files so we can order your board!
+Once you've generated gerber files, zip your files and upload your board files to our workshop [google drive](https://drive.google.com/open?id=13aihW4muVBcD2FowuLPLqWqLCCmaQ_uM) and include a text file with your name and the address you'd like us to send it to.
 
 
 -------------------------------------
+*Although we have given you the dimensions for your board, it's important to think about how your board fits into the device you're making and to make modifications accordingly. Here is a brief overview of what that process might look like:*  
+
 OK, so now what is our approach?
 
 Let's think about this!!
@@ -191,38 +196,3 @@ It does!! Yay!!
 OK, let's place the order.
 
 Wow! That was super cool! I can't wait to see it and solder things up.
-
-## Discussion Questions 
-**Why are we building boards in this workshop?**<br/>
-We want to make more than one board, in a reliable manner. 
-
-**Can boards have sharp edges?**<br/> 
-Boards can have outside corners that are sharp, but inside edges cannot be perfectly sharp because of tool geometry. Therefore, remember to include a radius in the internal corners of your design. 
-
-**Can you make just one PCB?**<br/> 
-No, manufacturers make panels of multiple PCBs. 
-
-**How many layers can a PCB have?**<br/>
-You can have as many layers as you want to pay for, but the number of layers must be an even number (with the exception of one layer boards). 
-
-**What is a core?**<br/>
-The core is one of the fundamental building blocks of circuit boards. It’s composed of two copper layers with an insulating layer (prepreg) sandwiched in between.
-
-**What is prepreg?**<br/> 
-Prepreg is an insulating material placed between two copper layers in a core. 
-
-**What is the role of foil? Why does it look like?**<br/>
-The foil is the outer layer of the PCB. It has one shiny side, and one dull side. 
-
-**Why are blind/buried vias more expensive?**<br/> 
-Bind via is a hole that connects the outer layer to one of the inner layers, but does not go through the entire board. A buried via is a hole that connects inner layers but does not connect to an outer layer. Buried/blind vias are more expensive because they require more steps to make. Only use blind/buried vias after having confirmed with a manufacturer that the via is necessary for your application. 
-
-**Can planes come out to the edges of the board?**<br/>
-No, planes should be pulled back in from the edge of the board about ten thousandths of an inch to prevent the router from potentially shorting layers together. 
-
-**If a drill size is specified in CAD files, will the holes in the board be that size?**<br/> 
-The manufacturing company will drill the hole to the specified size, but the hole will get smaller during the plating process. Therefore, you should tell the manufacturing company what plating you want and what finished hole size you want. 
-
-**Why is the annular ring ideas so important?**<br/> 
-The annular ring represents a tolerance stack up. Because holes may not be drilled exactly where we intended them to, the hole and its corresponding pad may be too far from each other and cause a faulty circuit.  
-
