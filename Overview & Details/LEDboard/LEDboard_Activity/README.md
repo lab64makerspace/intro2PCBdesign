@@ -18,7 +18,11 @@ How many fiducials do you need?
 * You should use three fiducials. The first tells the machine where the x,y coordinates of a corner is, while the second tells the machine what the board orientation is. The third can help the machine account for any shrinkage or stretch in the PCB. This  warping can happen after one side of the board is reflowed. Do not add more than three fiducials, as it risks confusing the machine and takes up unnecessary space. 
 
 **Steps to add fiducials to your board** 
+
+
 Open up your schematic and add two fiducial symbols. To do this, go to "Place" -> "Symbol". Click where you want to add it to the schematic (on the bottom, near the mounting holes is a good spot) and the symbol library will open up. Select fiducial marker as shown below. 
+
+<img width="350" src="../../LEDboard/Images/FiducialSymbol.png">
 
 
 Annotate the fiducials by going to "Tools" - "Annotate Schematic" and press Ok. 
