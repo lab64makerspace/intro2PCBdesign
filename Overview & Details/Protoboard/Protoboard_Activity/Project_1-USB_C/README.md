@@ -102,13 +102,8 @@ Repeat this process for the pin header connector. For this component, select “
 Repeat this process for the mounting holes. For these components, select "MountingHole_2.5mm". 
 <img width="700" src="../../../Protoboard/Images/Activity1_17.png">
 
-#### 7) Modify the USB connector footprint
-Open the footprint editor. <br/> 
-Select the “USB_C_Receptacle_XKB_U262-161N-4BVC11” and right click on it. Select "Edit Footprint." Hover over the holes labeled "SH" and press E. Change the "SH" label to "6." <br/>
 
-<img width="500" src="../../../Protoboard/Images/Activity1_22.png">
-
-#### 8) Add the board outline 
+#### 7) Add the board outline 
 Open the project .kicad_pcb file. One way this can be done is by clicking on the button shown below. 
 
 <img width="350" src="../../../Protoboard/Images/Activity1_3.png">
@@ -118,7 +113,7 @@ Go to File -- Import -- Import graphics
 Select your DXF and the following parameters. <br/>
 <img width="500" src="../../../Protoboard/Images/Activity1_7.png">
 
-#### 9) Add vias to the board 
+#### 8) Add vias to the board 
 
 Add a via by selecting the add via button. <br/>
 <img width="350" src="../../../Protoboard/Images/Activity1_8.png">
@@ -132,7 +127,7 @@ Create an array from this via by right clicking on the via and select "Create Ar
 Here is what a sample board might look like now. <br/>
 <img width="700" src="../../../Protoboard/Images/Activity1_26.png">
 
-#### 10) Add routes 
+#### 9) Add routes 
 Add route tracks by clicking the following button. <br/>
 <img width="350" src="../../../Protoboard/Images/Activity1_14%20.png">
 
@@ -145,7 +140,7 @@ Add routes to the power rail lines (if you want to add power rail lines). <br/>
 <img width="350" src="../../../Protoboard/Images/Activity1_21.png">
 
 
-#### 11) Generate Gerber Files 
+#### 10) Generate Gerber Files 
 Select File -- Plot <br/> 
 Select an appropriate Output directory Folder. <br/>
 Select "Run DRC." Make sure your board passes this test by having 0 problems. <br/>
@@ -154,7 +149,7 @@ Select "Generate Drill Files" to generate the drill files. <br/>
 Locate these newly generated files on your computer, and open them with Gerbview to check that everything looks good. 
 You're done with the protoboard activity!
 
-#### 12) Submit your files so we can order your board!
+#### 11) Submit your files so we can order your board!
 Once you've generated gerber files, zip your files and upload your board files to our workshop [google drive](https://drive.google.com/open?id=13aihW4muVBcD2FowuLPLqWqLCCmaQ_uM) and include a text file with your name and the address you'd like us to send it to.
 
 
