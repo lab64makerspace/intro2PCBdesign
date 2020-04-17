@@ -9,7 +9,6 @@ The main goals for this week are:
 The Activity material may be found [HERE](../LEDboard/LEDboard_Activity).
 
 ### For the Content -
-* Learn TODO <br/>
-* See what it takes to integrate multiple components to make something!
+* Learn about thermal management <br/>
 
 These questions are (hopefully) answered in this week's [*Content*](../LEDboard/LEDboard_Content) section.
