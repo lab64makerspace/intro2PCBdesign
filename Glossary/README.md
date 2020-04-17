@@ -392,6 +392,11 @@
 
 ![](https://blog.optimumdesign.com/hs-fs/hubfs/Transmission%20Lines%20p3.png?width=640&name=Transmission%20Lines%20p3.png)
  </details>
+<details>
+ <summary>Mil(s)</summary>
+
+> 1 mil = 0.001 in. Talking in terms of mils makes conversation easier since many PCB elements are small.
+</details>
 
  <details>
     <summary>Mounting Holes</summary>
