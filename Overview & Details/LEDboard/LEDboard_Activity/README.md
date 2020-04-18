@@ -23,7 +23,9 @@ This is what your final schematic should look like:
  <summary>What is a via?</summary>
  
 > A via is a hole in a PCB that allows current to pass from one layer to another. Vias can either be tented, meaning that they are covered by the soldermask so nothing can be soldered to them, or untented, meaning that we can solder a component to it. 
-One reason to add vias is to facilitate routing between components by avoiding intersections between traces by routing some through a different layer. Another reason is to use them as "thermal vias" to transfer heat away from components on the board. 
+One reason to add vias is to facilitate routing between components by avoiding intersections between traces by routing some through a different layer. Another reason is to use them as "thermal vias" to transfer heat away from components on the board.
+
+
 ![](https://www.ourpcb.com/wp-content/uploads/2018/06/PCB-via-size2-1.png)
 </details>
 
@@ -41,7 +43,7 @@ TODO
 
 
 <details>
- <summary>More on adding thermal relief to PCB</summary>
+ <summary>More on adding thermal relief to a PCB</summary>
  
 > First, note that adding lots of thermal vias to your PCB does not guarantee that your components won't overheat. You should read the datasheet of your components to determine how hot your components might get and how much thermal relief is necessary. You should also be aware that vias that are only thinly plated with copper will not provide as much heat transfer as vias that are filled with copper, but filling vias with copper is more expensive. In addition the more vias you add to your board, the higher the cost of the board will be. 
 
