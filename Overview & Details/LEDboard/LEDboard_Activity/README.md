@@ -1,7 +1,16 @@
 # LED board Activity
 
+#### Introduction: What is the purpose of this board? 
+
 
 #### Step X: Make the schematic 
+
+This is what your final schematic should look like: 
+
+<img width="750" src="../../LEDboard/Images/Schematic.png">
+
+
+**What is the ERC box in the bottom corner?**
 
 
 ### Step X: Add Fiducials 
@@ -9,9 +18,10 @@
 <details>
     <summary markdown="span">What are fiducials and why do we need them?</summary>
  
-> A fiducial is a mark on the top (and bottom if the pcb has 2 layers) copper layer that is used by the vision system of a pick and place machine to recognize where the pcb is. When using a pick and place machine to build a board, fiducials are necessary on each side that has SMT (surface-mount technology) components. 
+> A fiducial is a mark on the top (and bottom if the pcb has 2 layers) copper layer that is used by the vision system of a pick and place machine to recognize where the copper components on a PCB are. When using a pick and place machine to build a board, fiducials are necessary on each side that has SMT (surface-mount technology) components. 
 
 ![](https://www.ladyada.net/wiki/_media/mdcpickandplace/corners.jpg?cache=) 
+
 (Image Souce: LadyAda)
 </details>
 
@@ -51,7 +61,17 @@ One reason to add vias is to facilitate routing between components by avoiding i
 ![](https://www.ourpcb.com/wp-content/uploads/2018/06/PCB-via-size2-1.png)
 </details>
 
+**Steps to add vias to connect the ground pads to the bottom layer ground plane**
+
 For our project, we will use vias as "thermal vias." We will fill the back layer of the board with copper and set this as a ground plane. We'll create vias that connect the ground pins of the LEDs on the top layer to this large copper pour. The back layer will act as a heat sink and its large surface area will increase heat transfer via convection. 
+
+Place a via next to every ground pad of an LED that cannot be routed to a larger ground trace. There should be one of these per LED footprint, as shown in the bottom left corner of the image below. 
+
+<img width="350" src="../../LEDboard/Images/Vias.png">
+
+Next add vias to connect the top large ground traces to the bottom layer. 
+
+TODO
 
 
 <details>
@@ -63,6 +83,8 @@ For our project, we will use vias as "thermal vias." We will fill the back layer
 
 Here is a visual description of the structure of a MCPCB
 > <img width="700" src="../../LEDboard/Images/MCPCB.png">
+
+(Image credit: PCB Unlimited)
 
 > For our project, using an aluminum substrate would have been a good way of providing thermal relief to the LEDs on our board, but the cost increases by 5x, so we've decided to use thermal vias instead. 
 
