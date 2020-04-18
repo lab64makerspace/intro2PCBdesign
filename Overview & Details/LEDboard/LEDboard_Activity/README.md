@@ -1,9 +1,12 @@
 # LED board Activity
 
 #### Introduction: What is the purpose of this board? 
+This week, we'll be designing a board to drive 48 LEDs. These LEDs will illuminate an acrylic tower on top of our UberRadio, as shown in the image below. Unlike this sample tower which glued LED strips to each piece of acrylic, we will directly place our PCB along a side of the tower. This means the spacing between the LEDs on our board needs to be set according to the dimensions of the tower. We've already designed the CAD and figured out the spacing for you and we've written a python script that will automatically lay out the LED footprints according to these dimensions (this is one of the advantages of using a tool like KiCAD and we've provided more details in the instructions that follow). 
+
+<img width="150" src="../../LEDboard/Images/LED_tower.png">
 
 
-#### Step X: Make the schematic 
+#### Step 1: Make the schematic 
 
 This is what your final schematic should look like: 
 
