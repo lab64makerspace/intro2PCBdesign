@@ -8,7 +8,14 @@ This week, we'll be designing a board to drive 48 LEDs. These LEDs will illumina
 
 ### Step 1: Make the schematic 
 
-This is what your final schematic should look like: 
+We've provided the first LED symbol of the schematic for you, but you'll need to make the rest of the schematic. This should be quick as you can copy paste items, but try to do some of the items below without copy pasting to get some practice: 
+* Add an LED symbol by using "Shift - A" or go to "Place - Symobl". Go to the LED library and select the "APA102-2020" symbol.
+* Assign the following footprint "LED-APA102-2020" in the "LED_SMD" library to the LED symbols.  
+* Add text to your schematic to make it clearer. To add text, use "Shift - T" or go to "Place - Graphic Text." 
+* Add no connects (“Place no connection flag” in the toolbar on the right) to pins 2 and 3 of the D48 and add "n/c" in graphic text next to both pins to increase readability. 
+* Annotate the schematic by going to "Tools - Annotate Schematic"
+
+This is what your final schematic should look like (don't worry about the fiducials for now, as we will cover them in a later step): 
 
 <img width="750" src="../../LEDboard/Images/Schematic.png">
 
@@ -18,6 +25,10 @@ This is what your final schematic should look like:
 If you delete this box and run the ERC (Electrical Rules Checker - on the top toolbar and has the bug logo), you'll notice that it complains with the error "Pin connected to other pins, but not driven by any pin." This occurs because KiCAD cannot find a component in the schematic that is the power output that will supply power to the LED's 5V pins. 
 
 To see this more clearly, select pin 1 (VDD) of an LED symbol, and notice that its type (this is visible in the gray bar at the bottom of the window) is "power input." Its power will come from pin 4 of the J1 connector. However, if you select pin 4 of the J1 connector, its type is only passive because it's a generic connector. Therefore, we need to introduce a power flag to tell the ERC that a pin that isn't a power output is the source of power. We will talk more about the ERC with later boards. 
+
+### Step X: Layout the components 
+
+TODO 
 
  
  ### Step X: Add vias 
@@ -103,5 +114,17 @@ Finally, attach a footprint to the fiducial symbols by selecting the symbol and 
 
 Next, open the board in Pcbnew and select the "Update pcb from schematic" button in the top toolbar (next to the little bug). Your fiducial footprints should appear. Place them as far away as possible from each other on the board. 
 
+### Step X: Generate Gerber files 
+
+Select File -- Plot
+Select an appropriate Output directory Folder.
+Select "Run DRC." Make sure your board passes this test by having 0 problems.
+Select "Plot" to generate the gerber files.
+Select "Generate Drill Files" to generate the drill files.
+Locate these newly generated files on your computer, and open them with Gerbview to check that everything looks good. You're done with the protoboard activity!
+
+### Step X: Submit your files so we can order your board!
+
+Once you've generated gerber files, zip your files and upload your board files to our workshop google drive and include a text file with your name and the address you'd like us to send it to.
 
  
