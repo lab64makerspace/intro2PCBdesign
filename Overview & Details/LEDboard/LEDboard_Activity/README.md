@@ -31,18 +31,30 @@ To see this more clearly, select pin 1 (VDD) of an LED symbol, and notice that i
 
 Now that our schematic is done, we'll move on to layout. Update the PCB from the schematic (Tools -> Update PCB from Schematic) and open the PCB Layout Editor.
 
-Import LED_Board_Outline.dxf into the layout editor as well.
+Import [LED_Board_Outline.dxf](./LED_Board_Outline.dxf) into the layout editor as well.
 
 #### Arranging the LEDs
 
-As described in the introduction, the LEDs will be arranged in a grid to backlight a tower of acrylic pieces. The spacing between rows is specified by the acrylic tower dimensions, and the spacing between LEDs within a row should be even to get a good lighting effect. It would be quite tedious to calculate and move each of the 48 LEDs into position manually. Luckily, KiCad offers Python scripting to automate tasks like this! We have included a Python script for you called `led_layout.py` (you can also write your own; see below for help getting started). The script selects the 48 LEDs and positions and orients them into a grid.
+As described in the introduction, the LEDs will be arranged in a grid to backlight a tower of acrylic pieces. The spacing between rows is specified by the acrylic tower dimensions, and the spacing between LEDs within a row should be even to get a good lighting effect. It would be quite tedious to calculate and move each of the 48 LEDs into position manually. Luckily, KiCad offers Python scripting to automate tasks like this! We have included a Python script for you called [led_layout.py](./led_layout.py) (you can also write your own; see below for help getting started). The script selects the 48 LEDs and positions and orients them into a grid.
 
-Go to "Tools -> Scripting Console" to open the KiCad Python shell. You can interact with this like any other Python shell. [TODO more intro?]
+Go to "Tools -> Scripting Console" to open the KiCad Python shell. You can interact with this like any other Python shell.
+
+<details>
+<summary><b>Basic KiCad Python scripting</b></summary>
+Here are some basic commands you can run in the shell to get a feel for KiCad scripting.
+
+1. Type `import pcbnew` into the shell. This gives us access to KiCad libary functions.
+2. Type `pcb = GetBoard()`. We can now use `pcb` to interact with components in the layout editor.
+	a. If you type `pcb.` into the shell, you will get a list of available function calls.
+3. Type `led = pcb.FindModuleByReference("D1")`. This lets us access a component in the layout editor, specified by the annotation string. 
+	a. Type `led.` to get a list of available function calls. Experiment with `GetPosition` and `SetPosition`.
+</details>
 
 There are two ways of running the Python script:
 
-1. Execute the file directly: `execfile("ABSOLUTE_PATH_TO/led_layout.py")`
+1. Execute the file directly. In the shell, type: `execfile("ABSOLUTE_PATH_TO/led_layout.py")`.
 2. Add the file to your Python system path and import the file.
+
 	a. In the shell, type the following:
 	```
 	import sys
@@ -52,9 +64,10 @@ There are two ways of running the Python script:
 	c. If you modify the file, type `reload(led_layout)` in the shell.
 
 Your LEDs should look like this (in the screenshot we've hidden the ratsnest and the front copper layer):
-<img width="350" src="../../LEDboard/Images/LEDLayout.png">
+<img width="500" src="../../LEDboard/Images/LEDLayout.png">
 
-#### Writing your own Python script
+<details>
+<summary><b>Writing your own Python script</b></summary>
 You are welcome to write your own Python script too! All KiCad-related functions are found in the `pcbnew` library.
 
 Some resources to get started:
@@ -64,10 +77,11 @@ Some resources to get started:
 * [Pcbnew Python documentation](https://docs.kicad-pcb.org/doxygen-python/namespaces.html)
 
 Note that the LEDs form a snaking pattern to minimize the length of the traces between them. 
-<img width="350" src="../../LEDboard/Images/LEDSnake.png">
+<img width="500" src="../../LEDboard/Images/LEDSnake.png">
 
 * You will need to change the LED orientations every other row because we want the +5V/GND of LEDs in adjacent rows facing each other.
 * The LED numbering order should reverse every other row.
+</details>
 
 ### Step X: Add vias 
  
