@@ -13,7 +13,11 @@ This is what your final schematic should look like:
 <img width="750" src="../../LEDboard/Images/Schematic.png">
 
 
-**What is the ERC box in the bottom corner?**
+**What is the ERC box in the bottom right corner?**
+
+If you delete this box and run the ERC (Electrical Rules Checker - on the top toolbar and has the bug logo), you'll notice that it complains with the error "Pin connected to other pins, but not driven by any pin." This occurs because KiCAD cannot find a component in the schematic that is the power output that will supply power to the LED's 5V pins. 
+
+To see this more clearly, select pin 1 (VDD) of an LED symbol, and notice that its type (this is visible in the gray bar at the bottom of the window) is "power input." Its power will come from pin 4 of the J1 connector. However, if you select pin 4 of the J1 connector, its type is only passive because it's a generic connector. Therefore, we need to introduce a power flag to tell the ERC that a pin that isn't a power output is the source of power. We will talk more about the ERC with later boards. 
 
  
  ### Step X: Add vias 
