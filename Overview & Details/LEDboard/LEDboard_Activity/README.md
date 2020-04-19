@@ -11,9 +11,10 @@ This week, we'll be designing a board to drive 48 LEDs. These LEDs will illumina
 We've provided the first LED symbol of the schematic for you, but you'll need to make the rest of the schematic. This should be quick as you can copy paste items, but try to do some of the items below without copy pasting to get some practice: 
 * Add an LED symbol by using "Shift - A" or go to "Place - Symobl". Go to the LED library and select the "APA102-2020" symbol.
 * Assign the following footprint "LED-APA102-2020" in the "LED_SMD" library to the LED symbols.  
+* Add +5V and GND by using "Shift - P" or go to "Place - Power Port".
 * Add text to your schematic to make it clearer. To add text, use "Shift - T" or go to "Place - Graphic Text." 
 * Add no connects (“Place no connection flag” in the toolbar on the right) to pins 2 and 3 of the D48 and add "n/c" in graphic text next to both pins to increase readability. 
-* Annotate the schematic by going to "Tools - Annotate Schematic"
+* Annotate the schematic by going to "Tools - Annotate Schematic". To match the numbering in our schematic below (where each bank contains consecutive numbers), select "Sort components by Y position" option as the numbering order.
 
 This is what your final schematic should look like (don't worry about the fiducials for now, as we will cover them in a later step): 
 
@@ -28,10 +29,47 @@ To see this more clearly, select pin 1 (VDD) of an LED symbol, and notice that i
 
 ### Step X: Layout the components 
 
-TODO 
+Now that our schematic is done, we'll move on to layout. Update the PCB from the schematic (Tools -> Update PCB from Schematic) and open the PCB Layout Editor.
 
- 
- ### Step X: Add vias 
+Import LED_Board_Outline.dxf into the layout editor as well.
+
+#### Arranging the LEDs
+
+As described in the introduction, the LEDs will be arranged in a grid to backlight a tower of acrylic pieces. The spacing between rows is specified by the acrylic tower dimensions, and the spacing between LEDs within a row should be even to get a good lighting effect. It would be quite tedious to calculate and move each of the 48 LEDs into position manually. Luckily, KiCad offers Python scripting to automate tasks like this! We have included a Python script for you called `led_layout.py` (you can also write your own; see below for help getting started). The script selects the 48 LEDs and positions and orients them into a grid.
+
+Go to "Tools -> Scripting Console" to open the KiCad Python shell. You can interact with this like any other Python shell. [TODO more intro?]
+
+There are two ways of running the Python script:
+
+1. Execute the file directly: `execfile("ABSOLUTE_PATH_TO/led_layout.py")`
+2. Add the file to your Python system path and import the file.
+	a. In the shell, type the following:
+	```
+	import sys
+	sys.path.append("ABSOLUTE_PATH_TO_FOLDER_WITH_PYTHON_FILE")
+	```
+	b. To use import the file's functions, type `import led_layout` in the shell. You can then call any function that has been defined in the file.
+	c. If you modify the file, type `reload(led_layout)` in the shell.
+
+Your LEDs should look like this (in the screenshot we've hidden the ratsnest and the front copper layer):
+<img width="350" src="../../LEDboard/Images/LEDLayout.png">
+
+#### Writing your own Python script
+You are welcome to write your own Python script too! All KiCad-related functions are found in the `pcbnew` library.
+
+Some resources to get started:
+
+* [Example of arranging components in a circle](http://kevincuzner.com/2017/04/28/arranging-components-in-a-circle-with-kicad/)
+* [Python scripting intro from KiCad](https://docs.kicad-pcb.org/5.0.2/en/pcbnew/pcbnew.html#kicad_scripting_reference)
+* [Pcbnew Python documentation](https://docs.kicad-pcb.org/doxygen-python/namespaces.html)
+
+Note that the LEDs form a snaking pattern to minimize the length of the traces between them. 
+<img width="350" src="../../LEDboard/Images/LEDSnake.png">
+
+* You will need to change the LED orientations every other row because we want the +5V/GND of LEDs in adjacent rows facing each other.
+* The LED numbering order should reverse every other row.
+
+### Step X: Add vias 
  
  
 <details>
