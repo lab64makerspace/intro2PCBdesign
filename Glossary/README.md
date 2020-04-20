@@ -556,7 +556,11 @@
  <details>
     <summary>Silkscreen</summary>
 
-> The letters and symbols visible on a circuit board. This makes it easier to identify where things are on a PCB. The silkscreen is usually white. 
+> The silkscreen consists of the letters and symbols visible on a PCB that make it easier to identify where things are. The silkscreen is usually white, as shown in the image below. 
+
+![](https://cdn.sparkfun.com/r/700-700/assets/b/b/9/7/f/50d4989fce395f0710000000.jpg) 
+
+(Image Souce: Sparkfun)
 
  </details>
 
