@@ -83,8 +83,21 @@ Note that the LEDs form a snaking pattern to minimize the length of the traces b
 * The LED numbering order should reverse every other row.
 </details>
 
+### Step X: Flip the connector 
+We want our board to be flush against our acrylic tower, which means that our connector cannot be on the same side of the board as the LEDs. Since the LEDs are on the top layer, we need to move the connector to the bottom layer. To do this, select the connector and press "F" (or right click on the connector and select "Flip"). This will flip the connector as shown in the image below. 
+
+<img width="400" src="../../LEDboard/Images/Silkscreen3.png">
+
+Notice that the silkscreen for the connector is now on the back of the board and will help us during assembly to make sure we aren't wiring the connector backwards. To see what layer the silkscreen is on now, you can toggle these buttons on the right sidebar. 
+
+<img width="150" src="../../LEDboard/Images/Silkscreen2.png">
+
+You can also view your board in the 3D viewer (go to "View" - "3d Viewer") to get a better sense of what side of the board components will be on. 
+
+<img width="400" src="../../LEDboard/Images/Silkscreen1.png">
+
+
 ### Step X: Add vias 
- 
  
 <details>
  <summary>What is a via?</summary>
@@ -164,7 +177,8 @@ Annotate the fiducials by going to "Tools" - "Annotate Schematic" and press Ok.
 
 Finally, attach a footprint to the fiducial symbols by selecting the symbol and pressing "e". Use the footprint field to open up the footprint library browser and find the fiducial library. Select "Fiducial_0.5mm_Mask1mm". 
 
-Next, open the board in Pcbnew and select the "Update pcb from schematic" button in the top toolbar (next to the little bug). Your fiducial footprints should appear. Place them as far away as possible from each other on the board. 
+Next, open the board in Pcbnew and select the "Update pcb from schematic" button in the top toolbar (next to the little bug). Your fiducial footprints should appear. Place them as far away as possible from each other on the board.
+
 
 ### Step X: Generate Gerber files 
 
