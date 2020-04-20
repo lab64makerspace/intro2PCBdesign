@@ -27,7 +27,7 @@ If you delete this box and run the ERC (Electrical Rules Checker - on the top to
 
 To see this more clearly, select pin 1 (VDD) of an LED symbol, and notice that its type (this is visible in the gray bar at the bottom of the window) is "power input." Its power will come from pin 4 of the J1 connector. However, if you select pin 4 of the J1 connector, its type is only passive because it's a generic connector. Therefore, we need to introduce a power flag to tell the ERC that a pin that isn't a power output is the source of power. We will talk more about the ERC with later boards. 
 
-### Step X: Layout the components 
+### Step 2: Layout the components 
 
 Now that our schematic is done, we'll move on to layout. Update the PCB from the schematic (Tools -> Update PCB from Schematic) and open the PCB Layout Editor.
 
@@ -83,7 +83,7 @@ Note that the LEDs form a snaking pattern to minimize the length of the traces b
 * The LED numbering order should reverse every other row.
 </details>
 
-### Step X: Flip the connector 
+### Step 3: Flip the connector 
 We want our board to be flush against our acrylic tower, which means that our connector cannot be on the same side of the board as the LEDs. Since the LEDs are on the top layer, we need to move the connector to the bottom layer. To do this, select the connector and press "F" (or right click on the connector and select "Flip"). This will flip the connector as shown in the image below. 
 
 <img width="400" src="../../LEDboard/Images/Silkscreen3.png">
@@ -96,7 +96,7 @@ You can also view your board in the 3D viewer (go to "View" - "3d Viewer") to ge
 
 <img width="400" src="../../LEDboard/Images/Silkscreen1.png">
 
-### Step X: Add Fiducials 
+### Step 4: Add Fiducials 
 
 <details>
     <summary markdown="span">What are fiducials and why do we need them?</summary>
@@ -133,10 +133,38 @@ Finally, attach a footprint to the fiducial symbols by selecting the symbol and 
 Next, open the board in Pcbnew and select the "Update pcb from schematic" button in the top toolbar (next to the little bug). Your fiducial footprints should appear. Place them as far away as possible from each other on the board.
 
 
-### Step X: Routing
+### Step 5: Routing
+
+Next, we need to add traces between the components. We recommend starting by wiring the SDI and CKI lines, as shown below. 
 
 
-### Step X: Add vias 
+<img width="500" src="../../LEDboard/Images/Route8.png">
+
+Next, connect the 5V lines. Since the LEDs draw a lot of current, we want to use the thickest traces possible. One alternative to drawing traces is to created filled zones. To add a filled zone, use the following button. 
+
+<img width="150" src="../../LEDboard/Images/Route1.png">
+
+Set the net you want associated with that zone. 
+
+<img width="400" src="../../LEDboard/Images/Route2.png">
+
+Draw a zone that connects all of the 5V components as shown. Notice that KiCAd automatically creates clearance zones for you. That means that if the polygon you draw goes over components that should not be connected to 5V, KiCAD will automatically reshape the polygon to avoid that region. Notice that these clearances can be refreshed. If you move a component that interferes with the filled zone, simply right click on the filled zone, go to "Zones" - "Fill" and it will automatically refresh the clearance zones. 
+
+<img width="600" src="../../LEDboard/Images/Zone.png">
+
+Repeat the same process for GND. 
+
+<details>
+    <summary>What is thermal relief in filled zones?</summary>
+
+> Thermal relief consists of small traces used to connect a pad to a large filled zone. If the pad was directly connected to a zone then it would be very difficult to heat up the pad to a high enough temperature to make a solder joint because of the thermal mass of the copper zone. Using a small trace instead reduces heat flow and makes it easier to solder. 
+
+> <img width="250" src="../../LEDboard/Images/ThermalRelief.png">
+
+ </details>
+
+
+### Step 6: Add vias 
  
 <details>
  <summary>What is a via?</summary>
@@ -150,15 +178,14 @@ One reason to add vias is to facilitate routing between components by avoiding i
 
 **Steps to add vias to connect the ground pads to the bottom layer ground plane**
 
-For our project, we will use vias as "thermal vias." We will fill the back layer of the board with copper and set this as a ground plane. We'll create vias that connect the ground pins of the LEDs on the top layer to this large copper pour. The back layer will act as a heat sink and its large surface area will increase heat transfer via convection. 
-
-Place a via next to every ground pad of an LED that cannot be routed to a larger ground trace. There should be one of these per LED footprint, as shown in the bottom left corner of the image below. 
+Place a via next to every ground pad of an LED that cannot be routed to a larger ground trace. There should be one of these per LED footprint, as shown in the bottom left corner of the image below. You can select the net to associate with a via by clicking on it and pressing "e". 
 
 <img width="350" src="../../LEDboard/Images/Vias.png">
 
-Next add vias to connect the top large ground traces to the bottom layer. 
+Next we will add thermal vias. We will fill the back layer of the board with copper and set this as a ground plane. We'll create vias that connect the ground pins of the LEDs on the top layer to this large copper pour. The back layer will act as a heat sink and its large surface area will increase heat transfer via convection. Efficiently place these vias by adding one and creating an array (right click on the via and go to "Create array..."). Some sample dimensions for the array are a horizontal count of 28, with horizontal spacing of 3.5mm and vertical spacing of 3mm.
 
-TODO
+
+<img width="600" src="../../LEDboard/Images/Route6.png">
 
 
 <details>
@@ -178,21 +205,28 @@ Here is a visual description of the structure of a MCPCB
 </details>
 
 
-### Step X: Add copper pour on bottom layer
+### Step 7: Add copper pour on bottom layer
+
+Add a ground filled zone on the bottom layer.
+
+<img width="400" src="../../LEDboard/Images/Route7.png">
 
 
-
-
-### Step X: Generate Gerber files 
+### Step 8: Generate Gerber files 
 
 Select File -- Plot
+
 Select an appropriate Output directory Folder.
+
 Select "Run DRC." Make sure your board passes this test by having 0 problems.
+
 Select "Plot" to generate the gerber files.
+
 Select "Generate Drill Files" to generate the drill files.
+
 Locate these newly generated files on your computer, and open them with Gerbview to check that everything looks good. You're done with the protoboard activity!
 
-### Step X: Submit your files so we can order your board!
+### Step 9: Submit your files so we can order your board!
 
 Once you've generated gerber files, zip your files and upload your board files to our workshop google drive and include a text file with your name and the address you'd like us to send it to.
 
