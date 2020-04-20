@@ -96,6 +96,45 @@ You can also view your board in the 3D viewer (go to "View" - "3d Viewer") to ge
 
 <img width="400" src="../../LEDboard/Images/Silkscreen1.png">
 
+### Step X: Add Fiducials 
+
+<details>
+    <summary markdown="span">What are fiducials and why do we need them?</summary>
+ 
+> A fiducial is a mark on the top (and bottom if the pcb has 2 layers) copper layer that is used by the vision system of a pick and place machine to recognize where the copper components on a PCB are. When using a pick and place machine to build a board, fiducials are necessary on each side that has SMT (surface-mount technology) components. 
+
+![](https://www.ladyada.net/wiki/_media/mdcpickandplace/corners.jpg?cache=) 
+
+(Image Souce: LadyAda)
+</details>
+
+<details>
+ <summary>How many fiducials do you need?</summary>
+ 
+>  This depends on the manufacturer you're working with. At a minimum, you need two fiducials. The first tells the machine where the x,y coordinates of a corner is, while the second tells the machine what the board orientation is. A third fiducial can help the machine account for any shrinkage or stretch in the PCB. This warping can happen after one side of the board is reflowed. 
+</details> 
+
+ When you're placing your fiducials, you should place them as far apart as possible on opposite corners of the board to get better precision with the pick and place machine. 
+  
+
+
+**Steps to add fiducials to your board** 
+
+
+Open up your schematic and add two fiducial symbols. To do this, go to "Place" -> "Symbol". Click where you want to add it to the schematic (on the bottom, near the mounting holes is a good spot) and the symbol library will open up. Select fiducial marker as shown below. 
+
+<img width="350" src="../../LEDboard/Images/FiducialSymbol.png">
+
+
+Annotate the fiducials by going to "Tools" - "Annotate Schematic" and press Ok. 
+
+Finally, attach a footprint to the fiducial symbols by selecting the symbol and pressing "e". Use the footprint field to open up the footprint library browser and find the fiducial library. Select "Fiducial_0.5mm_Mask1mm". 
+
+Next, open the board in Pcbnew and select the "Update pcb from schematic" button in the top toolbar (next to the little bug). Your fiducial footprints should appear. Place them as far away as possible from each other on the board.
+
+
+### Step X: Routing
+
 
 ### Step X: Add vias 
  
@@ -142,42 +181,6 @@ Here is a visual description of the structure of a MCPCB
 ### Step X: Add copper pour on bottom layer
 
 
-
-### Step X: Add Fiducials 
-
-<details>
-    <summary markdown="span">What are fiducials and why do we need them?</summary>
- 
-> A fiducial is a mark on the top (and bottom if the pcb has 2 layers) copper layer that is used by the vision system of a pick and place machine to recognize where the copper components on a PCB are. When using a pick and place machine to build a board, fiducials are necessary on each side that has SMT (surface-mount technology) components. 
-
-![](https://www.ladyada.net/wiki/_media/mdcpickandplace/corners.jpg?cache=) 
-
-(Image Souce: LadyAda)
-</details>
-
-<details>
- <summary>How many fiducials do you need?</summary>
- 
->  This depends on the manufacturer you're working with. At a minimum, you need two fiducials. The first tells the machine where the x,y coordinates of a corner is, while the second tells the machine what the board orientation is. A third fiducial can help the machine account for any shrinkage or stretch in the PCB. This warping can happen after one side of the board is reflowed. 
-</details> 
-
- When you're placing your fiducials, you should place them as far apart as possible on opposite corners of the board to get better precision with the pick and place machine. 
-  
-
-
-**Steps to add fiducials to your board** 
-
-
-Open up your schematic and add two fiducial symbols. To do this, go to "Place" -> "Symbol". Click where you want to add it to the schematic (on the bottom, near the mounting holes is a good spot) and the symbol library will open up. Select fiducial marker as shown below. 
-
-<img width="350" src="../../LEDboard/Images/FiducialSymbol.png">
-
-
-Annotate the fiducials by going to "Tools" - "Annotate Schematic" and press Ok. 
-
-Finally, attach a footprint to the fiducial symbols by selecting the symbol and pressing "e". Use the footprint field to open up the footprint library browser and find the fiducial library. Select "Fiducial_0.5mm_Mask1mm". 
-
-Next, open the board in Pcbnew and select the "Update pcb from schematic" button in the top toolbar (next to the little bug). Your fiducial footprints should appear. Place them as far away as possible from each other on the board.
 
 
 ### Step X: Generate Gerber files 
