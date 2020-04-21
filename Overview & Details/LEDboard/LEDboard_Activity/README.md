@@ -135,8 +135,7 @@ Next, open the board in Pcbnew and select the "Update pcb from schematic" button
 
 ### Step 5: Routing
 
-Next, we need to add traces between the components. We recommend starting by wiring the SDI and CKI lines, as shown below. 
-
+Next, we need to add traces between the components. We recommend starting by wiring the SDI and CKI lines, as shown below. (Please note the fiducials in the images below are bigger than they should be if you selected ("Fiducial_0.5mm_Mask1mm")). 
 
 <img width="500" src="../../LEDboard/Images/Route8.png">
 
