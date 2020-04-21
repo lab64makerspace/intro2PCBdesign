@@ -61,6 +61,7 @@ There are two ways of running the Python script:
 	sys.path.append("ABSOLUTE_PATH_TO_FOLDER_WITH_PYTHON_FILE")
 	```
 	b. To use import the file's functions, type `import led_layout` in the shell. You can then call any function that has been defined in the file.
+	
 	c. If you modify the file, type `reload(led_layout)` in the shell.
 
 Your LEDs should look like this (in the screenshot we've hidden the ratsnest and the front copper layer):
