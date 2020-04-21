@@ -152,7 +152,7 @@ Draw a zone that connects all of the 5V components as shown. Notice that KiCAd a
 
 <img width="600" src="../../LEDboard/Images/Zone.png">
 
-Repeat the same process for GND. 
+Repeat the same process for GND. If your zones remain dashed instead of solid, make sure the zone is connected to GND somehow (either through a trace or a via associated with the GND net).
 
 <details>
     <summary>What is thermal relief in filled zones?</summary>
