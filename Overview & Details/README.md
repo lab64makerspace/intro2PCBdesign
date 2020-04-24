@@ -15,10 +15,11 @@ Week | Content | Lab / Activity
 ---- | ------- | -------------
 0    | [Why make PCBs / Our Goals](Setup/Setup_Content) | [Preload: Install and Configure KiCAD](Setup/Setup_Activity)
 1/2  | [PCB Structure & Design Workflow](Protoboard/Protoboard_Content) | [Design Protoboard](Protoboard/Protoboard_Activity)
-3/4  | [Schematic Capture](Powerboard/Powerboard_Content) | [Design Power Board](Powerboard/Powerboard_Activity)
-5/6  | [Basics of Board Layout](Audioboard/Audioboard_Content) | [Design Audio Board](Audioboard/Audioboard_Activity)
-7/8  | [More on Board Layout](Displayboard/Displayboard_Content) | [Design Display Board](Displayboard/Displayboard_Activity)
-9    | [TBD](LEDboard/LEDboard_Content) | [Design LED Board](LEDboard/LEDboard_Activity)
+3    | [Python scripting, Thermal Management, Fiducials, Copper Pours](LEDboard/LEDboard_Content) | [Design LED Board](LEDboard/LEDboard_Activity)
+4/5  | [Schematic Capture](Powerboard/Powerboard_Content) | [Design Power Board](Powerboard/Powerboard_Activity)
+6/7  | [Basics of Board Layout](Audioboard/Audioboard_Content) | [Design Audio Board](Audioboard/Audioboard_Activity)
+8/9  | [More on Board Layout](Displayboard/Displayboard_Content) | [Design Display Board](Displayboard/Displayboard_Activity)
+
 
 
 <!-- Other content topics: High-speed signals, Thermal management, Using PCB Structures as Components, PCBs as Sensors & Actuators -->
@@ -49,7 +50,7 @@ We'll do our best to arrange the schedule so we can get the most experience from
                        - Will have all the required peripheral circuitry (level-shifters, etc.)
 
 * LED Board - Will be a board to support short linear arrays of RGB LEDs (APA102-2020 "DotStars")
-                   - Will be arranged so that 12 acrylic pieces can be supported with 8 "DotSar" LEDs per piece
+                   - Will be arranged so that 8 acrylic pieces can be supported with 6 "DotSar" LEDs per piece
 
 ## FAQs
 

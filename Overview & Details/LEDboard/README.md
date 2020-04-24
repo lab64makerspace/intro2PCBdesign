@@ -8,6 +8,8 @@ The main goals for this week are:
 * Get introduced to ERC (Electrical Rules Checker) <br/>
 * Layout and route a larger board
 * Get introduced to KiCad Python scripting
+* Get introduced to vias and thermal vias 
+* Get introduced to copper pours and ground planes
 
 The Activity material may be found [HERE](../LEDboard/LEDboard_Activity).
 
