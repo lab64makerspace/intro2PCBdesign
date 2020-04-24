@@ -94,6 +94,8 @@ To ensure compatibility with the enclosure, we need to standardize the placement
    a. Right click on the mounting hole and select "Position Relative To...".
    
    b. Click "Select Item..." and click on the fillet arc. Set Offset X and Y to 0, and press OK. 
+   <img width="400" src="../../LEDboard/Images/MountingHole.png">
+   
 
 ### Step 4: Flip the connector 
 We want our board to be flush against our acrylic tower, which means that our connector cannot be on the same side of the board as the LEDs. Since the LEDs are on the top layer, we need to move the connector to the bottom layer. To do this, select the connector and press "F" (or right click on the connector and select "Flip"). This will flip the connector as shown in the image below. 
