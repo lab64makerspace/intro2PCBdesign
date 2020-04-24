@@ -43,7 +43,7 @@ Go to "Tools -> Scripting Console" to open the KiCad Python shell. You can inter
 <summary><b>Basic KiCad Python scripting</b></summary>
 Here are some basic commands you can run in the shell to get a feel for KiCad scripting.
 
-1. Type `import pcbnew` into the shell. This gives us access to KiCad libary functions.
+1. Type `from pcbnew import *` into the shell. This gives us access to KiCad libary functions.
 2. Type `pcb = GetBoard()`. We can now use `pcb` to interact with components in the layout editor.
 	a. If you type `pcb.` into the shell, you will get a list of available function calls.
 3. Type `led = pcb.FindModuleByReference("D1")`. This lets us access a component in the layout editor, specified by the annotation string. 
@@ -84,7 +84,18 @@ Note that the LEDs form a snaking pattern to minimize the length of the traces b
 * The LED numbering order should reverse every other row.
 </details>
 
-### Step 3: Flip the connector 
+### Step 3: Place the mounting holes
+To ensure compatibility with the enclosure, we need to standardize the placement of the mounting holes. We have chosen to place their centers 5mm in the x and y directions away from the respective edges. You can do this placement a number of ways:
+
+1. Run (or write your own) the [hole_layout.py](./hole_layout.py) script we have provided.
+2. Manually find the x and y coordinates of the board outline (you can do this by pressing "E" while hovering over the board edges). Calculate and set the appropriate positon for each hole (press "E" while hovering over the hole or right click and use "Move Exactly..."). The board outline is 114.5mm wide by 76.4mm high.
+3. In this case, the fillet of the board outline also happens to be 5mm. Thus, the center of the mounting hole matches the origin of the fillet arc. We can use the "Position Relative To..." tool to position the mounting hole relative to this origin.
+
+   a. Right click on the mounting hole and select "Position Relative To...".
+   
+   b. Click "Select Item..." and click on the fillet arc. Set Offset X and Y to 0, and press OK. 
+
+### Step 4: Flip the connector 
 We want our board to be flush against our acrylic tower, which means that our connector cannot be on the same side of the board as the LEDs. Since the LEDs are on the top layer, we need to move the connector to the bottom layer. To do this, select the connector and press "F" (or right click on the connector and select "Flip"). This will flip the connector as shown in the image below. 
 
 <img width="400" src="../../LEDboard/Images/Silkscreen3.png">
@@ -97,7 +108,7 @@ You can also view your board in the 3D viewer (go to "View" - "3d Viewer") to ge
 
 <img width="400" src="../../LEDboard/Images/Silkscreen1.png">
 
-### Step 4: Add Fiducials 
+### Step 5: Add Fiducials 
 
 <details>
     <summary markdown="span">What are fiducials and why do we need them?</summary>
@@ -134,7 +145,7 @@ Finally, attach a footprint to the fiducial symbols by selecting the symbol and 
 Next, open the board in Pcbnew and select the "Update pcb from schematic" button in the top toolbar (next to the little bug). Your fiducial footprints should appear. Place them as far away as possible from each other on the board.
 
 
-### Step 5: Routing
+### Step 6: Routing
 
 Next, we need to add traces between the components. We recommend starting by wiring the SDI and CKI lines, as shown below. (Please note the fiducials in the images below are bigger than they should be if you selected ("Fiducial_0.5mm_Mask1mm")). 
 
@@ -164,7 +175,7 @@ Repeat the same process for GND. If your zones remain dashed instead of solid, m
  </details>
 
 
-### Step 6: Add vias 
+### Step 7: Add vias 
  
 <details>
  <summary>What is a via?</summary>
@@ -205,14 +216,14 @@ Here is a visual description of the structure of a MCPCB
 </details>
 
 
-### Step 7: Add copper pour on bottom layer
+### Step 8: Add copper pour on bottom layer
 
 Add a ground filled zone on the bottom layer.
 
 <img width="400" src="../../LEDboard/Images/Route7.png">
 
 
-### Step 8: Generate Gerber files 
+### Step 9: Generate Gerber files 
 
 Select File -- Plot
 
@@ -226,7 +237,7 @@ Select "Generate Drill Files" to generate the drill files.
 
 Locate these newly generated files on your computer, and open them with Gerbview to check that everything looks good. You're done with the protoboard activity!
 
-### Step 9: Submit your files so we can order your board!
+### Step 10: Submit your files so we can order your board!
 
 Once you've generated gerber files, zip your files and upload your board files to our workshop google drive and include a text file with your name and the address you'd like us to send it to.
 
