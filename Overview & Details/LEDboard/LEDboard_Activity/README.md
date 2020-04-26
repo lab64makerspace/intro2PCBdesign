@@ -225,7 +225,28 @@ Add a ground filled zone on the bottom layer.
 <img width="400" src="../../LEDboard/Images/Route7.png">
 
 
-### Step 9: Generate Gerber files 
+### Step 9: Change your clearance settings (Note: This is a recently added step)
+
+If you run the DRC at this point, you'll notice that you get many errors about pads being too close to each other, as shown in the image below. 
+
+<img width="400" src="../../LEDboard/Images/DRCoriginal.png">
+
+
+What "too close" means depends on KiCAD's clearance rules. The default clearance rules for KiCAD are more restrictive than our manufacturer's rules, so we'll define a new set of rules that match our manufacturer's and recheck the board. For this board, we will be using JLCPCB as our manufacturer. You can see their manufacturing rules [here](https://jlcpcb.com/capabilities/Capabilities).   
+
+To do this, go to "File" - "Board setup" 
+
+Under design rules, go to "Net Classes". Notice that KiCAD already has two net classes defined: Default, Skinny. We want to define a new set of rules according JLCPCB's rules. Either create a new net class, or rename Skinny as "jlcpcb". In our case, we want to adjust the clearance setting as this is the reason our DRC was throwing errors. Although the default clearance is 0.2 mm, the min clearance for JLCPCB is 0.127 mm. Edit this setting and feel free to edit the other settings according to the JLCPCB webpage linked above (although the image below only changes the clearance setting). 
+
+Next, you need to assign all of your components to the JLCPCB net class. To do this, use the "Filter Nets" box and set the "Net Class Filter" to "Default." Apply Filters to select all of your nets. Then under "Assign Net Class" set the "New net class" to "jclpcb". Click on "Assign to Selected Nets" to reflect the changes on your nets. 
+
+<img width="500" src="../../LEDboard/Images/DRCsetup.png">
+
+After these changes, your DRC should run without any errors. 
+
+
+
+### Step 10: Generate Gerber files 
 
 Select File -- Plot
 
@@ -239,7 +260,7 @@ Select "Generate Drill Files" to generate the drill files.
 
 Locate these newly generated files on your computer, and open them with Gerbview to check that everything looks good. You're done with the protoboard activity!
 
-### Step 10: Submit your files so we can order your board!
+### Step 11: Submit your files so we can order your board!
 
 Once you've generated gerber files, zip your files and upload your board files to our workshop google drive and include a text file with your name and the address you'd like us to send it to.
 
