@@ -236,11 +236,11 @@ What "too close" means depends on KiCAD's clearance rules. The default clearance
 
 To do this, go to "File" - "Board setup" 
 
-Under design rules, go to "Net Classes". Notice that KiCAD already has two net classes defined: Default, Skinny. We want to define a new set of rules according JLCPCB's rules. Either create a new net class, or rename Skinny as "jlcpcb". In our case, we want to adjust the clearance setting as this is the reason our DRC was throwing errors. Although the default clearance is 0.2 mm, the min clearance for JLCPCB is 0.127 mm. Edit this setting and feel free to edit the other settings according to the JLCPCB webpage linked above (although the image below only changes the clearance setting). 
+Under design rules, go to "Net Classes". Notice that KiCAD already has two net classes defined: Default, Skinny. We want to define a new set of rules according JLCPCB's rules. Create a new net class (using the + symbol) and name it "jlcpcb". In our case, we need to adjust the clearance setting as this is the reason our DRC was throwing errors (the default clearance is 0.2 mm, but the min clearance for JLCPCB is 0.127 mm). Edit this setting and feel free to edit the other settings according to the JLCPCB webpage linked above. 
 
-Next, you need to assign all of your components to the JLCPCB net class. To do this, use the "Filter Nets" box and set the "Net Class Filter" to "Default." Apply Filters to select all of your nets. Then under "Assign Net Class" set the "New net class" to "jclpcb". Click on "Assign to Selected Nets" to reflect the changes on your nets. 
+Next, you need to assign all of your components to the JLCPCB net class. To do this, go to "Assign Net Class" set the "New net class" to "jclpcb". Click on "Assign to Listed Nets" to reflect the changes on all of your nets. 
 
-<img width="500" src="../../LEDboard/Images/DRCsetup.png">
+<img width="500" src="../../LEDboard/Images/DRCjlcpcb.png">
 
 After these changes, your DRC should run without any errors. 
 
