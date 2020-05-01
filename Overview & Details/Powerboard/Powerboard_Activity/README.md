@@ -8,11 +8,11 @@ This week, we are building the backbone of this entire project: the power board.
 
 We've provided the majority of the schematic for you except for one critical section. This vital circuit is necessary for supplying -5V to the audio board:
 
-<img width="750" src="../../Powerboard/Images/circuit.png">
+<img width="850" src="../../Powerboard/Images/circuit.png">
 
 We need to finish this section before moving on to the board design. Unfortunately, there is no native kicad symbol for the MAX735. If you don't believe me, go ahead and search for it yourself.
 
-<img width="750" src="../../Powerboard/Images/nosymbol.png">
+<img width="550" src="../../Powerboard/Images/nosymbol.png">
 
 **Making a symbol**
 
@@ -24,11 +24,11 @@ Often times in your schematic, you will use parts that don't have ready made sym
 
 Based on the rules above, we look at the datasheet (go to page 5) and see that our ideal configuration is at the bottom of the page! That means that we can copy the layout of the schematic on the datasheet with some minor modifications.
 
-<img width="750" src="../../Powerboard/Images/datasheet.png">
+<img width="250" src="../../Powerboard/Images/datasheet.png">
 
 Open up the symbol editor from your .pro file. 
 
-<img width="450" src="../../Powerboard/Images/symboleditor.png">
+<img width="50" src="../../Powerboard/Images/symboleditor.png">
 
 File -> New Symbol -> Power_Board -> OK.
 Fill out the fields as following (most are default).
@@ -55,7 +55,7 @@ Click anywhere on the screen and you'll see the properties popup. Note that the 
 
 Follow this diagram so that you know approximately where to put things.
 
-<img width="50" src="../../Powerboard/Images/symbol.png">
+<img width="400" src="../../Powerboard/Images/symbol.png">
 Cmd S to save. Congrats! you have finished your first symbol. 
 
 Did you find it interesting that adding the ~ in front of the first pin added a bar on top of the pin name? This is the way that the schematic tells pcb users that the pin is triggered on low.  
@@ -68,8 +68,8 @@ We'd like you to try to finish the rest of the schematic yourself!
 
 You should be able to find most of these components on your own but for the ones that you might not be familiar with, we've included their names and images below.
 
-<img width="750" src="../../Powerboard/Images/diode.png"> D_Schottky
-<img width="750" src="../../Powerboard/Images/cp1.png"> CP1
+<img width="50" src="../../Powerboard/Images/diode.png"> D_Schottky   
+<img width="50" src="../../Powerboard/Images/cp1.png"> CP1
 
 For this week's deliverable, please email lab64CA@ee.stanford.edu a picture of your schematic. Thank you for all your hard work!
 
