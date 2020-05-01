@@ -8,4 +8,5 @@
   (lib (name Display_Board)(type Legacy)(uri ${KIPRJMOD}/display_board.lib)(options "")(descr ""))
   (lib (name display_board-cache)(type Legacy)(uri ${KIPRJMOD}/display_board-cache.lib)(options "")(descr ""))
   (lib (name Adafruit_STMPE610-cache)(type Legacy)(uri C:/Users/johnk/OneDrive/Desktop/intro2pcb-2/intro2PCBdesign/Displayboard/Displayboard_Activity/Display_Board/STMPE811-Kicad/Adafruit_STMPE610-cache.lib)(options "")(descr ""))
+  (lib (name display_board-rescue)(type Legacy)(uri ${KIPRJMOD}/display_board-rescue.lib)(options "")(descr ""))
 )
