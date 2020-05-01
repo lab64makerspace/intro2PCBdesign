@@ -68,13 +68,9 @@ We'd like you to try to finish the rest of the schematic yourself!
 
 You should be able to find most of these components on your own but for the ones that you might not be familiar with, we've included their names and images below.
 
-<<<<<<< HEAD
-<img width="750" src="../../Powerboard/Images/diode.png"> D_Schottky  
-<img width="750" src="../../Powerboard/Images/cp1.png"> CP1
-=======
+
 <img width="50" src="../../Powerboard/Images/diode.png"> D_Schottky   
 <img width="50" src="../../Powerboard/Images/cp1.png"> CP1
->>>>>>> 0819b1a1ff577594a9a2fac39a43a961d7bb8b66
 
 For this week's deliverable, please email lab64CA@ee.stanford.edu a picture of your schematic. Thank you for all your hard work!
 
