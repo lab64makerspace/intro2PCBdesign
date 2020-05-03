@@ -45,10 +45,10 @@ Click anywhere on the screen and you'll see the properties popup. Note that the 
 | number |  name |     type     |   
 |:------:|:-----:|:------------:|
 |    1   | ~SHDN |     input    |   
-|    2   |  Vref |     input    |  
+|    2   |  Vref |    output    |  
 |    3   |   SS  |     input    |  
 |    4   |   CC  |     input    |   
-|    5   |  Vout | power output |  
+|    5   |  Vout |     input    |  
 |    6   |  GND  |  power input |
 |    7   |   LX  |    output    | 
 |    8   |   V+  |  power input |
