@@ -893,28 +893,6 @@ $EndComp
 Text Notes 9050 6500 0    50   ~ 0
 @ 16V
 $Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5EC5DED5
-P 2600 9100
-F 0 "J?" H 2680 9092 50  0000 L CNN
-F 1 "Conn_01x02" H 2680 9001 50  0000 L CNN
-F 2 "" H 2600 9100 50  0001 C CNN
-F 3 "~" H 2600 9100 50  0001 C CNN
-	1    2600 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5EC5F668
-P 4150 9050
-F 0 "J?" H 4230 9042 50  0000 L CNN
-F 1 "Conn_01x02" H 4230 8951 50  0000 L CNN
-F 2 "" H 4150 9050 50  0001 C CNN
-F 3 "~" H 4150 9050 50  0001 C CNN
-	1    4150 9050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5EC660A8
 P 9350 9950
