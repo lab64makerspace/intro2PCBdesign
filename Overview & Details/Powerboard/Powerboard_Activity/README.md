@@ -72,6 +72,10 @@ You should be able to find most of these components on your own but for the ones
 <img width="50" src="../../Powerboard/Images/diode.png"> D_Schottky   
 <img width="50" src="../../Powerboard/Images/cp1.png"> CP1
 
+Finally, there are a couple output jacks that have not yet been added. Please look at the image below and add all necessary screw terminals so that your other boards can get power!
+
+<img width="750" src="../../Powerboard/Images/final_schematic.png"> 
+
 For this week's deliverable, please email lab64CA@ee.stanford.edu a picture of your schematic. Thank you for all your hard work!
 
 ### Week 2: Footprints & Layout
