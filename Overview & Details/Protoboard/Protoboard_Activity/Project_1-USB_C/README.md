@@ -144,7 +144,7 @@ Add routes to the power rail lines (if you want to add power rail lines). <br/>
 Select File -- Plot <br/> 
 Select an appropriate Output directory Folder. <br/>
 Select "Run DRC." Make sure your board passes this test by having 0 problems. <br/>
-Make sure you have the "Do not tent vias" option checked!!! <br/>
+**Make sure you have the "Do not tent vias" option checked!!!** <br/>
 Select "Plot" to generate the gerber files. <br/> 
 Select "Generate Drill Files" to generate the drill files. <br/> 
 Locate these newly generated files on your computer, and open them with Gerbview to check that everything looks good. 
