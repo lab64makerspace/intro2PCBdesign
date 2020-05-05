@@ -10,7 +10,7 @@ Select "Run DRC." Make sure your board passes this test by having 0 problems.
 Select "Plot" to generate the gerber files.
 
 
-Layers you should have checked:
+Layers you should have checked (For boards with more than 2 copper layers you must include more layers!):
 * F.Cu
 * B.Cu
 * F.Paste 
