@@ -4,7 +4,7 @@ This is **part 2** of the power board activity in which you'll be laying out the
 
 You can find an explanation for the overall power board design [here](../../Powerboard/Powerboard_Content/powerboard-considerations.md).
 
-You can find a summary of PCB layout guidelines [here](Resources/PCBLayout_Advice.md). 
+You can find a summary of PCB layout guidelines [here](/Resources/PCBLayout_Advice.md). 
 
 ### Step 0: Add capacitors to schematic
 There are a two more components we need to add to your schematic from last week.
