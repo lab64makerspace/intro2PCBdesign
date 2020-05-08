@@ -54,10 +54,12 @@ Here is a suggested floorplan. These groups correspond to the labeled clusters o
 
 * Try to place components to minimize trace lengths within groups. However, do not place components extremely close together, as this could lead to unwanted solder bridges or other mistakes when soldering and assembling the board.
    * When you click on a footprint in the PCB Editor, it will highlight the corresponding symbol in the Schematic editor. This will help you figure out which footprints should be grouped together.
+   * If you select a pin on a footprint in your pcbnew file and press "~", all of the pins connected to this pin will be highlighted. This can help you position your components to facilitate routing. 
 * You may find it helpful to rotate footprints to minimize criss-crossing ratsnest lines: you can do this by clicking on the footprint and hitting "R".
 * Remember that we have +36V and GND layers, so all connections to 36V and GND can use vias instead of traces. This helps free up the minimal trace length placement constraints. 
 * Within each group, we suggest placing the terminal block first, as you know that has to sit near the outer edge of the board. Then place the voltage regulator, as many other components within the group will connect to it.
 * When placing the terminal blocks, note that the larger part of the footprint is where the external wires will connect, so they should face outward.
+
 
 (TODO: more tips??)
 
