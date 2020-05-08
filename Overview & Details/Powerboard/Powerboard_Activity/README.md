@@ -1,4 +1,4 @@
-# Power board Activity: Part 2
+# Powerboard Activity: Part 2
 
 This is **part 2** of the power board activity. You can find instructions for part 1 [here](../../Powerboard/Powerboard_Activity/Part1_Instructions.md).
 
