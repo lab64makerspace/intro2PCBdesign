@@ -11,7 +11,7 @@
 #### Step X: Change the board to be a **four layer** board. 
 
 This power board will be composed of four layers in the following order:
-<img width="450" src="../Images/Layers.png">
+<img width="450" src="../Images/four_layers.png">
 
 By convention, when referring to the number of layers in a PCB, we refer to the number of copper layers. 
 * Go to "File" -> "Board Setup" 
