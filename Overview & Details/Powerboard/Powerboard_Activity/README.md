@@ -2,8 +2,14 @@
 
 This is **part 2** of the power board activity. You can find instructions for part 1 [here](../../Powerboard/Powerboard_Activity/Part1_Instructions.md).
 
-### Step 1: Assign footprints
-* Open up your Powerboard schematic from part 1 of this activity.  
+### Step 0: Add capacitors to schematic
+There are a two more components we need to add to your schematic from last week.
+
+* Open up your Powerboard schematic from part 1 of this activity. 
+* Add two 100μF capacitors between 36V from the barrel jack and ground, as shown below. We've added these because (TODO: why?).
+<img width="200" src="../../Powerboard/Images/36v_caps.png">
+
+### Step 1: Assign footprints 
 * Import the Powerboard footprint library we've created that contains the footprints that don't come with a standard KiCAD installation. Open the "Footprint Editor" and go to "File"->"Add Library" and select "Powerboard.pretty". 
 
 Assign footprints to the symbols in your schematic. You can do this efficiently by selecting the "Edit SymbolFields" button in the top toolbar.  
@@ -49,7 +55,9 @@ Here is a suggested floorplan. These groups correspond to the labeled clusters o
 * Within each group, we suggest placing the voltage regulator first, as many other components will connect to it.
 * When placing the terminal blocks, note that the larger part of the footprint is where the external wires will connect, so they should face outward.
 
-<img width="300" src="../Images/terminal_block.png">
+(TODO: more tips??)
+
+<img width="150" src="../Images/terminal_block.png">
 
 We know this is a daunting step, so please reach out to us if you have questions or if you'd like us to look over your layout!
 
@@ -57,6 +65,10 @@ We know this is a daunting step, so please reach out to us if you have questions
 ### Step 6: Add thermal vias 
 Because the LEDs will draw significant amounts of current, we need to add thermal vias to prevent components from overheating. Although it is generally a bad idea to add vias on the pad of a component (TODO: insert explanation), it's ok to add vias to the ground pad of the LM2576S component (TODO: insert explanation).   
 <img width="150" src="../../Powerboard/Images/Thermal vias.png">
+
+Recall from last week's workshop that the bottom of the LM2576S component is a tab connected to ground. In the datasheet, under "Pin Configuration and Functions", it says to "put a copper plane connected to this pin as a thermal relief", which is what we are effectively doing with these thermal vias.
+<img width="150" src="../../Powerboard/Images/lm2576s.jpg"> <img width="150" src="../../Powerboard/Images/lm2576s.png">
+
 
 
 ### Step 7: Create the power planes 
