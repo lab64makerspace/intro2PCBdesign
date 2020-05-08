@@ -1,5 +1,9 @@
 # Powerboard Activity: Part 1
 
+#### Introduction: What is the purpose of this board? 
+This week, we are building the backbone of this entire project: the power board. If you are interested, please see the content section for a detailed description of all the thought and planning that went into the design of this board. 
+
+
 ### Make the schematic 
 
 We've provided the majority of the schematic for you except for one critical section. This vital circuit is necessary for supplying -5V to the audio board:
