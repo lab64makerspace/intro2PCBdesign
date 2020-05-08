@@ -1,8 +1,10 @@
 # Powerboard Activity: Part 2
 
-This is **part 2** of the power board activity. You can find instructions for part 1 [here](../../Powerboard/Powerboard_Activity/Part1_Instructions.md).
+This is **part 2** of the power board activity in which you'll be laying out the power board! You can find instructions for part 1 [here](../../Powerboard/Powerboard_Activity/Part1_Instructions.md).
 
 You can find an explanation for the overall power board design [here](../../Powerboard/Powerboard_Content/powerboard-considerations.md).
+
+You can find a summary of PCB layout guidelines [here](Resources/PCBLayout_Advice.md). 
 
 ### Step 0: Add capacitors to schematic
 There are a two more components we need to add to your schematic from last week.
@@ -14,15 +16,15 @@ There are a two more components we need to add to your schematic from last week.
 ### Step 1: Assign footprints 
 * Import the Powerboard footprint library we've created that contains the footprints that don't come with a standard KiCAD installation. Open the "Footprint Editor" and go to "File"->"Add Library" and select "Powerboard.pretty". 
 
-Assign footprints to the symbols in your schematic. You can do this efficiently by selecting the "Edit SymbolFields" button in the top toolbar.  
+* Assign footprints to the symbols in your schematic. You can do this efficiently by selecting the "Edit SymbolFields" button in the top toolbar.  
 
 <img width="150" src="../../Powerboard/Images/SymbolFields.png">
 
-Assign footprints as follows: 
+* Assign footprints as follows: 
 
 <img width="450" src="../../Powerboard/Images/Footprints.png">
 
-Annotate your schematic ("Tools" -> "Annotate Schematic")
+* Annotate your schematic ("Tools" -> "Annotate Schematic")
 
 
 ### Step 2: Create a .kicad_pcb file to layout the board 
@@ -59,9 +61,8 @@ Here is a suggested floorplan. These groups correspond to the labeled clusters o
 * Remember that we have +36V and GND layers, so all connections to 36V and GND can use vias instead of traces. This helps free up the minimal trace length placement constraints. 
 * Within each group, we suggest placing the terminal block first, as you know that has to sit near the outer edge of the board. Then place the voltage regulator, as many other components within the group will connect to it.
 * When placing the terminal blocks, note that the larger part of the footprint is where the external wires will connect, so they should face outward.
+* You can find a summary of more general PCB layout guidelines [here](Resources/PCBLayout_Advice.md).
 
-
-(TODO: more tips??)
 
 <img width="150" src="../Images/terminal_block.png">
 
