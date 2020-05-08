@@ -1,4 +1,6 @@
-### Week 1: Make the schematic 
+# Powerboard Activity: Part 1
+
+### Make the schematic 
 
 We've provided the majority of the schematic for you except for one critical section. This vital circuit is necessary for supplying -5V to the audio board:
 
