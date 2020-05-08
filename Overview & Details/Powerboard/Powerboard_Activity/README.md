@@ -3,7 +3,7 @@
 This is **part 2** of the power board activity. You can find instructions for part 1 [here](../../Powerboard/Powerboard_Activity/Part1_Instructions.md).
 
 ### Step 1: Assign footprints
-* Open up your Powerboard schematic.  
+* Open up your Powerboard schematic from part 1 of this activity.  
 * Import the Powerboard footprint library we've created that contains the footprints that don't come with a standard KiCAD installation. Open the "Footprint Editor" and go to "File"->"Add Library" and select "Powerboard.pretty". 
 
 Assign footprints to the symbols in your schematic. You can do this efficiently by selecting the "Edit SymbolFields" button in the top toolbar.  
@@ -22,7 +22,7 @@ Annotate your schematic ("Tools" -> "Annotate Schematic")
 
 ### Step 3: Change the board to be a **four layer** board. 
 
-This power board will be composed of four layers in the following order:
+This power board will be composed of four layers (TODO: insert explanation) in the following order:
 <img width="450" src="../Images/four_layers.png">
 
 By convention, when referring to the number of layers in a PCB, we refer to the number of copper layers. 
