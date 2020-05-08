@@ -61,7 +61,7 @@ Here is a suggested floorplan. These groups correspond to the labeled clusters o
 * Remember that we have +36V and GND layers, so all connections to 36V and GND can use vias instead of traces. This helps free up the minimal trace length placement constraints. 
 * Within each group, we suggest placing the terminal block first, as you know that has to sit near the outer edge of the board. Then place the voltage regulator, as many other components within the group will connect to it.
 * When placing the terminal blocks, note that the larger part of the footprint is where the external wires will connect, so they should face outward.
-* You can find a summary of more general PCB layout guidelines [here](Resources/PCBLayout_Advice.md).
+* You can find a summary of more general PCB layout guidelines [here](/Resources/PCBLayout_Advice.md).
 
 
 <img width="150" src="../Images/terminal_block.png">
