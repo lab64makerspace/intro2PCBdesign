@@ -10,7 +10,7 @@ You can find a summary of PCB layout guidelines [here](/Resources/PCBLayout_Advi
 There are a two more components we need to add to your schematic from last week.
 
 * Open up your Powerboard schematic from part 1 of this activity. 
-* Add two 100μF capacitors between 36V from the barrel jack and ground, as shown below. We've added these because (TODO: why?).
+* Add two 100μF capacitors between 36V from the barrel jack and ground, as shown below. We've added these because they help the voltage stay constant in case of heavy [loads](https://electrical-engineering-portal.com/few-things-that-capacitors-do-perfectly) and [shunt](https://en.wikipedia.org/wiki/Decoupling_capacitor) any noise from voltage spikes or ground bounce. In short, we add these caps to get as pure of a 36V DC signal as possible.<br/>
 <img width="250" src="../../Powerboard/Images/36v_caps.png">
 
 ### Step 1: Assign footprints 
@@ -32,9 +32,10 @@ There are a two more components we need to add to your schematic from last week.
 
 ### Step 3: Change the board to be a **four layer** board. 
 
-This power board will be composed of four layers (TODO: insert explanation) in the following order:
+This power board will be composed of four layers in the following order:
 <img width="450" src="../Images/four_layers.png">
-
+<br/>
+We will use four layers in order to simplify our trace routing; if we dedicate a layer for each voltage level (+15V, +5V, -5V) then we can route our voltage-specific traces on their respective layers.<br/>
 By convention, when referring to the number of layers in a PCB, we refer to the number of copper layers. 
 * Go to "File" -> "Board Setup" 
 * Set the number of "Copper Layers" to 4, as shown below. Notice that In1.Cu and In2.Cu (short for "Inner Layer") are added to the list of layers.  
@@ -70,7 +71,7 @@ We know this is a daunting step, so please reach out to us if you have questions
 
 
 ### Step 6: Add thermal vias 
-Because the LEDs will draw significant amounts of current, we need to add thermal vias to prevent components from overheating. Although it is generally a bad idea to add vias on the pad of a component (TODO: insert explanation), it's ok in a limited number of cases (TODO: insert explanation).   
+Because the LEDs will draw significant amounts of current, we need to add thermal vias to prevent components from overheating. Although it is generally a bad idea to add vias on the pad of a component, it's ok in a limited number of cases. It's not recommended to have a "via in pad" because vias inside of a pad make soldering to the pad more problematic (imagine your solder dripping down the vias!). Via in pad can destroy our goal of having controlled impedances (between IC package and the board) because it's hard to solder ontop of a via. There's usually a better way to make the connection (you could put the via *next* to the pad!). In our case the pad doesn't provide any signal connection. Instead the pad exists as a heat sink for the LM2576. There's a heat sink on the package of the LM2576 and the thermal conductivity (think of it as thermal performance) gets better if we solder the package's heat sink to the PCB. Thus we don't need to worry about any signal intergrity for these vias on the pad.<br/>
 <img width="150" src="../../Powerboard/Images/Thermal vias.png">
 
 Recall from last week's workshop that the bottom of the LM2576S component is a tab connected to ground. In the datasheet, under "Pin Configuration and Functions", it says to "put a copper plane connected to this pin [the tab] as a thermal relief", which is what we are effectively doing with these thermal vias. This is similar to the vias you added to the front ground planes on your LED board.
@@ -82,7 +83,7 @@ Recall from last week's workshop that the bottom of the LM2576S component is a t
 1) Create a **GND** power plane on the bottom copper layer (B.Cu). 
 * Select the B.Cu layer as the active layer, by double clicking on the left of the layer in the right sidebar until the black arrow appears next to the B.Cu layer as shown below. 
 * <img width="150" src="../../Powerboard/Images/SelectLayer.png">
-* Next create a filled zone covering the entire B.Cu layer (TODO: insert explanation on why the copper should fill the entire layer) and assign it to the GNDS net list. (Refer to the LEDboard activity for instructions on creating filled zones). In order for this filled zone to cover as much of the layer as possible, draw a rectangle that is larger than the board outline. The software will automatically fill only the portion of the rectangle that is inside the board outline and within a clearance margin from the edge. 
+* Next create a filled zone covering the entire B.Cu layer and assign it to the GNDS net list. (Refer to the LEDboard activity for instructions on creating filled zones). We want to use the entire layer for back copper in order to maximize the layer's ability to sink heat and for it to serve as a ground reference plane. In other words, more copper means more thermal mass and thus more heat is needed to raise the temperature of the board. More copper also means we are more immune to ground bounce from our return current (think of how the layers of a PCB form a big capacitor). In order for this filled zone to cover as much of the layer as possible, draw a rectangle that is larger than the board outline. The software will automatically fill only the portion of the rectangle that is inside the board outline and within a clearance margin from the edge. 
 
 2) Repeat the same process to add a **+36V** filled zone on the entire first inner copper layer (In1.Cu).  
 
