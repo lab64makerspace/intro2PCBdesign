@@ -39,6 +39,7 @@ Import the [provided board outline](https://github.com/lab64makerspace/intro2PCB
 Unlike the LED board, where are component placement was constrained by mechanical requirements, the power board allows for a lot more flexibility. Here are some suggestions to help guide you.
 
 Here is a suggested floorplan. These groups correspond to the labeled clusters of symbols on your schematic. Note that the groups in black text are relatively fixed: we want the barrel jack connector near the bottom of the power board and the LED 5V supplies near their respective sides.
+
 <img width="600" src="../Images/floorplan.png">
 
 **General tips**
@@ -47,6 +48,7 @@ Here is a suggested floorplan. These groups correspond to the labeled clusters o
 * Remember that we have +36V and GND layers, so we can use vias to free up placement constraints. 
 * Within each group, we suggest placing the voltage regulator first, as many other components will connect to it.
 * When placing the terminal blocks, note that the larger part of the footprint is where the external wires will connect, so they should face outward.
+
 <img width="300" src="../Images/terminal_block.png">
 
 We know this is a daunting step, so please reach out to us if you have questions or if you'd like us to look over your layout!
