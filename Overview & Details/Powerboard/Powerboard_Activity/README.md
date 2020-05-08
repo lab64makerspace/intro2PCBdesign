@@ -2,7 +2,7 @@
 
 This is **part 2** of the power board activity in which you'll be laying out the power board! You can find instructions for part 1 [here](../../Powerboard/Powerboard_Activity/Part1_Instructions.md).
 
-You can find an explanation for the overall power board design [here](../../Powerboard/Powerboard_Content/powerboard-considerations.md).
+You can find an explanation for the overall power board design [here](../../Powerboard/Powerboard_Content/README.md).
 
 You can find a summary of PCB layout guidelines [here](/Resources/PCBLayout_Advice.md). 
 
