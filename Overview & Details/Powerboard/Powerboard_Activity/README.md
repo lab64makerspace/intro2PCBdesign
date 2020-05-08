@@ -45,7 +45,7 @@ By convention, when referring to the number of layers in a PCB, we refer to the 
 ### Step 4: Add the board outline 
 Import the [provided board outline](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Powerboard/Powerboard_Activity/Power_board_outline.dxf).
 
-#### Step 5: Layout the footprints 
+### Step 5: Layout the footprints 
 Unlike the LED board, where are component placement was constrained by mechanical requirements, the power board allows for a lot more flexibility. Here are some suggestions to help guide you.
 
 Here is a suggested floorplan. These groups correspond to the labeled clusters of symbols on your schematic. Note that the groups in black text are relatively fixed: we want the barrel jack connector near the bottom of the power board and the LED 5V supplies near their respective sides.
