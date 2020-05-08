@@ -1,11 +1,20 @@
 ### Powerboard Activity 
 
 #### Step X: Assign footprints
-* Resistors: Resistor_SMD:R_0805_2012MetricPad1.15x1.40mm_HandSolder
-* Capacitors: 
+* Import the Powerboard footprint library we've created that contains the footprints that don't come with a standard KiCAD installation. Open the "Footprint Editor" and go to "File"->"Add Library" and select "Powerboard.pretty". 
+
+
+Assign footprints to the symbols in your schematic. You can do this efficiently by selecting the "Edit SymbolFields" button in the top toolbar.  
+
+<img width="150" src="../../Powerboard/Images/SymbolFields.png">
+
+Assign footprints as follows: 
+
+<img width="450" src="../../Powerboard/Images/Footprints.png">
+
+
 
 #### Step X: Create a .kicad_pcb file to layout the board 
-
 * Open up the project file (.pro) and select the "PCB Layout Editor" button. KiCAD will ask you to confirm that you want to create a new .kicad_pcb file.
 
 #### Step X: Change the board to be a **four layer** board. 
@@ -16,7 +25,7 @@ By convention, when referring to the number of layers in a PCB, we refer to the 
 * Set In1.Cu and B.Cu to be a "power plane", as shown below. 
 
 #### Step X: Add the board outline 
-TODO 
+Add the board outline we've provided you with ("Power_board_outline.dxf") to your board. 
 
 #### Step X: Layout the footprints 
 
