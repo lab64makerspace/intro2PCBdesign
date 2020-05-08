@@ -2,6 +2,8 @@
 
 This is **part 2** of the power board activity. You can find instructions for part 1 [here](../../Powerboard/Powerboard_Activity/Part1_Instructions.md).
 
+You can find an explanation for the overall power board design [here](../../Powerboard/Powerboard_Content/powerboard-considerations.md).
+
 ### Step 0: Add capacitors to schematic
 There are a two more components we need to add to your schematic from last week.
 
@@ -65,7 +67,7 @@ We know this is a daunting step, so please reach out to us if you have questions
 
 
 ### Step 6: Add thermal vias 
-Because the LEDs will draw significant amounts of current, we need to add thermal vias to prevent components from overheating. Although it is generally a bad idea to add vias on the pad of a component (TODO: insert explanation), it's ok to add vias to the ground pad of the LM2576S component (TODO: insert explanation).   
+Because the LEDs will draw significant amounts of current, we need to add thermal vias to prevent components from overheating. Although it is generally a bad idea to add vias on the pad of a component (TODO: insert explanation), it's ok in a limited number of cases (TODO: insert explanation).   
 <img width="150" src="../../Powerboard/Images/Thermal vias.png">
 
 Recall from last week's workshop that the bottom of the LM2576S component is a tab connected to ground. In the datasheet, under "Pin Configuration and Functions", it says to "put a copper plane connected to this pin [the tab] as a thermal relief", which is what we are effectively doing with these thermal vias. This is similar to the vias you added to the front ground planes on your LED board.
