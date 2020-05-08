@@ -35,12 +35,14 @@ Add the board outline we've provided you with ("Power_board_outline.dxf") to you
 
 
 #### Step X: Make the power planes 
-Create a GND power plane on the bottom copper layer (B.Cu). 
+1) Create a GND power plane on the bottom copper layer (B.Cu). 
 * Select the B.Cu layer as the active layer, by double clicking on the left of the layer in the right sidebar until the black arrow appears next to the B.Cu layer as shown below. 
 * <img width="150" src="../../Powerboard/Images/SelectLayer.png">
-* Next create a filled zone covering the entire B.Cu layer and assigned to the GNDS net list. (Refer to the LEDboard activity for instructions on creating filled zones). In order for this filled zone to cover as much of the layer as possible, draw a rectangle that is larger than the board outline. The software will automatically fill only the portion of the rectangle that is inside the board outline and within a clearance margin from the edge. 
+* Next create a filled zone covering the entire B.Cu layer and assign it to the GNDS net list. (Refer to the LEDboard activity for instructions on creating filled zones). In order for this filled zone to cover as much of the layer as possible, draw a rectangle that is larger than the board outline. The software will automatically fill only the portion of the rectangle that is inside the board outline and within a clearance margin from the edge. 
 
-Repeat the same process to add a 36V filled zone on the entire first inner copper layer.  
+2) Repeat the same process to add a 36V filled zone on the entire first inner copper layer (In1.Cu).  
+
+3) Add a +5VA filled zone on second inner copper layer (In2.Cu). To avoid introducing noise in this part of the circuit which includes analog components, we want to keep this zone only over the part of the circuit that uses 5V analog. If you followed our suggested layout, this means that this zone should be in the bottom right corner of the board. 
 
 If you make changes to the layout of your board after creating the filled zone, you can automatically refill a zone by selecting the zone and pressing "B." 
 
