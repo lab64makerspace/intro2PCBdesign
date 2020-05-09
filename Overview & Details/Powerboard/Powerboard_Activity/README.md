@@ -23,7 +23,15 @@ There are a two more components we need to add to your schematic from last week.
 * Assign footprints as follows: 
 
 <img width="450" src="../../Powerboard/Images/Footprints.png">
+<br/>
 
+Note:<br/>
+We have provided footprints for the inductors. Assign the footprints like this:
+- 100uH - Inductor_SMD:Eaton_CTX100-2-52-R
+- 470uH - L_Toroid_Horizontal_D2121.8mm_P19.60mm_Bourns_2100
+- 10uH  - L_Taiyo-Yuden
+- 330uH - L_Toroid_Horizontal_D2121.8mm_P19.60mm_Bourns_2100
+<br/>
 * Annotate your schematic ("Tools" -> "Annotate Schematic")
 
 
