@@ -99,3 +99,10 @@ Recall from last week's workshop that the bottom of the LM2576S component is a t
 3) Add a **+5VA** filled zone on second inner copper layer (In2.Cu). To avoid introducing noise in this part of the circuit which includes analog components, we want to keep this zone only over the part of the circuit that uses 5V analog. If you followed our suggested layout, this means that this zone should be in the bottom right corner of the board. 
 
 If you make changes to the layout of your board after creating the filled zone, you can automatically refill a zone by selecting the zone and pressing "B." 
+
+### Step 8: Add traces
+* Refer to this [page](/Resources/PCBLayout_Advice.md) for more advice. 
+
+
+### Step 9: Submit your files 
+* Please hold off on submitting your files until we upload more instructions on how to check all of your files
