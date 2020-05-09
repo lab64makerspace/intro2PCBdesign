@@ -29,7 +29,8 @@ Note:<br/>
 We have provided footprints for the inductors. Assign the footprints like this:
 - 100uH - Inductor_SMD:Eaton_CTX100-2-52-R
 - 470uH - L_Toroid_Horizontal_D2121.8mm_P19.60mm_Bourns_2100
-- 10uH  - L_Taiyo-Yuden
+- 10uH  - L_Taiyo-Yuden_NR-10050-9.8x10.0mm_HandSoldering
+- 22uH  - L_Taiyo-Yuden_NR-60xx_HandSoldering
 - 330uH - L_Toroid_Horizontal_D2121.8mm_P19.60mm_Bourns_2100
 <br/>
 * Annotate your schematic ("Tools" -> "Annotate Schematic")
