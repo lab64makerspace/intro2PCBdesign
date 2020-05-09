@@ -22,7 +22,7 @@ There are a two more components we need to add to your schematic from last week.
 
 * Assign footprints as follows: 
 
-<img width="450" src="../../Powerboard/Images/Footprints.png">
+<img width="450" src="../../Powerboard/Images/UpdatedFootprints.png">
 <br/>
 
 Note:<br/>
