@@ -103,6 +103,10 @@ If you make changes to the layout of your board after creating the filled zone, 
 ### Step 8: Add traces
 * Refer to this [page](/Resources/PCBLayout_Advice.md) for more advice. 
 
+* Notice you can toggle the visibility of the rats nest with this button. The rats nest shows you which parts should be electrically connected on the board, but can also make it hard to see your layout. 
+
+ <img width="150" src="../../Powerboard/Images/Ratsnest.png">
+
 
 ### Step 9: Submit your files 
 * Please hold off on submitting your files until we upload more instructions on how to check all of your files
