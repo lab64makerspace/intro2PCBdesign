@@ -22,8 +22,17 @@ There are a two more components we need to add to your schematic from last week.
 
 * Assign footprints as follows: 
 
-<img width="450" src="../../Powerboard/Images/Footprints.png">
+<img width="450" src="../../Powerboard/Images/UpdatedFootprints.png">
+<br/>
 
+Note:<br/> 
+These are the footprints for the inductors (same as shown in the image above):
+- 100uH - Inductor_SMD:Eaton_CTX100-2-52-R
+- 470uH - L_Toroid_Horizontal_D2121.8mm_P19.60mm_Bourns_2100
+- 10uH  - L_Taiyo-Yuden_NR-10050-9.8x10.0mm_HandSoldering
+- 22uH  - L_Taiyo-Yuden_NR-60xx_HandSoldering
+- 330uH - L_Toroid_Horizontal_D2121.8mm_P19.60mm_Bourns_2100
+<br/> 
 * Annotate your schematic ("Tools" -> "Annotate Schematic")
 
 
@@ -90,3 +99,20 @@ Recall from last week's workshop that the bottom of the LM2576S component is a t
 3) Add a **+5VA** filled zone on second inner copper layer (In2.Cu). To avoid introducing noise in this part of the circuit which includes analog components, we want to keep this zone only over the part of the circuit that uses 5V analog. If you followed our suggested layout, this means that this zone should be in the bottom right corner of the board. 
 
 If you make changes to the layout of your board after creating the filled zone, you can automatically refill a zone by selecting the zone and pressing "B." 
+
+### Step 8: Add traces
+* Refer to this [page](/Resources/PCBLayout_Advice.md) for more advice. 
+
+* Notice you can toggle the visibility of the rats nest with this button. The rats nest shows you which parts should be electrically connected on the board, but can also make it hard to see your layout. 
+
+ <img width="150" src="../../Powerboard/Images/Ratsnest.png">
+ 
+### Step 9 (Optional): Personalize the back silkscreen of your board!
+Because the back of this board will be the back side of your Uber radio, you can add text (e.g. your name) to your back silkscreen to customize your radio. Here are the steps to do this: 
+
+* Select the back silkscreen layer (B.SilkS) as the active layer
+* Select the text symbol on the bottom of the right toolbar. Write your text and select where you want to add it to the board. Since it's on the back silkscreen, the text will appear backwards. 
+
+
+### Step 10: Submit your files 
+* Please hold off on submitting your files until we upload more instructions on how to check all of your files
