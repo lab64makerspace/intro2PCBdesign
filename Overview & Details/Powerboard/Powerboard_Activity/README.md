@@ -112,7 +112,24 @@ When your board has more than three layers, it is a good practice to build check
 
 Since silkscreen is not available for inner layers, PCB designers often label these layers directly on the copper to both highlight layer order to the manufacturer and build in a post-fab check. Here is an example of layer numbering and what the board would look like with correct and incorrect ordering:
 
-To make these numbers, we will draw keepout zones on your copper fills.
+ <img width="600" src="../../Powerboard/Images/layer_numbering.png">
+
+You can design this layer numbering however you'd like, as long as it is clear whether the layers have been ordered correctly. To make these numbers, we will draw keepout areas on your copper fills.
+
+1. Pick an area near a corner of your board (where there are no components or traces). 
+2. Select the "Add keepout areas" button on the right toolbar <img width="100" src="../../Powerboard/Images/keepout_button.png">. Click where you'd like to add the keepout.
+3. In the popup that appears, make sure to:
+  a. Select the correct layer.
+  b. Check "Keep out copper pours".
+  c. (Optional) Check "Constrain outline to H, V, and 45 deg" if you want straight lines.
+
+   <img width="400" src="../../Powerboard/Images/keepout_popup.png">
+4. Now draw your square (or whatever shape you want). Once you've closed the shape, it will look like nothing happened. Don't worry! Go to Edit > Fill All Zones (or hit "B") and your keepout area should appear.
+5. For the inner layers, we will also add the layer number. Select the "Add text" button on the right toolbar <img width="100" src="../../Powerboard/Images/text_button.png">. In the popup that appears, be sure to select the correct layer. You can also check "Mirrored" to flip the text.
+
+The final result for one layer number should look something like this. Repeat for other layers as desired.
+
+<img width="400" src="../../Powerboard/Images/one_layer_number.png">
  
 ### Step 10 (Optional): Personalize the back silkscreen of your board!
 Because the back of this board will be the back side of your Uber radio, you can add text (e.g. your name) to your back silkscreen to customize your radio. Here are the steps to do this: 
