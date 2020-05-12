@@ -119,12 +119,15 @@ You can design this layer numbering however you'd like, as long as it is clear w
 1. Pick an area near a corner of your board (where there are no components or traces). 
 2. Select the "Add keepout areas" button on the right toolbar <img width="30" src="../../Powerboard/Images/keepout_button.png">. Click where you'd like to add the keepout.
 3. In the popup that appears, make sure to:
-  a. Select the correct layer.
-  b. Check "Keep out copper pours".
-  c. (Optional) Check "Constrain outline to H, V, and 45 deg" if you want straight lines.
 
-   <img width="400" src="../../Powerboard/Images/keepout_popup.png">
+  - Select the correct layer.
+  - Check "Keep out copper pours".
+  - (Optional) Check "Constrain outline to H, V, and 45 deg" if you want straight lines.
+
+<img width="400" src="../../Powerboard/Images/keepout_popup.png">
+
 4. Now draw your square (or whatever shape you want). Once you've closed the shape, it will look like nothing happened. Don't worry! Go to Edit > Fill All Zones (or hit "B") and your keepout area should appear.
+
 5. For the inner layers, we will also add the layer number. Select the "Add text" button on the right toolbar <img width="30" src="../../Powerboard/Images/text_button.png">. In the popup that appears, be sure to select the correct layer. You can also check "Mirrored" to flip the text.
 
 The final result for one layer number should look something like this. Repeat for other layers as desired.
