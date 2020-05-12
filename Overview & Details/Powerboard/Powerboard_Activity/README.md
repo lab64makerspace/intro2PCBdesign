@@ -107,12 +107,18 @@ If you make changes to the layout of your board after creating the filled zone, 
 
  <img width="150" src="../../Powerboard/Images/Ratsnest.png">
  
-### Step 9 (Optional): Personalize the back silkscreen of your board!
+### Step 9: Add layer numbering
+When your board has more than three layers, it is a good practice to build checks into your copper geometry to ensure that the layers were manufactured in the right order. In our case, switching the order of the inner two layers would change the capacitance of those layers, which is particularly undesirable on a power board.
+
+Since silkscreen is not available for inner layers, PCB designers often label these layers directly on the copper to both highlight layer order to the manufacturer and build in a post-fab check. Here is an example of layer numbering and what the board would look like with correct and incorrect ordering:
+
+To make these numbers, we will draw keepout zones on your copper fills.
+ 
+### Step 10 (Optional): Personalize the back silkscreen of your board!
 Because the back of this board will be the back side of your Uber radio, you can add text (e.g. your name) to your back silkscreen to customize your radio. Here are the steps to do this: 
 
 * Select the back silkscreen layer (B.SilkS) as the active layer
 * Select the text symbol on the bottom of the right toolbar. Write your text and select where you want to add it to the board. Since it's on the back silkscreen, the text will appear backwards. 
 
-
-### Step 10: Submit your files 
-* Please hold off on submitting your files until we upload more instructions on how to check all of your files
+### Step 11: Submit your files 
+Please hold off on submitting your gerbers until we upload more instructions on how to check all of your files. In the meantime, please zip your entire project and upload it to [this folder](https://drive.google.com/drive/u/2/folders/1e8zsRJFqjapmwYdHj4HdveI1naBzdkUp) by **this Thursday**. Don't worry if it's not done yet! We'll be reviewing your work so far and giving you feedback before the final submission.
