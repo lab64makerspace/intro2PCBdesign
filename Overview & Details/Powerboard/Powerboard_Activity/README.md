@@ -59,7 +59,16 @@ By convention, when referring to the number of layers in a PCB, we refer to the 
 ### Step 4: Add the board outline 
 Import the [provided board outline](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20%26%20Details/Powerboard/Powerboard_Activity/Power_board_outline.dxf).
 
-### Step 5: Layout the footprints 
+### Step 5: Add mounting holes 
+Add four mounting holes to your board to mount it to the Uber radio. 
+
+* In your schematic, insert four mounting hole symbols, assign them a footprint(MountingHole:MountingHole_5.3mm_M5), and re-annotate your schematic.  
+* Update your .kicad_pcb file. You should see four mounting holes now. 
+* Run the powerboard_hole_layout.py script to set their position. You should obtain the following layout: 
+
+<img width="500" src="../Images/MountingHoles.png">
+
+### Step 6: Layout the footprints 
 Unlike the LED board, where are component placement was constrained by mechanical requirements, the power board allows for a lot more flexibility. Here are some suggestions to help guide you.
 
 Here is a suggested floorplan. These groups correspond to the labeled clusters of symbols on your schematic. Note that the groups in black text are relatively fixed: we want the barrel jack connector near the bottom of the power board and the LED 5V supplies near their respective sides.
@@ -83,7 +92,7 @@ Here is a suggested floorplan. These groups correspond to the labeled clusters o
 We know this is a daunting step, so please reach out to us if you have questions or if you'd like us to look over your layout!
 
 
-### Step 6: Add thermal vias 
+### Step 7: Add thermal vias 
 Because the LEDs will draw significant amounts of current, we need to add thermal vias to prevent components from overheating. Although it is generally a bad idea to add vias on the pad of a component, it's ok in a limited number of cases. It's not recommended to have a "via in pad" because vias inside of a pad make soldering to the pad more problematic (imagine your solder dripping down the vias!). Via in pad can destroy our goal of having controlled impedances (between IC package and the board) because it's hard to solder ontop of a via. There's usually a better way to make the connection (you could put the via *next* to the pad!). In our case the pad doesn't provide any signal connection. Instead the pad exists as a heat sink for the LM2576. There's a heat sink on the package of the LM2576 and the thermal conductivity (think of it as thermal performance) gets better if we solder the package's heat sink to the PCB. Thus we don't need to worry about any signal intergrity for these vias on the pad.<br/>
 <img width="150" src="../../Powerboard/Images/Thermal vias.png">
 
@@ -92,7 +101,7 @@ Recall from last week's workshop that the bottom of the LM2576S component is a t
 <img width="150" src="../../Powerboard/Images/lm2576s.jpg"> <img width="150" src="../../Powerboard/Images/lm2576s.png">
 
 
-### Step 7: Create the power planes 
+### Step 8: Create the power planes 
 1) Create a **GND** power plane on the bottom copper layer (B.Cu). 
 * Select the B.Cu layer as the active layer, by double clicking on the left of the layer in the right sidebar until the black arrow appears next to the B.Cu layer as shown below. 
 * <img width="150" src="../../Powerboard/Images/SelectLayer.png">
@@ -104,14 +113,14 @@ Recall from last week's workshop that the bottom of the LM2576S component is a t
 
 If you make changes to the layout of your board after creating the filled zone, you can automatically refill a zone by selecting the zone and pressing "B." 
 
-### Step 8: Add traces
+### Step 9: Add traces
 * Refer to this [page](/Resources/PCBLayout_Advice.md) for more advice. 
 
 * Notice you can toggle the visibility of the rats nest with this button. The rats nest shows you which parts should be electrically connected on the board, but can also make it hard to see your layout. 
 
  <img width="150" src="../../Powerboard/Images/Ratsnest.png">
  
-### Step 9: Add layer numbering
+### Step 10: Add layer numbering
 When your board has more than three layers, it is a good practice to build checks into your copper geometry to ensure that the layers were manufactured in the right order. In our case, switching the order of the inner two layers would change the capacitance of those layers, which is particularly undesirable on a power board.
 
 Since silkscreen is not available for inner layers, PCB designers often label these layers directly on the copper to both highlight layer order to the manufacturer and build in a post-fab check. Here is a suggested layer numbering design and what the board would look like with correct and incorrect ordering:
@@ -140,11 +149,11 @@ The final result for one layer number should look something like this. Repeat fo
 
 <img width="250" src="../../Powerboard/Images/one_layer_number.png">
  
-### Step 10 (Optional): Personalize the back silkscreen of your board!
+### Step 11 (Optional): Personalize the back silkscreen of your board!
 Because the back of this board will be the back side of your Uber radio, you can add text (e.g. your name) to your back silkscreen to customize your radio. Here are the steps to do this: 
 
 * Select the back silkscreen layer (B.SilkS) as the active layer
 * Select the text symbol on the bottom of the right toolbar. Write your text and select where you want to add it to the board. Since it's on the back silkscreen, the text will appear backwards. 
 
-### Step 11: Submit your files 
+### Step 12: Submit your files 
 Please hold off on submitting your gerbers until we upload more instructions on how to check all of your files. In the meantime, please zip your entire project and upload it to [this folder](https://drive.google.com/drive/u/2/folders/1e8zsRJFqjapmwYdHj4HdveI1naBzdkUp) by **this Thursday**. Don't worry if it's not done yet! We'll be reviewing your work so far and giving you feedback before the final submission.
