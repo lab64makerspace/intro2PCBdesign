@@ -6,12 +6,29 @@ You can find an explanation for the overall power board design [here](../../Powe
 
 You can find a summary of PCB layout guidelines [here](/Resources/PCBLayout_Advice.md). 
 
-### Step 0: Add capacitors to schematic
+### Step 0: Make a few modifications to your schematic 
+
+#### Switch the pin numbers on the barrel jack symbol 
+* Go to "Tools"-"Symbol Library Editor" 
+* Find the barrel jack symbol 
+* Double click on the pin numbers and change them as shown in the image below
+
+<img width="250" src="../../Powerboard/Images/BarrelJack.png">
+
+
+#### Switch the pin numbers on the 4-Pos Terminal Block 
+* Repeat the same process as with the barrel jack to swap the pin numbers on the Term Blk 4-Pos underneath it. 
+
+<img width="250" src="../../Powerboard/Images/TermBlock.png">
+
+#### Add capacitors to the schematic
 There are a two more components we need to add to your schematic from last week.
 
 * Open up your Powerboard schematic from part 1 of this activity. 
 * Add two 100μF capacitors between 36V from the barrel jack and ground, as shown below. We've added these because they help the voltage stay constant in case of heavy [loads](https://electrical-engineering-portal.com/few-things-that-capacitors-do-perfectly) and [shunt](https://en.wikipedia.org/wiki/Decoupling_capacitor) any noise from voltage spikes or ground bounce. In short, we add these caps to get as pure of a 36V DC signal as possible.<br/>
-<img width="250" src="../../Powerboard/Images/36v_caps.png">
+<img width="250" src="../../Powerboard/Images/BarrelJack.png">
+
+
 
 ### Step 1: Assign footprints 
 * Import the Powerboard footprint library we've created that contains the footprints that don't come with a standard KiCAD installation. Open the "Footprint Editor" and go to "File"->"Add Library" and select "Powerboard.pretty". 
