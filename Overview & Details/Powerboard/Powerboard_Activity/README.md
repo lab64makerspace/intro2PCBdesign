@@ -25,6 +25,10 @@ There are a two more components we need to add to your schematic from last week.
 <img width="450" src="../../Powerboard/Images/UpdatedFootprints.png">
 <br/>
 
+Here is our annotated schematic for reference (click on the image for better resolution). You will need this schematic reference to distinguish between the 100 micro F capacitors that have different footprints. 
+<img width="700" src="../../Powerboard/Images/AnnotatedSchematicV2.png">
+<br/>
+
 Note:<br/> 
 These are the footprints for the inductors (same as shown in the image above):
 - 100uH - Inductor_SMD:Eaton_CTX100-2-52-R
