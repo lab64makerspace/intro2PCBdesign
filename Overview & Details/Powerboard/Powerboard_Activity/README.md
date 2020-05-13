@@ -110,11 +110,13 @@ If you make changes to the layout of your board after creating the filled zone, 
 ### Step 9: Add layer numbering
 When your board has more than three layers, it is a good practice to build checks into your copper geometry to ensure that the layers were manufactured in the right order. In our case, switching the order of the inner two layers would change the capacitance of those layers, which is particularly undesirable on a power board.
 
-Since silkscreen is not available for inner layers, PCB designers often label these layers directly on the copper to both highlight layer order to the manufacturer and build in a post-fab check. Here is an example of layer numbering and what the board would look like with correct and incorrect ordering:
+Since silkscreen is not available for inner layers, PCB designers often label these layers directly on the copper to both highlight layer order to the manufacturer and build in a post-fab check. Here is a suggested layer numbering design and what the board would look like with correct and incorrect ordering:
 
  <img width="600" src="../../Powerboard/Images/layer_numbering.png">
 
-You can design this layer numbering however you'd like, as long as it is clear whether the layers have been ordered correctly. To make these numbers, we will draw keepout areas on your copper fills.
+Notice how the squares on layers 2, 3, and 4 slightly overlap, thus leaving a thin rectangle clear of copper on all four layers. This is intentional: the fiberglass boards are fairly opaque and hard to see through without sufficient lighting. The thin rectangle helps let more light into that local region of the board, which (1) makes it easier to quickly spot the layer numbering region and (2) makes it easier to read the numbers.
+
+This design is only a suggestion -- you can definitely design the layer numbering however you'd like! To make these numbers, we will draw keepout areas on your copper fills.
 
 1. Pick an area near a corner of your board (where there are no components or traces). 
 2. Select the "Add keepout areas" button on the right toolbar <img width="30" src="../../Powerboard/Images/keepout_button.png">. Click where you'd like to add the keepout.
