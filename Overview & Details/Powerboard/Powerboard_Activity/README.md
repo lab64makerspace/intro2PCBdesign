@@ -6,6 +6,10 @@ You can find an explanation for the overall power board design [here](../../Powe
 
 You can find a summary of PCB layout guidelines [here](/Resources/PCBLayout_Advice.md). 
 
+As a reference, here is an CAD overview of the Uber radio with the powerboard (the front transparent board): 
+
+<img width="250" src="../../Powerboard/Images/PowerboardCAD.png">
+
 ### Step 0: Make a few modifications to your schematic 
 
 #### Switch the pin numbers on the barrel jack symbol 
