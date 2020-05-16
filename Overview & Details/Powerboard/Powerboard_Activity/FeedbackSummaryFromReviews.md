@@ -14,3 +14,7 @@
 
 ### Keep capacitors close to the circuit they belong to 
 * We saw some boards that grouped all of the capacitors in one region of the board and connected them to their appropriate layer with vias. Instead aim to keep your capacitors as close as possible to the schematic block they belong to. 
+
+### Add many vias to connect high current pads to other layers 
+* For components that are carrying large amounts of current, use many vias to connect a pad to a different layer, as shown below: 
+<img width="100" src="../../Powerboard/Images/SampleVias.png">
