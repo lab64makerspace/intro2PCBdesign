@@ -79,7 +79,15 @@
  > A ball grid array is a surface-mount packaging used for integrated circuits (ICs). The packaging is composed of a grid like array of solder balls placed on the bottom of an IC to facilitate the connection between the IC and a PCB. Its advantages include having high density, meaning it can be used with ICs with hundreds of pins, having good heat conduction because the grid array allows better heat flow betwen the IC and the PCB, and having lower inductance because the connection between the IC and PCB is very short. (Image source: Electronics Cooling)
 > ![](https://electronics-cooling.com/wp-content/uploads/2002/02/2002_Feb_A3_Fig1.jpg) 
  </details>
+ 
+ <details>
+    <summary>Bypass Capacitor</summary>
 
+ > A capacitor attached in parallel to a power trace (so one port connected to the power line and one port connected to ground) in order to decouple any noise on the power trace. Bypass caps are extremely useful when supplying power to IC's because they help provide a steady, smooth supply voltage.<br/>
+ > ![](http://www.seattlerobotics.org/encoder/199706/basics1.gif)
+ > ![](https://mxcdn.macrofab.com/wp-content/uploads/2016/05/Bypass2-1464117355139-1024x460.png)
+ > ![](https://www.electronicshub.org/wp-content/uploads/2019/04/Bypass-Capacitor-Tutorial-Image-1-1.jpg)
+ </details>
  <details>
     <summary>CAD</summary>
 
