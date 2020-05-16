@@ -10,6 +10,8 @@ As a reference, here is an CAD overview of the Uber radio with the powerboard (t
 
 <img width="250" src="../../Powerboard/Images/PowerboardCAD.png">
 
+**[Here](../../Powerboard/Powerboard_Activity/FeedbackSummaryFromReviews.md) is a summary of the feedback we gave during the one-on-one power board reviews.**
+
 ### Step 0: Make a few modifications to your schematic 
 
 #### Switch the pin numbers on the barrel jack symbol 
