@@ -1,8 +1,10 @@
 # Display board
-* Symbols are located in `display_board.lib` which will appear as `Display_Board` in the Symbol editor.
-* Footprints are located in `display_board.pretty` which will appear as `Display_Board` in the Footprint editor.
-* Resolve errors related to "missing paths" by checking `Preferences -> Manage Symbol Libraries` or `Preferences -> Manage Footprint Libraries` to see if th existing paths point to the wrong folder.
 
+On the front of your UberRadio, there will be a touchscreen LCD display to control the radio's functionality. The display board you are making will house the touchscreen display and its controller.
 
-https://cdn-shop.adafruit.com/datasheets/MI0283QT-11+V1.1.PDF
-link to LCD datasheet
+## Step 1: Make the LCD display symbol
+We are using this [2.8" display with resistive touchscreen](https://www.adafruit.com/product/1774). 
+
+<img width="250" src="https://cdn-shop.adafruit.com/970x728/1774-00.jpg">
+
+Here is its [datasheet](https://cdn-shop.adafruit.com/datasheets/MI0283QT-11+V1.1.PDF). Page 10 has an annotated listing of all 50 pins, which you will need to add to your symbol.
