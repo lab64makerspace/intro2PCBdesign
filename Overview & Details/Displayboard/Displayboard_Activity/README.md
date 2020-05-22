@@ -16,3 +16,5 @@ Note that the table has an I/O column, which will help you assign the "Electrica
 - P = Power input
 - G = Power input
 PIn 50's I/O value is not provided -- you can make it a Power output.
+
+# Step 2: Coming soon!
