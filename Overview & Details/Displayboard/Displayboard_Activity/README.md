@@ -7,4 +7,11 @@ We are using this [2.8" display with resistive touchscreen](https://www.adafruit
 
 <img width="250" src="https://cdn-shop.adafruit.com/970x728/1774-00.jpg">
 
-Here is its [datasheet](https://cdn-shop.adafruit.com/datasheets/MI0283QT-11+V1.1.PDF). Page 10 has an annotated listing of all 50 pins, which you will need to add to your symbol.
+Here is its [datasheet](https://cdn-shop.adafruit.com/datasheets/MI0283QT-11+V1.1.PDF). Page 10 has an annotated listing of all 50 pins, which you will need to add to your symbol. 
+
+Note that the table has an I/O column, which will help you assign the "Electrical type" of each pin. 
+- I = Input
+- O = Output
+- IO = Bidirectional
+- P = Power input
+- G = Power input
