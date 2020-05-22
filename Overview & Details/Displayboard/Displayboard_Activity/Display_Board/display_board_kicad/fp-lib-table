@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name footprints)(type KiCad)(uri "C:/Users/johnk/OneDrive/Desktop/intro2pcb-2/intro2PCBdesign/Overview & Details/Displayboard/Displayboard_Activity/Display_Board/50pinconnector/KiCAD/2020-04-05_01-22-35/footprints.pretty")(options "")(descr "")(disabled))
-  (lib (name Display_Board)(type KiCad)(uri ${KIPRJMOD}/display_board.pretty)(options "")(descr ""))
-  (lib (name activity3)(type KiCad)(uri ${KIPRJMOD}/activity3.pretty)(options "")(descr "")(disabled))
-)

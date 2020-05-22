@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name Adafruit_STMPE610-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Adafruit_STMPE610-eagle-import.lib)(options "")(descr ""))
-  (lib (name Adafruit-STMPE610-rescue)(type Legacy)(uri "${KIPRJMOD}/Adafruit STMPE610-rescue.lib")(options "")(descr ""))
-)

@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "Adafruit STMPE610")(type KiCad)(uri "$(KIPRJMOD)/Adafruit STMPE610.pretty")(options "")(descr ""))
-)
