@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Display_Board_Conn_01x50
+# Conn_01x50
 #
-DEF Display_Board_Conn_01x50 J 0 40 Y Y 1 F N
+DEF Conn_01x50 J 0 40 Y Y 1 F N
 F0 "J" -50 -2750 50 H V C CNN
-F1 "Display_Board_Conn_01x50" -50 -2850 50 H V C CNN
+F1 "Conn_01x50" -50 -2850 50 H V C CNN
 F2 "" -50 -2750 50 H I C CNN
 F3 "" -50 -2750 50 H I C CNN
 DRAW
