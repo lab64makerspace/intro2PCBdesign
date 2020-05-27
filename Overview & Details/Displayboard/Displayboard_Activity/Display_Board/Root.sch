@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title "UberRadio Display Board"
 Date ""
 Rev "0.1"
@@ -30046,7 +30046,7 @@ U 1 1 5EDCBEFA
 P 5020 7310
 F 0 "U1" H 4893 7413 60  0000 R CNN
 F 1 "MCP130T-300I_TT-dk_PMIC-Supervisors" H 4893 7307 60  0000 R CNN
-F 2 "" H 5220 7510 60  0001 L CNN
+F 2 "Display_Board:SOT-23-3" H 5220 7510 60  0001 L CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011325" H 5220 7610 60  0001 L CNN
 F 4 "MCP130T-300I/TTCT-ND" H 5220 7710 60  0001 L CNN "Digi-Key_PN"
 F 5 "MCP130T-300I/TT" H 5220 7810 60  0001 L CNN "MPN"
@@ -30077,7 +30077,7 @@ U 1 1 5EDCF54B
 P 9600 2145
 F 0 "Q1" H 9788 2198 60  0000 L CNN
 F 1 "MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single" H 9788 2092 60  0000 L CNN
-F 2 "" H 9800 2345 60  0001 L CNN
+F 2 "Display_Board:SOT-23-3" H 9800 2345 60  0001 L CNN
 F 3 "http://www.mccsemi.com/up_pdf/MMBT2222A(SOT-23).pdf" H 9800 2445 60  0001 L CNN
 F 4 "MMBT2222ATPMSCT-ND" H 9800 2545 60  0001 L CNN "Digi-Key_PN"
 F 5 "MMBT2222A-TP" H 9800 2645 60  0001 L CNN "MPN"
@@ -30104,10 +30104,4 @@ F 3 "" H 11150 5850 50  0001 C CNN
 $EndComp
 Text Notes 12650 3750 0    98   ~ 20
 Place your hierarchical sheet here!
-$Sheet
-S 11850 3850 4400 2900
-U 5ED1B308
-F0 "Display_Board" 50
-F1 "Display_Board.sch" 50
-$EndSheet
 $EndSCHEMATC
