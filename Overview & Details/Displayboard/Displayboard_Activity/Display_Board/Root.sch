@@ -28162,7 +28162,7 @@ AR Path="/5EC2C23D/5EC444E2" Ref="JP?"  Part="1"
 AR Path="/5EC444E2" Ref="JP2"  Part="1" 
 F 0 "JP2" V 7950 2860 50  0000 R CNN
 F 1 "SolderJumper_2_Open" V 7805 2822 50  0001 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7850 2910 50  0001 C CNN
+F 2 "Display_Board:SOLDERJUMPER_ARROW_NOPASTE" H 7850 2910 50  0001 C CNN
 F 3 "~" H 7850 2910 50  0001 C CNN
 	1    7850 2910
 	0    -1   -1   0   
@@ -28175,7 +28175,7 @@ AR Path="/5EC2C23D/5EC444E8" Ref="JP?"  Part="1"
 AR Path="/5EC444E8" Ref="JP1"  Part="1" 
 F 0 "JP1" V 7700 2860 50  0000 R CNN
 F 1 "SolderJumper_2_Open" V 7555 2822 50  0001 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7600 2910 50  0001 C CNN
+F 2 "Display_Board:SOLDERJUMPER_ARROW_NOPASTE" H 7600 2910 50  0001 C CNN
 F 3 "~" H 7600 2910 50  0001 C CNN
 	1    7600 2910
 	0    -1   -1   0   
@@ -28188,7 +28188,7 @@ AR Path="/5EC2C23D/5EC444EE" Ref="JP?"  Part="1"
 AR Path="/5EC444EE" Ref="JP3"  Part="1" 
 F 0 "JP3" V 8200 2860 50  0000 R CNN
 F 1 "SolderJumper_2_Open" V 8055 2822 50  0001 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8100 2910 50  0001 C CNN
+F 2 "Display_Board:SOLDERJUMPER_ARROW_NOPASTE" H 8100 2910 50  0001 C CNN
 F 3 "~" H 8100 2910 50  0001 C CNN
 	1    8100 2910
 	0    -1   -1   0   
@@ -28201,7 +28201,7 @@ AR Path="/5EC2C23D/5EC444F4" Ref="JP?"  Part="1"
 AR Path="/5EC444F4" Ref="JP4"  Part="1" 
 F 0 "JP4" V 8450 2860 50  0000 R CNN
 F 1 "SolderJumper_2_Open" V 8305 2822 50  0001 R CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 8350 2910 50  0001 C CNN
+F 2 "Display_Board:SOLDERJUMPER_ARROW_NOPASTE" H 8350 2910 50  0001 C CNN
 F 3 "~" H 8350 2910 50  0001 C CNN
 	1    8350 2910
 	0    -1   -1   0   
@@ -28933,7 +28933,7 @@ U 1 1 5EF37FB6
 P 5280 9180
 F 0 "U5" H 5280 9522 50  0000 C CNN
 F 1 "LP2988-3.3_SOIC8_VSSOP8" H 5280 9431 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5280 9605 50  0001 C CIN
+F 2 "Display_Board:LP2988IMM-3.3_slash_NOPB" H 5280 9605 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lp2987.pdf" H 5280 9180 50  0001 C CNN
 	1    5280 9180
 	1    0    0    -1  
@@ -29437,7 +29437,7 @@ U 1 1 5F2B479A
 P 1790 3390
 F 0 "J2" H 1682 2165 50  0000 C CNN
 F 1 "Conn_01x20_Female" H 1682 2256 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 1790 3390 50  0001 C CNN
+F 2 "Display_Board:1X20_ROUND" H 1790 3390 50  0001 C CNN
 F 3 "~" H 1790 3390 50  0001 C CNN
 	1    1790 3390
 	-1   0    0    1   
@@ -29448,7 +29448,7 @@ U 1 1 5F2C4071
 P 1795 7385
 F 0 "J4" H 1687 6160 50  0000 C CNN
 F 1 "Conn_01x20_Female" H 1687 6251 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 1795 7385 50  0001 C CNN
+F 2 "Display_Board:1X20_ROUND" H 1795 7385 50  0001 C CNN
 F 3 "~" H 1795 7385 50  0001 C CNN
 	1    1795 7385
 	-1   0    0    1   
@@ -30006,7 +30006,7 @@ U 1 1 5EDC62A5
 P 5540 4725
 F 0 "U2" H 5440 5228 60  0000 C CNN
 F 1 "SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers" H 5440 5122 60  0000 C CNN
-F 2 "" H 5740 4925 60  0001 L CNN
+F 2 "Display_Board:SN74LVC245ARGYR" H 5740 4925 60  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc245a.pdf" H 5740 5025 60  0001 L CNN
 F 4 "296-8503-5-ND" H 5740 5125 60  0001 L CNN "Digi-Key_PN"
 F 5 "SN74LVC245AN" H 5740 5225 60  0001 L CNN "MPN"
@@ -30026,7 +30026,7 @@ U 1 1 5EDC87AA
 P 8175 4685
 F 0 "U4" H 8075 5188 60  0000 C CNN
 F 1 "SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers" H 8075 5082 60  0000 C CNN
-F 2 "" H 8375 4885 60  0001 L CNN
+F 2 "Display_Board:SN74LVC245ARGYR" H 8375 4885 60  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lvc245a.pdf" H 8375 4985 60  0001 L CNN
 F 4 "296-8503-5-ND" H 8375 5085 60  0001 L CNN "Digi-Key_PN"
 F 5 "SN74LVC245AN" H 8375 5185 60  0001 L CNN "MPN"
@@ -30066,7 +30066,7 @@ U 1 1 5EDCD46F
 P 7635 7735
 F 0 "U3" H 7635 8700 50  0000 C CNN
 F 1 "STMPE811QTR-Interface_Expansion" H 7635 8609 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-12-1EP_3x3mm_P0.51mm_EP1.45x1.45mm" H 7635 8035 50  0001 C CNN
+F 2 "Display_Board:STMPE811" H 7635 8035 50  0001 C CNN
 F 3 "" H 7635 8035 50  0001 C CNN
 	1    7635 7735
 	1    0    0    -1  
@@ -30089,17 +30089,6 @@ F 10 "TRANS NPN 40V 0.6A SOT23" H 9800 3145 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 9800 3245 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 9800 3345 60  0001 L CNN "Status"
 	1    9600 2145
-	1    0    0    -1  
-$EndComp
-$Comp
-L Display_Board:Conn_01x50-Connector_Generic J3
-U 1 1 5EDD142B
-P 11150 5350
-F 0 "J3" H 11230 5342 50  0000 L CNN
-F 1 "Conn_01x50-Connector_Generic" H 11230 5251 50  0000 L CNN
-F 2 "Connector_FFC-FPC:TE_5-1734839-0_1x50-1MP_P0.5mm_Horizontal" H 11150 5850 50  0001 C CNN
-F 3 "" H 11150 5850 50  0001 C CNN
-	1    11150 5350
 	1    0    0    -1  
 $EndComp
 Text Notes 12650 3750 0    98   ~ 20
