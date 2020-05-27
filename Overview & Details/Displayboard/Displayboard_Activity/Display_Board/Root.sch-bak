@@ -28933,7 +28933,7 @@ U 1 1 5EF37FB6
 P 5280 9180
 F 0 "U5" H 5280 9522 50  0000 C CNN
 F 1 "LP2988-3.3_SOIC8_VSSOP8" H 5280 9431 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5280 9605 50  0001 C CIN
+F 2 "Display_Board:LP2988IMM-3.3_slash_NOPB" H 5280 9605 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lp2987.pdf" H 5280 9180 50  0001 C CNN
 	1    5280 9180
 	1    0    0    -1  
@@ -30089,17 +30089,6 @@ F 10 "TRANS NPN 40V 0.6A SOT23" H 9800 3145 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 9800 3245 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 9800 3345 60  0001 L CNN "Status"
 	1    9600 2145
-	1    0    0    -1  
-$EndComp
-$Comp
-L Display_Board:Conn_01x50-Connector_Generic J3
-U 1 1 5EDD142B
-P 11150 5350
-F 0 "J3" H 11230 5342 50  0000 L CNN
-F 1 "Conn_01x50-Connector_Generic" H 11230 5251 50  0000 L CNN
-F 2 "Connector_FFC-FPC:TE_5-1734839-0_1x50-1MP_P0.5mm_Horizontal" H 11150 5850 50  0001 C CNN
-F 3 "" H 11150 5850 50  0001 C CNN
-	1    11150 5350
 	1    0    0    -1  
 $EndComp
 Text Notes 12650 3750 0    98   ~ 20
