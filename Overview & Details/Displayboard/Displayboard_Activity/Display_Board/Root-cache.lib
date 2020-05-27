@@ -1,11 +1,141 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Conn_01x50
+# Connector_Conn_01x20_Female
 #
-DEF Conn_01x50 J 0 40 Y Y 1 F N
+DEF Connector_Conn_01x20_Female J 0 40 Y N 1 F N
+F0 "J" 0 1000 50 H V C CNN
+F1 "Connector_Conn_01x20_Female" 0 -1100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -1000 20 901 -901 1 1 6 N 0 -980 0 -1020
+A 0 -900 20 901 -901 1 1 6 N 0 -880 0 -920
+A 0 -800 20 901 -901 1 1 6 N 0 -780 0 -820
+A 0 -700 20 901 -901 1 1 6 N 0 -680 0 -720
+A 0 -600 20 901 -901 1 1 6 N 0 -580 0 -620
+A 0 -500 20 901 -901 1 1 6 N 0 -480 0 -520
+A 0 -400 20 901 -901 1 1 6 N 0 -380 0 -420
+A 0 -300 20 901 -901 1 1 6 N 0 -280 0 -320
+A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+A 0 200 20 901 -901 1 1 6 N 0 220 0 180
+A 0 300 20 901 -901 1 1 6 N 0 320 0 280
+A 0 400 20 901 -901 1 1 6 N 0 420 0 380
+A 0 500 20 901 -901 1 1 6 N 0 520 0 480
+A 0 600 20 901 -901 1 1 6 N 0 620 0 580
+A 0 700 20 901 -901 1 1 6 N 0 720 0 680
+A 0 800 20 901 -901 1 1 6 N 0 820 0 780
+A 0 900 20 901 -901 1 1 6 N 0 920 0 880
+P 2 1 1 6 -50 -1000 -20 -1000 N
+P 2 1 1 6 -50 -900 -20 -900 N
+P 2 1 1 6 -50 -800 -20 -800 N
+P 2 1 1 6 -50 -700 -20 -700 N
+P 2 1 1 6 -50 -600 -20 -600 N
+P 2 1 1 6 -50 -500 -20 -500 N
+P 2 1 1 6 -50 -400 -20 -400 N
+P 2 1 1 6 -50 -300 -20 -300 N
+P 2 1 1 6 -50 -200 -20 -200 N
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+P 2 1 1 6 -50 200 -20 200 N
+P 2 1 1 6 -50 300 -20 300 N
+P 2 1 1 6 -50 400 -20 400 N
+P 2 1 1 6 -50 500 -20 500 N
+P 2 1 1 6 -50 600 -20 600 N
+P 2 1 1 6 -50 700 -20 700 N
+P 2 1 1 6 -50 800 -20 800 N
+P 2 1 1 6 -50 900 -20 900 N
+X Pin_1 1 -200 900 150 R 50 50 1 1 P
+X Pin_10 10 -200 0 150 R 50 50 1 1 P
+X Pin_11 11 -200 -100 150 R 50 50 1 1 P
+X Pin_12 12 -200 -200 150 R 50 50 1 1 P
+X Pin_13 13 -200 -300 150 R 50 50 1 1 P
+X Pin_14 14 -200 -400 150 R 50 50 1 1 P
+X Pin_15 15 -200 -500 150 R 50 50 1 1 P
+X Pin_16 16 -200 -600 150 R 50 50 1 1 P
+X Pin_17 17 -200 -700 150 R 50 50 1 1 P
+X Pin_18 18 -200 -800 150 R 50 50 1 1 P
+X Pin_19 19 -200 -900 150 R 50 50 1 1 P
+X Pin_2 2 -200 800 150 R 50 50 1 1 P
+X Pin_20 20 -200 -1000 150 R 50 50 1 1 P
+X Pin_3 3 -200 700 150 R 50 50 1 1 P
+X Pin_4 4 -200 600 150 R 50 50 1 1 P
+X Pin_5 5 -200 500 150 R 50 50 1 1 P
+X Pin_6 6 -200 400 150 R 50 50 1 1 P
+X Pin_7 7 -200 300 150 R 50 50 1 1 P
+X Pin_8 8 -200 200 150 R 50 50 1 1 P
+X Pin_9 9 -200 100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_CP1_Small
+#
+DEF Device_CP1_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_CP1_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
+P 2 0 1 12 -60 20 60 20 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small_US
+#
+DEF Device_R_Small_US R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small_US" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 0 0 40 -15 0 -30 -40 -45 0 -60 N
+P 5 1 1 0 0 60 40 45 0 30 -40 15 0 0 N
+X ~ 1 0 100 40 D 50 50 1 1 P
+X ~ 2 0 -100 40 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Display_Board_Conn_01x50
+#
+DEF Display_Board_Conn_01x50 J 0 40 Y Y 1 F N
 F0 "J" -50 -2750 50 H V C CNN
-F1 "Conn_01x50" -50 -2850 50 H V C CNN
+F1 "Display_Board_Conn_01x50" -50 -2850 50 H V C CNN
 F2 "" -50 -2750 50 H I C CNN
 F3 "" -50 -2750 50 H I C CNN
 DRAW
@@ -162,11 +292,11 @@ X ~ 9 200 1600 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conn_01x50-Connector_Generic
+# Display_Board_Conn_01x50-Connector_Generic
 #
-DEF Conn_01x50-Connector_Generic J 0 40 Y N 1 F N
+DEF Display_Board_Conn_01x50-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 2000 50 H V C CNN
-F1 "Conn_01x50-Connector_Generic" 0 -2650 50 H V C CNN
+F1 "Display_Board_Conn_01x50-Connector_Generic" 0 -2650 50 H V C CNN
 F2 "" 0 500 50 H I C CNN
 F3 "" 0 500 50 H I C CNN
 $FPLIST
@@ -277,11 +407,11 @@ X Pin_9 9 -200 1600 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCP130T-300I_TT-dk_PMIC-Supervisors
+# Display_Board_MCP130T-300I_TT-dk_PMIC-Supervisors
 #
-DEF MCP130T-300I_TT-dk_PMIC-Supervisors U 0 1 Y Y 1 F N
+DEF Display_Board_MCP130T-300I_TT-dk_PMIC-Supervisors U 0 1 Y Y 1 F N
 F0 "U" -107 238 60 H V L CNN
-F1 "MCP130T-300I_TT-dk_PMIC-Supervisors" 11 -149 60 H V L CNN
+F1 "Display_Board_MCP130T-300I_TT-dk_PMIC-Supervisors" 11 -149 60 H V L CNN
 F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011325" 200 300 60 H I L CNN
 F4 "MCP130T-300I/TTCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -301,11 +431,11 @@ X VSS 3 0 -200 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single
+# Display_Board_MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single
 #
-DEF MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single Q 0 0 Y Y 1 F N
+DEF Display_Board_MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single Q 0 0 Y Y 1 F N
 F0 "Q" -126 166 60 H V L CNN
-F1 "MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single" 206 0 60 V V C CNN
+F1 "Display_Board_MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single" 206 0 60 V V C CNN
 F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "http://www.mccsemi.com/up_pdf/MMBT2222A(SOT-23).pdf" 200 300 60 H I L CNN
 F4 "MMBT2222ATPMSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -331,11 +461,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Micro_SD_Card_Det_MOD-Connector
+# Display_Board_Micro_SD_Card_Det_MOD-Connector
 #
-DEF Micro_SD_Card_Det_MOD-Connector J 0 40 Y Y 1 F N
+DEF Display_Board_Micro_SD_Card_Det_MOD-Connector J 0 40 Y Y 1 F N
 F0 "J" -650 700 50 H V C CNN
-F1 "Micro_SD_Card_Det_MOD-Connector" 650 700 50 H V R CNN
+F1 "Display_Board_Micro_SD_Card_Det_MOD-Connector" 650 700 50 H V R CNN
 F2 "" 2050 700 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -366,11 +496,11 @@ X DET_B 9 -900 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers
+# Display_Board_SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers
 #
-DEF SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers U 0 40 Y Y 1 F N
+DEF Display_Board_SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers U 0 40 Y Y 1 F N
 F0 "U" -250 250 60 H V C CNN
-F1 "SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers" -100 -400 60 V V C CNN
+F1 "Display_Board_SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers" -100 -400 60 V V C CNN
 F2 "digikey-footprints:DIP-20_W7.62mm" 200 200 60 H I L CNN
 F3 "http://www.ti.com/lit/ds/symlink/sn74lvc245a.pdf" 200 300 60 H I L CNN
 F4 "296-8503-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -407,11 +537,11 @@ X A8 9 -400 -700 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# STMPE811QTR-Interface_Expansion
+# Display_Board_STMPE811QTR-Interface_Expansion
 #
-DEF STMPE811QTR-Interface_Expansion U 0 40 Y Y 1 F N
+DEF Display_Board_STMPE811QTR-Interface_Expansion U 0 40 Y Y 1 F N
 F0 "U" -360 840 50 H V C CNN
-F1 "STMPE811QTR-Interface_Expansion" 240 840 50 H V C CNN
+F1 "Display_Board_STMPE811QTR-Interface_Expansion" 240 840 50 H V C CNN
 F2 "" 0 300 50 H I C CNN
 F3 "" 0 300 50 H I C CNN
 $FPLIST
@@ -443,6 +573,110 @@ X Vcc 6 -650 700 100 R 50 50 1 1 W
 X DataIn 7 -650 200 100 R 50 50 1 1 B
 X GPIO-0_/_IN0 8 650 -200 100 L 50 50 1 1 B
 X MODE/GPIO-1_/_IN1 9 650 -300 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Jumper_SolderJumper_2_Open
+#
+DEF Jumper_SolderJumper_2_Open JP 0 0 Y N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Jumper_SolderJumper_2_Open" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Open*
+$ENDFPLIST
+DRAW
+A -10 0 40 901 -901 0 1 0 N -10 40 -10 -40
+A -10 0 40 901 -901 0 1 0 F -10 40 -10 -40
+A 10 0 40 -899 899 0 1 0 N 10 -40 10 40
+A 10 0 40 -899 899 0 1 0 F 10 -40 10 40
+P 2 0 1 0 -10 40 -10 -40 N
+P 2 0 1 0 10 40 10 -40 N
+X A 1 -150 0 100 R 50 50 1 1 P
+X B 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear_LP2988-3.3_SOIC8_VSSOP8
+#
+DEF Regulator_Linear_LP2988-3.3_SOIC8_VSSOP8 U 0 10 Y Y 1 F N
+F0 "U" -250 225 50 H V C CNN
+F1 "Regulator_Linear_LP2988-3.3_SOIC8_VSSOP8" -75 225 50 H V L CNN
+F2 "" 0 425 50 H I C CIN
+F3 "" 0 0 50 H I C CNN
+ALIAS LP2988-3.0_SOIC8_VSSOP8 LP2988-3.3_SOIC8_VSSOP8 LP2988-2.8_SOIC8_VSSOP8 LP2988-3.8_SOIC8_VSSOP8
+$FPLIST
+ MSOP*3x3mm*P0.65mm*
+ SOIC*3.9x4.9mm*P1.27mm*
+$ENDFPLIST
+DRAW
+S -300 175 300 -300 0 1 10 f
+X BP 1 400 -200 100 L 50 50 1 1 P
+X DELAY 2 -400 -100 100 R 50 50 1 1 P
+X GND 3 0 -400 100 U 50 50 1 1 W
+X IN 4 -400 100 100 R 50 50 1 1 W
+X OUT 5 400 100 100 L 50 50 1 1 w
+X SENSE 6 400 0 100 L 50 50 1 1 I
+X ~ERROR 7 400 -100 100 L 50 50 1 1 O
+X ~SHTD 8 -400 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_+3V3
+#
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
