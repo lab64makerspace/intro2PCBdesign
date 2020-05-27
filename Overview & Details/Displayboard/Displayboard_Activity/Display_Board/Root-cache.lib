@@ -131,11 +131,11 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Display_Board_MCP130T-300I_TT-dk_PMIC-Supervisors
+# Display_Board_2_MCP130T-300I_TT-dk_PMIC-Supervisors
 #
-DEF Display_Board_MCP130T-300I_TT-dk_PMIC-Supervisors U 0 1 Y Y 1 F N
+DEF Display_Board_2_MCP130T-300I_TT-dk_PMIC-Supervisors U 0 1 Y Y 1 F N
 F0 "U" -107 238 60 H V L CNN
-F1 "Display_Board_MCP130T-300I_TT-dk_PMIC-Supervisors" 11 -149 60 H V L CNN
+F1 "Display_Board_2_MCP130T-300I_TT-dk_PMIC-Supervisors" 11 -149 60 H V L CNN
 F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en011325" 200 300 60 H I L CNN
 F4 "MCP130T-300I/TTCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -155,11 +155,11 @@ X VSS 3 0 -200 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Display_Board_MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single
+# Display_Board_2_MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single
 #
-DEF Display_Board_MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single Q 0 0 Y Y 1 F N
+DEF Display_Board_2_MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single Q 0 0 Y Y 1 F N
 F0 "Q" -126 166 60 H V L CNN
-F1 "Display_Board_MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single" 206 0 60 V V C CNN
+F1 "Display_Board_2_MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single" 206 0 60 V V C CNN
 F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
 F3 "http://www.mccsemi.com/up_pdf/MMBT2222A(SOT-23).pdf" 200 300 60 H I L CNN
 F4 "MMBT2222ATPMSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -185,11 +185,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Display_Board_Micro_SD_Card_Det_MOD-Connector
+# Display_Board_2_Micro_SD_Card_Det_MOD-Connector
 #
-DEF Display_Board_Micro_SD_Card_Det_MOD-Connector J 0 40 Y Y 1 F N
+DEF Display_Board_2_Micro_SD_Card_Det_MOD-Connector J 0 40 Y Y 1 F N
 F0 "J" -650 700 50 H V C CNN
-F1 "Display_Board_Micro_SD_Card_Det_MOD-Connector" 650 700 50 H V R CNN
+F1 "Display_Board_2_Micro_SD_Card_Det_MOD-Connector" 650 700 50 H V R CNN
 F2 "" 2050 700 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -220,11 +220,11 @@ X DET_B 9 -900 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Display_Board_SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers
+# Display_Board_2_SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers
 #
-DEF Display_Board_SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers U 0 40 Y Y 1 F N
+DEF Display_Board_2_SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers U 0 40 Y Y 1 F N
 F0 "U" -250 250 60 H V C CNN
-F1 "Display_Board_SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers" -100 -400 60 V V C CNN
+F1 "Display_Board_2_SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers" -100 -400 60 V V C CNN
 F2 "digikey-footprints:DIP-20_W7.62mm" 200 200 60 H I L CNN
 F3 "http://www.ti.com/lit/ds/symlink/sn74lvc245a.pdf" 200 300 60 H I L CNN
 F4 "296-8503-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -261,11 +261,11 @@ X A8 9 -400 -700 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Display_Board_STMPE811QTR-Interface_Expansion
+# Display_Board_2_STMPE811QTR-Interface_Expansion
 #
-DEF Display_Board_STMPE811QTR-Interface_Expansion U 0 40 Y Y 1 F N
+DEF Display_Board_2_STMPE811QTR-Interface_Expansion U 0 40 Y Y 1 F N
 F0 "U" -360 840 50 H V C CNN
-F1 "Display_Board_STMPE811QTR-Interface_Expansion" 240 840 50 H V C CNN
+F1 "Display_Board_2_STMPE811QTR-Interface_Expansion" 240 840 50 H V C CNN
 F2 "" 0 300 50 H I C CNN
 F3 "" 0 300 50 H I C CNN
 $FPLIST

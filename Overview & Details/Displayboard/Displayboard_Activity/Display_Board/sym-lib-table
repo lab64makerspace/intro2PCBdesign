@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Display_Board)(type Legacy)(uri ${KIPRJMOD}/Display_Board.lib)(options "")(descr ""))
+  (lib (name Display_Board_2)(type Legacy)(uri ${KIPRJMOD}/Display_Board_2.lib)(options "")(descr ""))
 )
