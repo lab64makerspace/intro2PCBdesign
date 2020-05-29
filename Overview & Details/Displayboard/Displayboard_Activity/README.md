@@ -3,23 +3,21 @@
 On the front of your UberRadio, there will be a touchscreen LCD display to control the radio's functionality. The display board you are making will house the touchscreen display and its controller.
 
 
-**BEFORE GIT PULLING, PLEASE READ THIS**:
+## BEFORE GIT PULLING, PLEASE READ THIS:
 (If you have not made your display symbol from part 1 of the activity, you can skip this step.)
 
 We are adding new symbols to the Display_Board library for the rest of the schematic, but we don’t want to overwrite the hard work you put into your display symbol! Here is how we can preserve your work:
 
 
-BEFORE GIT PULLING: 
+**BEFORE GIT PULLING:** 
 
-Find Display_Board.lib and rename it to Display.lib. This way it won’t get overwritten when you git pull.
+- Find Display_Board.lib and rename it to Display.lib. This way it won’t get overwritten when you git pull.
 Delete the sym-lib-table file.
-
-Git pull. If there are conflicts, make sure they will not overwrite Display.lib. Send us a note on Piazza if you are unsure.
-Open Root.pro. You should see a Display_Board_2.lib and a Display.lib. Let’s double check that our library paths are now correctly linked. Go to Preferences > Manage Symbol Libraries…, and click on the Project Specific Libraries tab. You should see that Display_Board points to Display.lib (which has your custom symbol) and Display_Board_2 points to Display_Board_2.lib, which are the new symbols.
+- Git pull. If there are conflicts, make sure they will not overwrite Display.lib. Send us a note on Piazza if you are unsure.
+Open Root.pro. You should see a Display_Board_2.lib and a Display.lib. 
+- Let’s double check that our library paths are now correctly linked. Go to Preferences > Manage Symbol Libraries…, and click on the Project Specific Libraries tab. You should see that Display_Board points to Display.lib (which has your custom symbol) and Display_Board_2 points to Display_Board_2.lib, which are the new symbols.
 
 <img width="350" src="../../Displayboard/Images/Photo1.png">
-
-
 
 ## Step 1: Make the LCD display symbol
 We are using this [2.8" display with resistive touchscreen](https://www.adafruit.com/product/1774). 
@@ -37,9 +35,11 @@ Note that the table has an I/O column, which will help you assign the "Electrica
 PIn 50's I/O value is not provided -- you can make it a Power output.
 
 ## Step 2: Hierarchical schematics
-As your projects grow in size and complexity you will probably want to abstract away different portions of your system; hierarchical schematics are one strategy for abstraction in your schematic designs. 
+As your projects grow in size and complexity you will probably want to abstract away different portions of your system; hierarchical schematics are one strategy for abstraction in your schematic designs. For the display board schematic, since the display symbol is quite large, we can move it to its own child sheet to keep the rest of the schematic readable.
 
-Starting with whatever your schematic is now (here’s mine):
+Open Root.pro.  In the project that opens, you should see a Root.sch (houses all symbols except for the display) and a Display_Board.sch (houses the display symbol you've made). You will modify Root.sch to have Display_Board.sch as its hierarchical child sheet.
+
+We will explain how to generally set up hierarchical schematics. Starting with whatever your schematic is now (here’s mine):
 
 <img width="700" src="../../Displayboard/Images/Photo2.png">
 
@@ -122,10 +122,16 @@ You can now connect these hierarchical pins to the rest of your schematic:
 
 Now there exists a connection between some circuit inside of a subsheet and the root sheet of the hierarchical schematic. Notice how the schematic looks much cleaner!
 
-## Step 3: Finish the schematic  
+## Step 3: Finish the schematic
+
+### Add connections to your display
+In Display_Board.sch, connect the pins on your display symbol as follows. Note that the Vdd_40, Vdd_41, and Vci_42 labels are global labels.
+<img width="400" src="../../Displayboard/Images/symbol_connected.png">
+
+Delete the 50 pin connector from Display_Board.sch.
 
 ### Add mounting holes and fiducials
-Add four mounting holes and two or three fiducials to your schematic.
+In Root.sch, add four mounting holes and two or three fiducials to your schematic.
 
 ### Add footprints
 Import the Display_Board.pretty footprint library.
