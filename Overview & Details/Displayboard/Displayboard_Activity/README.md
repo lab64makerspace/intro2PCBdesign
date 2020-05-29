@@ -126,6 +126,7 @@ Now there exists a connection between some circuit inside of a subsheet and the 
 
 ### Add connections to your display
 In Display_Board.sch, connect the pins on your display symbol as follows. Note that the Vdd_40, Vdd_41, and Vci_42 labels are global labels.
+
 <img width="400" src="../../Displayboard/Images/symbol_connected.png">
 
 Delete the 50 pin connector from Display_Board.sch.
