@@ -125,11 +125,22 @@ Now there exists a connection between some circuit inside of a subsheet and the 
 ## Step 3: Finish the schematic
 
 ### Add connections to your display
-In Display_Board.sch, connect the pins on your display symbol as follows. Note that the Vdd_40, Vdd_41, and Vci_42 labels are global labels.
+In Display_Board.sch, connect the pins on your display symbol as follows. Note that the pins in this screenshot have local labels, but you should use either **hierarchical or global labels** for all pins.
 
 <img width="400" src="../../Displayboard/Images/symbol_connected.png">
 
 Delete the 50 pin connector from Display_Board.sch.
+
+### Add display connections to your root schematic
+We now need to connect the pins from your child schematic into your parent Root.sch sheet. 
+
+**If you used hierarchical labels:** Using the "Place hierarchical pin" button mentioned in step 2, click in the hierarchical Display_Board schematic box. The hierarchical pins you made in the child sheet should appear one by one as you click. Connect them to the local pins of the same name. Here is a partially completed version for reference:
+
+<img width="400" src="../../Displayboard/Images/hierarchical_labels.png">
+
+**If you used global labels:** Add global labels to each of the 50 pins. Here is a partially completed version for reference:
+
+<img width="400" src="../../Displayboard/Images/global_labels.png">
 
 ### Add mounting holes and fiducials
 In Root.sch, add four mounting holes and two or three fiducials to your schematic.
