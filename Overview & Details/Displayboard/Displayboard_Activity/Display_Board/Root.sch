@@ -2269,7 +2269,7 @@ $EndBitmap
 Text Notes 13200 9165 0    50   ~ 0
 NOTE: This schematic arrangement is meant to illustrate\n       the use of heirarchical sheets in a KiCad schematic.\n       It could also be done as a “flat” schematic.
 $Bitmap
-Pos 14050 5300
+Pos 13820 5300
 Scale 0.700000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 07 06 00 00 04 82 08 02 00 00 00 37 FB 1F 
@@ -30091,6 +30091,12 @@ F 12 "Active" H 9800 3345 60  0001 L CNN "Status"
 	1    9600 2145
 	1    0    0    -1  
 $EndComp
-Text Notes 12650 3750 0    98   ~ 20
-Place your hierarchical sheet here!
+Text Notes 12505 2745 0    98   ~ 20
+Your hierarchical sheet!
+$Sheet
+S 10950 2745 5045 5235
+U 5EE09DB2
+F0 "Sheet5EE09DB1" 50
+F1 "Display_Board.sch" 50
+$EndSheet
 $EndSCHEMATC

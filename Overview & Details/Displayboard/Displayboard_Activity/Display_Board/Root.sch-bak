@@ -29957,7 +29957,7 @@ NoConn ~ 5490 2130
 NoConn ~ 5490 1830
 NoConn ~ 5490 1730
 $Comp
-L Display_Board:Micro_SD_Card_Det_MOD-Connector J1
+L Display_Board_2:Micro_SD_Card_Det_MOD-Connector J1
 U 1 1 5ECFB234
 P 6390 1880
 F 0 "J1" H 7220 1926 50  0000 L CNN
@@ -30001,7 +30001,7 @@ Wire Wire Line
 Wire Wire Line
 	4845 1930 5490 1930
 $Comp
-L Display_Board:SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers U2
+L Display_Board_2:SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers U2
 U 1 1 5EDC62A5
 P 5540 4725
 F 0 "U2" H 5440 5228 60  0000 C CNN
@@ -30021,7 +30021,7 @@ F 12 "Active" H 5740 5925 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Display_Board:SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers U4
+L Display_Board_2:SN74LVC245AN-dk_Logic-Buffers-Drivers-Receivers-Transceivers U4
 U 1 1 5EDC87AA
 P 8175 4685
 F 0 "U4" H 8075 5188 60  0000 C CNN
@@ -30041,7 +30041,7 @@ F 12 "Active" H 8375 5885 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Display_Board:MCP130T-300I_TT-dk_PMIC-Supervisors U1
+L Display_Board_2:MCP130T-300I_TT-dk_PMIC-Supervisors U1
 U 1 1 5EDCBEFA
 P 5020 7310
 F 0 "U1" H 4893 7413 60  0000 R CNN
@@ -30061,7 +30061,7 @@ F 12 "Active" H 5220 8510 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Display_Board:STMPE811QTR-Interface_Expansion U3
+L Display_Board_2:STMPE811QTR-Interface_Expansion U3
 U 1 1 5EDCD46F
 P 7635 7735
 F 0 "U3" H 7635 8700 50  0000 C CNN
@@ -30072,7 +30072,7 @@ F 3 "" H 7635 8035 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Display_Board:MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single Q1
+L Display_Board_2:MMBT2222A-TP-dk_Transistors-Bipolar-BJT-Single Q1
 U 1 1 5EDCF54B
 P 9600 2145
 F 0 "Q1" H 9788 2198 60  0000 L CNN
