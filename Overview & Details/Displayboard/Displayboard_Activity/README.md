@@ -162,43 +162,13 @@ All footprints on the root schematic should be assigned.
 * Bring the LCD display connector footprint to the front layer: By default, the connector pins of the LCD display footprint are on the back copper layer. We will be placing the display on the back of the board, passing a cable through the cutout region and connecting it to pads on the front of the board. Therefore, we need to move the connector pins to the front copper layer. To do this, select the LCD connector pins (you can identify them as a column of 50 pins), and change the board side to “Back” as shown in the image below. The pins should now be on the front copper layer. 
 
 <img width="500" src="../../Displayboard/Images/Photo20.png">
+* Once you're happy with the placement of your display board, draw in the cutout zone on the Edge Cuts layer. The "suggested cutout zone" is visible on the Fab layer. Using the "add graphic polygon" tool on the right toolbar, trace a rectangle on the outline of that zone. If you hold down command (Mac) or ctrl (Windows) while tracing, it should snap to horizontal or vertical lines.
+
+<img width="500" src="../../Displayboard/Images/after.png">
 
 **General layout tips**
 * Keep the STMPE811 part as close to the connector pads as possible 
-* Do not place any footprints in the cutout zone. 
+* Do not place any footprints in the cutout zone.
 * Orient the SD Card molex connector on the edge of the board properly, as shown in the image below. 
 
 <img width="400" src="../../Displayboard/Images/Photo21.png">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
