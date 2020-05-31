@@ -4,7 +4,9 @@ The main goals for this week are:
 
 ### For the Activity -
 
-* Find footprints for components.<br/>
+* Build a hierarchical schematic. 
+* Assign footprints 
+* Layout the board and route. <br/>
 
 The Activity material may be found [HERE](../Displayboard/Displayboard_Activity).
 
