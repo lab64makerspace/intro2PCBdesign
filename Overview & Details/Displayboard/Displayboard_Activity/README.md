@@ -153,7 +153,7 @@ All footprints on the root schematic should be assigned.
 * Assign the mounting holes to the mounting hole footprint found in the display board library
 * Assign the fiducials to the Fiducial_0.5mm_Mask1mm footprint.
 
-<img width="500" src="../../Displayboard/Images/Photo19.png">
+<img width="500" src="../../Displayboard/Images/Photo22.png">
 
 ## Step 4: Layout the board 
 
