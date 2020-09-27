@@ -146,7 +146,7 @@ Add routes to the power rail lines (if you want to add power rail lines). <br/>
 
 #### 11) Generate Gerber Files 
 Select File -- Plot <br/> 
-Select an appropriate Output directory Folder. <br/>
+Select an appropriate Output directory Folder (usually named 'gerbers'). <br/>
 Select "Run DRC." Make sure your board passes this test by having 0 problems. <br/>
 **Make sure you have the "Do not tent vias" option checked!!!** <br/>
 Select "Plot" to generate the gerber files. <br/> 
@@ -155,7 +155,12 @@ Locate these newly generated files on your computer, and open them with Gerbview
 You're done with the protoboard activity!
 
 #### 12) Submit your files so we can order your board!
-Once you've generated gerber files, zip your files and upload your board files to our workshop [google drive](https://drive.google.com/open?id=13aihW4muVBcD2FowuLPLqWqLCCmaQ_uM) and include a text file with your name and the address you'd like us to send it to.
+Once you've generated gerber files, zip your files and follow these steps:
+- upload your zipped gerber files to [jlcpcb](https://cart.jlcpcb.com/?edaOrderUrl=https:%2F%2Feasyeda.com%2Forder&electropolishingOnlyNo=no&achieveDate=72), verify that the board rendering looks okay, and take a screenshot
+- make a file called details.txt that includes the color of pcb you want and the address you would like to have the board shipped to
+- create a folder called 'lastname-protoboard' and place the zipped gerber files, screenshot of the jlcpcb viewer, and details.txt file inside the folder 
+- upload your folder to our workshop [google drive](https://drive.google.com/drive/u/1/folders/1LbsBaMl69bYbYopohg1WDBbWanneXvdO)
+- *Optional* If you added components on to your board, please send a digikey shopping cart link with everything you need to lab64CA@ee.stanford.edu 
 
 
 -------------------------------------
