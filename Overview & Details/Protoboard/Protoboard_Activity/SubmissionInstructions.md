@@ -39,7 +39,7 @@ This board below is not correct. See how the 4-pin connector via copper is expos
  
 <img width="300" src="../../Protoboard/Images/IncorrectSubmission.png">
 
-Once you've generated gerber files, zip your files and upload your board files to our workshop [google drive](https://drive.google.com/open?id=13aihW4muVBcD2FowuLPLqWqLCCmaQ_uM) and include a text file with your name and the address you'd like us to send it to.
+Once you've generated gerber files, zip your files and upload your board files to our workshop [google drive](https://drive.google.com/drive/u/1/folders/1LbsBaMl69bYbYopohg1WDBbWanneXvdO) and include a text file with your name and the address you'd like us to send it to.
 
 You're done with the protoboard activity!
 
