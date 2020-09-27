@@ -149,6 +149,7 @@ Select "Plot" to generate the gerber files. <br/>
 Select "Generate Drill Files" to generate the drill files. <br/> 
 Locate these newly generated files on your computer, and open them with Gerbview to check that everything looks good. 
 You're done with the protoboard activity!
+If this is your first board, please follow the instuctions [here](https://github.com/lab64makerspace/intro2PCBdesign/blob/master/Overview%20&%20Details/Protoboard/Protoboard_Activity/SubmissionInstructions.md) so that you can make sure everything is correct.
 
 #### 12) Submit your files so we can order your board!
 Once you've generated gerber files, zip your files and follow these steps:
