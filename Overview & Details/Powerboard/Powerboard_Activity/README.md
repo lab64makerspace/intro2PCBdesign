@@ -1,17 +1,3 @@
-# Powerboard Activity: Part 2
-
-This is **part 2** of the power board activity in which you'll be laying out the power board! You can find instructions for part 1 [here](../../Powerboard/Powerboard_Activity/Part1_Instructions.md).
-
-You can find an explanation for the overall power board design [here](../../Powerboard/Powerboard_Content/README.md).
-
-You can find a summary of PCB layout guidelines [here](/Resources/PCBLayout_Advice.md). 
-
-As a reference, here is an CAD overview of the Uber radio with the powerboard (the front transparent board): 
-
-<img width="250" src="../../Powerboard/Images/PowerboardCAD.png">
-
-**[Here](../../Powerboard/Powerboard_Activity/FeedbackSummaryFromReviews.md) is a summary of the feedback we gave during the one-on-one power board reviews.**
-
 ### Step 0: Make a few modifications to your schematic 
 
 #### Switch the pin numbers on the barrel jack symbol 
